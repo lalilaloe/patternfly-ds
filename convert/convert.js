@@ -50,6 +50,25 @@ ${variants.join(',\n')}
 ]`;
 }
 
+async function notReady(component) {
+    if (component.includes("modal")) {
+        if (!await page.$(".ws-fullscreen-example div")) {
+            return true
+        }
+    } else {
+        if (!await page.$(".ws-preview-html")) {
+            return true
+        }
+    }
+    return false
+}
+
+async function ready(component) {
+    while (await notReady(component)) {
+        await new Promise(r => setTimeout(r, 500)) // Wait for page to be ready
+    }
+}
+
 // foxr.launch({
 //     executablePath: 'C:/Program Files/Firefox Developer Edition/firefox.exe'
 // }).then(browser => {
@@ -86,8 +105,6 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
         const variantSnippets = []
         let componentpath;
         for (const variant of variants) {
-            console.log("   -", variant)
-
             const pageData = parse(path.join(componentDir, component, variant, "page-data.json"));
 
             if (!componentpath) {
@@ -106,18 +123,11 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
             if (!fs.existsSync(screenshotFullPath)) {
                 if (await page.url() != screenshotUrl) { // If not already on page
                     console.log("     Browsing to:", screenshotUrl);
+                    page.removeAllListeners(); // Avoid MaxListenersExceededWarning that crashes the script when used in large badges
                     await page.goto(screenshotUrl, { waitUntil: 'load', timeout: 0 })
                 }
-                await new Promise(r => setTimeout(r, 500)) // Wait for page to be ready
-                if (component.includes("modal")) {
-                    if (!await page.$(".ws-fullscreen-example div")) {
-                        await new Promise(r => setTimeout(r, 1500)) // Wait some longer for page to be ready
-                    }
-                } else {
-                    if (!await page.$(".ws-preview-html")) {
-                        await new Promise(r => setTimeout(r, 1500)) // Wait some longer for page to be ready
-                    }
-                }
+                console.log("   -", variant)
+                await ready(component)
                 let element;
                 if (component.includes("modal")) { // If modal go to component page
                     console.log("modal")
@@ -144,21 +154,20 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                 if (element) {
                     await element.screenshot({ path: screenshotFullPath })
                     //console.log("     Screenshot:", screenshotFullPath)
-                    process.stdout.write("✅");
+                    process.stdout.write("  ✅-" + variant + "\n\033[0G");
                 } else {
-                    process.stdout.write("❌")
+                    process.stdout.write("  ❌-" + variant + "\n\033[0G")
                 }
 
             } else {
                 //console.log("     Screenshot exist:", screenshotFullPath)
-                process.stdout.write("📃");
+                process.stdout.write("  📃-" + variant + "\n\033[0G");
             }
             variantSnippets.push({
                 name: variant,
                 screenshot: screenshotFullPath.replace(rootDir, '').replace('/components/', ''),
                 html: `\`${he.decode(pageData.result.pageContext.code)}\``
             })
-            //process.stdout.write("❌");
 
         }
         const outputComponent = buildComponentJson({
@@ -168,8 +177,8 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
         })
         const outputComponentPath = path.join(rootDir, "components", component + ".ds.js");
         fs.writeFileSync(outputComponentPath, outputComponent);
-        console.log("🎉Succesfull output:", component, outputComponentPath, "\n");
+        console.log("\n 🎉Succesfull output:", component, outputComponentPath, "\n");
     }
-    console.log("The End🥚")
+    console.log(" 🎉 The End 🥚 ")
     //await browser.close();
 })()
