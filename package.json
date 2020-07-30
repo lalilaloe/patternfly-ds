@@ -1,0 +1,15 @@
+{
+  "name": "patternfly-ds",
+  "version": "1.1.0",
+  "description": "A design system package describing patternfly components",
+  "author": "lalilaloe",
+  "files": [
+    "components/",
+    "tokens/",
+    "design-system.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "@patternfly/patternfly": "^4.23.3"
+  }
+}
