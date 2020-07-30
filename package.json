@@ -3,6 +3,10 @@
   "version": "1.2.0",
   "description": "A design system package describing patternfly components",
   "author": "lalilaloe",
+  "bugs": {
+    "url": "https://github.com/lalilaloe/patternfly-ds/issues"
+  },
+  "homepage": "https://github.com/lalilaloe/patternfly-ds#readme",
   "files": [
     "components/",
     "tokens/",

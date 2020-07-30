@@ -1,0 +1,15 @@
+{
+    "name": "patternfly-ds",
+    "displayName": "Patternfly",
+    "homepage": "https://www.patternfly.org",
+    "description": "PatternFly is an open source design system built to drive consistency and unify teams.",
+    "dependencies": [
+        "node_modules/@patternfly/patternfly/patternfly.css"
+    ],
+    "components": [
+        "./components/*.ds.js"
+    ],
+    "tokens": [
+        "./tokens/*.json"
+    ]
+}

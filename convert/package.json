@@ -1,0 +1,28 @@
+{
+  "name": "convert",
+  "version": "1.1.0",
+  "description": "",
+  "main": "convert.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "node convert.js",
+    "lint": "cd ../components && pwd && eslint --no-eslintrc --fix --parser-options=sourceType:module --parser-options=ecmaVersion:2015 --format stylish .",
+    "prettier": "cd ../components && prettier --write .",
+    "start:patternfly": "cd ../patternfly && npm start",
+    "build": "cd ../patternfly && npm install && npm run build-patternfly && npm start"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.5.0",
+    "foxr": "^0.10.1",
+    "fs": "0.0.1-security",
+    "he": "^1.2.0",
+    "jsonfile": "^6.0.1",
+    "patternfly-ds": "^1.1.0",
+    "prettier": "^2.0.5"
+  }
+}
