@@ -1,18 +1,20 @@
 export default {
-    displayName: "login",
-    name: "login",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/login/"
-}
+  displayName: "login",
+  name: "login",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/login/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/login/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-background-image">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/login/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-background-image">
   <svg xmlns="http://www.w3.org/2000/svg" class="pf-c-background-image__filter" width="0" height="0">
     <filter id="image_overlay">
       <feColorMatrix type="matrix" values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"></feColorMatrix>
@@ -138,15 +140,18 @@ html:`<div class="pf-c-background-image">
       </ul>
     </footer>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/login/invalid.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-background-image">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/login/invalid.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-background-image">
   <svg xmlns="http://www.w3.org/2000/svg" class="pf-c-background-image__filter" width="0" height="0">
     <filter id="image_overlay">
       <feColorMatrix type="matrix" values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"></feColorMatrix>
@@ -272,5 +277,7 @@ html:`<div class="pf-c-background-image">
       </ul>
     </footer>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

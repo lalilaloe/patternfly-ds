@@ -1,18 +1,20 @@
 export default {
-    displayName: "alertgroup",
-    name: "alertgroup",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/alertgroup/"
-}
+  displayName: "alertgroup",
+  name: "alertgroup",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/alertgroup/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/alertgroup/static-alert-group.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-alert-group">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/alertgroup/static-alert-group.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-alert-group">
   <li class="pf-c-alert-group__item">
     <div class="pf-c-alert pf-m-inline pf-m-success" aria-label="Success alert">
       <div class="pf-c-alert__icon">
@@ -51,15 +53,18 @@ html:`<ul class="pf-c-alert-group">
       </div>
     </div>
   </li>
-</ul>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/alertgroup/toast-alert-group.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-alert-group pf-m-toast">
+</ul>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/alertgroup/toast-alert-group.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-alert-group pf-m-toast">
   <li class="pf-c-alert-group__item">
     <div class="pf-c-alert pf-m-success" aria-label="Success toast alert">
       <div class="pf-c-alert__icon">
@@ -113,5 +118,7 @@ html:`<ul class="pf-c-alert-group pf-m-toast">
       </div>
     </div>
   </li>
-</ul>`}}
-]
+</ul>`,
+    },
+  },
+];

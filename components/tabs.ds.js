@@ -1,18 +1,20 @@
 export default {
-    displayName: "tabs",
-    name: "tabs",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/tabs/"
-}
+  displayName: "tabs",
+  name: "tabs",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/tabs/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/box.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-box" id="box-example">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/box.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-box" id="box-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -51,15 +53,18 @@ html:`<div class="pf-c-tabs pf-m-box" id="box-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/box-overflow.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-box pf-m-scrollable" id="box-overflow-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/box-overflow.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-box pf-m-scrollable" id="box-overflow-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -98,15 +103,18 @@ html:`<div class="pf-c-tabs pf-m-box pf-m-scrollable" id="box-overflow-example">
   <button class="pf-c-tabs__scroll-button" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/box-tabs-with-sub-tabs.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-box pf-m-scrollable" id="box-parent-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/box-tabs-with-sub-tabs.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-box pf-m-scrollable" id="box-parent-example">
   <button class="pf-c-tabs__scroll-button" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -185,15 +193,18 @@ html:`<div class="pf-c-tabs pf-m-box pf-m-scrollable" id="box-parent-example">
   <button class="pf-c-tabs__scroll-button" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/box-vertical.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-box pf-m-vertical" id="box-vertical-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/box-vertical.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-box pf-m-vertical" id="box-vertical-example">
   <ul class="pf-c-tabs__list">
     <li class="pf-c-tabs__item">
       <button class="pf-c-tabs__link" id="box-vertical-example-users-link">
@@ -226,15 +237,18 @@ html:`<div class="pf-c-tabs pf-m-box pf-m-vertical" id="box-vertical-example">
       </button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/default.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs" id="default-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/default.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs" id="default-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -273,15 +287,18 @@ html:`<div class="pf-c-tabs" id="default-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/default-overflow-beginning-of-list.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-scrollable" id="default-overflow-beginning-of-list-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/default-overflow-beginning-of-list.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-scrollable" id="default-overflow-beginning-of-list-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -320,15 +337,18 @@ html:`<div class="pf-c-tabs pf-m-scrollable" id="default-overflow-beginning-of-l
   <button class="pf-c-tabs__scroll-button" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/filled.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-fill" id="filled-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/filled.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-fill" id="filled-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -352,15 +372,18 @@ html:`<div class="pf-c-tabs pf-m-fill" id="filled-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/filled-box.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-fill pf-m-box" id="filled-box-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/filled-box.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-fill pf-m-box" id="filled-box-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -384,15 +407,18 @@ html:`<div class="pf-c-tabs pf-m-fill pf-m-box" id="filled-box-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/filled-box-with-icons.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-fill pf-m-box" id="filled-box-with-icons-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/filled-box-with-icons.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-fill pf-m-box" id="filled-box-with-icons-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -425,15 +451,18 @@ html:`<div class="pf-c-tabs pf-m-fill pf-m-box" id="filled-box-with-icons-exampl
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/filled-with-icons.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-fill" id="filled-with-icons-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/filled-with-icons.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-fill" id="filled-with-icons-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -466,15 +495,18 @@ html:`<div class="pf-c-tabs pf-m-fill" id="filled-with-icons-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/icons-and-text.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs" id="icons-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/icons-and-text.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs" id="icons-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -531,15 +563,18 @@ html:`<div class="pf-c-tabs" id="icons-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/inset.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-inset-sm-on-md pf-m-inset-lg-on-lg pf-m-inset-2xl-on-xl" id="inset-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/inset.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-inset-sm-on-md pf-m-inset-lg-on-lg pf-m-inset-2xl-on-xl" id="inset-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -578,15 +613,18 @@ html:`<div class="pf-c-tabs pf-m-inset-sm-on-md pf-m-inset-lg-on-lg pf-m-inset-2
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/inset-box.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-box pf-m-inset-sm-on-md pf-m-inset-lg-on-lg pf-m-inset-2xl-on-xl" id="inset-box-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/inset-box.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-box pf-m-inset-sm-on-md pf-m-inset-lg-on-lg pf-m-inset-2xl-on-xl" id="inset-box-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -625,15 +663,18 @@ html:`<div class="pf-c-tabs pf-m-box pf-m-inset-sm-on-md pf-m-inset-lg-on-lg pf-
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/sub-nav-using-the-nav-element.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-tabs" aria-label="Local" id="primary-nav-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/sub-nav-using-the-nav-element.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-tabs" aria-label="Local" id="primary-nav-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -712,15 +753,18 @@ html:`<nav class="pf-c-tabs" aria-label="Local" id="primary-nav-example">
   <button class="pf-c-tabs__scroll-button" disabled aria-hidden="true" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/tabs-with-sub-tabs.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-scrollable" id="default-parent-example">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/tabs-with-sub-tabs.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-scrollable" id="default-parent-example">
   <button class="pf-c-tabs__scroll-button" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -799,15 +843,18 @@ html:`<div class="pf-c-tabs pf-m-scrollable" id="default-parent-example">
   <button class="pf-c-tabs__scroll-button" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/using-the-nav-element.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-tabs pf-m-scrollable" aria-label="Local" id="default-scroll-nav-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/using-the-nav-element.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-tabs pf-m-scrollable" aria-label="Local" id="default-scroll-nav-example">
   <button class="pf-c-tabs__scroll-button" aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -846,15 +893,18 @@ html:`<nav class="pf-c-tabs pf-m-scrollable" aria-label="Local" id="default-scro
   <button class="pf-c-tabs__scroll-button" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tabs/vertical.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tabs pf-m-vertical" id="vertical-example">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tabs/vertical.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tabs pf-m-vertical" id="vertical-example">
   <ul class="pf-c-tabs__list">
     <li class="pf-c-tabs__item">
       <button class="pf-c-tabs__link" id="vertical-example-users-link">
@@ -887,5 +937,7 @@ html:`<div class="pf-c-tabs pf-m-vertical" id="vertical-example">
       </button>
     </li>
   </ul>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

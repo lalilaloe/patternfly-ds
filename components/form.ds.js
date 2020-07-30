@@ -1,33 +1,38 @@
 export default {
-    displayName: "form",
-    name: "form",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/form/"
-}
+  displayName: "form",
+  name: "form",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/form/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/form/action-group.png",
-width:800,
-height:600},
-snippet:{
-html:`<form novalidate class="pf-c-form">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/form/action-group.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<form novalidate class="pf-c-form">
   <div class="pf-c-form__group pf-m-action">
     <div class="pf-c-form__actions">
       <button class="pf-c-button pf-m-primary" type="submit">Submit form</button>
       <button class="pf-c-button pf-m-secondary" type="reset">Reset form</button>
     </div>
   </div>
-</form>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/form/help-text.png",
-width:800,
-height:600},
-snippet:{
-html:`<form novalidate class="pf-c-form">
+</form>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/form/help-text.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<form novalidate class="pf-c-form">
   <div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
       <label class="pf-c-form__label" for="help-text-form-name">
@@ -85,15 +90,18 @@ html:`<form novalidate class="pf-c-form">
         <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
       </span>This is helper text with an icon.</p>
   </div>
-</form>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/form/horizontally-aligned-labels.png",
-width:800,
-height:600},
-snippet:{
-html:`<form novalidate class="pf-c-form pf-m-horizontal">
+</form>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/form/horizontally-aligned-labels.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<form novalidate class="pf-c-form pf-m-horizontal">
   <div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
       <label class="pf-c-form__label" for="horizontal-align-labels-1-form-name">
@@ -144,15 +152,18 @@ html:`<form novalidate class="pf-c-form pf-m-horizontal">
       </div>
     </div>
   </div>
-</form>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/form/vertically-aligned-labels.png",
-width:800,
-height:600},
-snippet:{
-html:`<form novalidate class="pf-c-form">
+</form>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/form/vertically-aligned-labels.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<form novalidate class="pf-c-form">
   <div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
       <label class="pf-c-form__label" for="vertical-align-labels-form-name">
@@ -167,5 +178,7 @@ html:`<form novalidate class="pf-c-form">
       <input class="pf-c-form-control" type="text" id="vertical-align-labels-form-name" name="vertical-align-labels-form-name" required />
     </div>
   </div>
-</form>`}}
-]
+</form>`,
+    },
+  },
+];

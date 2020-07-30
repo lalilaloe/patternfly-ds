@@ -1,18 +1,20 @@
 export default {
-    displayName: "optionsmenu",
-    name: "optionsmenu",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/optionsmenu/"
-}
+  displayName: "optionsmenu",
+  name: "optionsmenu",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/optionsmenu/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/optionsmenu/align-right.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-options-menu pf-m-expanded pf-m-align-right">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/optionsmenu/align-right.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-options-menu pf-m-expanded pf-m-align-right">
   <button class="pf-c-options-menu__toggle" type="button" id="options-menu-align-right-example-toggle" aria-haspopup="listbox" aria-expanded="true">
     <span class="pf-c-options-menu__toggle-text">Options menu</span>
     <div class="pf-c-options-menu__toggle-icon">
@@ -34,15 +36,18 @@ html:`<div class="pf-c-options-menu pf-m-expanded pf-m-align-right">
       <button class="pf-c-options-menu__menu-item" type="button">Option 3</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/optionsmenu/align-top.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-options-menu pf-m-expanded pf-m-top">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/optionsmenu/align-top.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-options-menu pf-m-expanded pf-m-top">
   <button class="pf-c-options-menu__toggle" type="button" id="options-menu-top-example-toggle" aria-haspopup="listbox" aria-expanded="true">
     <span class="pf-c-options-menu__toggle-text">Options menu</span>
     <div class="pf-c-options-menu__toggle-icon">
@@ -64,30 +69,36 @@ html:`<div class="pf-c-options-menu pf-m-expanded pf-m-top">
       <button class="pf-c-options-menu__menu-item" type="button">Option 3</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/optionsmenu/disabled.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-options-menu">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/optionsmenu/disabled.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-options-menu">
   <button class="pf-c-options-menu__toggle" type="button" id="options-menu-single-disabled-example-toggle" aria-haspopup="listbox" aria-expanded="false" disabled>
     <span class="pf-c-options-menu__toggle-text">Disabled options menu</span>
     <div class="pf-c-options-menu__toggle-icon">
       <i class="fas fa-caret-down" aria-hidden="true"></i>
     </div>
   </button>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/optionsmenu/multiple-options.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-options-menu">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/optionsmenu/multiple-options.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-options-menu">
   <button class="pf-c-options-menu__toggle" type="button" id="options-menu-multiple-example-toggle" aria-haspopup="listbox" aria-expanded="false">
     <span class="pf-c-options-menu__toggle-text">Sort by</span>
     <div class="pf-c-options-menu__toggle-icon">
@@ -176,15 +187,18 @@ html:`<div class="pf-c-options-menu">
       </ul>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/optionsmenu/plain.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-options-menu">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/optionsmenu/plain.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-options-menu">
   <button class="pf-c-options-menu__toggle pf-m-plain" type="button" id="options-menu-plain-disabled-example-toggle" aria-haspopup="listbox" aria-expanded="false" disabled aria-label="Sort by">
     <i class="fas fa-sort-amount-down" aria-hidden="true"></i>
   </button>
@@ -243,15 +257,18 @@ html:`<div class="pf-c-options-menu">
       <button class="pf-c-options-menu__menu-item" type="button">Option 3</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/optionsmenu/plain-with-text.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-options-menu">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/optionsmenu/plain-with-text.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-options-menu">
   <div class="pf-c-options-menu__toggle pf-m-text pf-m-disabled pf-m-plain">
     <span class="pf-c-options-menu__toggle-text">Custom text</span>
     <button class="pf-c-options-menu__toggle-button" id="options-menu-disabled-text-example-toggle" aria-haspopup="listbox" aria-expanded="false" aria-label="Options menu" disabled>
@@ -325,15 +342,18 @@ html:`<div class="pf-c-options-menu">
       <button class="pf-c-options-menu__menu-item" type="button">Option 3</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/optionsmenu/single-option.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-options-menu">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/optionsmenu/single-option.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-options-menu">
   <button class="pf-c-options-menu__toggle" type="button" id="options-menu-single-example-toggle" aria-haspopup="listbox" aria-expanded="false">
     <span class="pf-c-options-menu__toggle-text">Options menu</span>
     <div class="pf-c-options-menu__toggle-icon">
@@ -378,15 +398,18 @@ html:`<div class="pf-c-options-menu">
       <button class="pf-c-options-menu__menu-item" type="button">Option 3</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/optionsmenu/with-groups.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-options-menu pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/optionsmenu/with-groups.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-options-menu pf-m-expanded">
   <button class="pf-c-options-menu__toggle" type="button" id="options-menu-groups-toggle" aria-haspopup="listbox" aria-expanded="true">
     <span class="pf-c-options-menu__toggle-text">Options menu</span>
     <div class="pf-c-options-menu__toggle-icon">
@@ -431,15 +454,18 @@ html:`<div class="pf-c-options-menu pf-m-expanded">
       </ul>
     </section>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/optionsmenu/with-groups-and-dividers-between-groups.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-options-menu pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/optionsmenu/with-groups-and-dividers-between-groups.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-options-menu pf-m-expanded">
   <button class="pf-c-options-menu__toggle" type="button" id="options-menu-groups-and-dividers-between-groups-toggle" aria-haspopup="listbox" aria-expanded="true">
     <span class="pf-c-options-menu__toggle-text">Options menu</span>
     <div class="pf-c-options-menu__toggle-icon">
@@ -486,15 +512,18 @@ html:`<div class="pf-c-options-menu pf-m-expanded">
       </ul>
     </section>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/optionsmenu/with-groups-and-dividers-between-items.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-options-menu pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/optionsmenu/with-groups-and-dividers-between-items.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-options-menu pf-m-expanded">
   <button class="pf-c-options-menu__toggle" type="button" id="options-menu-groups-and-dividers-between-items-toggle" aria-haspopup="listbox" aria-expanded="true">
     <span class="pf-c-options-menu__toggle-text">Options menu</span>
     <div class="pf-c-options-menu__toggle-icon">
@@ -541,5 +570,7 @@ html:`<div class="pf-c-options-menu pf-m-expanded">
       </ul>
     </section>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

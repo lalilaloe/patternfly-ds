@@ -1,18 +1,20 @@
 export default {
-    displayName: "pagination",
-    name: "pagination",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/pagination/"
-}
+  displayName: "pagination",
+  name: "pagination",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/pagination/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/pagination/bottom.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-pagination pf-m-bottom">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/pagination/bottom.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-pagination pf-m-bottom">
   <div class="pf-c-options-menu">
     <div class="pf-c-options-menu__toggle pf-m-text pf-m-plain">
       <span class="pf-c-options-menu__toggle-text">
@@ -67,15 +69,18 @@ html:`<div class="pf-c-pagination pf-m-bottom">
       </button>
     </div>
   </nav>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/pagination/compact.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-pagination pf-m-compact">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/pagination/compact.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-pagination pf-m-compact">
   <div class="pf-c-pagination__total-items">
     <b>1 - 10</b> of 
     <b>37</b>
@@ -120,15 +125,18 @@ html:`<div class="pf-c-pagination pf-m-compact">
       </button>
     </div>
   </nav>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/pagination/top.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-pagination">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/pagination/top.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-pagination">
   <div class="pf-c-pagination__total-items">
     <b>1 - 10</b> of 
     <b>37</b>
@@ -187,15 +195,18 @@ html:`<div class="pf-c-pagination">
       </button>
     </div>
   </nav>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/pagination/top-disabled.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-pagination">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/pagination/top-disabled.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-pagination">
   <div class="pf-c-pagination__total-items">
     <b>1 - 10</b> of 
     <b>37</b>
@@ -254,15 +265,18 @@ html:`<div class="pf-c-pagination">
       </button>
     </div>
   </nav>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/pagination/top-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-pagination">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/pagination/top-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-pagination">
   <div class="pf-c-pagination__total-items">
     <b>1 - 10</b> of 
     <b>37</b>
@@ -321,5 +335,7 @@ html:`<div class="pf-c-pagination">
       </button>
     </div>
   </nav>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

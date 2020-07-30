@@ -1,18 +1,20 @@
 export default {
-    displayName: "dropdown",
-    name: "dropdown",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/dropdown/"
-}
+  displayName: "dropdown",
+  name: "dropdown",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/dropdown/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/align-right.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-expanded">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/align-right.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-align-right-button" aria-expanded="true">
     <span class="pf-c-dropdown__toggle-text">Right</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -37,15 +39,18 @@ html:`<div class="pf-c-dropdown pf-m-expanded">
       <a class="pf-c-dropdown__menu-item" href="#">Separated link</a>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/align-top.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-top">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/align-top.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-top">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-align-top-button" aria-expanded="false">
     <span class="pf-c-dropdown__toggle-text">Top</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -96,15 +101,18 @@ html:`<div class="pf-c-dropdown pf-m-top">
       <a class="pf-c-dropdown__menu-item" href="#">Separated link</a>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/collapsed.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/collapsed.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-collapsed-button" aria-expanded="false">
     <span class="pf-c-dropdown__toggle-text">Collapsed dropdown</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -129,15 +137,18 @@ html:`<div class="pf-c-dropdown">
       <a class="pf-c-dropdown__menu-item" href="#">Separated link</a>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/disabled.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/disabled.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-disabled-button" aria-expanded="false" disabled>
     <span class="pf-c-dropdown__toggle-text">Disabled dropdown</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -162,15 +173,18 @@ html:`<div class="pf-c-dropdown">
       <a class="pf-c-dropdown__menu-item" href="#">Separated link</a>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/dropdown-with-description.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/dropdown-with-description.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-with-description-button" aria-expanded="true">
     <span class="pf-c-dropdown__toggle-text">Expanded dropdown</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -215,15 +229,18 @@ html:`<div class="pf-c-dropdown pf-m-expanded">
       </button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/dropdown-with-image-and-text.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/dropdown-with-image-and-text.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-with-image-and-text-example-button" aria-expanded="true">
     <span class="pf-c-dropdown__toggle-image">
       <img class="pf-c-avatar" src="/assets/images/img_avatar.svg" alt="Avatar image" />
@@ -253,15 +270,18 @@ html:`<div class="pf-c-dropdown pf-m-expanded">
       </ul>
     </section>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-expanded-button" aria-expanded="true">
     <span class="pf-c-dropdown__toggle-text">Expanded dropdown</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -286,15 +306,18 @@ html:`<div class="pf-c-dropdown pf-m-expanded">
       <a class="pf-c-dropdown__menu-item" href="#">Separated link</a>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/kebab.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/kebab.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown">
   <button class="pf-c-dropdown__toggle pf-m-plain" type="button" id="dropdown-kebab-disabled-button" aria-expanded="false" disabled aria-label="Actions">
     <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
   </button>
@@ -362,15 +385,18 @@ html:`<div class="pf-c-dropdown">
       <a class="pf-c-dropdown__menu-item" href="#">Separated link</a>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/kebab-align-right.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/kebab-align-right.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle pf-m-plain" type="button" id="dropdown-kebab-align-right-button" aria-expanded="true" aria-label="Actions">
     <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
   </button>
@@ -392,15 +418,18 @@ html:`<div class="pf-c-dropdown pf-m-expanded">
       <a class="pf-c-dropdown__menu-item" href="#">Separated link</a>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/menu-item-icons.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/menu-item-icons.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-menu-item-icons-button" aria-expanded="true">
     <span class="pf-c-dropdown__toggle-text">Expanded dropdown</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -431,15 +460,18 @@ html:`<div class="pf-c-dropdown pf-m-expanded">
       <a class="pf-c-dropdown__menu-item" href="#">Separated link</a>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/panel.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/panel.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-panel-button" aria-expanded="true">
     <span class="pf-c-dropdown__toggle-text">Expanded dropdown</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -447,15 +479,18 @@ html:`<div class="pf-c-dropdown pf-m-expanded">
     </span>
   </button>
   <div class="pf-c-dropdown__menu">[Panel contents here]</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/primary-toggle.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/primary-toggle.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown">
   <button class="pf-c-dropdown__toggle pf-m-primary" type="button" id="dropdown-primary-toggle-button" aria-expanded="false">
     <span class="pf-c-dropdown__toggle-text">Collapsed dropdown</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -506,15 +541,18 @@ html:`<div class="pf-c-dropdown">
       <a class="pf-c-dropdown__menu-item" href="#">Separated link</a>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/split-button-action.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/split-button-action.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown">
   <div class="pf-c-dropdown__toggle pf-m-split-button pf-m-action">
     <button class="pf-c-dropdown__toggle-button" type="button">Action</button>
     <button class="pf-c-dropdown__toggle-button" type="button" aria-expanded="false" id="dropdown-split-button-action-toggle-button" aria-label="Select">
@@ -602,15 +640,18 @@ html:`<div class="pf-c-dropdown">
         </span>Other action</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/split-button-checkbox.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/split-button-checkbox.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown">
   <div class="pf-c-dropdown__toggle pf-m-disabled pf-m-split-button">
     <label class="pf-c-dropdown__toggle-check" for="dropdown-split-button-disabled-toggle-check">
       <input type="checkbox" id="dropdown-split-button-disabled-toggle-check" disabled aria-label="Select all" />
@@ -672,15 +713,18 @@ html:`<div class="pf-c-dropdown">
       <button class="pf-c-dropdown__menu-item" type="button">Other action</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/split-button-checkbox-with-toggle-text.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/split-button-checkbox-with-toggle-text.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown">
   <div class="pf-c-dropdown__toggle pf-m-split-button">
     <label class="pf-c-dropdown__toggle-check" for="dropdown-split-button-text-toggle-check">
       <input type="checkbox" id="dropdown-split-button-text-toggle-check" aria-label="Unselect all" checked aria-labelledby="dropdown-split-button-text-toggle-check dropdown-split-button-text-toggle-check-text" />
@@ -701,15 +745,18 @@ html:`<div class="pf-c-dropdown">
       <button class="pf-c-dropdown__menu-item" type="button">Other action</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/with-groups.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/with-groups.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-groups-button" aria-expanded="true">
     <span class="pf-c-dropdown__toggle-text">Groups</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -750,15 +797,18 @@ html:`<div class="pf-c-dropdown pf-m-expanded">
       </ul>
     </section>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/with-groups-and-dividers-between-groups.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/with-groups-and-dividers-between-groups.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-groups-and-dividers-between-groups-button" aria-expanded="true">
     <span class="pf-c-dropdown__toggle-text">Groups</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -801,15 +851,18 @@ html:`<div class="pf-c-dropdown pf-m-expanded">
       </ul>
     </section>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/dropdown/with-groups-and-dividers-between-items.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-dropdown pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/dropdown/with-groups-and-dividers-between-items.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-groups-and-dividers-between-items-button" aria-expanded="true">
     <span class="pf-c-dropdown__toggle-text">Groups</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -852,5 +905,7 @@ html:`<div class="pf-c-dropdown pf-m-expanded">
       </ul>
     </section>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

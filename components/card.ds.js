@@ -1,90 +1,110 @@
 export default {
-    displayName: "card",
-    name: "card",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/card/"
-}
+  displayName: "card",
+  name: "card",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/card/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card">
   <div class="pf-c-card__title">Title</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/compact.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card pf-m-compact">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/compact.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card pf-m-compact">
   <div class="pf-c-card__title">Title</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/flat.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card pf-m-flat">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/flat.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card pf-m-flat">
   <div class="pf-c-card__title">Title</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/hover.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card pf-m-hoverable">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/hover.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card pf-m-hoverable">
   <div class="pf-c-card__title">Title</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/selectable.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card pf-m-selectable" tabindex="0">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/selectable.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card pf-m-selectable" tabindex="0">
   <div class="pf-c-card__title">Title</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/selected.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card pf-m-selectable pf-m-selected" tabindex="0">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/selected.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card pf-m-selectable pf-m-selected" tabindex="0">
   <div class="pf-c-card__title">Title</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/with-image-and-action.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card" id="card-action-example-1">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/with-image-and-action.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card" id="card-action-example-1">
   <div class="pf-c-card__header">
     <div class="pf-c-card__header-main">
       <img src="/assets/images/pf_logo.svg" width="300px" alt="Logo" />
@@ -119,61 +139,76 @@ html:`<div class="pf-c-card" id="card-action-example-1">
   <div class="pf-c-card__title" id="card-action-example-1-check-label">Title</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/with-multiple-body-sections.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/with-multiple-body-sections.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card">
   <div class="pf-c-card__title">Title</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/with-no-footer.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/with-no-footer.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card">
   <div class="pf-c-card__title">Title</div>
   <div class="pf-c-card__body">This card has no footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/with-no-title.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/with-no-title.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card">
   <div class="pf-c-card__body">This card has no title</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/with-only-a-content-section.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/with-only-a-content-section.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card">
   <div class="pf-c-card__body">Body</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/with-only-actions-in-head-no-titlefooter.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card" id="card-action-example-3">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/with-only-actions-in-head-no-titlefooter.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card" id="card-action-example-3">
   <div class="pf-c-card__header">
     <div class="pf-c-card__actions">
       <div class="pf-c-dropdown">
@@ -203,15 +238,18 @@ html:`<div class="pf-c-card" id="card-action-example-3">
     </div>
   </div>
   <div class="pf-c-card__body" id="card-action-example-3-check-label">This is the card body, there are only actions in the card head.</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/with-only-image-in-head.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/with-only-image-in-head.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card">
   <div class="pf-c-card__header">
     <div class="pf-c-card__header-main">
       <img src="/assets/images/pf_logo.svg" width="300px" alt="Logo" />
@@ -220,29 +258,35 @@ html:`<div class="pf-c-card">
   <div class="pf-c-card__title">Title</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/with-only-one-body-that-fills.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/with-only-one-body-that-fills.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card">
   <div class="pf-c-card__title">Title</div>
   <div class="pf-c-card__body pf-m-no-fill">Body pf-m-no-fill</div>
   <div class="pf-c-card__body pf-m-no-fill">Body pf-m-no-fill</div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/card/with-title-in-head.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-card" id="card-action-example-2">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/card/with-title-in-head.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-card" id="card-action-example-2">
   <div class="pf-c-card__header">
     <div class="pf-c-card__actions">
       <div class="pf-c-dropdown">
@@ -274,5 +318,7 @@ html:`<div class="pf-c-card" id="card-action-example-2">
   </div>
   <div class="pf-c-card__body">Body</div>
   <div class="pf-c-card__footer">Footer</div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

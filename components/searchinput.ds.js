@@ -1,33 +1,38 @@
 export default {
-    displayName: "searchinput",
-    name: "searchinput",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/searchinput/"
-}
+  displayName: "searchinput",
+  name: "searchinput",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/searchinput/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/searchinput/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-search-input">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/searchinput/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-search-input">
   <span class="pf-c-search-input__text">
     <span class="pf-c-search-input__icon">
       <i class="fas fa-search fa-fw" aria-hidden="true"></i>
     </span>
     <input class="pf-c-search-input__text-input" type="text" placeholder="Find by name" aria-label="Find by name" />
   </span>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/searchinput/match-with-navigable-options.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-search-input">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/searchinput/match-with-navigable-options.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-search-input">
   <span class="pf-c-search-input__text">
     <span class="pf-c-search-input__icon">
       <i class="fas fa-search fa-fw" aria-hidden="true"></i>
@@ -52,15 +57,18 @@ html:`<div class="pf-c-search-input">
       </button>
     </span>
   </span>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/searchinput/match-with-result-count.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-search-input">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/searchinput/match-with-result-count.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-search-input">
   <span class="pf-c-search-input__text">
     <span class="pf-c-search-input__icon">
       <i class="fas fa-search fa-fw" aria-hidden="true"></i>
@@ -77,15 +85,18 @@ html:`<div class="pf-c-search-input">
       </button>
     </span>
   </span>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/searchinput/no-match.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-search-input">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/searchinput/no-match.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-search-input">
   <span class="pf-c-search-input__text">
     <span class="pf-c-search-input__icon">
       <i class="fas fa-search fa-fw" aria-hidden="true"></i>
@@ -99,5 +110,7 @@ html:`<div class="pf-c-search-input">
       </button>
     </span>
   </span>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

@@ -1,18 +1,20 @@
 export default {
-    displayName: "select",
-    name: "select",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/select/"
-}
+  displayName: "select",
+  name: "select",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/select/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/checkbox.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/checkbox.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select">
   <span id="select-checkbox-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-checkbox-toggle" aria-haspopup="true" aria-expanded="false" aria-labelledby="select-checkbox-label select-checkbox-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -48,15 +50,18 @@ html:`<div class="pf-c-select">
       </label>
     </fieldset>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/checkbox-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/checkbox-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-checkbox-expanded-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-checkbox-expanded-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-checkbox-expanded-label select-checkbox-expanded-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -90,15 +95,18 @@ html:`<div class="pf-c-select pf-m-expanded">
       </label>
     </fieldset>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/checkbox-expanded-and-selected-with-groups.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/checkbox-expanded-and-selected-with-groups.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-checkbox-expanded-selected-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-checkbox-expanded-selected-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-checkbox-expanded-selected-label select-checkbox-expanded-selected-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -152,15 +160,19 @@ html:`<div class="pf-c-select pf-m-expanded">
       </fieldset>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/checkbox-expanded-and-selected-with-groups-and-filter.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src:
+        "./pictures/select/checkbox-expanded-and-selected-with-groups-and-filter.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-checkbox-expanded-selected-filter-example-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-checkbox-expanded-selected-filter-example-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-checkbox-expanded-selected-filter-example-label select-checkbox-expanded-selected-filter-example-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -218,15 +230,18 @@ html:`<div class="pf-c-select pf-m-expanded">
       </fieldset>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/checkbox-expanded-without-badge.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/checkbox-expanded-without-badge.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-checkbox-without-badge-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-checkbox-without-badge-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-checkbox-without-badge-label select-checkbox-without-badge-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -260,15 +275,18 @@ html:`<div class="pf-c-select pf-m-expanded">
       </label>
     </fieldset>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/checkbox-with-description.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/checkbox-with-description.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-checkbox-description-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-checkbox-description-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-checkbox-description-label select-checkbox-description-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -304,15 +322,18 @@ html:`<div class="pf-c-select pf-m-expanded">
       </label>
     </fieldset>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/disabled.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/disabled.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select">
   <span id="select-disabled-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-disabled-toggle" aria-haspopup="true" aria-expanded="false" aria-labelledby="select-disabled-label select-disabled-toggle" disabled>
     <div class="pf-c-select__toggle-wrapper">
@@ -339,15 +360,18 @@ html:`<div class="pf-c-select">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">Needs Maintenance</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/disabled-with-typeahead.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/disabled-with-typeahead.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select">
   <span id="select-single-typeahead-disabled-label" hidden>Choose a state</span>
   <div class="pf-c-select__toggle pf-m-disabled pf-m-typeahead">
     <div class="pf-c-select__toggle-wrapper">
@@ -377,15 +401,18 @@ html:`<div class="pf-c-select">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">North Carolina</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/favorites.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/favorites.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-favorites-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-favorites-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-favorites-label select-favorites-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -487,15 +514,18 @@ html:`<div class="pf-c-select pf-m-expanded">
       </ul>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/icon.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/icon.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select">
   <span id="select-icon-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-icon-toggle" aria-haspopup="true" aria-expanded="false" aria-labelledby="select-icon-label select-icon-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -525,15 +555,18 @@ html:`<div class="pf-c-select">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">Needs Maintenance</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/multi-with-typeahead-chip-group-collapsed.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/multi-with-typeahead-chip-group-collapsed.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-multi-typeahead-expanded-selected-label" hidden>New</span>
   <div class="pf-c-select__toggle pf-m-typeahead">
     <div class="pf-c-select__toggle-wrapper">
@@ -589,15 +622,18 @@ html:`<div class="pf-c-select pf-m-expanded">
         <mark class="pf-c-select__menu-item--match">New</mark>York</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/multi-with-typeahead-chip-group-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/multi-with-typeahead-chip-group-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-multi-typeahead-expanded-label" hidden>Choose states</span>
   <div class="pf-c-select__toggle pf-m-typeahead">
     <div class="pf-c-select__toggle-wrapper">
@@ -671,15 +707,18 @@ html:`<div class="pf-c-select pf-m-expanded">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">North Carolina</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/panel.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/panel.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-panel-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-panel-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-panel-label select-panel-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -690,15 +729,18 @@ html:`<div class="pf-c-select pf-m-expanded">
     </span>
   </button>
   <div class="pf-c-select__menu" aria-labelledby="select-panel-label">[Panel contents here]</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/plain.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/plain.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select">
   <span id="select-plain-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle pf-m-plain" type="button" id="select-plain-toggle" aria-haspopup="true" aria-expanded="false" aria-labelledby="select-plain-label select-plain-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -725,15 +767,18 @@ html:`<div class="pf-c-select">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">Needs Maintenance</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/plain-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/plain-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-plain-expanded-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle pf-m-plain" type="button" id="select-plain-expanded-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-plain-expanded-label select-plain-expanded-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -760,15 +805,18 @@ html:`<div class="pf-c-select pf-m-expanded">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">Needs Maintenance</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/select-multi-with-typeahead.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/select-multi-with-typeahead.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select">
   <span id="select-multi-typeahead-label" hidden>Choose states</span>
   <div class="pf-c-select__toggle pf-m-typeahead">
     <div class="pf-c-select__toggle-wrapper">
@@ -795,15 +843,18 @@ html:`<div class="pf-c-select">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">North Carolina</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/single.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/single.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select">
   <span id="select-single-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-single-toggle" aria-haspopup="true" aria-expanded="false" aria-labelledby="select-single-label select-single-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -830,15 +881,18 @@ html:`<div class="pf-c-select">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">Needs Maintenance</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/single-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/single-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-single-expanded-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-single-expanded-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-single-expanded-label select-single-expanded-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -865,15 +919,18 @@ html:`<div class="pf-c-select pf-m-expanded">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">Needs Maintenance</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/single-expanded-and-selected.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/single-expanded-and-selected.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-single-expanded-selected-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-single-expanded-selected-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-single-expanded-selected-label select-single-expanded-selected-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -904,15 +961,18 @@ html:`<div class="pf-c-select pf-m-expanded">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">Needs Maintenance</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/single-with-top-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded pf-m-top">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/single-with-top-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded pf-m-top">
   <span id="select-single-top-expanded-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-single-top-expanded-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-single-top-expanded-label select-single-top-expanded-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -939,15 +999,18 @@ html:`<div class="pf-c-select pf-m-expanded pf-m-top">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">Needs Maintenance</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/single-with-typeahead.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/single-with-typeahead.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select">
   <span id="select-single-typeahead-label" hidden>Choose a state</span>
   <div class="pf-c-select__toggle pf-m-typeahead">
     <div class="pf-c-select__toggle-wrapper">
@@ -977,15 +1040,18 @@ html:`<div class="pf-c-select">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">North Carolina</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/single-with-typeahead-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/single-with-typeahead-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-single-typeahead-expanded-label" hidden>New</span>
   <div class="pf-c-select__toggle pf-m-typeahead">
     <div class="pf-c-select__toggle-wrapper">
@@ -1016,15 +1082,18 @@ html:`<div class="pf-c-select pf-m-expanded">
         <mark class="pf-c-select__menu-item--match">New</mark>York</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/single-with-typeahead-expanded-and-selected.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/single-with-typeahead-expanded-and-selected.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-single-typeahead-expanded-selected-label" hidden>New Mexico</span>
   <div class="pf-c-select__toggle pf-m-typeahead">
     <div class="pf-c-select__toggle-wrapper">
@@ -1061,15 +1130,18 @@ html:`<div class="pf-c-select pf-m-expanded">
       <button type="button" class="pf-c-select__menu-item" aria-selected="false">North Carolina</button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/select/with-description.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-select pf-m-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/select/with-description.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-select pf-m-expanded">
   <span id="select-with-description-label" hidden>Choose one</span>
   <button class="pf-c-select__toggle" type="button" id="select-with-description-toggle" aria-haspopup="true" aria-expanded="true" aria-labelledby="select-with-description-label select-with-description-toggle">
     <div class="pf-c-select__toggle-wrapper">
@@ -1125,5 +1197,7 @@ html:`<div class="pf-c-select pf-m-expanded">
       </button>
     </li>
   </ul>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

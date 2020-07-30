@@ -1,18 +1,20 @@
 export default {
-    displayName: "hint",
-    name: "hint",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/hint/"
-}
+  displayName: "hint",
+  name: "hint",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/hint/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/hint/default-with-no-title.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-hint">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/hint/default-with-no-title.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-hint">
   <div class="pf-c-hint__body">Welcome to the new documentation experience.
     <button class="pf-c-button pf-m-link pf-m-inline" type="button">Learn more about the improved features.</button>
   </div>
@@ -48,15 +50,18 @@ html:`<div class="pf-c-hint">
   <div class="pf-c-hint__footer">
     <button class="pf-c-button pf-m-link pf-m-inline" type="button">Try it for 90 days</button>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/hint/hint-with-title.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-hint">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/hint/hint-with-title.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-hint">
   <div class="pf-c-hint__actions">
     <div class="pf-c-dropdown">
       <button class="pf-c-dropdown__toggle pf-m-plain" type="button" id="hint-with-title-dropdown-kebab-button" aria-expanded="false" aria-label="Actions">
@@ -117,5 +122,7 @@ html:`<div class="pf-c-hint">
   <div class="pf-c-hint__footer">
     <button class="pf-c-button pf-m-link pf-m-inline" type="button">Try it for 90 days</button>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

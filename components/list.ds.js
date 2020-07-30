@@ -1,30 +1,35 @@
 export default {
-    displayName: "list",
-    name: "list",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/list/"
-}
+  displayName: "list",
+  name: "list",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/list/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/list/inline.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-list pf-m-inline">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/list/inline.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-list pf-m-inline">
   <li>Inline list item 1</li>
   <li>Inline list item 2</li>
   <li>Inline list item 3</li>
-</ul>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/list/ordered.png",
-width:800,
-height:600},
-snippet:{
-html:`<ol class="pf-c-list">
+</ul>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/list/ordered.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ol class="pf-c-list">
   <li>Donec blandit a lorem id convallis.</li>
   <li>Cras gravida arcu at diam gravida gravida.</li>
   <li>Integer in volutpat libero.</li>
@@ -43,15 +48,18 @@ html:`<ol class="pf-c-list">
     <li>Aenean nec tortor orci.</li>
     <li>Quisque aliquam cursus urna, non bibendum massa viverra eget.</li>
     <li>Vivamus maximus ultricies pulvinar.</li>
-  </ol>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/list/unordered.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-list">
+  </ol>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/list/unordered.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-list">
   <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
   <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
   <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.
@@ -68,5 +76,7 @@ html:`<ul class="pf-c-list">
     </ul>
   </li>
   <li>Ut non enim metus.</li>
-</ul>`}}
-]
+</ul>`,
+    },
+  },
+];

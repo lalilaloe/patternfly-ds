@@ -1,18 +1,20 @@
 export default {
-    displayName: "contextselector",
-    name: "contextselector",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/contextselector/"
-}
+  displayName: "contextselector",
+  name: "contextselector",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/contextselector/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/contextselector/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-context-selector">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/contextselector/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-context-selector">
   <span id="context-selector-collapsed-example-label" hidden>Selected project:</span>
   <button class="pf-c-context-selector__toggle" id="context-selector-collapsed-example-toggle"aria-labelledby="context-selector-collapsed-example-label context-selector-collapsed-example-toggle">
     <span class="pf-c-context-selector__toggle-text">My project</span>
@@ -113,5 +115,7 @@ html:`<div class="pf-c-context-selector">
       </li>
     </ul>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

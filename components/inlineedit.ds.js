@@ -1,18 +1,20 @@
 export default {
-    displayName: "inlineedit",
-    name: "inlineedit",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/inlineedit/"
-}
+  displayName: "inlineedit",
+  name: "inlineedit",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/inlineedit/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inlineedit/inline-edit-action-group.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-action-group-example">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inlineedit/inline-edit-action-group.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-action-group-example">
   <div class="pf-c-inline-edit__group pf-m-action-group">
     <div class="pf-c-inline-edit__action">
       <button class="pf-c-button pf-m-primary" type="button">Save</button>
@@ -21,15 +23,18 @@ html:`<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-action-
       <button class="pf-c-button pf-m-secondary" type="button">Cancel</button>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inlineedit/inline-edit-action-group-icon-buttons.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-action-group-icon-buttons-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inlineedit/inline-edit-action-group-icon-buttons.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-action-group-icon-buttons-example">
   <div class="pf-c-inline-edit__group pf-m-action-group pf-m-icon-group">
     <div class="pf-c-inline-edit__action pf-m-valid">
       <button class="pf-c-button pf-m-plain" type="button" aria-label="Save edits">
@@ -42,15 +47,18 @@ html:`<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-action-
       </button>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inlineedit/inline-edit-table-row.png",
-width:800,
-height:600},
-snippet:{
-html:`<form class="pf-c-inline-edit" id="bulk-edit-table-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inlineedit/inline-edit-table-row.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<form class="pf-c-inline-edit" id="bulk-edit-table-example">
   <table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="Inline edit table row example">
     <caption>This is the table caption</caption>
     <thead>
@@ -263,39 +271,48 @@ html:`<form class="pf-c-inline-edit" id="bulk-edit-table-example">
       </tr>
     </tbody>
   </table>
-</form>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inlineedit/inline-edit-toggle.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-inline-edit" id="inline-edit-toggle-example">
+</form>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inlineedit/inline-edit-toggle.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-inline-edit" id="inline-edit-toggle-example">
   <div class="pf-c-inline-edit__action pf-m-enable-editable ">
     <button class="pf-c-button pf-m-plain" type="button" id="inline-edit-toggle-example-edit-button" aria-label="Edit" aria-labelledby="inline-edit-toggle-example-edit-button inline-edit-toggle-example-label">
       <i class="fas fa-pencil-alt" aria-hidden="true"></i>
     </button>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inlineedit/inline-edit-value.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-inline-edit" id="inline-edit-value-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inlineedit/inline-edit-value.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-inline-edit" id="inline-edit-value-example">
   <div class="pf-c-inline-edit__value">Static value</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inlineedit/single-inline-edit-active.png",
-width:800,
-height:600},
-snippet:{
-html:`<form class="pf-c-inline-edit pf-m-inline-editable" id="single-editable-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inlineedit/single-inline-edit-active.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<form class="pf-c-inline-edit pf-m-inline-editable" id="single-editable-example">
   <div class="pf-c-inline-edit__group">
     <div class="pf-c-inline-edit__value" id="single-editable-example-label">Static value</div>
     <div class="pf-c-inline-edit__action pf-m-enable-editable ">
@@ -321,15 +338,18 @@ html:`<form class="pf-c-inline-edit pf-m-inline-editable" id="single-editable-ex
       </div>
     </div>
   </div>
-</form>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inlineedit/single-inline-edit-default.png",
-width:800,
-height:600},
-snippet:{
-html:`<form class="pf-c-inline-edit" id="single-inline-edit-example">
+</form>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inlineedit/single-inline-edit-default.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<form class="pf-c-inline-edit" id="single-inline-edit-example">
   <div class="pf-c-inline-edit__group">
     <div class="pf-c-inline-edit__value" id="single-inline-edit-example-label">Static value</div>
     <div class="pf-c-inline-edit__action pf-m-enable-editable ">
@@ -355,15 +375,18 @@ html:`<form class="pf-c-inline-edit" id="single-inline-edit-example">
       </div>
     </div>
   </div>
-</form>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inlineedit/single-inline-edit-with-label-default.png",
-width:800,
-height:600},
-snippet:{
-html:`<form class="pf-c-inline-edit" id="single-inline-edit-with-label-example">
+</form>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inlineedit/single-inline-edit-with-label-default.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<form class="pf-c-inline-edit" id="single-inline-edit-with-label-example">
   <div class="pf-c-inline-edit__group">
     <label class="pf-c-inline-edit__label" id="single-inline-edit-with-label-example-label" for="single-inline-edit-with-label-example-input">Single inline edit group</label>
     <div class="pf-c-inline-edit__action pf-m-enable-editable ">
@@ -390,15 +413,18 @@ html:`<form class="pf-c-inline-edit" id="single-inline-edit-with-label-example">
       </div>
     </div>
   </div>
-</form>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inlineedit/state-invalid.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-state-invalid">
+</form>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inlineedit/state-invalid.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-state-invalid">
   <div class="pf-c-inline-edit__group">
     <label class="pf-c-inline-edit__label" id="inline-edit-state-invalid-label" for="inline-edit-state-invalid-input">Invalid example</label>
     <div class="pf-c-inline-edit__action pf-m-enable-editable ">
@@ -425,15 +451,18 @@ html:`<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-state-i
       </div>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inlineedit/state-valid.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-state-valid">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inlineedit/state-valid.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-state-valid">
   <div class="pf-c-inline-edit__group">
     <label class="pf-c-inline-edit__label" id="inline-edit-state-valid-label" for="inline-edit-state-valid-input">Valid example</label>
     <div class="pf-c-inline-edit__action pf-m-enable-editable ">
@@ -460,5 +489,7 @@ html:`<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-state-v
       </div>
     </div>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

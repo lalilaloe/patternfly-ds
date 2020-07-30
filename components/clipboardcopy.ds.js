@@ -1,18 +1,20 @@
 export default {
-    displayName: "clipboardcopy",
-    name: "clipboardcopy",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/clipboardcopy/"
-}
+  displayName: "clipboardcopy",
+  name: "clipboardcopy",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/clipboardcopy/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/clipboardcopy/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-clipboard-copy">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/clipboardcopy/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-clipboard-copy">
   <div class="pf-c-clipboard-copy__group">
     <input class="pf-c-form-control" type="text" value="This is editable" id="basic-editable-text-input" aria-label="Copyable input" />
     <button class="pf-c-button pf-m-control" type="button" aria-label="Copy to clipboard" id="basic-editable-copy-button" aria-labelledby="basic-editable-copy-button basic-editable-text-input">
@@ -28,15 +30,18 @@ html:`<div class="pf-c-clipboard-copy">
       <i class="fas fa-copy" aria-hidden="true"></i>
     </button>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/clipboardcopy/expandable.png",
-width:800,
-height:600},
-snippet:{
-html:`<h4>Editable</h4>
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/clipboardcopy/expandable.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<h4>Editable</h4>
 <div class="pf-c-clipboard-copy">
   <div class="pf-c-clipboard-copy__group">
     <button class="pf-c-button pf-m-control" type="button" id="expandable-not-expanded-editable-toggle" aria-labelledby="expandable-not-expanded-editable-toggle expandable-not-expanded-editable-text-input" aria-controls="expandable-not-expanded-editable-content">
@@ -96,5 +101,7 @@ html:`<h4>Editable</h4>
     </button>
   </div>
   <div class="pf-c-clipboard-copy__expandable-content" id="expandable-expanded-readonly-content">This is an editable version of the Copy to Clipboard Component that has an expandable section. Got a lot of text here, need to see all of it? Click that arrow on the left side and check out the resulting expansion.</div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

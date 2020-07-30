@@ -1,18 +1,20 @@
 export default {
-    displayName: "formcontrol",
-    name: "formcontrol",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/formcontrol/"
-}
+  displayName: "formcontrol",
+  name: "formcontrol",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/formcontrol/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/formcontrol/input.png",
-width:800,
-height:600},
-snippet:{
-html:`<input class="pf-c-form-control" type="text" value="Standard" id="input-standard" aria-label="Standard input example" />
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/formcontrol/input.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<input class="pf-c-form-control" type="text" value="Standard" id="input-standard" aria-label="Standard input example" />
 <br />
 <br />
 <input class="pf-c-form-control" readonly type="text" value="Readonly" id="input-readonly" aria-label="Readonly input example" />
@@ -30,15 +32,18 @@ html:`<input class="pf-c-form-control" type="text" value="Standard" id="input-st
 <input class="pf-c-form-control" disabled type="text" value="Disabled" id="input-disabled" aria-label="Disabled input example" />
 <br />
 <br />
-<input class="pf-c-form-control pf-m-search" type="search" id="input-search" name="search-input" aria-label="Search input example" />`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/formcontrol/select.png",
-width:800,
-height:600},
-snippet:{
-html:`<select class="pf-c-form-control" id="select-standard" name="select-standard" aria-label="Standard select example">
+<input class="pf-c-form-control pf-m-search" type="search" id="input-search" name="search-input" aria-label="Search input example" />`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/formcontrol/select.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<select class="pf-c-form-control" id="select-standard" name="select-standard" aria-label="Standard select example">
   <option selected>Please choose</option>
   <option value="Mr">Mr</option>
   <option value="Miss">Miss</option>
@@ -99,15 +104,18 @@ html:`<select class="pf-c-form-control" id="select-standard" name="select-standa
   </optgroup>
 </select>
 <br />
-<br />`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/formcontrol/textarea.png",
-width:800,
-height:600},
-snippet:{
-html:`<textarea class="pf-c-form-control" name="textarea-standard" id="textarea-standard" aria-label="Standard textarea example">Standard</textarea>
+<br />`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/formcontrol/textarea.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<textarea class="pf-c-form-control" name="textarea-standard" id="textarea-standard" aria-label="Standard textarea example">Standard</textarea>
 <br />
 <br />
 <textarea class="pf-c-form-control" readonly name="textarea-readonly" id="textarea-readonly" aria-label="Readonly textarea example">Readonly</textarea>
@@ -125,5 +133,7 @@ html:`<textarea class="pf-c-form-control" name="textarea-standard" id="textarea-
 <textarea class="pf-c-form-control pf-m-resize-vertical" name="textarea-resize-vertical" id="textarea-resize-vertical" aria-label="Resize vertical textarea example">Resizes vertically</textarea>
 <br />
 <br />
-<textarea class="pf-c-form-control pf-m-resize-horizontal" name="textarea-resize-horizontal" id="textarea-resize-horizontal" aria-label="Resize horizontal textarea example">Resizes horizontally</textarea>`}}
-]
+<textarea class="pf-c-form-control pf-m-resize-horizontal" name="textarea-resize-horizontal" id="textarea-resize-horizontal" aria-label="Resize horizontal textarea example">Resizes horizontally</textarea>`,
+    },
+  },
+];

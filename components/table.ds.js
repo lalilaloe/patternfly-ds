@@ -1,18 +1,20 @@
 export default {
-    displayName: "table",
-    name: "table",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/table/"
-}
+  displayName: "table",
+  name: "table",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/table/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/basic-table.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a simple table example" id="table-basic">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/basic-table.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a simple table example" id="table-basic">
   <caption>This is the table caption</caption>
   <thead>
     <tr role="row">
@@ -53,15 +55,18 @@ html:`<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a s
       <td role="cell" data-label="Last commit">2 days ago</td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/compact.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-compact pf-m-grid-md" role="grid" aria-label="This is a compact table example" id="table-compact">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/compact.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-compact pf-m-grid-md" role="grid" aria-label="This is a compact table example" id="table-compact">
   <thead>
     <tr role="row">
       <td class="pf-c-table__check" role="cell">
@@ -251,15 +256,18 @@ html:`<table class="pf-c-table pf-m-compact pf-m-grid-md" role="grid" aria-label
       </td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/compact-expandable.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-expandable pf-m-compact pf-m-grid-md" role="grid" aria-label="Compact expandable table example" id="table-compact-expandable">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/compact-expandable.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-expandable pf-m-compact pf-m-grid-md" role="grid" aria-label="Compact expandable table example" id="table-compact-expandable">
   <thead>
     <tr role="row">
       <td></td>
@@ -536,15 +544,18 @@ html:`<table class="pf-c-table pf-m-expandable pf-m-compact pf-m-grid-md" role="
       </td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/compact-with-no-borders.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-compact pf-m-grid-md pf-m-no-border-rows" role="grid" aria-label="This is a compact table with border rows example" id="table-compact-no-borders">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/compact-with-no-borders.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-compact pf-m-grid-md pf-m-no-border-rows" role="grid" aria-label="This is a compact table with border rows example" id="table-compact-no-borders">
   <thead>
     <tr role="row">
       <td class="pf-c-table__check" role="cell">
@@ -734,15 +745,18 @@ html:`<table class="pf-c-table pf-m-compact pf-m-grid-md pf-m-no-border-rows" ro
       </td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/expandable.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-expandable pf-m-grid-lg" role="grid" aria-label="Expandable table example" id="table-expandable">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/expandable.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-expandable pf-m-grid-lg" role="grid" aria-label="Expandable table example" id="table-expandable">
   <thead>
     <tr role="row">
       <td></td>
@@ -1006,15 +1020,18 @@ html:`<table class="pf-c-table pf-m-expandable pf-m-grid-lg" role="grid" aria-la
       </td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/modifiers-without-text-wrapper.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a simple table example" id="modifiers-without-text-wrapper-example">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/modifiers-without-text-wrapper.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a simple table example" id="modifiers-without-text-wrapper-example">
   <thead>
     <tr role="row">
       <th class="pf-m-width-20 " role="columnheader" scope="col">Truncate (width 20%)</th>
@@ -1044,15 +1061,18 @@ html:`<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a s
       </td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/sortable.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a sortable table example" id="table-sortable">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/sortable.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a sortable table example" id="table-sortable">
   <thead>
     <tr role="row">
       <th class="pf-c-table__sort pf-m-selected" role="columnheader" aria-sort="ascending" scope="col">
@@ -1134,15 +1154,18 @@ html:`<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a s
       <td role="cell" data-label="Last commit">2 days ago</td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/sticky-header.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-grid-md pf-m-sticky-header" role="grid" aria-label="This is a table with sticky header cells" id="table-sticky-header">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/sticky-header.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-grid-md pf-m-sticky-header" role="grid" aria-label="This is a table with sticky header cells" id="table-sticky-header">
   <thead>
     <tr role="row">
       <th role="columnheader" scope="col">Repositories</th>
@@ -1182,15 +1205,19 @@ html:`<table class="pf-c-table pf-m-grid-md pf-m-sticky-header" role="grid" aria
       <td role="cell" data-label="Last commit">2 days ago</td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/table-text-element.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a simple table example" id="table-text-element-example">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/table-text-element.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html:
+        `<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a simple table example" id="table-text-element-example">
   <caption>This table contains
     <code>.pf-c-table__text</code>  examples. The
     <code>.pf-c-table__text</code>  element can be using alone or in a nested configuration.</caption>
@@ -1211,9 +1238,15 @@ html:`<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a s
       </th>
       <td class="pf-m-truncate" role="cell" data-label="Truncating text">
         <span class="pf-c-table__text">This table cell contains a single
-          <code>`.pf-c-table__text`</code>  wrapper with the parent table cell applying
-          <code>`.pf-m-truncate`</code>. The child
-          <code>`.pf-c-table__text`</code>  element will inherit the modifier settings and apply to the grid layout.</span>
+          <code>`.pf -
+        c -
+        table__text`</code>  wrapper with the parent table cell applying
+          <code>`.pf -
+        m -
+        truncate`</code>. The child
+          <code>`.pf -
+        c -
+        table__text`</code>  element will inherit the modifier settings and apply to the grid layout.</span>
       </td>
     </tr>
     <tr role="row">
@@ -1334,15 +1367,18 @@ html:`<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a s
       </td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/th-truncation.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tooltip pf-m-top" role="tooltip">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/th-truncation.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tooltip pf-m-top" role="tooltip">
   <div class="pf-c-tooltip__arrow"></div>
   <div class="pf-c-tooltip__content" id="tooltip-top-content">Pull Requests</div>
 </div>
@@ -1379,15 +1415,18 @@ html:`<div class="pf-c-tooltip pf-m-top" role="tooltip">
       <td role="cell" data-label="Last commit">2 days ago</td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/width-constrained.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a simple table example" id="width-constrained-example">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/width-constrained.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a simple table example" id="width-constrained-example">
   <thead>
     <tr role="row">
       <th class="pf-m-width-40 " role="columnheader" scope="col">Width 40</th>
@@ -1415,15 +1454,18 @@ html:`<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a s
       <td role="cell" data-label="Last commit">2 days ago</td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/with-checkboxes-and-actions.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a table with checkboxes" id="table-checkboxes-and-actions">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/with-checkboxes-and-actions.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a table with checkboxes" id="table-checkboxes-and-actions">
   <thead>
     <tr role="row">
       <td class="pf-c-table__check" role="cell">
@@ -1596,15 +1638,18 @@ html:`<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a t
       </td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/with-compound-expansion.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-expandable pf-m-grid-md" role="grid" aria-label="Compound expandable table example" id="table-compound-expansion">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/with-compound-expansion.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-expandable pf-m-grid-md" role="grid" aria-label="Compound expandable table example" id="table-compound-expansion">
   <thead>
     <tr role="row">
       <th class="pf-c-table__sort pf-m-selected" role="columnheader" aria-sort="ascending" scope="col">
@@ -3404,15 +3449,18 @@ html:`<table class="pf-c-table pf-m-expandable pf-m-grid-md" role="grid" aria-la
       </td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/with-hiddenvisible-breakpoint-modifiers.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="Table with hidden and visible modifiers example" id="table-hidden-visible">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/with-hiddenvisible-breakpoint-modifiers.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="Table with hidden and visible modifiers example" id="table-hidden-visible">
   <thead>
     <tr role="row">
       <th class="pf-m-hidden pf-m-visible-on-md pf-m-hidden-on-lg " role="columnheader" scope="col">Repositories</th>
@@ -3452,15 +3500,18 @@ html:`<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="Table with 
       <td class="pf-m-hidden pf-m-visible-on-sm" role="cell" data-label="Last commit">2 days ago</td>
     </tr>
   </tbody>
-</table>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/table/with-width-modifiers.png",
-width:800,
-height:600},
-snippet:{
-html:`<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a width modifier expandable" id="table-width-modifiers">
+</table>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/table/with-width-modifiers.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a width modifier expandable" id="table-width-modifiers">
   <thead>
     <tr role="row">
       <td class="pf-c-table__check" role="cell">
@@ -3559,5 +3610,7 @@ html:`<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a w
       <td role="cell" data-label="Last commit">2 days ago</td>
     </tr>
   </tbody>
-</table>`}}
-]
+</table>`,
+    },
+  },
+];

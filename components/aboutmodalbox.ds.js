@@ -1,18 +1,20 @@
 export default {
-    displayName: "aboutmodalbox",
-    name: "aboutmodalbox",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/aboutmodalbox/"
-}
+  displayName: "aboutmodalbox",
+  name: "aboutmodalbox",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/aboutmodalbox/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/aboutmodalbox/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-about-modal-box" role="dialog" aria-modal="true" aria-labelledby="about-modal-title">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/aboutmodalbox/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-about-modal-box" role="dialog" aria-modal="true" aria-labelledby="about-modal-title">
   <div class="pf-c-about-modal-box__brand">
     <img class="pf-c-about-modal-box__brand-image" src="/assets/images/pf_mini_logo_white.svg" alt="PatternFly brand logo" />
   </div>
@@ -29,5 +31,7 @@ html:`<div class="pf-c-about-modal-box" role="dialog" aria-modal="true" aria-lab
     <div class="pf-c-about-modal-box__body">content</div>
     <p class="pf-c-about-modal-box__strapline">Trademark and copyright information here</p>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

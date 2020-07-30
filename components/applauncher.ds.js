@@ -1,18 +1,20 @@
 export default {
-    displayName: "applauncher",
-    name: "applauncher",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/applauncher/"
-}
+  displayName: "applauncher",
+  name: "applauncher",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/applauncher/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/applauncher/aligned-right.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/applauncher/aligned-right.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
   <button class="pf-c-app-launcher__toggle" type="button" id="app-launcher-aligned-right-button" aria-expanded="true" aria-label="Application launcher">
     <i class="fas fa-th" aria-hidden="true"></i>
   </button>
@@ -28,15 +30,18 @@ html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launc
       <a class="pf-c-app-launcher__menu-item pf-m-disabled" href="#" aria-disabled="true" tabindex="-1">Disabled link</a>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/applauncher/aligned-top.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-app-launcher pf-m-expanded pf-m-top" aria-label="Application launcher">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/applauncher/aligned-top.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-app-launcher pf-m-expanded pf-m-top" aria-label="Application launcher">
   <button class="pf-c-app-launcher__toggle" type="button" id="app-launcher-aligned-top-button" aria-expanded="true" aria-label="Application launcher">
     <i class="fas fa-th" aria-hidden="true"></i>
   </button>
@@ -52,15 +57,18 @@ html:`<nav class="pf-c-app-launcher pf-m-expanded pf-m-top" aria-label="Applicat
       <a class="pf-c-app-launcher__menu-item pf-m-disabled" href="#" aria-disabled="true" tabindex="-1">Disabled link</a>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/applauncher/collapsed.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-app-launcher" aria-label="Application launcher">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/applauncher/collapsed.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-app-launcher" aria-label="Application launcher">
   <button class="pf-c-app-launcher__toggle" type="button" id="app-launcher-collapsed-button" aria-expanded="false" aria-label="Application launcher">
     <i class="fas fa-th" aria-hidden="true"></i>
   </button>
@@ -76,15 +84,18 @@ html:`<nav class="pf-c-app-launcher" aria-label="Application launcher">
       <a class="pf-c-app-launcher__menu-item pf-m-disabled" href="#" aria-disabled="true" tabindex="-1">Disabled link</a>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/applauncher/disabled.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-app-launcher" aria-label="Application launcher">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/applauncher/disabled.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-app-launcher" aria-label="Application launcher">
   <button class="pf-c-app-launcher__toggle" type="button" id="app-launcher-disabled-button" aria-expanded="false" aria-label="Application launcher" disabled>
     <i class="fas fa-th" aria-hidden="true"></i>
   </button>
@@ -100,15 +111,18 @@ html:`<nav class="pf-c-app-launcher" aria-label="Application launcher">
       <a class="pf-c-app-launcher__menu-item pf-m-disabled" href="#" aria-disabled="true" tabindex="-1">Disabled link</a>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/applauncher/expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/applauncher/expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
   <button class="pf-c-app-launcher__toggle" type="button" id="app-launcher-expanded-button" aria-expanded="true" aria-label="Application launcher">
     <i class="fas fa-th" aria-hidden="true"></i>
   </button>
@@ -124,15 +138,18 @@ html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launc
       <a class="pf-c-app-launcher__menu-item pf-m-disabled" href="#" aria-disabled="true" tabindex="-1">Disabled link</a>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/applauncher/favorites.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/applauncher/favorites.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
   <button class="pf-c-app-launcher__toggle" type="button" id="app-launcher-favorites-button" aria-expanded="true" aria-label="Application launcher">
     <i class="fas fa-th" aria-hidden="true"></i>
   </button>
@@ -242,15 +259,19 @@ html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launc
       </ul>
     </section>
   </div>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/applauncher/with-sections-and-dividers-between-items.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src:
+        "./pictures/applauncher/with-sections-and-dividers-between-items.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
   <button class="pf-c-app-launcher__toggle" type="button" id="app-launcher-sections-and-dividers-between-items-button" aria-expanded="true" aria-label="Application launcher">
     <i class="fas fa-th" aria-hidden="true"></i>
   </button>
@@ -287,15 +308,19 @@ html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launc
       </ul>
     </section>
   </div>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/applauncher/with-sections-and-dividers-between-sections.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src:
+        "./pictures/applauncher/with-sections-and-dividers-between-sections.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
   <button class="pf-c-app-launcher__toggle" type="button" id="app-launcher-sections-and-dividers-between-sections-button" aria-expanded="true" aria-label="Application launcher">
     <i class="fas fa-th" aria-hidden="true"></i>
   </button>
@@ -332,15 +357,19 @@ html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launc
       </ul>
     </section>
   </div>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/applauncher/with-sections-dividers-icons-and-external-links.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src:
+        "./pictures/applauncher/with-sections-dividers-icons-and-external-links.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
   <button class="pf-c-app-launcher__toggle" type="button" id="app-launcher-sections-dividers-icons-and-external-links-button" aria-expanded="true" aria-label="Application launcher">
     <i class="fas fa-th" aria-hidden="true"></i>
   </button>
@@ -412,5 +441,7 @@ html:`<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launc
       </ul>
     </section>
   </div>
-</nav>`}}
-]
+</nav>`,
+    },
+  },
+];

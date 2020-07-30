@@ -1,18 +1,20 @@
 export default {
-    displayName: "tile",
-    name: "tile",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/tile/"
-}
+  displayName: "tile",
+  name: "tile",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/tile/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tile/basic-tiles.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tile" tabindex="0">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tile/basic-tiles.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tile" tabindex="0">
   <div class="pf-c-tile__header">
     <div class="pf-c-tile__title">Default</div>
   </div>
@@ -75,15 +77,18 @@ html:`<div class="pf-c-tile" tabindex="0">
     <div class="pf-c-tile__title">Disabled</div>
   </div>
   <div class="pf-c-tile__body">Subtext goes here</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tile/extra-content.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tile" tabindex="0">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tile/extra-content.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tile" tabindex="0">
   <div class="pf-c-tile__header pf-m-stacked">
     <div class="pf-c-tile__icon">
       <i class="fas fa-bell" aria-hidden="true"></i>
@@ -109,15 +114,18 @@ html:`<div class="pf-c-tile" tabindex="0">
     <div class="pf-c-tile__title">Default</div>
   </div>
   <div class="pf-c-tile__body">Subtext goes here</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tile/stacked-tiles.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tile" tabindex="0">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tile/stacked-tiles.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tile" tabindex="0">
   <div class="pf-c-tile__header pf-m-stacked">
     <div class="pf-c-tile__icon">
       <i class="fas fa-bell" aria-hidden="true"></i>
@@ -172,15 +180,18 @@ html:`<div class="pf-c-tile" tabindex="0">
     <div class="pf-c-tile__title">Disabled</div>
   </div>
   <div class="pf-c-tile__body">Subtext goes here</div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/tile/stacked-tiles-large.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-tile pf-m-display-lg" tabindex="0">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/tile/stacked-tiles-large.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-tile pf-m-display-lg" tabindex="0">
   <div class="pf-c-tile__header pf-m-stacked">
     <div class="pf-c-tile__icon">
       <i class="fas fa-bell" aria-hidden="true"></i>
@@ -235,5 +246,7 @@ html:`<div class="pf-c-tile pf-m-display-lg" tabindex="0">
     <div class="pf-c-tile__title">Disabled</div>
   </div>
   <div class="pf-c-tile__body">Subtext goes here</div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

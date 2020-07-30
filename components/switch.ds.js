@@ -1,18 +1,20 @@
 export default {
-    displayName: "switch",
-    name: "switch",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/switch/"
-}
+  displayName: "switch",
+  name: "switch",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/switch/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/switch/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<label class="pf-c-switch" for="switch-with-label-1">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/switch/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<label class="pf-c-switch" for="switch-with-label-1">
   <input class="pf-c-switch__input" type="checkbox" id="switch-with-label-1" aria-labelledby="switch-with-label-1-on" name="switchExample1" checked />
   <span class="pf-c-switch__toggle"></span>
   <span class="pf-c-switch__label pf-m-on" id="switch-with-label-1-on" aria-hidden="true">Message when on</span>
@@ -25,15 +27,18 @@ html:`<label class="pf-c-switch" for="switch-with-label-1">
   <span class="pf-c-switch__toggle"></span>
   <span class="pf-c-switch__label pf-m-on" id="switch-with-label-2-on" aria-hidden="true">Message when on</span>
   <span class="pf-c-switch__label pf-m-off" id="switch-with-label-2-off" aria-hidden="true">Message when off</span>
-</label>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/switch/disabled.png",
-width:800,
-height:600},
-snippet:{
-html:`<label class="pf-c-switch" for="switch-disabled-1">
+</label>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/switch/disabled.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<label class="pf-c-switch" for="switch-disabled-1">
   <input class="pf-c-switch__input" type="checkbox" id="switch-disabled-1" aria-labelledby="switch-disabled-1-on" name="switchExample5" disabled checked />
   <span class="pf-c-switch__toggle"></span>
   <span class="pf-c-switch__label pf-m-on" id="switch-disabled-1-on" aria-hidden="true">Message when on</span>
@@ -46,15 +51,18 @@ html:`<label class="pf-c-switch" for="switch-disabled-1">
   <span class="pf-c-switch__toggle"></span>
   <span class="pf-c-switch__label pf-m-on" id="switch-disabled-2-on" aria-hidden="true">Message when on</span>
   <span class="pf-c-switch__label pf-m-off" id="switch-disabled-2-off" aria-hidden="true">Message when off</span>
-</label>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/switch/without-label.png",
-width:800,
-height:600},
-snippet:{
-html:`<label class="pf-c-switch" for="switch-with-icon-1">
+</label>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/switch/without-label.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<label class="pf-c-switch" for="switch-with-icon-1">
   <input class="pf-c-switch__input" type="checkbox" id="switch-with-icon-1" aria-label="switch is off" name="switchExample3" checked />
   <span class="pf-c-switch__toggle">
     <span class="pf-c-switch__toggle-icon">
@@ -71,5 +79,7 @@ html:`<label class="pf-c-switch" for="switch-with-icon-1">
       <i class="fas fa-check" aria-hidden="true"></i>
     </span>
   </span>
-</label>`}}
-]
+</label>`,
+    },
+  },
+];

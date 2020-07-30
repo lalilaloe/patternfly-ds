@@ -1,18 +1,20 @@
 export default {
-    displayName: "accordion",
-    name: "accordion",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/accordion/"
-}
+  displayName: "accordion",
+  name: "accordion",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/accordion/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/accordion/definition-list.png",
-width:800,
-height:600},
-snippet:{
-html:`<dl class="pf-c-accordion">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/accordion/definition-list.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<dl class="pf-c-accordion">
   <dt>
     <button class="pf-c-accordion__toggle" aria-expanded="false">
       <span class="pf-c-accordion__toggle-text">Item one</span>
@@ -68,15 +70,18 @@ html:`<dl class="pf-c-accordion">
   <dd class="pf-c-accordion__expanded-content" hidden>
     <div class="pf-c-accordion__expanded-content-body">This text is hidden</div>
   </dd>
-</dl>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/accordion/fixed.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-accordion">
+</dl>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/accordion/fixed.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-accordion">
   <h3>
     <button class="pf-c-accordion__toggle" aria-expanded="false">
       <span class="pf-c-accordion__toggle-text">Item one</span>
@@ -132,15 +137,18 @@ html:`<div class="pf-c-accordion">
   <div class="pf-c-accordion__expanded-content pf-m-fixed" hidden>
     <div class="pf-c-accordion__expanded-content-body">This text is hidden</div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/accordion/fluid.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-accordion">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/accordion/fluid.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-accordion">
   <h3>
     <button class="pf-c-accordion__toggle" aria-expanded="false">
       <span class="pf-c-accordion__toggle-text">Item one</span>
@@ -196,5 +204,7 @@ html:`<div class="pf-c-accordion">
   <div class="pf-c-accordion__expanded-content" hidden>
     <div class="pf-c-accordion__expanded-content-body">This text is hidden</div>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

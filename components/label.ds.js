@@ -1,18 +1,20 @@
 export default {
-    displayName: "label",
-    name: "label",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/label/"
-}
+  displayName: "label",
+  name: "label",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/label/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/label/filled.png",
-width:800,
-height:600},
-snippet:{
-html:`<span class="pf-c-label">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/label/filled.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<span class="pf-c-label">
   <span class="pf-c-label__content">Grey</span>
 </span>
 <span class="pf-c-label">
@@ -254,15 +256,18 @@ html:`<span class="pf-c-label">
   <button class="pf-c-button pf-m-plain" type="button" id="default-cyan-link-close-button" aria-label="Remove" aria-labelledby="default-cyan-link-close-button default-cyan-link-close-text">
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
-</span>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/label/outline.png",
-width:800,
-height:600},
-snippet:{
-html:`<span class="pf-c-label pf-m-outline">
+</span>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/label/outline.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<span class="pf-c-label pf-m-outline">
   <span class="pf-c-label__content">Grey</span>
 </span>
 <span class="pf-c-label pf-m-outline">
@@ -504,5 +509,7 @@ html:`<span class="pf-c-label pf-m-outline">
   <button class="pf-c-button pf-m-plain" type="button" id="outline-cyan-link-close-button" aria-label="Remove" aria-labelledby="outline-cyan-link-close-button outline-cyan-link-close-text">
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
-</span>`}}
-]
+</span>`,
+    },
+  },
+];

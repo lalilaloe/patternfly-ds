@@ -1,18 +1,20 @@
 export default {
-    displayName: "alert",
-    name: "alert",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/alert/"
-}
+  displayName: "alert",
+  name: "alert",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/alert/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/alert/inline-types.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-alert pf-m-inline" aria-label="Inline default alert">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/alert/inline-types.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-alert pf-m-inline" aria-label="Inline default alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-bell" aria-hidden="true"></i>
   </div>
@@ -60,15 +62,18 @@ html:`<div class="pf-c-alert pf-m-inline" aria-label="Inline default alert">
     <strong>
       <span class="pf-screen-reader">Danger alert:</span>Danger inline alert title</strong>
   </p>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/alert/inline-variations.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/alert/inline-variations.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
   </div>
@@ -137,15 +142,18 @@ html:`<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert
     <strong>
       <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
   </p>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/alert/types.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-alert" aria-label="Default alert">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/alert/types.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-alert" aria-label="Default alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-bell" aria-hidden="true"></i>
   </div>
@@ -193,15 +201,18 @@ html:`<div class="pf-c-alert" aria-label="Default alert">
     <strong>
       <span class="pf-screen-reader">Danger alert:</span>Danger alert title</strong>
   </p>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/alert/variations.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-alert pf-m-success" aria-label="Success alert">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/alert/variations.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-alert pf-m-success" aria-label="Success alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
   </div>
@@ -311,5 +322,7 @@ html:`<div class="pf-c-alert pf-m-success" aria-label="Success alert">
   <div class="pf-c-alert__description">
     <p>This example uses ".pf-m-truncate" and sets "--pf-c-alert__title--max-lines: 2" to limit title to two lines and truncate any overflow text with ellipses.</p>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

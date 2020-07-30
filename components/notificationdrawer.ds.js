@@ -1,18 +1,20 @@
 export default {
-    displayName: "notificationdrawer",
-    name: "notificationdrawer",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/notificationdrawer/"
-}
+  displayName: "notificationdrawer",
+  name: "notificationdrawer",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/notificationdrawer/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/notificationdrawer/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-notification-drawer">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/notificationdrawer/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-notification-drawer">
   <div class="pf-c-notification-drawer__header">
     <h1 class="pf-c-notification-drawer__header-title">Notifications</h1>
     <span class="pf-c-notification-drawer__header-status">2 unread</span>
@@ -262,15 +264,18 @@ html:`<div class="pf-c-notification-drawer">
       </li>
     </ul>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/notificationdrawer/groups.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-notification-drawer">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/notificationdrawer/groups.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-notification-drawer">
   <div class="pf-c-notification-drawer__header">
     <h1 class="pf-c-notification-drawer__header-title">Notifications</h1>
     <span class="pf-c-notification-drawer__header-status">2 unread</span>
@@ -1228,5 +1233,7 @@ html:`<div class="pf-c-notification-drawer">
       </section>
     </div>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

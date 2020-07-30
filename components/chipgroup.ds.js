@@ -1,18 +1,20 @@
 export default {
-    displayName: "chipgroup",
-    name: "chipgroup",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/chipgroup/"
-}
+  displayName: "chipgroup",
+  name: "chipgroup",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/chipgroup/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/chipgroup/chip-group-with-categories.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-chip-group pf-m-category">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/chipgroup/chip-group-with-categories.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-chip-group pf-m-category">
   <span class="pf-c-chip-group__label" aria-hidden="true" id="chip-group-with-categories-label">Category one</span>
   <ul class="pf-c-chip-group__list" role="list" aria-labelledby="chip-group-with-categories-label">
     <li class="pf-c-chip-group__list-item">
@@ -40,15 +42,18 @@ html:`<div class="pf-c-chip-group pf-m-category">
       </div>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/chipgroup/chip-group-with-categories-overflow.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-chip-group pf-m-category">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/chipgroup/chip-group-with-categories-overflow.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-chip-group pf-m-category">
   <span class="pf-c-chip-group__label" aria-hidden="true" id="chip-group-with-categories-overflow-label">Category one</span>
   <ul class="pf-c-chip-group__list" role="list" aria-labelledby="chip-group-with-categories-overflow-label">
     <li class="pf-c-chip-group__list-item">
@@ -81,15 +86,19 @@ html:`<div class="pf-c-chip-group pf-m-category">
       </button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/chipgroup/chip-group-with-categories-overflow-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-chip-group pf-m-category">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src:
+        "./pictures/chipgroup/chip-group-with-categories-overflow-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-chip-group pf-m-category">
   <span class="pf-c-chip-group__label" aria-hidden="true" id="chip-group-with-categories-overflow-expanded-label">Category one</span>
   <ul class="pf-c-chip-group__list" role="list" aria-labelledby="chip-group-with-categories-overflow-expanded-label">
     <li class="pf-c-chip-group__list-item">
@@ -138,15 +147,18 @@ html:`<div class="pf-c-chip-group pf-m-category">
       </button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/chipgroup/chip-group-with-categories-removable.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-chip-group pf-m-category">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/chipgroup/chip-group-with-categories-removable.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-chip-group pf-m-category">
   <span class="pf-c-chip-group__label" aria-hidden="true" id="Chip-group-with-categories-removable-label">Category one</span>
   <ul class="pf-c-chip-group__list" role="list" aria-labelledby="Chip-group-with-categories-removable-label">
     <li class="pf-c-chip-group__list-item">
@@ -179,15 +191,18 @@ html:`<div class="pf-c-chip-group pf-m-category">
       <i class="fas fa-times-circle" aria-hidden="true"></i>
     </button>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/chipgroup/simple-inline-chip-group-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-chip-group">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/chipgroup/simple-inline-chip-group-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-chip-group">
   <ul class="pf-c-chip-group__list" role="list" aria-label="Chip group list">
     <li class="pf-c-chip-group__list-item">
       <div class="pf-c-chip">
@@ -235,15 +250,18 @@ html:`<div class="pf-c-chip-group">
       </button>
     </li>
   </ul>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/chipgroup/simple-inline-chip-group-overflow.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-chip-group">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/chipgroup/simple-inline-chip-group-overflow.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-chip-group">
   <ul class="pf-c-chip-group__list" role="list" aria-label="Chip group list">
     <li class="pf-c-chip-group__list-item">
       <div class="pf-c-chip">
@@ -275,5 +293,7 @@ html:`<div class="pf-c-chip-group">
       </button>
     </li>
   </ul>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

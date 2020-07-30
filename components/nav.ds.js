@@ -1,18 +1,19 @@
 export default {
-    displayName: "nav",
-    name: "nav",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/nav/"
-}
+  displayName: "nav",
+  name: "nav",
+  homepage: "https://www.patternfly.org/v4//documentation/core/components/nav/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/default.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav" aria-label="Global">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/default.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav" aria-label="Global">
   <ul class="pf-c-nav__list">
     <li class="pf-c-nav__item">
       <a href="#" class="pf-c-nav__link">Link 1</a>
@@ -27,15 +28,18 @@ html:`<nav class="pf-c-nav" aria-label="Global">
       <a href="#" class="pf-c-nav__link">Link 4</a>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/default-in-light-mode.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav pf-m-light" aria-label="Global">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/default-in-light-mode.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav pf-m-light" aria-label="Global">
   <ul class="pf-c-nav__list">
     <li class="pf-c-nav__item">
       <a href="#" class="pf-c-nav__link">Current link</a>
@@ -50,15 +54,18 @@ html:`<nav class="pf-c-nav pf-m-light" aria-label="Global">
       <a href="#" class="pf-c-nav__link">Link 4</a>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav" aria-label="Global">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav" aria-label="Global">
   <ul class="pf-c-nav__list">
     <li class="pf-c-nav__item pf-m-expandable pf-m-expanded pf-m-current">
       <button class="pf-c-nav__link" id="expandable-example1" aria-expanded="true">Link 1 (current and expanded example)
@@ -122,15 +129,18 @@ html:`<nav class="pf-c-nav" aria-label="Global">
       </section>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/expanded-in-light-mode.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav pf-m-light" aria-label="Global">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/expanded-in-light-mode.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav pf-m-light" aria-label="Global">
   <ul class="pf-c-nav__list">
     <li class="pf-c-nav__item pf-m-expandable pf-m-expanded pf-m-current">
       <button class="pf-c-nav__link" id="expandable-example1" aria-expanded="true">Link 1 (current and expanded example)
@@ -194,15 +204,18 @@ html:`<nav class="pf-c-nav pf-m-light" aria-label="Global">
       </section>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/expanded-with-subnav-titles.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav" aria-label="Global">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/expanded-with-subnav-titles.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav" aria-label="Global">
   <ul class="pf-c-nav__list">
     <li class="pf-c-nav__item pf-m-expandable pf-m-expanded pf-m-current">
       <button class="pf-c-nav__link" aria-expanded="true">Link 1
@@ -248,15 +261,18 @@ html:`<nav class="pf-c-nav" aria-label="Global">
       </section>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/grouped-nav.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav" aria-label="Global">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/grouped-nav.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav" aria-label="Global">
   <section class="pf-c-nav__section" aria-labelledby="grouped-title1">
     <h2 class="pf-c-nav__section-title" id="grouped-title1">Section title 1</h2>
     <ul class="pf-c-nav__list">
@@ -285,15 +301,18 @@ html:`<nav class="pf-c-nav" aria-label="Global">
       </li>
     </ul>
   </section>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/horizontal.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav pf-m-horizontal" aria-label="Global">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/horizontal.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav pf-m-horizontal" aria-label="Global">
   <button class="pf-c-nav__scroll-button" disabled aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -311,15 +330,18 @@ html:`<nav class="pf-c-nav pf-m-horizontal" aria-label="Global">
   <button class="pf-c-nav__scroll-button" disabled aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/horizontal-overflow.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav pf-m-horizontal pf-m-scrollable" aria-label="Global">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/horizontal-overflow.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav pf-m-horizontal pf-m-scrollable" aria-label="Global">
   <button class="pf-c-nav__scroll-button" disabled aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -343,15 +365,18 @@ html:`<nav class="pf-c-nav pf-m-horizontal pf-m-scrollable" aria-label="Global">
   <button class="pf-c-nav__scroll-button" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/mixed.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav" aria-label="Global">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/mixed.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav" aria-label="Global">
   <ul class="pf-c-nav__list">
     <li class="pf-c-nav__item">
       <a href="#" class="pf-c-nav__link">Link 1 (not expandable)</a>
@@ -398,15 +423,18 @@ html:`<nav class="pf-c-nav" aria-label="Global">
       </section>
     </li>
   </ul>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/tertiary.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav pf-m-tertiary" aria-label="Local">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/tertiary.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav pf-m-tertiary" aria-label="Local">
   <button class="pf-c-nav__scroll-button" disabled aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -424,15 +452,18 @@ html:`<nav class="pf-c-nav pf-m-tertiary" aria-label="Local">
   <button class="pf-c-nav__scroll-button" disabled aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/nav/tertiary-overflow.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-nav pf-m-tertiary pf-m-scrollable" aria-label="Local">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/nav/tertiary-overflow.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-nav pf-m-tertiary pf-m-scrollable" aria-label="Local">
   <button class="pf-c-nav__scroll-button" disabled aria-label="Scroll left">
     <i class="fas fa-angle-left" aria-hidden="true"></i>
   </button>
@@ -456,5 +487,7 @@ html:`<nav class="pf-c-nav pf-m-tertiary pf-m-scrollable" aria-label="Local">
   <button class="pf-c-nav__scroll-button" aria-label="Scroll right">
     <i class="fas fa-angle-right" aria-hidden="true"></i>
   </button>
-</nav>`}}
-]
+</nav>`,
+    },
+  },
+];

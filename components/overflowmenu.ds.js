@@ -1,18 +1,20 @@
 export default {
-    displayName: "overflowmenu",
-    name: "overflowmenu",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/overflowmenu/"
-}
+  displayName: "overflowmenu",
+  name: "overflowmenu",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/overflowmenu/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/overflowmenu/additional-options-in-dropdown-hidden.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-overflow-menu" id="overflow-menu-simple-additional-options-hidden">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/overflowmenu/additional-options-in-dropdown-hidden.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-overflow-menu" id="overflow-menu-simple-additional-options-hidden">
   <div class="pf-c-overflow-menu__control">
     <div class="pf-c-dropdown pf-m-expanded">
       <button class="pf-c-button pf-c-dropdown__toggle pf-m-plain" type="button" id="overflow-menu-simple-additional-options-hidden-dropdown-toggle" aria-label="Dropdown with additional options">
@@ -43,15 +45,18 @@ html:`<div class="pf-c-overflow-menu" id="overflow-menu-simple-additional-option
       </ul>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/overflowmenu/additional-options-in-dropdown-visible.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-overflow-menu" id="overflow-menu-simple-additional-options-visible">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/overflowmenu/additional-options-in-dropdown-visible.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-overflow-menu" id="overflow-menu-simple-additional-options-visible">
   <div class="pf-c-overflow-menu__content">
     <div class="pf-c-overflow-menu__group pf-m-button-group">
       <div class="pf-c-overflow-menu__item">
@@ -94,15 +99,18 @@ html:`<div class="pf-c-overflow-menu" id="overflow-menu-simple-additional-option
       </ul>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/overflowmenu/group-types.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-overflow-menu" id="overflow-menu-button-group-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/overflowmenu/group-types.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-overflow-menu" id="overflow-menu-button-group-example">
   <div class="pf-c-overflow-menu__content">
     <div class="pf-c-overflow-menu__group">
       <div class="pf-c-overflow-menu__item">Item 1</div>
@@ -138,15 +146,18 @@ html:`<div class="pf-c-overflow-menu" id="overflow-menu-button-group-example">
       </div>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/overflowmenu/persistent-additional-options-hidden.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-overflow-menu" id="overflow-menu-persistent-hidden">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/overflowmenu/persistent-additional-options-hidden.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-overflow-menu" id="overflow-menu-persistent-hidden">
   <div class="pf-c-overflow-menu__content">
     <div class="pf-c-overflow-menu__group pf-m-button-group">
       <div class="pf-c-overflow-menu__item">
@@ -172,15 +183,18 @@ html:`<div class="pf-c-overflow-menu" id="overflow-menu-persistent-hidden">
       </ul>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/overflowmenu/persistent-additional-options-visible.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-overflow-menu" id="overflow-menu-persistent-visible-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/overflowmenu/persistent-additional-options-visible.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-overflow-menu" id="overflow-menu-persistent-visible-example">
   <div class="pf-c-overflow-menu__content">
     <div class="pf-c-overflow-menu__group pf-m-button-group">
       <div class="pf-c-overflow-menu__item">
@@ -206,15 +220,18 @@ html:`<div class="pf-c-overflow-menu" id="overflow-menu-persistent-visible-examp
       </ul>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/overflowmenu/simple-collapsed.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-overflow-menu" id="overflow-menu-simple">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/overflowmenu/simple-collapsed.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-overflow-menu" id="overflow-menu-simple">
   <div class="pf-c-overflow-menu__control">
     <div class="pf-c-dropdown pf-m-expanded">
       <button class="pf-c-button pf-c-dropdown__toggle pf-m-plain" type="button" id="overflow-menu-simple-dropdown-toggle" aria-label="Generic options">
@@ -239,15 +256,18 @@ html:`<div class="pf-c-overflow-menu" id="overflow-menu-simple">
       </ul>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/overflowmenu/simple-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-overflow-menu" id="overflow-menu-simple-expanded">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/overflowmenu/simple-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-overflow-menu" id="overflow-menu-simple-expanded">
   <div class="pf-c-overflow-menu__content">
     <div class="pf-c-overflow-menu__item">Item 1</div>
     <div class="pf-c-overflow-menu__item">Item 2</div>
@@ -257,5 +277,7 @@ html:`<div class="pf-c-overflow-menu" id="overflow-menu-simple-expanded">
       <div class="pf-c-overflow-menu__item">Item 5</div>
     </div>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

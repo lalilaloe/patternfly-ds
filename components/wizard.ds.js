@@ -1,18 +1,20 @@
 export default {
-    displayName: "wizard",
-    name: "wizard",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/wizard/"
-}
+  displayName: "wizard",
+  name: "wizard",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/wizard/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/wizard/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-wizard">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/wizard/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-wizard">
   <div class="pf-c-wizard__header">
     <button class="pf-c-button pf-m-plain pf-c-wizard__close" type="button" aria-label="Close">
       <i class="fas fa-times" aria-hidden="true"></i>
@@ -73,15 +75,18 @@ html:`<div class="pf-c-wizard">
       <button class="pf-c-button pf-m-link" type="button">Cancel</button>
     </footer>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/wizard/finished.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-wizard pf-m-finished">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/wizard/finished.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-wizard pf-m-finished">
   <div class="pf-c-wizard__header">
     <button class="pf-c-button pf-m-plain pf-c-wizard__close" type="button" aria-label="Close">
       <i class="fas fa-times" aria-hidden="true"></i>
@@ -164,15 +169,18 @@ html:`<div class="pf-c-wizard pf-m-finished">
       <button class="pf-c-button pf-m-link" type="button">Cancel</button>
     </footer>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/wizard/nav-expanded-mobile.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-wizard">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/wizard/nav-expanded-mobile.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-wizard">
   <div class="pf-c-wizard__header">
     <button class="pf-c-button pf-m-plain pf-c-wizard__close" type="button" aria-label="Close">
       <i class="fas fa-times" aria-hidden="true"></i>
@@ -233,5 +241,7 @@ html:`<div class="pf-c-wizard">
       <button class="pf-c-button pf-m-link" type="button">Cancel</button>
     </footer>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

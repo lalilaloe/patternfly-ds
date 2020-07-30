@@ -1,18 +1,20 @@
 export default {
-    displayName: "content",
-    name: "content",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/content/"
-}
+  displayName: "content",
+  name: "content",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/content/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/content/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-content">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/content/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-content">
   <h1>Hello world</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque. Sub works as well!</p>
   <h2>Second level</h2>
@@ -83,5 +85,7 @@ html:`<div class="pf-c-content">
   <p>Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt ligula. Vestibulum at nunc elit. Praesent aliquet ligula mi, in luctus elit volutpat porta. Phasellus molestie diam vel nisi sodales, a eleifend augue laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.</p>
   <h6>Sixth level</h6>
   <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

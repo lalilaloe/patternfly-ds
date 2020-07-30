@@ -1,18 +1,20 @@
 export default {
-    displayName: "toolbar",
-    name: "toolbar",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/toolbar/"
-}
+  displayName: "toolbar",
+  name: "toolbar",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/toolbar/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/adjusted-group-spacers.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-group-spacer-example">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/toolbar/adjusted-group-spacers.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-group-spacer-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__group pf-m-space-items-lg">
@@ -26,15 +28,18 @@ html:`<div class="pf-c-toolbar" id="toolbar-group-spacer-example">
       </div>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/adjusted-spacers.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-spacer-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/toolbar/adjusted-spacers.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-spacer-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__item pf-m-spacer-none">Item</div>
@@ -46,15 +51,18 @@ html:`<div class="pf-c-toolbar" id="toolbar-spacer-example">
       <div class="pf-c-toolbar__item">Item</div>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/expanded-elements.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-expanded-elements-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/toolbar/expanded-elements.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-expanded-elements-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__item pf-m-bulk-select">
@@ -223,15 +231,18 @@ html:`<div class="pf-c-toolbar" id="toolbar-expanded-elements-example">
     </div>
     <div class="pf-c-toolbar__expandable-content pf-m-hidden" id="toolbar-expanded-elements-example-expandable-content" hidden></div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/group-types.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-group-types-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/toolbar/group-types.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-group-types-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__group pf-m-filter-group">
@@ -356,15 +367,18 @@ html:`<div class="pf-c-toolbar" id="toolbar-group-types-example">
       </div>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/selected-filters-on-desktop-not-responsive.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-selected-filters-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/toolbar/selected-filters-on-desktop-not-responsive.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-selected-filters-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__item pf-m-bulk-select">
@@ -591,15 +605,19 @@ html:`<div class="pf-c-toolbar" id="toolbar-selected-filters-example">
       <button class="pf-c-button pf-m-link pf-m-inline" type="button">Clear all filters</button>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/selected-filters-on-mobile-filters-collapsed-expandable-content-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-selected-filters-toggle-group-expanded-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src:
+        "./pictures/toolbar/selected-filters-on-mobile-filters-collapsed-expandable-content-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-selected-filters-toggle-group-expanded-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__item pf-m-bulk-select">
@@ -838,15 +856,19 @@ html:`<div class="pf-c-toolbar" id="toolbar-selected-filters-toggle-group-expand
       </div>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/selected-filters-on-mobile-filters-collapsed-selected-filters-summary-visible.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-selected-filters-toggle-group-collapsed-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src:
+        "./pictures/toolbar/selected-filters-on-mobile-filters-collapsed-selected-filters-summary-visible.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-selected-filters-toggle-group-collapsed-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__item pf-m-bulk-select">
@@ -1086,15 +1108,18 @@ html:`<div class="pf-c-toolbar" id="toolbar-selected-filters-toggle-group-collap
       <button class="pf-c-button pf-m-link pf-m-inline" type="button">Clear all filters</button>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/simple.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-simple-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/toolbar/simple.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-simple-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__item">Item</div>
@@ -1112,15 +1137,18 @@ html:`<div class="pf-c-toolbar" id="toolbar-simple-example">
       <div class="pf-c-toolbar__item">Item</div>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/stacked-on-desktop.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-stacked-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/toolbar/stacked-on-desktop.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-stacked-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__group pf-m-toggle-group pf-m-show-on-2xl">
@@ -1378,15 +1406,19 @@ html:`<div class="pf-c-toolbar" id="toolbar-stacked-example">
       </div>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/stacked-on-mobile-filters-collapsed-expandable-content-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-stacked-collapsed-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src:
+        "./pictures/toolbar/stacked-on-mobile-filters-collapsed-expandable-content-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-stacked-collapsed-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__group pf-m-toggle-group">
@@ -1641,15 +1673,18 @@ html:`<div class="pf-c-toolbar" id="toolbar-stacked-collapsed-example">
       </div>
     </div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/toggle-group.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-toggle-group-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/toolbar/toggle-group.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-toggle-group-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__group pf-m-toggle-group pf-m-show-on-lg">
@@ -1756,15 +1791,19 @@ html:`<div class="pf-c-toolbar" id="toolbar-toggle-group-example">
     </div>
     <div class="pf-c-toolbar__expandable-content pf-m-hidden" id="toolbar-toggle-group-example-expandable-content" hidden></div>
   </div>
-</div>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/toolbar/toggle-group-on-mobile-filters-collapsed-expandable-content-expanded.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-toolbar" id="toolbar-toggle-group-collapsed-example">
+</div>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src:
+        "./pictures/toolbar/toggle-group-on-mobile-filters-collapsed-expandable-content-expanded.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-toolbar" id="toolbar-toggle-group-collapsed-example">
   <div class="pf-c-toolbar__content">
     <div class="pf-c-toolbar__content-section">
       <div class="pf-c-toolbar__group pf-m-toggle-group">
@@ -1872,5 +1911,7 @@ html:`<div class="pf-c-toolbar" id="toolbar-toggle-group-collapsed-example">
       </div>
     </div>
   </div>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

@@ -1,18 +1,20 @@
 export default {
-    displayName: "chip",
-    name: "chip",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/chip/"
-}
+  displayName: "chip",
+  name: "chip",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/chip/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/chip/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-chip">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/chip/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-chip">
   <span class="pf-c-chip__text" id="chip_one">Chip</span>
   <button class="pf-c-button pf-m-plain" type="button" aria-labelledby="remove_chip_one chip_one" aria-label="Remove" id="remove_chip_one">
     <i class="fas fa-times" aria-hidden="true"></i>
@@ -44,5 +46,7 @@ html:`<div class="pf-c-chip">
 <br />
 <button class="pf-c-chip pf-m-overflow">
   <span class="pf-c-chip__text">Overflow chip</span>
-</button>`}}
-]
+</button>`,
+    },
+  },
+];

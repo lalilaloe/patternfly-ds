@@ -1,18 +1,20 @@
 export default {
-    displayName: "inputgroup",
-    name: "inputgroup",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/inputgroup/"
-}
+  displayName: "inputgroup",
+  name: "inputgroup",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/inputgroup/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/inputgroup/variations.png",
-width:800,
-height:600},
-snippet:{
-html:`<div class="pf-c-input-group">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/inputgroup/variations.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<div class="pf-c-input-group">
   <button class="pf-c-button pf-m-control" type="button" id="textAreaButton1">Button</button>
   <textarea class="pf-c-form-control" name="textarea1" id="textarea1" aria-label="Textarea with buttons" aria-describedby="textAreaButton1"></textarea>
   <button class="pf-c-button pf-m-control" type="button">Button</button>
@@ -107,5 +109,7 @@ html:`<div class="pf-c-input-group">
   <button class="pf-c-button pf-m-plain" type="button" aria-label="Popover for input">
     <i class="fas fa-question-circle" aria-hidden="true"></i>
   </button>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

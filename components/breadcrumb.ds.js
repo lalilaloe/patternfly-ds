@@ -1,18 +1,20 @@
 export default {
-    displayName: "breadcrumb",
-    name: "breadcrumb",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/breadcrumb/"
-}
+  displayName: "breadcrumb",
+  name: "breadcrumb",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/breadcrumb/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/breadcrumb/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/breadcrumb/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
   <ol class="pf-c-breadcrumb__list">
     <li class="pf-c-breadcrumb__item">
       <span class="pf-c-breadcrumb__item-divider">
@@ -39,15 +41,18 @@ html:`<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
       <a href="#" class="pf-c-breadcrumb__link pf-m-current" aria-current="page">Section landing</a>
     </li>
   </ol>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/breadcrumb/with-heading.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/breadcrumb/with-heading.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
   <ol class="pf-c-breadcrumb__list">
     <li class="pf-c-breadcrumb__item">
       <span class="pf-c-breadcrumb__item-divider">
@@ -82,15 +87,18 @@ html:`<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
       </h1>
     </li>
   </ol>
-</nav>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/breadcrumb/without-home-link.png",
-width:800,
-height:600},
-snippet:{
-html:`<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
+</nav>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/breadcrumb/without-home-link.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
   <ol class="pf-c-breadcrumb__list">
     <li class="pf-c-breadcrumb__item">
       <span class="pf-c-breadcrumb__item-divider">
@@ -127,5 +135,7 @@ html:`<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
       <a href="#" class="pf-c-breadcrumb__link pf-m-current" aria-current="page">Section landing</a>
     </li>
   </ol>
-</nav>`}}
-]
+</nav>`,
+    },
+  },
+];

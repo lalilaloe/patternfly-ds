@@ -1,18 +1,20 @@
 export default {
-    displayName: "skiptocontent",
-    name: "skiptocontent",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/skiptocontent/"
-}
+  displayName: "skiptocontent",
+  name: "skiptocontent",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/skiptocontent/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/skiptocontent/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<a class="pf-c-skip-to-content pf-c-button pf-m-primary" href="#main-content">Skip to content</a>Press tab to skip to content at the bottom of the page.
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/skiptocontent/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<a class="pf-c-skip-to-content pf-c-button pf-m-primary" href="#main-content">Skip to content</a>Press tab to skip to content at the bottom of the page.
 <div style="height:2000px"></div>
 <div class="pf-c-content">
   <h1 id="main-content">Main content</h1>
@@ -85,5 +87,7 @@ html:`<a class="pf-c-skip-to-content pf-c-button pf-m-primary" href="#main-conte
   <p>Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt ligula. Vestibulum at nunc elit. Praesent aliquet ligula mi, in luctus elit volutpat porta. Phasellus molestie diam vel nisi sodales, a eleifend augue laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.</p>
   <h6>Sixth level</h6>
   <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
-</div>`}}
-]
+</div>`,
+    },
+  },
+];

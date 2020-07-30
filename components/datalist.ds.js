@@ -1,18 +1,20 @@
 export default {
-    displayName: "datalist",
-    name: "datalist",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/datalist/"
-}
+  displayName: "datalist",
+  name: "datalist",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/datalist/",
+};
 
 export const variants = [
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/datalist/basic.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-data-list" role="list" aria-label="Basic data list example" id="data-list-basic">
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/datalist/basic.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-data-list" role="list" aria-label="Basic data list example" id="data-list-basic">
   <li class="pf-c-data-list__item" aria-labelledby="data-list-basic-item1">
     <div class="pf-c-data-list__item-row">
       <div class="pf-c-data-list__item-content">
@@ -33,15 +35,18 @@ html:`<ul class="pf-c-data-list" role="list" aria-label="Basic data list example
       </div>
     </div>
   </li>
-</ul>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/datalist/checkboxes-actions-and-additional-cells.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-data-list" role="list" aria-label="Checkbox and action data list example" id="data-list-checkboxes-actions-addl-cells">
+</ul>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/datalist/checkboxes-actions-and-additional-cells.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-data-list" role="list" aria-label="Checkbox and action data list example" id="data-list-checkboxes-actions-addl-cells">
   <li class="pf-c-data-list__item" aria-labelledby="data-list-checkboxes-actions-addl-cells-item1">
     <div class="pf-c-data-list__item-row">
       <div class="pf-c-data-list__item-control">
@@ -181,15 +186,18 @@ html:`<ul class="pf-c-data-list" role="list" aria-label="Checkbox and action dat
       </div>
     </div>
   </li>
-</ul>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/datalist/compact.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-data-list pf-m-compact" role="list" aria-label="Compact data list example" id="data-list-compact">
+</ul>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/datalist/compact.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-data-list pf-m-compact" role="list" aria-label="Compact data list example" id="data-list-compact">
   <li class="pf-c-data-list__item" aria-labelledby="data-list-compact-item1">
     <div class="pf-c-data-list__item-row">
       <div class="pf-c-data-list__item-control">
@@ -329,15 +337,18 @@ html:`<ul class="pf-c-data-list pf-m-compact" role="list" aria-label="Compact da
       </div>
     </div>
   </li>
-</ul>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/datalist/expandable.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-data-list" role="list" aria-label="Expandable data list example" id="data-list-expandable">
+</ul>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/datalist/expandable.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-data-list" role="list" aria-label="Expandable data list example" id="data-list-expandable">
   <li class="pf-c-data-list__item pf-m-expanded" aria-labelledby="data-list-expandable-item1">
     <div class="pf-c-data-list__item-row">
       <div class="pf-c-data-list__item-control">
@@ -513,15 +524,18 @@ html:`<ul class="pf-c-data-list" role="list" aria-label="Expandable data list ex
       <div class="pf-c-data-list__expandable-content-body pf-m-no-padding">This expanded section has no padding.</div>
     </section>
   </li>
-</ul>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/datalist/modifiers.png",
-width:800,
-height:600},
-snippet:{
-html:`<h2 class="Preview__section-title">Default fitting - example 1</h2>
+</ul>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/datalist/modifiers.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<h2 class="Preview__section-title">Default fitting - example 1</h2>
 <ul class="pf-c-data-list" role="list" aria-label="Width modifier data list example 1" id="data-list-default-fitting">
   <li class="pf-c-data-list__item" aria-labelledby="data-list-default-fitting-item1">
     <div class="pf-c-data-list__item-row">
@@ -680,15 +694,18 @@ html:`<h2 class="Preview__section-title">Default fitting - example 1</h2>
       <div class="pf-c-data-list__expandable-content-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
     </section>
   </li>
-</ul>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/datalist/selectable-expandable-rows.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-data-list" role="list" aria-label="Selectable, expandable data list example" id="data-list-selectable-expandable-rows">
+</ul>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/datalist/selectable-expandable-rows.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-data-list" role="list" aria-label="Selectable, expandable data list example" id="data-list-selectable-expandable-rows">
   <li class="pf-c-data-list__item pf-m-selectable pf-m-selected pf-m-expanded" aria-labelledby="data-list-selectable-expandable-rows-item1" tabindex="0">
     <div class="pf-c-data-list__item-row">
       <div class="pf-c-data-list__item-control">
@@ -773,15 +790,18 @@ html:`<ul class="pf-c-data-list" role="list" aria-label="Selectable, expandable 
       <div class="pf-c-data-list__expandable-content-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
     </section>
   </li>
-</ul>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/datalist/selectable-rows.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-data-list" role="list" aria-label="Selectable rows data list example" id="data-list-selectable-rows">
+</ul>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/datalist/selectable-rows.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-data-list" role="list" aria-label="Selectable rows data list example" id="data-list-selectable-rows">
   <li class="pf-c-data-list__item pf-m-selectable" aria-labelledby="data-list-selectable-rows-item1" tabindex="0">
     <div class="pf-c-data-list__item-row">
       <div class="pf-c-data-list__item-content">
@@ -809,15 +829,18 @@ html:`<ul class="pf-c-data-list" role="list" aria-label="Selectable rows data li
       </div>
     </div>
   </li>
-</ul>`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/datalist/with-headings.png",
-width:800,
-height:600},
-snippet:{
-html:`<ul class="pf-c-data-list" role="list" aria-label="With headings data list example" id="data-list-with-headings">
+</ul>`,
+    },
+  },
+  {
+    displayName: "Basic",
+    picture: {
+      src: "./pictures/datalist/with-headings.png",
+      width: 800,
+      height: 600,
+    },
+    snippet: {
+      html: `<ul class="pf-c-data-list" role="list" aria-label="With headings data list example" id="data-list-with-headings">
   <li class="pf-c-data-list__item" aria-labelledby="data-list-with-headings-item1">
     <div class="pf-c-data-list__item-row">
       <div class="pf-c-data-list__item-content">
@@ -838,5 +861,7 @@ html:`<ul class="pf-c-data-list" role="list" aria-label="With headings data list
       </div>
     </div>
   </li>
-</ul>`}}
-]
+</ul>`,
+    },
+  },
+];
