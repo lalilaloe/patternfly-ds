@@ -177,7 +177,7 @@ export const variants = [
         <li class="pf-c-app-launcher__menu-wrapper pf-m-external pf-m-favorite">
           <a class="pf-c-app-launcher__menu-item pf-m-link" href="#" target="_blank">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Link 3
             <span class="pf-c-app-launcher__menu-item-external-icon">
               <i class="fas fa-external-link-alt" aria-hidden="true"></i>
@@ -197,7 +197,7 @@ export const variants = [
         <li class="pf-c-app-launcher__menu-wrapper pf-m-external">
           <a class="pf-c-app-launcher__menu-item pf-m-link" href="#" target="_blank">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Link 1
             <span class="pf-c-app-launcher__menu-item-external-icon">
               <i class="fas fa-external-link-alt" aria-hidden="true"></i>
@@ -211,7 +211,7 @@ export const variants = [
         <li class="pf-c-app-launcher__menu-wrapper pf-m-external pf-m-favorite">
           <a class="pf-c-app-launcher__menu-item pf-m-link" href="#" target="_blank">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Link 2
             <span class="pf-c-app-launcher__menu-item-external-icon">
               <i class="fas fa-external-link-alt" aria-hidden="true"></i>
@@ -231,7 +231,7 @@ export const variants = [
         <li class="pf-c-app-launcher__menu-wrapper pf-m-external pf-m-favorite">
           <a class="pf-c-app-launcher__menu-item pf-m-link" href="#" target="_blank">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Link 3
             <span class="pf-c-app-launcher__menu-item-external-icon">
               <i class="fas fa-external-link-alt" aria-hidden="true"></i>
@@ -245,7 +245,7 @@ export const variants = [
         <li class="pf-c-app-launcher__menu-wrapper pf-m-external">
           <a class="pf-c-app-launcher__menu-item pf-m-link" href="#" target="_blank">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Link 4
             <span class="pf-c-app-launcher__menu-item-external-icon">
               <i class="fas fa-external-link-alt" aria-hidden="true"></i>
@@ -391,7 +391,7 @@ export const variants = [
         <li>
           <a class="pf-c-app-launcher__menu-item pf-m-external" href="#" target="_blank">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Group 1 link
             <span class="pf-c-app-launcher__menu-item-external-icon">
               <i class="fas fa-external-link-alt" aria-hidden="true"></i>
@@ -402,7 +402,7 @@ export const variants = [
         <li>
           <a class="pf-c-app-launcher__menu-item pf-m-external" href="#" target="_blank">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Group 1 link
             <span class="pf-c-app-launcher__menu-item-external-icon">
               <i class="fas fa-external-link-alt" aria-hidden="true"></i>
@@ -419,7 +419,7 @@ export const variants = [
         <li>
           <a class="pf-c-app-launcher__menu-item pf-m-external" href="#" target="_blank">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Group 2 link
             <span class="pf-c-app-launcher__menu-item-external-icon">
               <i class="fas fa-external-link-alt" aria-hidden="true"></i>
@@ -430,7 +430,7 @@ export const variants = [
         <li>
           <a class="pf-c-app-launcher__menu-item pf-m-external" href="#" target="_blank">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Group 2 link
             <span class="pf-c-app-launcher__menu-item-external-icon">
               <i class="fas fa-external-link-alt" aria-hidden="true"></i>

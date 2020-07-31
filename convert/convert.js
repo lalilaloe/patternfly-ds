@@ -167,9 +167,9 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
 
             const imageSize = sizeOf(screenshotFullPath);
             const htmlInput = he.decode(pageData.result.pageContext.code) // decode html for export to file
-                .replace('/assets/', 'node_modules/@patternfly/patternfly/assets/') // Make assets resolve correctly when using snipit
+                .replace(/\/assets/g, 'node_modules/@patternfly/patternfly/assets') // Make assets resolve correctly when using snipit
                 .replace(/`/g, '\\`') // Occasionally backticks are used in the snippets (ex. page component)
-            const html = `\`${html}\``
+            const html = `\`${htmlInput}\``
             variantSnippets.push({
                 name: variant,
                 screenshot: {

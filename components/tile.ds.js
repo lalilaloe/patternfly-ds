@@ -166,7 +166,7 @@ export const variants = [
 <div class="pf-c-tile pf-m-selected" tabindex="0">
   <div class="pf-c-tile__header pf-m-stacked">
     <div class="pf-c-tile__icon">
-      <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+      <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
     </div>
     <div class="pf-c-tile__title">Selected</div>
   </div>
@@ -175,7 +175,7 @@ export const variants = [
 <div class="pf-c-tile pf-m-disabled" tabindex="0">
   <div class="pf-c-tile__header pf-m-stacked">
     <div class="pf-c-tile__icon">
-      <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+      <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
     </div>
     <div class="pf-c-tile__title">Disabled</div>
   </div>
@@ -232,7 +232,7 @@ export const variants = [
 <div class="pf-c-tile pf-m-display-lg pf-m-selected" tabindex="0">
   <div class="pf-c-tile__header pf-m-stacked">
     <div class="pf-c-tile__icon">
-      <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" height="54px" width="54px" />
+      <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" height="54px" width="54px" />
     </div>
     <div class="pf-c-tile__title">Selected</div>
   </div>
@@ -241,7 +241,7 @@ export const variants = [
 <div class="pf-c-tile pf-m-display-lg pf-m-disabled" tabindex="0">
   <div class="pf-c-tile__header pf-m-stacked">
     <div class="pf-c-tile__icon">
-      <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" height="54px" width="54px" />
+      <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" height="54px" width="54px" />
     </div>
     <div class="pf-c-tile__title">Disabled</div>
   </div>
