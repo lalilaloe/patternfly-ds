@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic-tiles",
     picture: {
-      src: "./components/pictures/tile/basic-tiles.png",
+      src: "./pictures/tile/basic-tiles.png",
       width: 491,
       height: 336,
     },
@@ -83,7 +83,7 @@ export const variants = [
   {
     displayName: "extra-content",
     picture: {
-      src: "./components/pictures/tile/extra-content.png",
+      src: "./pictures/tile/extra-content.png",
       width: 956,
       height: 205,
     },
@@ -120,7 +120,7 @@ export const variants = [
   {
     displayName: "stacked-tiles",
     picture: {
-      src: "./components/pictures/tile/stacked-tiles.png",
+      src: "./pictures/tile/stacked-tiles.png",
       width: 491,
       height: 296,
     },
@@ -186,7 +186,7 @@ export const variants = [
   {
     displayName: "stacked-tiles-large",
     picture: {
-      src: "./components/pictures/tile/stacked-tiles-large.png",
+      src: "./pictures/tile/stacked-tiles-large.png",
       width: 491,
       height: 353,
     },

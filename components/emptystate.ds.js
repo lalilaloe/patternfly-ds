@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/emptystate/basic.png",
+      src: "./pictures/emptystate/basic.png",
       width: 855,
       height: 351,
     },
@@ -35,7 +35,7 @@ export const variants = [
   {
     displayName: "extra-large",
     picture: {
-      src: "./components/pictures/emptystate/extra-large.png",
+      src: "./pictures/emptystate/extra-large.png",
       width: 855,
       height: 381,
     },
@@ -53,7 +53,7 @@ export const variants = [
   {
     displayName: "large",
     picture: {
-      src: "./components/pictures/emptystate/large.png",
+      src: "./pictures/emptystate/large.png",
       width: 696,
       height: 391,
     },
@@ -79,7 +79,7 @@ export const variants = [
   {
     displayName: "small",
     picture: {
-      src: "./components/pictures/emptystate/small.png",
+      src: "./pictures/emptystate/small.png",
       width: 496,
       height: 415,
     },
@@ -105,7 +105,7 @@ export const variants = [
   {
     displayName: "with-primary-element",
     picture: {
-      src: "./components/pictures/emptystate/with-primary-element.png",
+      src: "./pictures/emptystate/with-primary-element.png",
       width: 855,
       height: 307,
     },

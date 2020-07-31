@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "static-alert-group",
     picture: {
-      src: "./components/pictures/alertgroup/static-alert-group.png",
+      src: "./pictures/alertgroup/static-alert-group.png",
       width: 305,
       height: 239,
     },
@@ -59,7 +59,7 @@ export const variants = [
   {
     displayName: "toast-alert-group",
     picture: {
-      src: "./components/pictures/alertgroup/toast-alert-group.png",
+      src: "./pictures/alertgroup/toast-alert-group.png",
       width: 800,
       height: 500,
     },

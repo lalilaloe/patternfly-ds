@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "aria-disabled",
     picture: {
-      src: "./components/pictures/button/aria-disabled.png",
+      src: "./pictures/button/aria-disabled.png",
       width: 855,
       height: 117,
     },
@@ -32,7 +32,7 @@ export const variants = [
   {
     displayName: "block-level",
     picture: {
-      src: "./components/pictures/button/block-level.png",
+      src: "./pictures/button/block-level.png",
       width: 293,
       height: 75,
     },
@@ -43,7 +43,7 @@ export const variants = [
   {
     displayName: "call-to-action",
     picture: {
-      src: "./components/pictures/button/call-to-action.png",
+      src: "./pictures/button/call-to-action.png",
       width: 855,
       height: 131,
     },
@@ -66,7 +66,7 @@ export const variants = [
   {
     displayName: "disabled",
     picture: {
-      src: "./components/pictures/button/disabled.png",
+      src: "./pictures/button/disabled.png",
       width: 855,
       height: 117,
     },
@@ -89,7 +89,7 @@ export const variants = [
   {
     displayName: "links-as-buttons",
     picture: {
-      src: "./components/pictures/button/links-as-buttons.png",
+      src: "./pictures/button/links-as-buttons.png",
       width: 632,
       height: 75,
     },
@@ -102,7 +102,7 @@ export const variants = [
   {
     displayName: "types",
     picture: {
-      src: "./components/pictures/button/types.png",
+      src: "./pictures/button/types.png",
       width: 293,
       height: 75,
     },
@@ -115,7 +115,7 @@ export const variants = [
   {
     displayName: "variations",
     picture: {
-      src: "./components/pictures/button/variations.png",
+      src: "./pictures/button/variations.png",
       width: 634,
       height: 360,
     },

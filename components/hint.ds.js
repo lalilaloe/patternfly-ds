@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "default-with-no-title",
     picture: {
-      src: "./components/pictures/hint/default-with-no-title.png",
+      src: "./pictures/hint/default-with-no-title.png",
       width: 855,
       height: 269,
     },
@@ -56,7 +56,7 @@ export const variants = [
   {
     displayName: "hint-with-title",
     picture: {
-      src: "./components/pictures/hint/hint-with-title.png",
+      src: "./pictures/hint/hint-with-title.png",
       width: 812,
       height: 337,
     },

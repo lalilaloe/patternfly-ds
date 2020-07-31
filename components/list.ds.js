@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "inline",
     picture: {
-      src: "./components/pictures/list/inline.png",
+      src: "./pictures/list/inline.png",
       width: 406,
       height: 57,
     },
@@ -24,7 +24,7 @@ export const variants = [
   {
     displayName: "ordered",
     picture: {
-      src: "./components/pictures/list/ordered.png",
+      src: "./pictures/list/ordered.png",
       width: 510,
       height: 441,
     },
@@ -54,7 +54,7 @@ export const variants = [
   {
     displayName: "unordered",
     picture: {
-      src: "./components/pictures/list/unordered.png",
+      src: "./pictures/list/unordered.png",
       width: 528,
       height: 345,
     },

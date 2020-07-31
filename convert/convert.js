@@ -37,7 +37,7 @@ function buildVariantJson(component) {
             {
                 displayName: variant.name,
                 picture: {
-                    src: `./${slash(variant.screenshot.url)}`.replace("//", "/"), // Compatible with windows
+                    src: `./${variant.screenshot.url}`.replace("//", "/"), // Compatible with windows
                     width: variant.screenshot.width,
                     height: variant.screenshot.height
                 },
@@ -170,7 +170,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
             variantSnippets.push({
                 name: variant,
                 screenshot: {
-                    url: screenshotFullPath.replace(rootDir, '').replace('/components/', ''),
+                    url: slash(screenshotFullPath.replace(rootDir, '')).replace('/components/', ''),
                     width: imageSize.width,
                     height: imageSize.height
                 },

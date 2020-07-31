@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "default",
     picture: {
-      src: "./components/pictures/descriptionlist/default.png",
+      src: "./pictures/descriptionlist/default.png",
       width: 293,
       height: 394,
     },
@@ -68,7 +68,7 @@ export const variants = [
   {
     displayName: "default-2-col",
     picture: {
-      src: "./components/pictures/descriptionlist/default-2-col.png",
+      src: "./pictures/descriptionlist/default-2-col.png",
       width: 293,
       height: 240,
     },
@@ -127,7 +127,7 @@ export const variants = [
   {
     displayName: "default-3-col-on-lg",
     picture: {
-      src: "./components/pictures/descriptionlist/default-3-col-on-lg.png",
+      src: "./pictures/descriptionlist/default-3-col-on-lg.png",
       width: 411,
       height: 163,
     },
@@ -186,8 +186,7 @@ export const variants = [
   {
     displayName: "default-auto-columns-width",
     picture: {
-      src:
-        "./components/pictures/descriptionlist/default-auto-columns-width.png",
+      src: "./pictures/descriptionlist/default-auto-columns-width.png",
       width: 373,
       height: 163,
     },
@@ -246,7 +245,7 @@ export const variants = [
   {
     displayName: "default-inline-grid",
     picture: {
-      src: "./components/pictures/descriptionlist/default-inline-grid.png",
+      src: "./pictures/descriptionlist/default-inline-grid.png",
       width: 411,
       height: 165,
     },
@@ -305,8 +304,7 @@ export const variants = [
   {
     displayName: "default-responsive-columns",
     picture: {
-      src:
-        "./components/pictures/descriptionlist/default-responsive-columns.png",
+      src: "./pictures/descriptionlist/default-responsive-columns.png",
       width: 293,
       height: 240,
     },
@@ -365,7 +363,7 @@ export const variants = [
   {
     displayName: "horizontal",
     picture: {
-      src: "./components/pictures/descriptionlist/horizontal.png",
+      src: "./pictures/descriptionlist/horizontal.png",
       width: 306,
       height: 249,
     },
@@ -424,7 +422,7 @@ export const variants = [
   {
     displayName: "horizontal-2-col",
     picture: {
-      src: "./components/pictures/descriptionlist/horizontal-2-col.png",
+      src: "./pictures/descriptionlist/horizontal-2-col.png",
       width: 604,
       height: 153,
     },
@@ -483,7 +481,7 @@ export const variants = [
   {
     displayName: "horizontal-3-col-on-lg",
     picture: {
-      src: "./components/pictures/descriptionlist/horizontal-3-col-on-lg.png",
+      src: "./pictures/descriptionlist/horizontal-3-col-on-lg.png",
       width: 888,
       height: 105,
     },
@@ -542,8 +540,7 @@ export const variants = [
   {
     displayName: "horizontal-auto-column-width",
     picture: {
-      src:
-        "./components/pictures/descriptionlist/horizontal-auto-column-width.png",
+      src: "./pictures/descriptionlist/horizontal-auto-column-width.png",
       width: 599,
       height: 153,
     },
@@ -602,8 +599,7 @@ export const variants = [
   {
     displayName: "horizontal-responsive-columns",
     picture: {
-      src:
-        "./components/pictures/descriptionlist/horizontal-responsive-columns.png",
+      src: "./pictures/descriptionlist/horizontal-responsive-columns.png",
       width: 604,
       height: 153,
     },

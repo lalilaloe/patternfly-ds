@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic-table",
     picture: {
-      src: "./components/pictures/table/basic-table.png",
+      src: "./pictures/table/basic-table.png",
       width: 500,
       height: 432,
     },
@@ -61,7 +61,7 @@ export const variants = [
   {
     displayName: "compact",
     picture: {
-      src: "./components/pictures/table/compact.png",
+      src: "./pictures/table/compact.png",
       width: 751,
       height: 239,
     },
@@ -262,7 +262,7 @@ export const variants = [
   {
     displayName: "compact-expandable",
     picture: {
-      src: "./components/pictures/table/compact-expandable.png",
+      src: "./pictures/table/compact-expandable.png",
       width: 855,
       height: 589,
     },
@@ -550,7 +550,7 @@ export const variants = [
   {
     displayName: "compact-with-no-borders",
     picture: {
-      src: "./components/pictures/table/compact-with-no-borders.png",
+      src: "./pictures/table/compact-with-no-borders.png",
       width: 751,
       height: 235,
     },
@@ -751,7 +751,7 @@ export const variants = [
   {
     displayName: "expandable",
     picture: {
-      src: "./components/pictures/table/expandable.png",
+      src: "./pictures/table/expandable.png",
       width: 855,
       height: 841,
     },
@@ -1026,7 +1026,7 @@ export const variants = [
   {
     displayName: "modifiers-without-text-wrapper",
     picture: {
-      src: "./components/pictures/table/modifiers-without-text-wrapper.png",
+      src: "./pictures/table/modifiers-without-text-wrapper.png",
       width: 855,
       height: 470,
     },
@@ -1067,7 +1067,7 @@ export const variants = [
   {
     displayName: "sortable",
     picture: {
-      src: "./components/pictures/table/sortable.png",
+      src: "./pictures/table/sortable.png",
       width: 551,
       height: 379,
     },
@@ -1160,7 +1160,7 @@ export const variants = [
   {
     displayName: "sticky-header",
     picture: {
-      src: "./components/pictures/table/sticky-header.png",
+      src: "./pictures/table/sticky-header.png",
       width: 500,
       height: 378,
     },
@@ -1211,7 +1211,7 @@ export const variants = [
   {
     displayName: "table-text-element",
     picture: {
-      src: "./components/pictures/table/table-text-element.png",
+      src: "./pictures/table/table-text-element.png",
       width: 855,
       height: 1096,
     },
@@ -1373,7 +1373,7 @@ export const variants = [
   {
     displayName: "th-truncation",
     picture: {
-      src: "./components/pictures/table/th-truncation.png",
+      src: "./pictures/table/th-truncation.png",
       width: 800,
       height: 357,
     },
@@ -1421,7 +1421,7 @@ export const variants = [
   {
     displayName: "width-constrained",
     picture: {
-      src: "./components/pictures/table/width-constrained.png",
+      src: "./pictures/table/width-constrained.png",
       width: 855,
       height: 329,
     },
@@ -1460,7 +1460,7 @@ export const variants = [
   {
     displayName: "with-checkboxes-and-actions",
     picture: {
-      src: "./components/pictures/table/with-checkboxes-and-actions.png",
+      src: "./pictures/table/with-checkboxes-and-actions.png",
       width: 642,
       height: 454,
     },
@@ -1644,7 +1644,7 @@ export const variants = [
   {
     displayName: "with-compound-expansion",
     picture: {
-      src: "./components/pictures/table/with-compound-expansion.png",
+      src: "./pictures/table/with-compound-expansion.png",
       width: 820,
       height: 536,
     },
@@ -3455,8 +3455,7 @@ export const variants = [
   {
     displayName: "with-hiddenvisible-breakpoint-modifiers",
     picture: {
-      src:
-        "./components/pictures/table/with-hiddenvisible-breakpoint-modifiers.png",
+      src: "./pictures/table/with-hiddenvisible-breakpoint-modifiers.png",
       width: 640,
       height: 379,
     },
@@ -3507,7 +3506,7 @@ export const variants = [
   {
     displayName: "with-width-modifiers",
     picture: {
-      src: "./components/pictures/table/with-width-modifiers.png",
+      src: "./pictures/table/with-width-modifiers.png",
       width: 670,
       height: 454,
     },

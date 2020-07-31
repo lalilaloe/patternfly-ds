@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "bottom",
     picture: {
-      src: "./components/pictures/popover/bottom.png",
+      src: "./pictures/popover/bottom.png",
       width: 364,
       height: 144,
     },
@@ -30,7 +30,7 @@ export const variants = [
   {
     displayName: "left",
     picture: {
-      src: "./components/pictures/popover/left.png",
+      src: "./pictures/popover/left.png",
       width: 364,
       height: 144,
     },
@@ -51,7 +51,7 @@ export const variants = [
   {
     displayName: "right",
     picture: {
-      src: "./components/pictures/popover/right.png",
+      src: "./pictures/popover/right.png",
       width: 364,
       height: 144,
     },
@@ -72,7 +72,7 @@ export const variants = [
   {
     displayName: "top",
     picture: {
-      src: "./components/pictures/popover/top.png",
+      src: "./pictures/popover/top.png",
       width: 364,
       height: 144,
     },
@@ -93,7 +93,7 @@ export const variants = [
   {
     displayName: "without-headerfooter",
     picture: {
-      src: "./components/pictures/popover/without-headerfooter.png",
+      src: "./pictures/popover/without-headerfooter.png",
       width: 364,
       height: 107,
     },

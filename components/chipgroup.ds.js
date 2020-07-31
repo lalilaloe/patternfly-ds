@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "chip-group-with-categories",
     picture: {
-      src: "./components/pictures/chipgroup/chip-group-with-categories.png",
+      src: "./pictures/chipgroup/chip-group-with-categories.png",
       width: 406,
       height: 67,
     },
@@ -48,8 +48,7 @@ export const variants = [
   {
     displayName: "chip-group-with-categories-overflow",
     picture: {
-      src:
-        "./components/pictures/chipgroup/chip-group-with-categories-overflow.png",
+      src: "./pictures/chipgroup/chip-group-with-categories-overflow.png",
       width: 463,
       height: 67,
     },
@@ -94,7 +93,7 @@ export const variants = [
     displayName: "chip-group-with-categories-overflow-expanded",
     picture: {
       src:
-        "./components/pictures/chipgroup/chip-group-with-categories-overflow-expanded.png",
+        "./pictures/chipgroup/chip-group-with-categories-overflow-expanded.png",
       width: 656,
       height: 67,
     },
@@ -154,8 +153,7 @@ export const variants = [
   {
     displayName: "chip-group-with-categories-removable",
     picture: {
-      src:
-        "./components/pictures/chipgroup/chip-group-with-categories-removable.png",
+      src: "./pictures/chipgroup/chip-group-with-categories-removable.png",
       width: 454,
       height: 69,
     },
@@ -199,8 +197,7 @@ export const variants = [
   {
     displayName: "simple-inline-chip-group-expanded",
     picture: {
-      src:
-        "./components/pictures/chipgroup/simple-inline-chip-group-expanded.png",
+      src: "./pictures/chipgroup/simple-inline-chip-group-expanded.png",
       width: 550,
       height: 59,
     },
@@ -259,8 +256,7 @@ export const variants = [
   {
     displayName: "simple-inline-chip-group-overflow",
     picture: {
-      src:
-        "./components/pictures/chipgroup/simple-inline-chip-group-overflow.png",
+      src: "./pictures/chipgroup/simple-inline-chip-group-overflow.png",
       width: 357,
       height: 59,
     },

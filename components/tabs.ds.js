@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "box",
     picture: {
-      src: "./components/pictures/tabs/box.png",
+      src: "./pictures/tabs/box.png",
       width: 571,
       height: 73,
     },
@@ -59,7 +59,7 @@ export const variants = [
   {
     displayName: "box-overflow",
     picture: {
-      src: "./components/pictures/tabs/box-overflow.png",
+      src: "./pictures/tabs/box-overflow.png",
       width: 667,
       height: 73,
     },
@@ -109,7 +109,7 @@ export const variants = [
   {
     displayName: "box-tabs-with-sub-tabs",
     picture: {
-      src: "./components/pictures/tabs/box-tabs-with-sub-tabs.png",
+      src: "./pictures/tabs/box-tabs-with-sub-tabs.png",
       width: 667,
       height: 110,
     },
@@ -199,7 +199,7 @@ export const variants = [
   {
     displayName: "box-vertical",
     picture: {
-      src: "./components/pictures/tabs/box-vertical.png",
+      src: "./pictures/tabs/box-vertical.png",
       width: 293,
       height: 433,
     },
@@ -243,7 +243,7 @@ export const variants = [
   {
     displayName: "default",
     picture: {
-      src: "./components/pictures/tabs/default.png",
+      src: "./pictures/tabs/default.png",
       width: 571,
       height: 73,
     },
@@ -293,7 +293,7 @@ export const variants = [
   {
     displayName: "default-overflow-beginning-of-list",
     picture: {
-      src: "./components/pictures/tabs/default-overflow-beginning-of-list.png",
+      src: "./pictures/tabs/default-overflow-beginning-of-list.png",
       width: 667,
       height: 73,
     },
@@ -343,7 +343,7 @@ export const variants = [
   {
     displayName: "filled",
     picture: {
-      src: "./components/pictures/tabs/filled.png",
+      src: "./pictures/tabs/filled.png",
       width: 314,
       height: 73,
     },
@@ -378,7 +378,7 @@ export const variants = [
   {
     displayName: "filled-box",
     picture: {
-      src: "./components/pictures/tabs/filled-box.png",
+      src: "./pictures/tabs/filled-box.png",
       width: 314,
       height: 73,
     },
@@ -413,7 +413,7 @@ export const variants = [
   {
     displayName: "filled-box-with-icons",
     picture: {
-      src: "./components/pictures/tabs/filled-box-with-icons.png",
+      src: "./pictures/tabs/filled-box-with-icons.png",
       width: 412,
       height: 73,
     },
@@ -457,7 +457,7 @@ export const variants = [
   {
     displayName: "filled-with-icons",
     picture: {
-      src: "./components/pictures/tabs/filled-with-icons.png",
+      src: "./pictures/tabs/filled-with-icons.png",
       width: 412,
       height: 73,
     },
@@ -501,7 +501,7 @@ export const variants = [
   {
     displayName: "icons-and-text",
     picture: {
-      src: "./components/pictures/tabs/icons-and-text.png",
+      src: "./pictures/tabs/icons-and-text.png",
       width: 773,
       height: 73,
     },
@@ -569,7 +569,7 @@ export const variants = [
   {
     displayName: "inset",
     picture: {
-      src: "./components/pictures/tabs/inset.png",
+      src: "./pictures/tabs/inset.png",
       width: 619,
       height: 73,
     },
@@ -619,7 +619,7 @@ export const variants = [
   {
     displayName: "inset-box",
     picture: {
-      src: "./components/pictures/tabs/inset-box.png",
+      src: "./pictures/tabs/inset-box.png",
       width: 619,
       height: 73,
     },
@@ -669,7 +669,7 @@ export const variants = [
   {
     displayName: "sub-nav-using-the-nav-element",
     picture: {
-      src: "./components/pictures/tabs/sub-nav-using-the-nav-element.png",
+      src: "./pictures/tabs/sub-nav-using-the-nav-element.png",
       width: 571,
       height: 110,
     },
@@ -759,7 +759,7 @@ export const variants = [
   {
     displayName: "tabs-with-sub-tabs",
     picture: {
-      src: "./components/pictures/tabs/tabs-with-sub-tabs.png",
+      src: "./pictures/tabs/tabs-with-sub-tabs.png",
       width: 667,
       height: 110,
     },
@@ -849,7 +849,7 @@ export const variants = [
   {
     displayName: "using-the-nav-element",
     picture: {
-      src: "./components/pictures/tabs/using-the-nav-element.png",
+      src: "./pictures/tabs/using-the-nav-element.png",
       width: 667,
       height: 73,
     },
@@ -899,7 +899,7 @@ export const variants = [
   {
     displayName: "vertical",
     picture: {
-      src: "./components/pictures/tabs/vertical.png",
+      src: "./pictures/tabs/vertical.png",
       width: 293,
       height: 417,
     },

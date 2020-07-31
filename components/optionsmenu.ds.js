@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "align-right",
     picture: {
-      src: "./components/pictures/optionsmenu/align-right.png",
+      src: "./pictures/optionsmenu/align-right.png",
       width: 293,
       height: 215,
     },
@@ -42,7 +42,7 @@ export const variants = [
   {
     displayName: "align-top",
     picture: {
-      src: "./components/pictures/optionsmenu/align-top.png",
+      src: "./pictures/optionsmenu/align-top.png",
       width: 293,
       height: 215,
     },
@@ -75,7 +75,7 @@ export const variants = [
   {
     displayName: "disabled",
     picture: {
-      src: "./components/pictures/optionsmenu/disabled.png",
+      src: "./pictures/optionsmenu/disabled.png",
       width: 293,
       height: 69,
     },
@@ -93,7 +93,7 @@ export const variants = [
   {
     displayName: "multiple-options",
     picture: {
-      src: "./components/pictures/optionsmenu/multiple-options.png",
+      src: "./pictures/optionsmenu/multiple-options.png",
       width: 293,
       height: 350,
     },
@@ -193,7 +193,7 @@ export const variants = [
   {
     displayName: "plain",
     picture: {
-      src: "./components/pictures/optionsmenu/plain.png",
+      src: "./pictures/optionsmenu/plain.png",
       width: 293,
       height: 215,
     },
@@ -263,7 +263,7 @@ export const variants = [
   {
     displayName: "plain-with-text",
     picture: {
-      src: "./components/pictures/optionsmenu/plain-with-text.png",
+      src: "./pictures/optionsmenu/plain-with-text.png",
       width: 396,
       height: 280,
     },
@@ -348,7 +348,7 @@ export const variants = [
   {
     displayName: "single-option",
     picture: {
-      src: "./components/pictures/optionsmenu/single-option.png",
+      src: "./pictures/optionsmenu/single-option.png",
       width: 333,
       height: 215,
     },
@@ -404,7 +404,7 @@ export const variants = [
   {
     displayName: "with-groups",
     picture: {
-      src: "./components/pictures/optionsmenu/with-groups.png",
+      src: "./pictures/optionsmenu/with-groups.png",
       width: 293,
       height: 450,
     },
@@ -460,8 +460,7 @@ export const variants = [
   {
     displayName: "with-groups-and-dividers-between-groups",
     picture: {
-      src:
-        "./components/pictures/optionsmenu/with-groups-and-dividers-between-groups.png",
+      src: "./pictures/optionsmenu/with-groups-and-dividers-between-groups.png",
       width: 293,
       height: 450,
     },
@@ -519,8 +518,7 @@ export const variants = [
   {
     displayName: "with-groups-and-dividers-between-items",
     picture: {
-      src:
-        "./components/pictures/optionsmenu/with-groups-and-dividers-between-items.png",
+      src: "./pictures/optionsmenu/with-groups-and-dividers-between-items.png",
       width: 293,
       height: 450,
     },

@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "horizontal-nav",
     picture: {
-      src: "./components/pictures/page/horizontal-nav.png",
+      src: "./pictures/page/horizontal-nav.png",
       width: 293,
       height: 237,
     },
@@ -34,7 +34,7 @@ export const variants = [
   {
     displayName: "main-section-padding",
     picture: {
-      src: "./components/pictures/page/main-section-padding.png",
+      src: "./pictures/page/main-section-padding.png",
       width: 855,
       height: 269,
     },
@@ -61,7 +61,7 @@ export const variants = [
   {
     displayName: "vertical-nav",
     picture: {
-      src: "./components/pictures/page/vertical-nav.png",
+      src: "./pictures/page/vertical-nav.png",
       width: 322,
       height: 237,
     },
@@ -89,7 +89,7 @@ export const variants = [
   {
     displayName: "with-or-without-fill",
     picture: {
-      src: "./components/pictures/page/with-or-without-fill.png",
+      src: "./pictures/page/with-or-without-fill.png",
       width: 482,
       height: 253,
     },

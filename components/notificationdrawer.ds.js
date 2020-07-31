@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/notificationdrawer/basic.png",
+      src: "./pictures/notificationdrawer/basic.png",
       width: 855,
       height: 905,
     },
@@ -270,7 +270,7 @@ export const variants = [
   {
     displayName: "groups",
     picture: {
-      src: "./components/pictures/notificationdrawer/groups.png",
+      src: "./pictures/notificationdrawer/groups.png",
       width: 855,
       height: 1133,
     },

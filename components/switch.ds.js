@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/switch/basic.png",
+      src: "./pictures/switch/basic.png",
       width: 293,
       height: 108,
     },
@@ -33,7 +33,7 @@ export const variants = [
   {
     displayName: "disabled",
     picture: {
-      src: "./components/pictures/switch/disabled.png",
+      src: "./pictures/switch/disabled.png",
       width: 293,
       height: 108,
     },
@@ -57,7 +57,7 @@ export const variants = [
   {
     displayName: "without-label",
     picture: {
-      src: "./components/pictures/switch/without-label.png",
+      src: "./pictures/switch/without-label.png",
       width: 293,
       height: 108,
     },

@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "additional-section-above-main",
     picture: {
-      src: "./components/pictures/drawer/additional-section-above-main.png",
+      src: "./pictures/drawer/additional-section-above-main.png",
       width: 855,
       height: 201,
     },
@@ -41,7 +41,7 @@ export const variants = [
   {
     displayName: "closed-panel-on-left",
     picture: {
-      src: "./components/pictures/drawer/closed-panel-on-left.png",
+      src: "./pictures/drawer/closed-panel-on-left.png",
       width: 855,
       height: 177,
     },
@@ -72,7 +72,7 @@ export const variants = [
   {
     displayName: "closed-panel-on-right-default",
     picture: {
-      src: "./components/pictures/drawer/closed-panel-on-right-default.png",
+      src: "./pictures/drawer/closed-panel-on-right-default.png",
       width: 855,
       height: 177,
     },
@@ -103,7 +103,7 @@ export const variants = [
   {
     displayName: "expanded-inline-panel",
     picture: {
-      src: "./components/pictures/drawer/expanded-inline-panel.png",
+      src: "./pictures/drawer/expanded-inline-panel.png",
       width: 855,
       height: 345,
     },
@@ -134,7 +134,7 @@ export const variants = [
   {
     displayName: "expanded-inline-panel-on-left",
     picture: {
-      src: "./components/pictures/drawer/expanded-inline-panel-on-left.png",
+      src: "./pictures/drawer/expanded-inline-panel-on-left.png",
       width: 855,
       height: 345,
     },
@@ -165,7 +165,7 @@ export const variants = [
   {
     displayName: "expanded-panel-on-left",
     picture: {
-      src: "./components/pictures/drawer/expanded-panel-on-left.png",
+      src: "./pictures/drawer/expanded-panel-on-left.png",
       width: 855,
       height: 177,
     },
@@ -196,7 +196,7 @@ export const variants = [
   {
     displayName: "expanded-panel-on-right",
     picture: {
-      src: "./components/pictures/drawer/expanded-panel-on-right.png",
+      src: "./pictures/drawer/expanded-panel-on-right.png",
       width: 855,
       height: 177,
     },
@@ -227,7 +227,7 @@ export const variants = [
   {
     displayName: "modified-content-padding",
     picture: {
-      src: "./components/pictures/drawer/modified-content-padding.png",
+      src: "./pictures/drawer/modified-content-padding.png",
       width: 855,
       height: 249,
     },
@@ -259,7 +259,7 @@ export const variants = [
   {
     displayName: "modified-panel-padding",
     picture: {
-      src: "./components/pictures/drawer/modified-panel-padding.png",
+      src: "./pictures/drawer/modified-panel-padding.png",
       width: 855,
       height: 177,
     },
@@ -290,7 +290,7 @@ export const variants = [
   {
     displayName: "modified-panel-width",
     picture: {
-      src: "./components/pictures/drawer/modified-panel-width.png",
+      src: "./pictures/drawer/modified-panel-width.png",
       width: 855,
       height: 177,
     },
@@ -321,7 +321,7 @@ export const variants = [
   {
     displayName: "stacked-content-body-elements",
     picture: {
-      src: "./components/pictures/drawer/stacked-content-body-elements.png",
+      src: "./pictures/drawer/stacked-content-body-elements.png",
       width: 485,
       height: 207,
     },
@@ -354,7 +354,7 @@ export const variants = [
   {
     displayName: "static",
     picture: {
-      src: "./components/pictures/drawer/static.png",
+      src: "./pictures/drawer/static.png",
       width: 855,
       height: 369,
     },

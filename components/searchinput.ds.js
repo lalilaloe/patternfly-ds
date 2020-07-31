@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/searchinput/basic.png",
+      src: "./pictures/searchinput/basic.png",
       width: 293,
       height: 69,
     },
@@ -27,7 +27,7 @@ export const variants = [
   {
     displayName: "match-with-navigable-options",
     picture: {
-      src: "./components/pictures/searchinput/match-with-navigable-options.png",
+      src: "./pictures/searchinput/match-with-navigable-options.png",
       width: 399,
       height: 69,
     },
@@ -63,7 +63,7 @@ export const variants = [
   {
     displayName: "match-with-result-count",
     picture: {
-      src: "./components/pictures/searchinput/match-with-result-count.png",
+      src: "./pictures/searchinput/match-with-result-count.png",
       width: 332,
       height: 69,
     },
@@ -91,7 +91,7 @@ export const variants = [
   {
     displayName: "no-match",
     picture: {
-      src: "./components/pictures/searchinput/no-match.png",
+      src: "./pictures/searchinput/no-match.png",
       width: 296,
       height: 69,
     },

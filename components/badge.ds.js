@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "read",
     picture: {
-      src: "./components/pictures/badge/read.png",
+      src: "./pictures/badge/read.png",
       width: 293,
       height: 57,
     },
@@ -23,7 +23,7 @@ export const variants = [
   {
     displayName: "unread",
     picture: {
-      src: "./components/pictures/badge/unread.png",
+      src: "./pictures/badge/unread.png",
       width: 293,
       height: 57,
     },

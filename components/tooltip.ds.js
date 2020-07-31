@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "bottom",
     picture: {
-      src: "./components/pictures/tooltip/bottom.png",
+      src: "./pictures/tooltip/bottom.png",
       width: 332,
       height: 112,
     },
@@ -23,7 +23,7 @@ export const variants = [
   {
     displayName: "left",
     picture: {
-      src: "./components/pictures/tooltip/left.png",
+      src: "./pictures/tooltip/left.png",
       width: 332,
       height: 112,
     },
@@ -37,7 +37,7 @@ export const variants = [
   {
     displayName: "left-aligned-text",
     picture: {
-      src: "./components/pictures/tooltip/left-aligned-text.png",
+      src: "./pictures/tooltip/left-aligned-text.png",
       width: 332,
       height: 112,
     },
@@ -51,7 +51,7 @@ export const variants = [
   {
     displayName: "right",
     picture: {
-      src: "./components/pictures/tooltip/right.png",
+      src: "./pictures/tooltip/right.png",
       width: 332,
       height: 112,
     },
@@ -65,7 +65,7 @@ export const variants = [
   {
     displayName: "top",
     picture: {
-      src: "./components/pictures/tooltip/top.png",
+      src: "./pictures/tooltip/top.png",
       width: 332,
       height: 112,
     },

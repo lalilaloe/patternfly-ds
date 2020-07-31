@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "align-right",
     picture: {
-      src: "./components/pictures/dropdown/align-right.png",
+      src: "./pictures/dropdown/align-right.png",
       width: 293,
       height: 310,
     },
@@ -45,7 +45,7 @@ export const variants = [
   {
     displayName: "align-top",
     picture: {
-      src: "./components/pictures/dropdown/align-top.png",
+      src: "./pictures/dropdown/align-top.png",
       width: 293,
       height: 310,
     },
@@ -107,7 +107,7 @@ export const variants = [
   {
     displayName: "collapsed",
     picture: {
-      src: "./components/pictures/dropdown/collapsed.png",
+      src: "./pictures/dropdown/collapsed.png",
       width: 293,
       height: 69,
     },
@@ -143,7 +143,7 @@ export const variants = [
   {
     displayName: "disabled",
     picture: {
-      src: "./components/pictures/dropdown/disabled.png",
+      src: "./pictures/dropdown/disabled.png",
       width: 293,
       height: 69,
     },
@@ -179,7 +179,7 @@ export const variants = [
   {
     displayName: "dropdown-with-description",
     picture: {
-      src: "./components/pictures/dropdown/dropdown-with-description.png",
+      src: "./pictures/dropdown/dropdown-with-description.png",
       width: 293,
       height: 400,
     },
@@ -235,7 +235,7 @@ export const variants = [
   {
     displayName: "dropdown-with-image-and-text",
     picture: {
-      src: "./components/pictures/dropdown/dropdown-with-image-and-text.png",
+      src: "./pictures/dropdown/dropdown-with-image-and-text.png",
       width: 293,
       height: 337,
     },
@@ -276,7 +276,7 @@ export const variants = [
   {
     displayName: "expanded",
     picture: {
-      src: "./components/pictures/dropdown/expanded.png",
+      src: "./pictures/dropdown/expanded.png",
       width: 293,
       height: 310,
     },
@@ -312,7 +312,7 @@ export const variants = [
   {
     displayName: "kebab",
     picture: {
-      src: "./components/pictures/dropdown/kebab.png",
+      src: "./pictures/dropdown/kebab.png",
       width: 293,
       height: 310,
     },
@@ -391,7 +391,7 @@ export const variants = [
   {
     displayName: "kebab-align-right",
     picture: {
-      src: "./components/pictures/dropdown/kebab-align-right.png",
+      src: "./pictures/dropdown/kebab-align-right.png",
       width: 291,
       height: 310,
     },
@@ -424,7 +424,7 @@ export const variants = [
   {
     displayName: "menu-item-icons",
     picture: {
-      src: "./components/pictures/dropdown/menu-item-icons.png",
+      src: "./pictures/dropdown/menu-item-icons.png",
       width: 293,
       height: 310,
     },
@@ -466,7 +466,7 @@ export const variants = [
   {
     displayName: "panel",
     picture: {
-      src: "./components/pictures/dropdown/panel.png",
+      src: "./pictures/dropdown/panel.png",
       width: 293,
       height: 130,
     },
@@ -485,7 +485,7 @@ export const variants = [
   {
     displayName: "primary-toggle",
     picture: {
-      src: "./components/pictures/dropdown/primary-toggle.png",
+      src: "./pictures/dropdown/primary-toggle.png",
       width: 429,
       height: 310,
     },
@@ -547,7 +547,7 @@ export const variants = [
   {
     displayName: "split-button-action",
     picture: {
-      src: "./components/pictures/dropdown/split-button-action.png",
+      src: "./pictures/dropdown/split-button-action.png",
       width: 332,
       height: 210,
     },
@@ -646,7 +646,7 @@ export const variants = [
   {
     displayName: "split-button-checkbox",
     picture: {
-      src: "./components/pictures/dropdown/split-button-checkbox.png",
+      src: "./pictures/dropdown/split-button-checkbox.png",
       width: 293,
       height: 210,
     },
@@ -719,8 +719,7 @@ export const variants = [
   {
     displayName: "split-button-checkbox-with-toggle-text",
     picture: {
-      src:
-        "./components/pictures/dropdown/split-button-checkbox-with-toggle-text.png",
+      src: "./pictures/dropdown/split-button-checkbox-with-toggle-text.png",
       width: 293,
       height: 69,
     },
@@ -752,7 +751,7 @@ export const variants = [
   {
     displayName: "with-groups",
     picture: {
-      src: "./components/pictures/dropdown/with-groups.png",
+      src: "./pictures/dropdown/with-groups.png",
       width: 293,
       height: 440,
     },
@@ -804,8 +803,7 @@ export const variants = [
   {
     displayName: "with-groups-and-dividers-between-groups",
     picture: {
-      src:
-        "./components/pictures/dropdown/with-groups-and-dividers-between-groups.png",
+      src: "./pictures/dropdown/with-groups-and-dividers-between-groups.png",
       width: 293,
       height: 440,
     },
@@ -859,8 +857,7 @@ export const variants = [
   {
     displayName: "with-groups-and-dividers-between-items",
     picture: {
-      src:
-        "./components/pictures/dropdown/with-groups-and-dividers-between-items.png",
+      src: "./pictures/dropdown/with-groups-and-dividers-between-items.png",
       width: 293,
       height: 440,
     },

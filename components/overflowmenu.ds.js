@@ -9,8 +9,7 @@ export const variants = [
   {
     displayName: "additional-options-in-dropdown-hidden",
     picture: {
-      src:
-        "./components/pictures/overflowmenu/additional-options-in-dropdown-hidden.png",
+      src: "./pictures/overflowmenu/additional-options-in-dropdown-hidden.png",
       width: 293,
       height: 69,
     },
@@ -52,8 +51,7 @@ export const variants = [
   {
     displayName: "additional-options-in-dropdown-visible",
     picture: {
-      src:
-        "./components/pictures/overflowmenu/additional-options-in-dropdown-visible.png",
+      src: "./pictures/overflowmenu/additional-options-in-dropdown-visible.png",
       width: 536,
       height: 69,
     },
@@ -107,7 +105,7 @@ export const variants = [
   {
     displayName: "group-types",
     picture: {
-      src: "./components/pictures/overflowmenu/group-types.png",
+      src: "./pictures/overflowmenu/group-types.png",
       width: 663,
       height: 69,
     },
@@ -154,8 +152,7 @@ export const variants = [
   {
     displayName: "persistent-additional-options-hidden",
     picture: {
-      src:
-        "./components/pictures/overflowmenu/persistent-additional-options-hidden.png",
+      src: "./pictures/overflowmenu/persistent-additional-options-hidden.png",
       width: 293,
       height: 69,
     },
@@ -192,8 +189,7 @@ export const variants = [
   {
     displayName: "persistent-additional-options-visible",
     picture: {
-      src:
-        "./components/pictures/overflowmenu/persistent-additional-options-visible.png",
+      src: "./pictures/overflowmenu/persistent-additional-options-visible.png",
       width: 382,
       height: 69,
     },
@@ -230,7 +226,7 @@ export const variants = [
   {
     displayName: "simple-collapsed",
     picture: {
-      src: "./components/pictures/overflowmenu/simple-collapsed.png",
+      src: "./pictures/overflowmenu/simple-collapsed.png",
       width: 293,
       height: 69,
     },
@@ -266,7 +262,7 @@ export const variants = [
   {
     displayName: "simple-expanded",
     picture: {
-      src: "./components/pictures/overflowmenu/simple-expanded.png",
+      src: "./pictures/overflowmenu/simple-expanded.png",
       width: 318,
       height: 57,
     },

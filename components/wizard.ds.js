@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/wizard/basic.png",
+      src: "./pictures/wizard/basic.png",
       width: 800,
       height: 500,
     },
@@ -81,7 +81,7 @@ export const variants = [
   {
     displayName: "finished",
     picture: {
-      src: "./components/pictures/wizard/finished.png",
+      src: "./pictures/wizard/finished.png",
       width: 800,
       height: 500,
     },
@@ -175,7 +175,7 @@ export const variants = [
   {
     displayName: "nav-expanded-mobile",
     picture: {
-      src: "./components/pictures/wizard/nav-expanded-mobile.png",
+      src: "./pictures/wizard/nav-expanded-mobile.png",
       width: 800,
       height: 500,
     },

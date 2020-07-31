@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/card/basic.png",
+      src: "./pictures/card/basic.png",
       width: 293,
       height: 193,
     },
@@ -24,7 +24,7 @@ export const variants = [
   {
     displayName: "compact",
     picture: {
-      src: "./components/pictures/card/compact.png",
+      src: "./pictures/card/compact.png",
       width: 293,
       height: 155,
     },
@@ -39,7 +39,7 @@ export const variants = [
   {
     displayName: "flat",
     picture: {
-      src: "./components/pictures/card/flat.png",
+      src: "./pictures/card/flat.png",
       width: 293,
       height: 195,
     },
@@ -54,7 +54,7 @@ export const variants = [
   {
     displayName: "hover",
     picture: {
-      src: "./components/pictures/card/hover.png",
+      src: "./pictures/card/hover.png",
       width: 293,
       height: 193,
     },
@@ -69,7 +69,7 @@ export const variants = [
   {
     displayName: "selectable",
     picture: {
-      src: "./components/pictures/card/selectable.png",
+      src: "./pictures/card/selectable.png",
       width: 293,
       height: 193,
     },
@@ -84,7 +84,7 @@ export const variants = [
   {
     displayName: "selected",
     picture: {
-      src: "./components/pictures/card/selected.png",
+      src: "./pictures/card/selected.png",
       width: 293,
       height: 193,
     },
@@ -99,7 +99,7 @@ export const variants = [
   {
     displayName: "with-image-and-action",
     picture: {
-      src: "./components/pictures/card/with-image-and-action.png",
+      src: "./pictures/card/with-image-and-action.png",
       width: 459,
       height: 271,
     },
@@ -145,7 +145,7 @@ export const variants = [
   {
     displayName: "with-multiple-body-sections",
     picture: {
-      src: "./components/pictures/card/with-multiple-body-sections.png",
+      src: "./pictures/card/with-multiple-body-sections.png",
       width: 293,
       height: 289,
     },
@@ -162,7 +162,7 @@ export const variants = [
   {
     displayName: "with-no-footer",
     picture: {
-      src: "./components/pictures/card/with-no-footer.png",
+      src: "./pictures/card/with-no-footer.png",
       width: 293,
       height: 145,
     },
@@ -176,7 +176,7 @@ export const variants = [
   {
     displayName: "with-no-title",
     picture: {
-      src: "./components/pictures/card/with-no-title.png",
+      src: "./pictures/card/with-no-title.png",
       width: 293,
       height: 153,
     },
@@ -190,7 +190,7 @@ export const variants = [
   {
     displayName: "with-only-a-content-section",
     picture: {
-      src: "./components/pictures/card/with-only-a-content-section.png",
+      src: "./pictures/card/with-only-a-content-section.png",
       width: 293,
       height: 105,
     },
@@ -203,8 +203,7 @@ export const variants = [
   {
     displayName: "with-only-actions-in-head-no-titlefooter",
     picture: {
-      src:
-        "./components/pictures/card/with-only-actions-in-head-no-titlefooter.png",
+      src: "./pictures/card/with-only-actions-in-head-no-titlefooter.png",
       width: 506,
       height: 157,
     },
@@ -245,7 +244,7 @@ export const variants = [
   {
     displayName: "with-only-image-in-head",
     picture: {
-      src: "./components/pictures/card/with-only-image-in-head.png",
+      src: "./pictures/card/with-only-image-in-head.png",
       width: 380,
       height: 271,
     },
@@ -265,7 +264,7 @@ export const variants = [
   {
     displayName: "with-only-one-body-that-fills",
     picture: {
-      src: "./components/pictures/card/with-only-one-body-that-fills.png",
+      src: "./pictures/card/with-only-one-body-that-fills.png",
       width: 293,
       height: 289,
     },
@@ -282,7 +281,7 @@ export const variants = [
   {
     displayName: "with-title-in-head",
     picture: {
-      src: "./components/pictures/card/with-title-in-head.png",
+      src: "./pictures/card/with-title-in-head.png",
       width: 728,
       height: 205,
     },

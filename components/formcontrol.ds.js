@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "input",
     picture: {
-      src: "./components/pictures/formcontrol/input.png",
+      src: "./pictures/formcontrol/input.png",
       width: 293,
       height: 429,
     },
@@ -38,7 +38,7 @@ export const variants = [
   {
     displayName: "select",
     picture: {
-      src: "./components/pictures/formcontrol/select.png",
+      src: "./pictures/formcontrol/select.png",
       width: 373,
       height: 333,
     },
@@ -110,7 +110,7 @@ export const variants = [
   {
     displayName: "textarea",
     picture: {
-      src: "./components/pictures/formcontrol/textarea.png",
+      src: "./pictures/formcontrol/textarea.png",
       width: 293,
       height: 726,
     },

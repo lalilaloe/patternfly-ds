@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/spinner/basic.png",
+      src: "./pictures/spinner/basic.png",
       width: 293,
       height: 93,
     },
@@ -24,7 +24,7 @@ export const variants = [
   {
     displayName: "multiple-sizes",
     picture: {
-      src: "./components/pictures/spinner/multiple-sizes.png",
+      src: "./pictures/spinner/multiple-sizes.png",
       width: 293,
       height: 93,
     },

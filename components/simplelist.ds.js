@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "grouped-list",
     picture: {
-      src: "./components/pictures/simplelist/grouped-list.png",
+      src: "./pictures/simplelist/grouped-list.png",
       width: 293,
       height: 347,
     },
@@ -55,7 +55,7 @@ export const variants = [
   {
     displayName: "simple-list",
     picture: {
-      src: "./components/pictures/simplelist/simple-list.png",
+      src: "./pictures/simplelist/simple-list.png",
       width: 293,
       height: 120,
     },
@@ -78,7 +78,7 @@ export const variants = [
   {
     displayName: "simple-list-with-links",
     picture: {
-      src: "./components/pictures/simplelist/simple-list-with-links.png",
+      src: "./pictures/simplelist/simple-list-with-links.png",
       width: 293,
       height: 120,
     },

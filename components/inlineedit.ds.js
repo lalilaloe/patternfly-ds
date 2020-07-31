@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "inline-edit-action-group",
     picture: {
-      src: "./components/pictures/inlineedit/inline-edit-action-group.png",
+      src: "./pictures/inlineedit/inline-edit-action-group.png",
       width: 293,
       height: 69,
     },
@@ -29,8 +29,7 @@ export const variants = [
   {
     displayName: "inline-edit-action-group-icon-buttons",
     picture: {
-      src:
-        "./components/pictures/inlineedit/inline-edit-action-group-icon-buttons.png",
+      src: "./pictures/inlineedit/inline-edit-action-group-icon-buttons.png",
       width: 293,
       height: 69,
     },
@@ -54,7 +53,7 @@ export const variants = [
   {
     displayName: "inline-edit-table-row",
     picture: {
-      src: "./components/pictures/inlineedit/inline-edit-table-row.png",
+      src: "./pictures/inlineedit/inline-edit-table-row.png",
       width: 855,
       height: 360,
     },
@@ -278,7 +277,7 @@ export const variants = [
   {
     displayName: "inline-edit-toggle",
     picture: {
-      src: "./components/pictures/inlineedit/inline-edit-toggle.png",
+      src: "./pictures/inlineedit/inline-edit-toggle.png",
       width: 293,
       height: 69,
     },
@@ -295,7 +294,7 @@ export const variants = [
   {
     displayName: "inline-edit-value",
     picture: {
-      src: "./components/pictures/inlineedit/inline-edit-value.png",
+      src: "./pictures/inlineedit/inline-edit-value.png",
       width: 293,
       height: 57,
     },
@@ -308,7 +307,7 @@ export const variants = [
   {
     displayName: "single-inline-edit-active",
     picture: {
-      src: "./components/pictures/inlineedit/single-inline-edit-active.png",
+      src: "./pictures/inlineedit/single-inline-edit-active.png",
       width: 333,
       height: 69,
     },
@@ -345,7 +344,7 @@ export const variants = [
   {
     displayName: "single-inline-edit-default",
     picture: {
-      src: "./components/pictures/inlineedit/single-inline-edit-default.png",
+      src: "./pictures/inlineedit/single-inline-edit-default.png",
       width: 293,
       height: 69,
     },
@@ -382,8 +381,7 @@ export const variants = [
   {
     displayName: "single-inline-edit-with-label-default",
     picture: {
-      src:
-        "./components/pictures/inlineedit/single-inline-edit-with-label-default.png",
+      src: "./pictures/inlineedit/single-inline-edit-with-label-default.png",
       width: 293,
       height: 93,
     },
@@ -421,7 +419,7 @@ export const variants = [
   {
     displayName: "state-invalid",
     picture: {
-      src: "./components/pictures/inlineedit/state-invalid.png",
+      src: "./pictures/inlineedit/state-invalid.png",
       width: 357,
       height: 93,
     },
@@ -459,7 +457,7 @@ export const variants = [
   {
     displayName: "state-valid",
     picture: {
-      src: "./components/pictures/inlineedit/state-valid.png",
+      src: "./pictures/inlineedit/state-valid.png",
       width: 333,
       height: 93,
     },

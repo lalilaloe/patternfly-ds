@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "checkbox",
     picture: {
-      src: "./components/pictures/select/checkbox.png",
+      src: "./pictures/select/checkbox.png",
       width: 293,
       height: 69,
     },
@@ -56,7 +56,7 @@ export const variants = [
   {
     displayName: "checkbox-expanded",
     picture: {
-      src: "./components/pictures/select/checkbox-expanded.png",
+      src: "./pictures/select/checkbox-expanded.png",
       width: 293,
       height: 270,
     },
@@ -101,8 +101,7 @@ export const variants = [
   {
     displayName: "checkbox-expanded-and-selected-with-groups",
     picture: {
-      src:
-        "./components/pictures/select/checkbox-expanded-and-selected-with-groups.png",
+      src: "./pictures/select/checkbox-expanded-and-selected-with-groups.png",
       width: 293,
       height: 460,
     },
@@ -168,7 +167,7 @@ export const variants = [
     displayName: "checkbox-expanded-and-selected-with-groups-and-filter",
     picture: {
       src:
-        "./components/pictures/select/checkbox-expanded-and-selected-with-groups-and-filter.png",
+        "./pictures/select/checkbox-expanded-and-selected-with-groups-and-filter.png",
       width: 293,
       height: 530,
     },
@@ -237,7 +236,7 @@ export const variants = [
   {
     displayName: "checkbox-expanded-without-badge",
     picture: {
-      src: "./components/pictures/select/checkbox-expanded-without-badge.png",
+      src: "./pictures/select/checkbox-expanded-without-badge.png",
       width: 293,
       height: 270,
     },
@@ -282,7 +281,7 @@ export const variants = [
   {
     displayName: "checkbox-with-description",
     picture: {
-      src: "./components/pictures/select/checkbox-with-description.png",
+      src: "./pictures/select/checkbox-with-description.png",
       width: 293,
       height: 350,
     },
@@ -329,7 +328,7 @@ export const variants = [
   {
     displayName: "disabled",
     picture: {
-      src: "./components/pictures/select/disabled.png",
+      src: "./pictures/select/disabled.png",
       width: 293,
       height: 69,
     },
@@ -367,7 +366,7 @@ export const variants = [
   {
     displayName: "disabled-with-typeahead",
     picture: {
-      src: "./components/pictures/select/disabled-with-typeahead.png",
+      src: "./pictures/select/disabled-with-typeahead.png",
       width: 293,
       height: 69,
     },
@@ -408,7 +407,7 @@ export const variants = [
   {
     displayName: "favorites",
     picture: {
-      src: "./components/pictures/select/favorites.png",
+      src: "./pictures/select/favorites.png",
       width: 293,
       height: 650,
     },
@@ -521,7 +520,7 @@ export const variants = [
   {
     displayName: "icon",
     picture: {
-      src: "./components/pictures/select/icon.png",
+      src: "./pictures/select/icon.png",
       width: 293,
       height: 69,
     },
@@ -562,8 +561,7 @@ export const variants = [
   {
     displayName: "multi-with-typeahead-chip-group-collapsed",
     picture: {
-      src:
-        "./components/pictures/select/multi-with-typeahead-chip-group-collapsed.png",
+      src: "./pictures/select/multi-with-typeahead-chip-group-collapsed.png",
       width: 684,
       height: 210,
     },
@@ -630,8 +628,7 @@ export const variants = [
   {
     displayName: "multi-with-typeahead-chip-group-expanded",
     picture: {
-      src:
-        "./components/pictures/select/multi-with-typeahead-chip-group-expanded.png",
+      src: "./pictures/select/multi-with-typeahead-chip-group-expanded.png",
       width: 796,
       height: 365,
     },
@@ -716,7 +713,7 @@ export const variants = [
   {
     displayName: "panel",
     picture: {
-      src: "./components/pictures/select/panel.png",
+      src: "./pictures/select/panel.png",
       width: 293,
       height: 120,
     },
@@ -738,7 +735,7 @@ export const variants = [
   {
     displayName: "plain",
     picture: {
-      src: "./components/pictures/select/plain.png",
+      src: "./pictures/select/plain.png",
       width: 293,
       height: 69,
     },
@@ -776,7 +773,7 @@ export const variants = [
   {
     displayName: "plain-expanded",
     picture: {
-      src: "./components/pictures/select/plain-expanded.png",
+      src: "./pictures/select/plain-expanded.png",
       width: 293,
       height: 330,
     },
@@ -814,7 +811,7 @@ export const variants = [
   {
     displayName: "select-multi-with-typeahead",
     picture: {
-      src: "./components/pictures/select/select-multi-with-typeahead.png",
+      src: "./pictures/select/select-multi-with-typeahead.png",
       width: 293,
       height: 69,
     },
@@ -852,7 +849,7 @@ export const variants = [
   {
     displayName: "single",
     picture: {
-      src: "./components/pictures/select/single.png",
+      src: "./pictures/select/single.png",
       width: 293,
       height: 69,
     },
@@ -890,7 +887,7 @@ export const variants = [
   {
     displayName: "single-expanded",
     picture: {
-      src: "./components/pictures/select/single-expanded.png",
+      src: "./pictures/select/single-expanded.png",
       width: 293,
       height: 330,
     },
@@ -928,7 +925,7 @@ export const variants = [
   {
     displayName: "single-expanded-and-selected",
     picture: {
-      src: "./components/pictures/select/single-expanded-and-selected.png",
+      src: "./pictures/select/single-expanded-and-selected.png",
       width: 293,
       height: 330,
     },
@@ -970,7 +967,7 @@ export const variants = [
   {
     displayName: "single-with-top-expanded",
     picture: {
-      src: "./components/pictures/select/single-with-top-expanded.png",
+      src: "./pictures/select/single-with-top-expanded.png",
       width: 293,
       height: 330,
     },
@@ -1008,7 +1005,7 @@ export const variants = [
   {
     displayName: "single-with-typeahead",
     picture: {
-      src: "./components/pictures/select/single-with-typeahead.png",
+      src: "./pictures/select/single-with-typeahead.png",
       width: 293,
       height: 69,
     },
@@ -1049,7 +1046,7 @@ export const variants = [
   {
     displayName: "single-with-typeahead-expanded",
     picture: {
-      src: "./components/pictures/select/single-with-typeahead-expanded.png",
+      src: "./pictures/select/single-with-typeahead-expanded.png",
       width: 306,
       height: 210,
     },
@@ -1091,8 +1088,7 @@ export const variants = [
   {
     displayName: "single-with-typeahead-expanded-and-selected",
     picture: {
-      src:
-        "./components/pictures/select/single-with-typeahead-expanded-and-selected.png",
+      src: "./pictures/select/single-with-typeahead-expanded-and-selected.png",
       width: 306,
       height: 330,
     },
@@ -1140,7 +1136,7 @@ export const variants = [
   {
     displayName: "with-description",
     picture: {
-      src: "./components/pictures/select/with-description.png",
+      src: "./pictures/select/with-description.png",
       width: 293,
       height: 350,
     },

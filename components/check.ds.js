@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/check/basic.png",
+      src: "./pictures/check/basic.png",
       width: 293,
       height: 53,
     },
@@ -23,7 +23,7 @@ export const variants = [
   {
     displayName: "checked",
     picture: {
-      src: "./components/pictures/check/checked.png",
+      src: "./pictures/check/checked.png",
       width: 293,
       height: 53,
     },
@@ -37,7 +37,7 @@ export const variants = [
   {
     displayName: "disabled",
     picture: {
-      src: "./components/pictures/check/disabled.png",
+      src: "./pictures/check/disabled.png",
       width: 293,
       height: 74,
     },
@@ -55,7 +55,7 @@ export const variants = [
   {
     displayName: "label-wrapping-input",
     picture: {
-      src: "./components/pictures/check/label-wrapping-input.png",
+      src: "./pictures/check/label-wrapping-input.png",
       width: 293,
       height: 53,
     },
@@ -69,7 +69,7 @@ export const variants = [
   {
     displayName: "reversed",
     picture: {
-      src: "./components/pictures/check/reversed.png",
+      src: "./pictures/check/reversed.png",
       width: 293,
       height: 53,
     },
@@ -82,7 +82,7 @@ export const variants = [
   {
     displayName: "with-description",
     picture: {
-      src: "./components/pictures/check/with-description.png",
+      src: "./pictures/check/with-description.png",
       width: 855,
       height: 99,
     },

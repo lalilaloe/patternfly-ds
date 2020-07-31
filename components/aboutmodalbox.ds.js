@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/aboutmodalbox/basic.png",
+      src: "./pictures/aboutmodalbox/basic.png",
       width: 872,
       height: 568,
     },

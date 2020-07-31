@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "expanded",
     picture: {
-      src: "./components/pictures/expandablesection/expanded.png",
+      src: "./pictures/expandablesection/expanded.png",
       width: 463,
       height: 109,
     },
@@ -28,7 +28,7 @@ export const variants = [
   {
     displayName: "hidden",
     picture: {
-      src: "./components/pictures/expandablesection/hidden.png",
+      src: "./pictures/expandablesection/hidden.png",
       width: 293,
       height: 69,
     },

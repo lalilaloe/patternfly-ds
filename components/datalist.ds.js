@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/datalist/basic.png",
+      src: "./pictures/datalist/basic.png",
       width: 690,
       height: 300,
     },
@@ -41,8 +41,7 @@ export const variants = [
   {
     displayName: "checkboxes-actions-and-additional-cells",
     picture: {
-      src:
-        "./components/pictures/datalist/checkboxes-actions-and-additional-cells.png",
+      src: "./pictures/datalist/checkboxes-actions-and-additional-cells.png",
       width: 855,
       height: 469,
     },
@@ -193,7 +192,7 @@ export const variants = [
   {
     displayName: "compact",
     picture: {
-      src: "./components/pictures/datalist/compact.png",
+      src: "./pictures/datalist/compact.png",
       width: 855,
       height: 295,
     },
@@ -344,7 +343,7 @@ export const variants = [
   {
     displayName: "expandable",
     picture: {
-      src: "./components/pictures/datalist/expandable.png",
+      src: "./pictures/datalist/expandable.png",
       width: 855,
       height: 591,
     },
@@ -531,7 +530,7 @@ export const variants = [
   {
     displayName: "modifiers",
     picture: {
-      src: "./components/pictures/datalist/modifiers.png",
+      src: "./pictures/datalist/modifiers.png",
       width: 855,
       height: 784,
     },
@@ -701,7 +700,7 @@ export const variants = [
   {
     displayName: "selectable-expandable-rows",
     picture: {
-      src: "./components/pictures/datalist/selectable-expandable-rows.png",
+      src: "./pictures/datalist/selectable-expandable-rows.png",
       width: 855,
       height: 472,
     },
@@ -797,7 +796,7 @@ export const variants = [
   {
     displayName: "selectable-rows",
     picture: {
-      src: "./components/pictures/datalist/selectable-rows.png",
+      src: "./pictures/datalist/selectable-rows.png",
       width: 293,
       height: 253,
     },
@@ -836,7 +835,7 @@ export const variants = [
   {
     displayName: "with-headings",
     picture: {
-      src: "./components/pictures/datalist/with-headings.png",
+      src: "./pictures/datalist/with-headings.png",
       width: 690,
       height: 300,
     },

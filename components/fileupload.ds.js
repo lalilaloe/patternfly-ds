@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic-file-upload",
     picture: {
-      src: "./components/pictures/fileupload/basic-file-upload.png",
+      src: "./pictures/fileupload/basic-file-upload.png",
       width: 396,
       height: 197,
     },
@@ -31,7 +31,7 @@ export const variants = [
   {
     displayName: "drag-file-hover-component",
     picture: {
-      src: "./components/pictures/fileupload/drag-file-hover-component.png",
+      src: "./pictures/fileupload/drag-file-hover-component.png",
       width: 396,
       height: 197,
     },
@@ -53,8 +53,7 @@ export const variants = [
   {
     displayName: "file-upload-in-form-with-error",
     picture: {
-      src:
-        "./components/pictures/fileupload/file-upload-in-form-with-error.png",
+      src: "./pictures/fileupload/file-upload-in-form-with-error.png",
       width: 436,
       height: 222,
     },
@@ -81,7 +80,7 @@ export const variants = [
   {
     displayName: "file-upload-loading",
     picture: {
-      src: "./components/pictures/fileupload/file-upload-loading.png",
+      src: "./pictures/fileupload/file-upload-loading.png",
       width: 396,
       height: 197,
     },
@@ -110,7 +109,7 @@ export const variants = [
   {
     displayName: "upload-complete-editable",
     picture: {
-      src: "./components/pictures/fileupload/upload-complete-editable.png",
+      src: "./pictures/fileupload/upload-complete-editable.png",
       width: 396,
       height: 197,
     },
@@ -132,7 +131,7 @@ export const variants = [
   {
     displayName: "upload-complete-non-editable",
     picture: {
-      src: "./components/pictures/fileupload/upload-complete-non-editable.png",
+      src: "./pictures/fileupload/upload-complete-non-editable.png",
       width: 396,
       height: 197,
     },

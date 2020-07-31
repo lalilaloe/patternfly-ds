@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/radio/basic.png",
+      src: "./pictures/radio/basic.png",
       width: 293,
       height: 53,
     },
@@ -23,7 +23,7 @@ export const variants = [
   {
     displayName: "checked",
     picture: {
-      src: "./components/pictures/radio/checked.png",
+      src: "./pictures/radio/checked.png",
       width: 293,
       height: 53,
     },
@@ -37,7 +37,7 @@ export const variants = [
   {
     displayName: "disabled",
     picture: {
-      src: "./components/pictures/radio/disabled.png",
+      src: "./pictures/radio/disabled.png",
       width: 293,
       height: 74,
     },
@@ -55,7 +55,7 @@ export const variants = [
   {
     displayName: "label-wrapping-input",
     picture: {
-      src: "./components/pictures/radio/label-wrapping-input.png",
+      src: "./pictures/radio/label-wrapping-input.png",
       width: 293,
       height: 53,
     },
@@ -69,7 +69,7 @@ export const variants = [
   {
     displayName: "reversed",
     picture: {
-      src: "./components/pictures/radio/reversed.png",
+      src: "./pictures/radio/reversed.png",
       width: 293,
       height: 53,
     },
@@ -82,7 +82,7 @@ export const variants = [
   {
     displayName: "with-description",
     picture: {
-      src: "./components/pictures/radio/with-description.png",
+      src: "./pictures/radio/with-description.png",
       width: 855,
       height: 99,
     },

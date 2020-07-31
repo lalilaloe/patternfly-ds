@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "bottom",
     picture: {
-      src: "./components/pictures/pagination/bottom.png",
+      src: "./pictures/pagination/bottom.png",
       width: 800,
       height: 500,
     },
@@ -75,7 +75,7 @@ export const variants = [
   {
     displayName: "compact",
     picture: {
-      src: "./components/pictures/pagination/compact.png",
+      src: "./pictures/pagination/compact.png",
       width: 800,
       height: 500,
     },
@@ -131,7 +131,7 @@ export const variants = [
   {
     displayName: "top",
     picture: {
-      src: "./components/pictures/pagination/top.png",
+      src: "./pictures/pagination/top.png",
       width: 800,
       height: 500,
     },
@@ -201,7 +201,7 @@ export const variants = [
   {
     displayName: "top-disabled",
     picture: {
-      src: "./components/pictures/pagination/top-disabled.png",
+      src: "./pictures/pagination/top-disabled.png",
       width: 800,
       height: 500,
     },
@@ -271,7 +271,7 @@ export const variants = [
   {
     displayName: "top-expanded",
     picture: {
-      src: "./components/pictures/pagination/top-expanded.png",
+      src: "./pictures/pagination/top-expanded.png",
       width: 800,
       height: 500,
     },

@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/modalbox/basic.png",
+      src: "./pictures/modalbox/basic.png",
       width: 968,
       height: 191,
     },
@@ -29,7 +29,7 @@ export const variants = [
   {
     displayName: "custom-title",
     picture: {
-      src: "./components/pictures/modalbox/custom-title.png",
+      src: "./pictures/modalbox/custom-title.png",
       width: 968,
       height: 206,
     },
@@ -49,7 +49,7 @@ export const variants = [
   {
     displayName: "large",
     picture: {
-      src: "./components/pictures/modalbox/large.png",
+      src: "./pictures/modalbox/large.png",
       width: 968,
       height: 215,
     },
@@ -69,7 +69,7 @@ export const variants = [
   {
     displayName: "medium",
     picture: {
-      src: "./components/pictures/modalbox/medium.png",
+      src: "./pictures/modalbox/medium.png",
       width: 840,
       height: 215,
     },
@@ -89,7 +89,7 @@ export const variants = [
   {
     displayName: "modal-box-as-generic-container",
     picture: {
-      src: "./components/pictures/modalbox/modal-box-as-generic-container.png",
+      src: "./pictures/modalbox/modal-box-as-generic-container.png",
       width: 968,
       height: 48,
     },
@@ -102,7 +102,7 @@ export const variants = [
   {
     displayName: "small",
     picture: {
-      src: "./components/pictures/modalbox/small.png",
+      src: "./pictures/modalbox/small.png",
       width: 560,
       height: 239,
     },
@@ -122,7 +122,7 @@ export const variants = [
   {
     displayName: "with-description",
     picture: {
-      src: "./components/pictures/modalbox/with-description.png",
+      src: "./pictures/modalbox/with-description.png",
       width: 968,
       height: 243,
     },
@@ -143,7 +143,7 @@ export const variants = [
   {
     displayName: "without-title",
     picture: {
-      src: "./components/pictures/modalbox/without-title.png",
+      src: "./pictures/modalbox/without-title.png",
       width: 968,
       height: 216,
     },

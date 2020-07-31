@@ -8,7 +8,7 @@ export const variants = [
   {
     displayName: "default",
     picture: {
-      src: "./components/pictures/nav/default.png",
+      src: "./pictures/nav/default.png",
       width: 293,
       height: 257,
     },
@@ -34,7 +34,7 @@ export const variants = [
   {
     displayName: "default-in-light-mode",
     picture: {
-      src: "./components/pictures/nav/default-in-light-mode.png",
+      src: "./pictures/nav/default-in-light-mode.png",
       width: 293,
       height: 257,
     },
@@ -60,7 +60,7 @@ export const variants = [
   {
     displayName: "expanded",
     picture: {
-      src: "./components/pictures/nav/expanded.png",
+      src: "./pictures/nav/expanded.png",
       width: 395,
       height: 435,
     },
@@ -135,7 +135,7 @@ export const variants = [
   {
     displayName: "expanded-in-light-mode",
     picture: {
-      src: "./components/pictures/nav/expanded-in-light-mode.png",
+      src: "./pictures/nav/expanded-in-light-mode.png",
       width: 395,
       height: 435,
     },
@@ -210,7 +210,7 @@ export const variants = [
   {
     displayName: "expanded-with-subnav-titles",
     picture: {
-      src: "./components/pictures/nav/expanded-with-subnav-titles.png",
+      src: "./pictures/nav/expanded-with-subnav-titles.png",
       width: 293,
       height: 362,
     },
@@ -267,7 +267,7 @@ export const variants = [
   {
     displayName: "grouped-nav",
     picture: {
-      src: "./components/pictures/nav/grouped-nav.png",
+      src: "./pictures/nav/grouped-nav.png",
       width: 293,
       height: 437,
     },
@@ -307,7 +307,7 @@ export const variants = [
   {
     displayName: "horizontal",
     picture: {
-      src: "./components/pictures/nav/horizontal.png",
+      src: "./pictures/nav/horizontal.png",
       width: 293,
       height: 73,
     },
@@ -336,7 +336,7 @@ export const variants = [
   {
     displayName: "horizontal-overflow",
     picture: {
-      src: "./components/pictures/nav/horizontal-overflow.png",
+      src: "./pictures/nav/horizontal-overflow.png",
       width: 1028,
       height: 73,
     },
@@ -371,7 +371,7 @@ export const variants = [
   {
     displayName: "mixed",
     picture: {
-      src: "./components/pictures/nav/mixed.png",
+      src: "./pictures/nav/mixed.png",
       width: 396,
       height: 291,
     },
@@ -429,7 +429,7 @@ export const variants = [
   {
     displayName: "tertiary",
     picture: {
-      src: "./components/pictures/nav/tertiary.png",
+      src: "./pictures/nav/tertiary.png",
       width: 293,
       height: 73,
     },
@@ -458,7 +458,7 @@ export const variants = [
   {
     displayName: "tertiary-overflow",
     picture: {
-      src: "./components/pictures/nav/tertiary-overflow.png",
+      src: "./pictures/nav/tertiary-overflow.png",
       width: 935,
       height: 73,
     },

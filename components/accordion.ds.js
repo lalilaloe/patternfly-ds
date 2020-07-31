@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "definition-list",
     picture: {
-      src: "./components/pictures/accordion/definition-list.png",
+      src: "./pictures/accordion/definition-list.png",
       width: 855,
       height: 312,
     },
@@ -76,7 +76,7 @@ export const variants = [
   {
     displayName: "fixed",
     picture: {
-      src: "./components/pictures/accordion/fixed.png",
+      src: "./pictures/accordion/fixed.png",
       width: 855,
       height: 383,
     },
@@ -143,7 +143,7 @@ export const variants = [
   {
     displayName: "fluid",
     picture: {
-      src: "./components/pictures/accordion/fluid.png",
+      src: "./pictures/accordion/fluid.png",
       width: 855,
       height: 312,
     },

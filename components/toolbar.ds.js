@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "adjusted-group-spacers",
     picture: {
-      src: "./components/pictures/toolbar/adjusted-group-spacers.png",
+      src: "./pictures/toolbar/adjusted-group-spacers.png",
       width: 293,
       height: 89,
     },
@@ -34,7 +34,7 @@ export const variants = [
   {
     displayName: "adjusted-spacers",
     picture: {
-      src: "./components/pictures/toolbar/adjusted-spacers.png",
+      src: "./pictures/toolbar/adjusted-spacers.png",
       width: 338,
       height: 89,
     },
@@ -57,7 +57,7 @@ export const variants = [
   {
     displayName: "expanded-elements",
     picture: {
-      src: "./components/pictures/toolbar/expanded-elements.png",
+      src: "./pictures/toolbar/expanded-elements.png",
       width: 606,
       height: 101,
     },
@@ -237,7 +237,7 @@ export const variants = [
   {
     displayName: "group-types",
     picture: {
-      src: "./components/pictures/toolbar/group-types.png",
+      src: "./pictures/toolbar/group-types.png",
       width: 824,
       height: 101,
     },
@@ -373,8 +373,7 @@ export const variants = [
   {
     displayName: "selected-filters-on-desktop-not-responsive",
     picture: {
-      src:
-        "./components/pictures/toolbar/selected-filters-on-desktop-not-responsive.png",
+      src: "./pictures/toolbar/selected-filters-on-desktop-not-responsive.png",
       width: 840,
       height: 159,
     },
@@ -614,7 +613,7 @@ export const variants = [
       "selected-filters-on-mobile-filters-collapsed-expandable-content-expanded",
     picture: {
       src:
-        "./components/pictures/toolbar/selected-filters-on-mobile-filters-collapsed-expandable-content-expanded.png",
+        "./pictures/toolbar/selected-filters-on-mobile-filters-collapsed-expandable-content-expanded.png",
       width: 855,
       height: 339,
     },
@@ -866,7 +865,7 @@ export const variants = [
       "selected-filters-on-mobile-filters-collapsed-selected-filters-summary-visible",
     picture: {
       src:
-        "./components/pictures/toolbar/selected-filters-on-mobile-filters-collapsed-selected-filters-summary-visible.png",
+        "./pictures/toolbar/selected-filters-on-mobile-filters-collapsed-selected-filters-summary-visible.png",
       width: 395,
       height: 149,
     },
@@ -1117,7 +1116,7 @@ export const variants = [
   {
     displayName: "simple",
     picture: {
-      src: "./components/pictures/toolbar/simple.png",
+      src: "./pictures/toolbar/simple.png",
       width: 516,
       height: 89,
     },
@@ -1146,7 +1145,7 @@ export const variants = [
   {
     displayName: "stacked-on-desktop",
     picture: {
-      src: "./components/pictures/toolbar/stacked-on-desktop.png",
+      src: "./pictures/toolbar/stacked-on-desktop.png",
       width: 544,
       height: 186,
     },
@@ -1417,7 +1416,7 @@ export const variants = [
       "stacked-on-mobile-filters-collapsed-expandable-content-expanded",
     picture: {
       src:
-        "./components/pictures/toolbar/stacked-on-mobile-filters-collapsed-expandable-content-expanded.png",
+        "./pictures/toolbar/stacked-on-mobile-filters-collapsed-expandable-content-expanded.png",
       width: 544,
       height: 366,
     },
@@ -1683,7 +1682,7 @@ export const variants = [
   {
     displayName: "toggle-group",
     picture: {
-      src: "./components/pictures/toolbar/toggle-group.png",
+      src: "./pictures/toolbar/toggle-group.png",
       width: 539,
       height: 101,
     },
@@ -1803,7 +1802,7 @@ export const variants = [
       "toggle-group-on-mobile-filters-collapsed-expandable-content-expanded",
     picture: {
       src:
-        "./components/pictures/toolbar/toggle-group-on-mobile-filters-collapsed-expandable-content-expanded.png",
+        "./pictures/toolbar/toggle-group-on-mobile-filters-collapsed-expandable-content-expanded.png",
       width: 405,
       height: 281,
     },

@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "aligned-right",
     picture: {
-      src: "./components/pictures/applauncher/aligned-right.png",
+      src: "./pictures/applauncher/aligned-right.png",
       width: 293,
       height: 216,
     },
@@ -36,7 +36,7 @@ export const variants = [
   {
     displayName: "aligned-top",
     picture: {
-      src: "./components/pictures/applauncher/aligned-top.png",
+      src: "./pictures/applauncher/aligned-top.png",
       width: 293,
       height: 216,
     },
@@ -63,7 +63,7 @@ export const variants = [
   {
     displayName: "collapsed",
     picture: {
-      src: "./components/pictures/applauncher/collapsed.png",
+      src: "./pictures/applauncher/collapsed.png",
       width: 293,
       height: 69,
     },
@@ -90,7 +90,7 @@ export const variants = [
   {
     displayName: "disabled",
     picture: {
-      src: "./components/pictures/applauncher/disabled.png",
+      src: "./pictures/applauncher/disabled.png",
       width: 293,
       height: 69,
     },
@@ -117,7 +117,7 @@ export const variants = [
   {
     displayName: "expanded",
     picture: {
-      src: "./components/pictures/applauncher/expanded.png",
+      src: "./pictures/applauncher/expanded.png",
       width: 293,
       height: 216,
     },
@@ -144,7 +144,7 @@ export const variants = [
   {
     displayName: "favorites",
     picture: {
-      src: "./components/pictures/applauncher/favorites.png",
+      src: "./pictures/applauncher/favorites.png",
       width: 293,
       height: 540,
     },
@@ -266,7 +266,7 @@ export const variants = [
     displayName: "with-sections-and-dividers-between-items",
     picture: {
       src:
-        "./components/pictures/applauncher/with-sections-and-dividers-between-items.png",
+        "./pictures/applauncher/with-sections-and-dividers-between-items.png",
       width: 293,
       height: 424,
     },
@@ -315,7 +315,7 @@ export const variants = [
     displayName: "with-sections-and-dividers-between-sections",
     picture: {
       src:
-        "./components/pictures/applauncher/with-sections-and-dividers-between-sections.png",
+        "./pictures/applauncher/with-sections-and-dividers-between-sections.png",
       width: 293,
       height: 424,
     },
@@ -364,7 +364,7 @@ export const variants = [
     displayName: "with-sections-dividers-icons-and-external-links",
     picture: {
       src:
-        "./components/pictures/applauncher/with-sections-dividers-icons-and-external-links.png",
+        "./pictures/applauncher/with-sections-dividers-icons-and-external-links.png",
       width: 293,
       height: 424,
     },

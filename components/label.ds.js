@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "filled",
     picture: {
-      src: "./components/pictures/label/filled.png",
+      src: "./pictures/label/filled.png",
       width: 824,
       height: 372,
     },
@@ -262,7 +262,7 @@ export const variants = [
   {
     displayName: "outline",
     picture: {
-      src: "./components/pictures/label/outline.png",
+      src: "./pictures/label/outline.png",
       width: 824,
       height: 372,
     },

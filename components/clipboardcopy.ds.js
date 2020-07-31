@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/clipboardcopy/basic.png",
+      src: "./pictures/clipboardcopy/basic.png",
       width: 293,
       height: 129,
     },
@@ -36,7 +36,7 @@ export const variants = [
   {
     displayName: "expandable",
     picture: {
-      src: "./components/pictures/clipboardcopy/expandable.png",
+      src: "./pictures/clipboardcopy/expandable.png",
       width: 855,
       height: 459,
     },

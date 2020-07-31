@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "failure",
     picture: {
-      src: "./components/pictures/progress/failure.png",
+      src: "./pictures/progress/failure.png",
       width: 293,
       height: 89,
     },
@@ -31,7 +31,7 @@ export const variants = [
   {
     displayName: "failure-without-measure",
     picture: {
-      src: "./components/pictures/progress/failure-without-measure.png",
+      src: "./pictures/progress/failure-without-measure.png",
       width: 293,
       height: 89,
     },
@@ -52,7 +52,7 @@ export const variants = [
   {
     displayName: "finite-step",
     picture: {
-      src: "./components/pictures/progress/finite-step.png",
+      src: "./pictures/progress/finite-step.png",
       width: 293,
       height: 89,
     },
@@ -71,7 +71,7 @@ export const variants = [
   {
     displayName: "inside",
     picture: {
-      src: "./components/pictures/progress/inside.png",
+      src: "./pictures/progress/inside.png",
       width: 293,
       height: 97,
     },
@@ -90,7 +90,7 @@ export const variants = [
   {
     displayName: "inside-success",
     picture: {
-      src: "./components/pictures/progress/inside-success.png",
+      src: "./pictures/progress/inside-success.png",
       width: 293,
       height: 97,
     },
@@ -113,7 +113,7 @@ export const variants = [
   {
     displayName: "large",
     picture: {
-      src: "./components/pictures/progress/large.png",
+      src: "./pictures/progress/large.png",
       width: 293,
       height: 97,
     },
@@ -132,7 +132,7 @@ export const variants = [
   {
     displayName: "on-single-line",
     picture: {
-      src: "./components/pictures/progress/on-single-line.png",
+      src: "./pictures/progress/on-single-line.png",
       width: 293,
       height: 57,
     },
@@ -151,7 +151,7 @@ export const variants = [
   {
     displayName: "outside",
     picture: {
-      src: "./components/pictures/progress/outside.png",
+      src: "./pictures/progress/outside.png",
       width: 293,
       height: 97,
     },
@@ -170,7 +170,7 @@ export const variants = [
   {
     displayName: "outside-failure",
     picture: {
-      src: "./components/pictures/progress/outside-failure.png",
+      src: "./pictures/progress/outside-failure.png",
       width: 293,
       height: 97,
     },
@@ -192,7 +192,7 @@ export const variants = [
   {
     displayName: "progress-step-instruction",
     picture: {
-      src: "./components/pictures/progress/progress-step-instruction.png",
+      src: "./pictures/progress/progress-step-instruction.png",
       width: 293,
       height: 89,
     },
@@ -211,7 +211,7 @@ export const variants = [
   {
     displayName: "simple",
     picture: {
-      src: "./components/pictures/progress/simple.png",
+      src: "./pictures/progress/simple.png",
       width: 293,
       height: 89,
     },
@@ -230,7 +230,7 @@ export const variants = [
   {
     displayName: "small",
     picture: {
-      src: "./components/pictures/progress/small.png",
+      src: "./pictures/progress/small.png",
       width: 293,
       height: 81,
     },
@@ -249,7 +249,7 @@ export const variants = [
   {
     displayName: "success",
     picture: {
-      src: "./components/pictures/progress/success.png",
+      src: "./pictures/progress/success.png",
       width: 293,
       height: 89,
     },
@@ -271,7 +271,7 @@ export const variants = [
   {
     displayName: "without-measure",
     picture: {
-      src: "./components/pictures/progress/without-measure.png",
+      src: "./pictures/progress/without-measure.png",
       width: 293,
       height: 89,
     },

@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "size-modifiers",
     picture: {
-      src: "./components/pictures/title/size-modifiers.png",
+      src: "./pictures/title/size-modifiers.png",
       width: 293,
       height: 33,
     },

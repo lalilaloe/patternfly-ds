@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "inline-types",
     picture: {
-      src: "./components/pictures/alert/inline-types.png",
+      src: "./pictures/alert/inline-types.png",
       width: 293,
       height: 404,
     },
@@ -68,7 +68,7 @@ export const variants = [
   {
     displayName: "inline-variations",
     picture: {
-      src: "./components/pictures/alert/inline-variations.png",
+      src: "./pictures/alert/inline-variations.png",
       width: 692,
       height: 437,
     },
@@ -148,7 +148,7 @@ export const variants = [
   {
     displayName: "types",
     picture: {
-      src: "./components/pictures/alert/types.png",
+      src: "./pictures/alert/types.png",
       width: 293,
       height: 404,
     },
@@ -207,7 +207,7 @@ export const variants = [
   {
     displayName: "variations",
     picture: {
-      src: "./components/pictures/alert/variations.png",
+      src: "./pictures/alert/variations.png",
       width: 855,
       height: 766,
     },

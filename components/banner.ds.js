@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/banner/basic.png",
+      src: "./pictures/banner/basic.png",
       width: 293,
       height: 274,
     },

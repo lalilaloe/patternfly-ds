@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "action-group",
     picture: {
-      src: "./components/pictures/form/action-group.png",
+      src: "./pictures/form/action-group.png",
       width: 293,
       height: 101,
     },
@@ -27,7 +27,7 @@ export const variants = [
   {
     displayName: "help-text",
     picture: {
-      src: "./components/pictures/form/help-text.png",
+      src: "./pictures/form/help-text.png",
       width: 355,
       height: 631,
     },
@@ -96,7 +96,7 @@ export const variants = [
   {
     displayName: "horizontally-aligned-labels",
     picture: {
-      src: "./components/pictures/form/horizontally-aligned-labels.png",
+      src: "./pictures/form/horizontally-aligned-labels.png",
       width: 417,
       height: 243,
     },
@@ -158,7 +158,7 @@ export const variants = [
   {
     displayName: "vertically-aligned-labels",
     picture: {
-      src: "./components/pictures/form/vertically-aligned-labels.png",
+      src: "./pictures/form/vertically-aligned-labels.png",
       width: 293,
       height: 101,
     },

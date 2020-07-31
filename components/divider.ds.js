@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "div",
     picture: {
-      src: "./components/pictures/divider/div.png",
+      src: "./pictures/divider/div.png",
       width: 293,
       height: 34,
     },
@@ -20,7 +20,7 @@ export const variants = [
   {
     displayName: "hr",
     picture: {
-      src: "./components/pictures/divider/hr.png",
+      src: "./pictures/divider/hr.png",
       width: 293,
       height: 34,
     },
@@ -31,7 +31,7 @@ export const variants = [
   {
     displayName: "inset-medium",
     picture: {
-      src: "./components/pictures/divider/inset-medium.png",
+      src: "./pictures/divider/inset-medium.png",
       width: 293,
       height: 34,
     },
@@ -42,7 +42,7 @@ export const variants = [
   {
     displayName: "li",
     picture: {
-      src: "./components/pictures/divider/li.png",
+      src: "./pictures/divider/li.png",
       width: 293,
       height: 82,
     },
@@ -58,7 +58,7 @@ export const variants = [
     displayName: "md-inset-no-inset-on-md-3xl-inset-on-lg-lg-inset-on-xl",
     picture: {
       src:
-        "./components/pictures/divider/md-inset-no-inset-on-md-3xl-inset-on-lg-lg-inset-on-xl.png",
+        "./pictures/divider/md-inset-no-inset-on-md-3xl-inset-on-lg-lg-inset-on-xl.png",
       width: 293,
       height: 34,
     },
@@ -69,7 +69,7 @@ export const variants = [
   {
     displayName: "vertical",
     picture: {
-      src: "./components/pictures/divider/vertical.png",
+      src: "./pictures/divider/vertical.png",
       width: 293,
       height: 81,
     },
@@ -80,7 +80,7 @@ export const variants = [
   {
     displayName: "vertical-inset-medium",
     picture: {
-      src: "./components/pictures/divider/vertical-inset-medium.png",
+      src: "./pictures/divider/vertical-inset-medium.png",
       width: 293,
       height: 81,
     },
@@ -93,7 +93,7 @@ export const variants = [
       "vertical-md-inset-no-inset-on-md-lg-inset-on-lg-sm-inset-on-xl",
     picture: {
       src:
-        "./components/pictures/divider/vertical-md-inset-no-inset-on-md-lg-inset-on-lg-sm-inset-on-xl.png",
+        "./pictures/divider/vertical-md-inset-no-inset-on-md-lg-inset-on-lg-sm-inset-on-xl.png",
       width: 293,
       height: 81,
     },

@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/notificationbadge/basic.png",
+      src: "./pictures/notificationbadge/basic.png",
       width: 293,
       height: 69,
     },

@@ -9,7 +9,7 @@ export const variants = [
   {
     displayName: "basic",
     picture: {
-      src: "./components/pictures/breadcrumb/basic.png",
+      src: "./pictures/breadcrumb/basic.png",
       width: 455,
       height: 57,
     },
@@ -47,7 +47,7 @@ export const variants = [
   {
     displayName: "with-heading",
     picture: {
-      src: "./components/pictures/breadcrumb/with-heading.png",
+      src: "./pictures/breadcrumb/with-heading.png",
       width: 515,
       height: 57,
     },
@@ -93,7 +93,7 @@ export const variants = [
   {
     displayName: "without-home-link",
     picture: {
-      src: "./components/pictures/breadcrumb/without-home-link.png",
+      src: "./pictures/breadcrumb/without-home-link.png",
       width: 635,
       height: 57,
     },
