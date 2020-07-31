@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/breadcrumb/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/breadcrumb/basic.png",
+      width: 455,
+      height: 57,
     },
     snippet: {
       html: `<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
@@ -45,11 +45,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-heading",
     picture: {
-      src: "./pictures/breadcrumb/with-heading.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/breadcrumb/with-heading.png",
+      width: 515,
+      height: 57,
     },
     snippet: {
       html: `<nav class="pf-c-breadcrumb" aria-label="breadcrumb">
@@ -91,11 +91,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "without-home-link",
     picture: {
-      src: "./pictures/breadcrumb/without-home-link.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/breadcrumb/without-home-link.png",
+      width: 635,
+      height: 57,
     },
     snippet: {
       html: `<nav class="pf-c-breadcrumb" aria-label="breadcrumb">

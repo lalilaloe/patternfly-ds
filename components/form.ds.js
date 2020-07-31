@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "action-group",
     picture: {
-      src: "./pictures/form/action-group.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/form/action-group.png",
+      width: 293,
+      height: 101,
     },
     snippet: {
       html: `<form novalidate class="pf-c-form">
@@ -25,11 +25,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "help-text",
     picture: {
-      src: "./pictures/form/help-text.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/form/help-text.png",
+      width: 355,
+      height: 631,
     },
     snippet: {
       html: `<form novalidate class="pf-c-form">
@@ -94,11 +94,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "horizontally-aligned-labels",
     picture: {
-      src: "./pictures/form/horizontally-aligned-labels.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/form/horizontally-aligned-labels.png",
+      width: 417,
+      height: 243,
     },
     snippet: {
       html: `<form novalidate class="pf-c-form pf-m-horizontal">
@@ -156,11 +156,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "vertically-aligned-labels",
     picture: {
-      src: "./pictures/form/vertically-aligned-labels.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/form/vertically-aligned-labels.png",
+      width: 293,
+      height: 101,
     },
     snippet: {
       html: `<form novalidate class="pf-c-form">

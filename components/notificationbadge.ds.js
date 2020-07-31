@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/notificationbadge/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/notificationbadge/basic.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<button class="pf-c-button pf-m-plain" type="button" aria-label="Unread notifications">

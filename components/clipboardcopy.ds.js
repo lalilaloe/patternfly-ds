@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/clipboardcopy/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/clipboardcopy/basic.png",
+      width: 293,
+      height: 129,
     },
     snippet: {
       html: `<div class="pf-c-clipboard-copy">
@@ -34,11 +34,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expandable",
     picture: {
-      src: "./pictures/clipboardcopy/expandable.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/clipboardcopy/expandable.png",
+      width: 855,
+      height: 459,
     },
     snippet: {
       html: `<h4>Editable</h4>

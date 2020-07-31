@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "definition-list",
     picture: {
-      src: "./pictures/accordion/definition-list.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/accordion/definition-list.png",
+      width: 855,
+      height: 312,
     },
     snippet: {
       html: `<dl class="pf-c-accordion">
@@ -74,11 +74,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "fixed",
     picture: {
-      src: "./pictures/accordion/fixed.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/accordion/fixed.png",
+      width: 855,
+      height: 383,
     },
     snippet: {
       html: `<div class="pf-c-accordion">
@@ -141,11 +141,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "fluid",
     picture: {
-      src: "./pictures/accordion/fluid.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/accordion/fluid.png",
+      width: 855,
+      height: 312,
     },
     snippet: {
       html: `<div class="pf-c-accordion">

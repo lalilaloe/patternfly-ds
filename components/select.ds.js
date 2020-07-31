@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "checkbox",
     picture: {
-      src: "./pictures/select/checkbox.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/checkbox.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-select">
@@ -54,11 +54,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "checkbox-expanded",
     picture: {
-      src: "./pictures/select/checkbox-expanded.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/checkbox-expanded.png",
+      width: 293,
+      height: 270,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -99,11 +99,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "checkbox-expanded-and-selected-with-groups",
     picture: {
-      src: "./pictures/select/checkbox-expanded-and-selected-with-groups.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/select/checkbox-expanded-and-selected-with-groups.png",
+      width: 293,
+      height: 460,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -164,12 +165,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "checkbox-expanded-and-selected-with-groups-and-filter",
     picture: {
       src:
-        "./pictures/select/checkbox-expanded-and-selected-with-groups-and-filter.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/select/checkbox-expanded-and-selected-with-groups-and-filter.png",
+      width: 293,
+      height: 530,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -234,11 +235,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "checkbox-expanded-without-badge",
     picture: {
-      src: "./pictures/select/checkbox-expanded-without-badge.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/checkbox-expanded-without-badge.png",
+      width: 293,
+      height: 270,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -279,11 +280,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "checkbox-with-description",
     picture: {
-      src: "./pictures/select/checkbox-with-description.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/checkbox-with-description.png",
+      width: 293,
+      height: 350,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -326,11 +327,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "disabled",
     picture: {
-      src: "./pictures/select/disabled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/disabled.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-select">
@@ -364,11 +365,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "disabled-with-typeahead",
     picture: {
-      src: "./pictures/select/disabled-with-typeahead.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/disabled-with-typeahead.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-select">
@@ -405,11 +406,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "favorites",
     picture: {
-      src: "./pictures/select/favorites.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/favorites.png",
+      width: 293,
+      height: 650,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -518,11 +519,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "icon",
     picture: {
-      src: "./pictures/select/icon.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/icon.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-select">
@@ -559,11 +560,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "multi-with-typeahead-chip-group-collapsed",
     picture: {
-      src: "./pictures/select/multi-with-typeahead-chip-group-collapsed.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/select/multi-with-typeahead-chip-group-collapsed.png",
+      width: 684,
+      height: 210,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -626,11 +628,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "multi-with-typeahead-chip-group-expanded",
     picture: {
-      src: "./pictures/select/multi-with-typeahead-chip-group-expanded.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/select/multi-with-typeahead-chip-group-expanded.png",
+      width: 796,
+      height: 365,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -711,11 +714,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "panel",
     picture: {
-      src: "./pictures/select/panel.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/panel.png",
+      width: 293,
+      height: 120,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -733,11 +736,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "plain",
     picture: {
-      src: "./pictures/select/plain.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/plain.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-select">
@@ -771,11 +774,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "plain-expanded",
     picture: {
-      src: "./pictures/select/plain-expanded.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/plain-expanded.png",
+      width: 293,
+      height: 330,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -809,11 +812,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "select-multi-with-typeahead",
     picture: {
-      src: "./pictures/select/select-multi-with-typeahead.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/select-multi-with-typeahead.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-select">
@@ -847,11 +850,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single",
     picture: {
-      src: "./pictures/select/single.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/single.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-select">
@@ -885,11 +888,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single-expanded",
     picture: {
-      src: "./pictures/select/single-expanded.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/single-expanded.png",
+      width: 293,
+      height: 330,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -923,11 +926,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single-expanded-and-selected",
     picture: {
-      src: "./pictures/select/single-expanded-and-selected.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/single-expanded-and-selected.png",
+      width: 293,
+      height: 330,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -965,11 +968,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single-with-top-expanded",
     picture: {
-      src: "./pictures/select/single-with-top-expanded.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/single-with-top-expanded.png",
+      width: 293,
+      height: 330,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded pf-m-top">
@@ -1003,11 +1006,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single-with-typeahead",
     picture: {
-      src: "./pictures/select/single-with-typeahead.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/single-with-typeahead.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-select">
@@ -1044,11 +1047,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single-with-typeahead-expanded",
     picture: {
-      src: "./pictures/select/single-with-typeahead-expanded.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/single-with-typeahead-expanded.png",
+      width: 306,
+      height: 210,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -1086,11 +1089,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single-with-typeahead-expanded-and-selected",
     picture: {
-      src: "./pictures/select/single-with-typeahead-expanded-and-selected.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/select/single-with-typeahead-expanded-and-selected.png",
+      width: 306,
+      height: 330,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">
@@ -1134,11 +1138,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-description",
     picture: {
-      src: "./pictures/select/with-description.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/select/with-description.png",
+      width: 293,
+      height: 350,
     },
     snippet: {
       html: `<div class="pf-c-select pf-m-expanded">

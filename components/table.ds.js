@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic-table",
     picture: {
-      src: "./pictures/table/basic-table.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/basic-table.png",
+      width: 500,
+      height: 432,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a simple table example" id="table-basic">
@@ -59,11 +59,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "compact",
     picture: {
-      src: "./pictures/table/compact.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/compact.png",
+      width: 751,
+      height: 239,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-compact pf-m-grid-md" role="grid" aria-label="This is a compact table example" id="table-compact">
@@ -260,11 +260,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "compact-expandable",
     picture: {
-      src: "./pictures/table/compact-expandable.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/compact-expandable.png",
+      width: 855,
+      height: 589,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-expandable pf-m-compact pf-m-grid-md" role="grid" aria-label="Compact expandable table example" id="table-compact-expandable">
@@ -548,11 +548,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "compact-with-no-borders",
     picture: {
-      src: "./pictures/table/compact-with-no-borders.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/compact-with-no-borders.png",
+      width: 751,
+      height: 235,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-compact pf-m-grid-md pf-m-no-border-rows" role="grid" aria-label="This is a compact table with border rows example" id="table-compact-no-borders">
@@ -749,11 +749,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expandable",
     picture: {
-      src: "./pictures/table/expandable.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/expandable.png",
+      width: 855,
+      height: 841,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-expandable pf-m-grid-lg" role="grid" aria-label="Expandable table example" id="table-expandable">
@@ -1024,11 +1024,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "modifiers-without-text-wrapper",
     picture: {
-      src: "./pictures/table/modifiers-without-text-wrapper.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/modifiers-without-text-wrapper.png",
+      width: 855,
+      height: 470,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a simple table example" id="modifiers-without-text-wrapper-example">
@@ -1065,11 +1065,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "sortable",
     picture: {
-      src: "./pictures/table/sortable.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/sortable.png",
+      width: 551,
+      height: 379,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a sortable table example" id="table-sortable">
@@ -1158,11 +1158,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "sticky-header",
     picture: {
-      src: "./pictures/table/sticky-header.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/sticky-header.png",
+      width: 500,
+      height: 378,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-grid-md pf-m-sticky-header" role="grid" aria-label="This is a table with sticky header cells" id="table-sticky-header">
@@ -1209,11 +1209,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "table-text-element",
     picture: {
-      src: "./pictures/table/table-text-element.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/table-text-element.png",
+      width: 855,
+      height: 1096,
     },
     snippet: {
       html:
@@ -1371,11 +1371,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "th-truncation",
     picture: {
-      src: "./pictures/table/th-truncation.png",
+      src: "./components/pictures/table/th-truncation.png",
       width: 800,
-      height: 600,
+      height: 357,
     },
     snippet: {
       html: `<div class="pf-c-tooltip pf-m-top" role="tooltip">
@@ -1419,11 +1419,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "width-constrained",
     picture: {
-      src: "./pictures/table/width-constrained.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/width-constrained.png",
+      width: 855,
+      height: 329,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a simple table example" id="width-constrained-example">
@@ -1458,11 +1458,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-checkboxes-and-actions",
     picture: {
-      src: "./pictures/table/with-checkboxes-and-actions.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/with-checkboxes-and-actions.png",
+      width: 642,
+      height: 454,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="This is a table with checkboxes" id="table-checkboxes-and-actions">
@@ -1642,11 +1642,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-compound-expansion",
     picture: {
-      src: "./pictures/table/with-compound-expansion.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/with-compound-expansion.png",
+      width: 820,
+      height: 536,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-expandable pf-m-grid-md" role="grid" aria-label="Compound expandable table example" id="table-compound-expansion">
@@ -3453,11 +3453,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-hiddenvisible-breakpoint-modifiers",
     picture: {
-      src: "./pictures/table/with-hiddenvisible-breakpoint-modifiers.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/table/with-hiddenvisible-breakpoint-modifiers.png",
+      width: 640,
+      height: 379,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-grid-lg" role="grid" aria-label="Table with hidden and visible modifiers example" id="table-hidden-visible">
@@ -3504,11 +3505,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-width-modifiers",
     picture: {
-      src: "./pictures/table/with-width-modifiers.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/table/with-width-modifiers.png",
+      width: 670,
+      height: 454,
     },
     snippet: {
       html: `<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a width modifier expandable" id="table-width-modifiers">

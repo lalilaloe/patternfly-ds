@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/login/basic.png",
+      src: "./components/pictures/login/basic.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-background-image">
@@ -144,11 +144,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "invalid",
     picture: {
-      src: "./pictures/login/invalid.png",
+      src: "./components/pictures/login/invalid.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-background-image">

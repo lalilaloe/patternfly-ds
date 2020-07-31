@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/aboutmodalbox/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/aboutmodalbox/basic.png",
+      width: 872,
+      height: 568,
     },
     snippet: {
       html: `<div class="pf-c-about-modal-box" role="dialog" aria-modal="true" aria-labelledby="about-modal-title">

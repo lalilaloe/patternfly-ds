@@ -7,11 +7,12 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "additional-options-in-dropdown-hidden",
     picture: {
-      src: "./pictures/overflowmenu/additional-options-in-dropdown-hidden.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/overflowmenu/additional-options-in-dropdown-hidden.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-overflow-menu" id="overflow-menu-simple-additional-options-hidden">
@@ -49,11 +50,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "additional-options-in-dropdown-visible",
     picture: {
-      src: "./pictures/overflowmenu/additional-options-in-dropdown-visible.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/overflowmenu/additional-options-in-dropdown-visible.png",
+      width: 536,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-overflow-menu" id="overflow-menu-simple-additional-options-visible">
@@ -103,11 +105,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "group-types",
     picture: {
-      src: "./pictures/overflowmenu/group-types.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/overflowmenu/group-types.png",
+      width: 663,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-overflow-menu" id="overflow-menu-button-group-example">
@@ -150,11 +152,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "persistent-additional-options-hidden",
     picture: {
-      src: "./pictures/overflowmenu/persistent-additional-options-hidden.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/overflowmenu/persistent-additional-options-hidden.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-overflow-menu" id="overflow-menu-persistent-hidden">
@@ -187,11 +190,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "persistent-additional-options-visible",
     picture: {
-      src: "./pictures/overflowmenu/persistent-additional-options-visible.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/overflowmenu/persistent-additional-options-visible.png",
+      width: 382,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-overflow-menu" id="overflow-menu-persistent-visible-example">
@@ -224,11 +228,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "simple-collapsed",
     picture: {
-      src: "./pictures/overflowmenu/simple-collapsed.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/overflowmenu/simple-collapsed.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-overflow-menu" id="overflow-menu-simple">
@@ -260,11 +264,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "simple-expanded",
     picture: {
-      src: "./pictures/overflowmenu/simple-expanded.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/overflowmenu/simple-expanded.png",
+      width: 318,
+      height: 57,
     },
     snippet: {
       html: `<div class="pf-c-overflow-menu" id="overflow-menu-simple-expanded">

@@ -7,44 +7,44 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "div",
     picture: {
-      src: "./pictures/divider/div.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/divider/div.png",
+      width: 293,
+      height: 34,
     },
     snippet: {
       html: `<div class="pf-c-divider" role="separator"></div>`,
     },
   },
   {
-    displayName: "Basic",
+    displayName: "hr",
     picture: {
-      src: "./pictures/divider/hr.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/divider/hr.png",
+      width: 293,
+      height: 34,
     },
     snippet: {
       html: `<hr class="pf-c-divider" />`,
     },
   },
   {
-    displayName: "Basic",
+    displayName: "inset-medium",
     picture: {
-      src: "./pictures/divider/inset-medium.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/divider/inset-medium.png",
+      width: 293,
+      height: 34,
     },
     snippet: {
       html: `<div class="pf-c-divider pf-m-inset-md" role="separator"></div>`,
     },
   },
   {
-    displayName: "Basic",
+    displayName: "li",
     picture: {
-      src: "./pictures/divider/li.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/divider/li.png",
+      width: 293,
+      height: 82,
     },
     snippet: {
       html: `<ul>
@@ -55,46 +55,47 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "md-inset-no-inset-on-md-3xl-inset-on-lg-lg-inset-on-xl",
     picture: {
       src:
-        "./pictures/divider/md-inset-no-inset-on-md-3xl-inset-on-lg-lg-inset-on-xl.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/divider/md-inset-no-inset-on-md-3xl-inset-on-lg-lg-inset-on-xl.png",
+      width: 293,
+      height: 34,
     },
     snippet: {
       html: `<div class="pf-c-divider pf-m-inset-md pf-m-inset-none-on-md pf-m-inset-3xl-on-lg pf-m-inset-lg-on-xl" role="separator"></div>`,
     },
   },
   {
-    displayName: "Basic",
+    displayName: "vertical",
     picture: {
-      src: "./pictures/divider/vertical.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/divider/vertical.png",
+      width: 293,
+      height: 81,
     },
     snippet: {
       html: `<div class="pf-c-divider pf-m-vertical pf-m-inset-md" role="separator"></div>`,
     },
   },
   {
-    displayName: "Basic",
+    displayName: "vertical-inset-medium",
     picture: {
-      src: "./pictures/divider/vertical-inset-medium.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/divider/vertical-inset-medium.png",
+      width: 293,
+      height: 81,
     },
     snippet: {
       html: `<div class="pf-c-divider pf-m-vertical pf-m-inset-md" role="separator"></div>`,
     },
   },
   {
-    displayName: "Basic",
+    displayName:
+      "vertical-md-inset-no-inset-on-md-lg-inset-on-lg-sm-inset-on-xl",
     picture: {
       src:
-        "./pictures/divider/vertical-md-inset-no-inset-on-md-lg-inset-on-lg-sm-inset-on-xl.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/divider/vertical-md-inset-no-inset-on-md-lg-inset-on-lg-sm-inset-on-xl.png",
+      width: 293,
+      height: 81,
     },
     snippet: {
       html: `<div class="pf-c-divider pf-m-vertical pf-m-inset-md pf-m-inset-none-on-md pf-m-inset-lg-on-lg pf-m-inset-sm-on-xl" role="separator"></div>`,

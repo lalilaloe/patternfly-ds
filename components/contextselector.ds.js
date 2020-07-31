@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/contextselector/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/contextselector/basic.png",
+      width: 532,
+      height: 380,
     },
     snippet: {
       html: `<div class="pf-c-context-selector">

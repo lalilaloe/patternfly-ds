@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/datalist/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/datalist/basic.png",
+      width: 690,
+      height: 300,
     },
     snippet: {
       html: `<ul class="pf-c-data-list" role="list" aria-label="Basic data list example" id="data-list-basic">
@@ -39,11 +39,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "checkboxes-actions-and-additional-cells",
     picture: {
-      src: "./pictures/datalist/checkboxes-actions-and-additional-cells.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/datalist/checkboxes-actions-and-additional-cells.png",
+      width: 855,
+      height: 469,
     },
     snippet: {
       html: `<ul class="pf-c-data-list" role="list" aria-label="Checkbox and action data list example" id="data-list-checkboxes-actions-addl-cells">
@@ -190,11 +191,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "compact",
     picture: {
-      src: "./pictures/datalist/compact.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/datalist/compact.png",
+      width: 855,
+      height: 295,
     },
     snippet: {
       html: `<ul class="pf-c-data-list pf-m-compact" role="list" aria-label="Compact data list example" id="data-list-compact">
@@ -341,11 +342,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expandable",
     picture: {
-      src: "./pictures/datalist/expandable.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/datalist/expandable.png",
+      width: 855,
+      height: 591,
     },
     snippet: {
       html: `<ul class="pf-c-data-list" role="list" aria-label="Expandable data list example" id="data-list-expandable">
@@ -528,11 +529,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "modifiers",
     picture: {
-      src: "./pictures/datalist/modifiers.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/datalist/modifiers.png",
+      width: 855,
+      height: 784,
     },
     snippet: {
       html: `<h2 class="Preview__section-title">Default fitting - example 1</h2>
@@ -698,11 +699,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "selectable-expandable-rows",
     picture: {
-      src: "./pictures/datalist/selectable-expandable-rows.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/datalist/selectable-expandable-rows.png",
+      width: 855,
+      height: 472,
     },
     snippet: {
       html: `<ul class="pf-c-data-list" role="list" aria-label="Selectable, expandable data list example" id="data-list-selectable-expandable-rows">
@@ -794,11 +795,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "selectable-rows",
     picture: {
-      src: "./pictures/datalist/selectable-rows.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/datalist/selectable-rows.png",
+      width: 293,
+      height: 253,
     },
     snippet: {
       html: `<ul class="pf-c-data-list" role="list" aria-label="Selectable rows data list example" id="data-list-selectable-rows">
@@ -833,11 +834,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-headings",
     picture: {
-      src: "./pictures/datalist/with-headings.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/datalist/with-headings.png",
+      width: 690,
+      height: 300,
     },
     snippet: {
       html: `<ul class="pf-c-data-list" role="list" aria-label="With headings data list example" id="data-list-with-headings">

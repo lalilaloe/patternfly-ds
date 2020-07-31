@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic-file-upload",
     picture: {
-      src: "./pictures/fileupload/basic-file-upload.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/fileupload/basic-file-upload.png",
+      width: 396,
+      height: 197,
     },
     snippet: {
       html: `<div class="pf-c-file-upload">
@@ -29,11 +29,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "drag-file-hover-component",
     picture: {
-      src: "./pictures/fileupload/drag-file-hover-component.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/fileupload/drag-file-hover-component.png",
+      width: 396,
+      height: 197,
     },
     snippet: {
       html: `<div class="pf-c-file-upload pf-m-drag-hover">
@@ -51,11 +51,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "file-upload-in-form-with-error",
     picture: {
-      src: "./pictures/fileupload/file-upload-in-form-with-error.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/fileupload/file-upload-in-form-with-error.png",
+      width: 436,
+      height: 222,
     },
     snippet: {
       html: `<form novalidate class="pf-c-form">
@@ -78,11 +79,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "file-upload-loading",
     picture: {
-      src: "./pictures/fileupload/file-upload-loading.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/fileupload/file-upload-loading.png",
+      width: 396,
+      height: 197,
     },
     snippet: {
       html: `<div class="pf-c-file-upload pf-m-loading">
@@ -107,11 +108,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "upload-complete-editable",
     picture: {
-      src: "./pictures/fileupload/upload-complete-editable.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/fileupload/upload-complete-editable.png",
+      width: 396,
+      height: 197,
     },
     snippet: {
       html: `<div class="pf-c-file-upload">
@@ -129,11 +130,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "upload-complete-non-editable",
     picture: {
-      src: "./pictures/fileupload/upload-complete-non-editable.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/fileupload/upload-complete-non-editable.png",
+      width: 396,
+      height: 197,
     },
     snippet: {
       html: `<div class="pf-c-file-upload">

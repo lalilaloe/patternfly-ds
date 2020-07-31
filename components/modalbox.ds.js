@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/modalbox/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/modalbox/basic.png",
+      width: 968,
+      height: 191,
     },
     snippet: {
       html: `<div class="pf-c-modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
@@ -27,11 +27,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "custom-title",
     picture: {
-      src: "./pictures/modalbox/custom-title.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/modalbox/custom-title.png",
+      width: 968,
+      height: 206,
     },
     snippet: {
       html: `<div class="pf-c-modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-custom-title" aria-describedby="modal-custom-description">
@@ -47,11 +47,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "large",
     picture: {
-      src: "./pictures/modalbox/large.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/modalbox/large.png",
+      width: 968,
+      height: 215,
     },
     snippet: {
       html: `<div class="pf-c-modal-box pf-m-lg" role="dialog" aria-modal="true" aria-labelledby="modal-lg-title" aria-describedby="modal-lg-description">
@@ -67,11 +67,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "medium",
     picture: {
-      src: "./pictures/modalbox/medium.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/modalbox/medium.png",
+      width: 840,
+      height: 215,
     },
     snippet: {
       html: `<div class="pf-c-modal-box pf-m-md" role="dialog" aria-modal="true" aria-labelledby="modal-md-title" aria-describedby="modal-md-description">
@@ -87,11 +87,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "modal-box-as-generic-container",
     picture: {
-      src: "./pictures/modalbox/modal-box-as-generic-container.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/modalbox/modal-box-as-generic-container.png",
+      width: 968,
+      height: 48,
     },
     snippet: {
       html: `<div class="pf-c-modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-generic-container-description">
@@ -100,11 +100,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "small",
     picture: {
-      src: "./pictures/modalbox/small.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/modalbox/small.png",
+      width: 560,
+      height: 239,
     },
     snippet: {
       html: `<div class="pf-c-modal-box pf-m-sm" role="dialog" aria-modal="true" aria-labelledby="modal-sm-title" aria-describedby="modal-sm-description">
@@ -120,11 +120,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-description",
     picture: {
-      src: "./pictures/modalbox/with-description.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/modalbox/with-description.png",
+      width: 968,
+      height: 243,
     },
     snippet: {
       html: `<div class="pf-c-modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-with-description-title" aria-describedby="modal-with-description-description">
@@ -141,11 +141,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "without-title",
     picture: {
-      src: "./pictures/modalbox/without-title.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/modalbox/without-title.png",
+      width: 968,
+      height: 216,
     },
     snippet: {
       html: `<div class="pf-c-modal-box" role="dialog" aria-modal="true" aria-label="Example of a modal without a title" aria-describedby="modal-no-title-description">

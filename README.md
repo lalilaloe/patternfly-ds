@@ -33,7 +33,7 @@ npm install
 
 # build and startup patternfly docs locally
 npm run build
-npm start:patternfly
+npm run start:patternfly
 
 # start converting
 npm start
@@ -47,6 +47,11 @@ npm run lint
 
 ## Contributing
 Requests are welcome. Especially when using the convert script for another project, we might be able to make it universal and move it to a repo of it's own. Please open an issue first to discuss what you would like to change.
+
+## Missing/Todo
+- Tokens
+- Layouts & Utilities
+- Test various components
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

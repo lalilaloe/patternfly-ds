@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "default",
     picture: {
-      src: "./pictures/descriptionlist/default.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/descriptionlist/default.png",
+      width: 293,
+      height: 394,
     },
     snippet: {
       html: `<dl class="pf-c-description-list">
@@ -66,11 +66,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "default-2-col",
     picture: {
-      src: "./pictures/descriptionlist/default-2-col.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/descriptionlist/default-2-col.png",
+      width: 293,
+      height: 240,
     },
     snippet: {
       html: `<dl class="pf-c-description-list pf-m-2-col">
@@ -125,11 +125,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "default-3-col-on-lg",
     picture: {
-      src: "./pictures/descriptionlist/default-3-col-on-lg.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/descriptionlist/default-3-col-on-lg.png",
+      width: 411,
+      height: 163,
     },
     snippet: {
       html: `<dl class="pf-c-description-list pf-m-3-col-on-lg">
@@ -184,11 +184,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "default-auto-columns-width",
     picture: {
-      src: "./pictures/descriptionlist/default-auto-columns-width.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/descriptionlist/default-auto-columns-width.png",
+      width: 373,
+      height: 163,
     },
     snippet: {
       html: `<dl class="pf-c-description-list pf-m-auto-column-widths pf-m-3-col">
@@ -243,11 +244,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "default-inline-grid",
     picture: {
-      src: "./pictures/descriptionlist/default-inline-grid.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/descriptionlist/default-inline-grid.png",
+      width: 411,
+      height: 165,
     },
     snippet: {
       html: `<dl class="pf-c-description-list pf-m-3-col pf-m-inline-grid">
@@ -302,11 +303,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "default-responsive-columns",
     picture: {
-      src: "./pictures/descriptionlist/default-responsive-columns.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/descriptionlist/default-responsive-columns.png",
+      width: 293,
+      height: 240,
     },
     snippet: {
       html: `<dl class="pf-c-description-list pf-m-2-col-on-lg pf-m-3-col-on-xl">
@@ -361,11 +363,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "horizontal",
     picture: {
-      src: "./pictures/descriptionlist/horizontal.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/descriptionlist/horizontal.png",
+      width: 306,
+      height: 249,
     },
     snippet: {
       html: `<dl class="pf-c-description-list pf-m-horizontal">
@@ -420,11 +422,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "horizontal-2-col",
     picture: {
-      src: "./pictures/descriptionlist/horizontal-2-col.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/descriptionlist/horizontal-2-col.png",
+      width: 604,
+      height: 153,
     },
     snippet: {
       html: `<dl class="pf-c-description-list pf-m-horizontal pf-m-2-col">
@@ -479,11 +481,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "horizontal-3-col-on-lg",
     picture: {
-      src: "./pictures/descriptionlist/horizontal-3-col-on-lg.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/descriptionlist/horizontal-3-col-on-lg.png",
+      width: 888,
+      height: 105,
     },
     snippet: {
       html: `<dl class="pf-c-description-list pf-m-horizontal pf-m-3-col-on-lg">
@@ -538,11 +540,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "horizontal-auto-column-width",
     picture: {
-      src: "./pictures/descriptionlist/horizontal-auto-column-width.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/descriptionlist/horizontal-auto-column-width.png",
+      width: 599,
+      height: 153,
     },
     snippet: {
       html: `<dl class="pf-c-description-list pf-m-horizontal pf-m-auto-column-widths pf-m-2-col-on-lg">
@@ -597,11 +600,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "horizontal-responsive-columns",
     picture: {
-      src: "./pictures/descriptionlist/horizontal-responsive-columns.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/descriptionlist/horizontal-responsive-columns.png",
+      width: 604,
+      height: 153,
     },
     snippet: {
       html: `<dl class="pf-c-description-list pf-m-horizontal pf-m-2-col-on-lg pf-m-3-col-on-xl">

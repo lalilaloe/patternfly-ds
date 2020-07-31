@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/searchinput/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/searchinput/basic.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-search-input">
@@ -25,11 +25,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "match-with-navigable-options",
     picture: {
-      src: "./pictures/searchinput/match-with-navigable-options.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/searchinput/match-with-navigable-options.png",
+      width: 399,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-search-input">
@@ -61,11 +61,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "match-with-result-count",
     picture: {
-      src: "./pictures/searchinput/match-with-result-count.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/searchinput/match-with-result-count.png",
+      width: 332,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-search-input">
@@ -89,11 +89,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "no-match",
     picture: {
-      src: "./pictures/searchinput/no-match.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/searchinput/no-match.png",
+      width: 296,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-search-input">

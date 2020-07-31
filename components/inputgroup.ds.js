@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "variations",
     picture: {
-      src: "./pictures/inputgroup/variations.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/inputgroup/variations.png",
+      width: 493,
+      height: 792,
     },
     snippet: {
       html: `<div class="pf-c-input-group">

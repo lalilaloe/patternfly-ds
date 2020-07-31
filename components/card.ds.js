@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/card/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/basic.png",
+      width: 293,
+      height: 193,
     },
     snippet: {
       html: `<div class="pf-c-card">
@@ -22,11 +22,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "compact",
     picture: {
-      src: "./pictures/card/compact.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/compact.png",
+      width: 293,
+      height: 155,
     },
     snippet: {
       html: `<div class="pf-c-card pf-m-compact">
@@ -37,11 +37,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "flat",
     picture: {
-      src: "./pictures/card/flat.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/flat.png",
+      width: 293,
+      height: 195,
     },
     snippet: {
       html: `<div class="pf-c-card pf-m-flat">
@@ -52,11 +52,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "hover",
     picture: {
-      src: "./pictures/card/hover.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/hover.png",
+      width: 293,
+      height: 193,
     },
     snippet: {
       html: `<div class="pf-c-card pf-m-hoverable">
@@ -67,11 +67,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "selectable",
     picture: {
-      src: "./pictures/card/selectable.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/selectable.png",
+      width: 293,
+      height: 193,
     },
     snippet: {
       html: `<div class="pf-c-card pf-m-selectable" tabindex="0">
@@ -82,11 +82,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "selected",
     picture: {
-      src: "./pictures/card/selected.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/selected.png",
+      width: 293,
+      height: 193,
     },
     snippet: {
       html: `<div class="pf-c-card pf-m-selectable pf-m-selected" tabindex="0">
@@ -97,11 +97,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-image-and-action",
     picture: {
-      src: "./pictures/card/with-image-and-action.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/with-image-and-action.png",
+      width: 459,
+      height: 271,
     },
     snippet: {
       html: `<div class="pf-c-card" id="card-action-example-1">
@@ -143,11 +143,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-multiple-body-sections",
     picture: {
-      src: "./pictures/card/with-multiple-body-sections.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/with-multiple-body-sections.png",
+      width: 293,
+      height: 289,
     },
     snippet: {
       html: `<div class="pf-c-card">
@@ -160,11 +160,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-no-footer",
     picture: {
-      src: "./pictures/card/with-no-footer.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/with-no-footer.png",
+      width: 293,
+      height: 145,
     },
     snippet: {
       html: `<div class="pf-c-card">
@@ -174,11 +174,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-no-title",
     picture: {
-      src: "./pictures/card/with-no-title.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/with-no-title.png",
+      width: 293,
+      height: 153,
     },
     snippet: {
       html: `<div class="pf-c-card">
@@ -188,11 +188,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-only-a-content-section",
     picture: {
-      src: "./pictures/card/with-only-a-content-section.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/with-only-a-content-section.png",
+      width: 293,
+      height: 105,
     },
     snippet: {
       html: `<div class="pf-c-card">
@@ -201,11 +201,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-only-actions-in-head-no-titlefooter",
     picture: {
-      src: "./pictures/card/with-only-actions-in-head-no-titlefooter.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/card/with-only-actions-in-head-no-titlefooter.png",
+      width: 506,
+      height: 157,
     },
     snippet: {
       html: `<div class="pf-c-card" id="card-action-example-3">
@@ -242,11 +243,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-only-image-in-head",
     picture: {
-      src: "./pictures/card/with-only-image-in-head.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/with-only-image-in-head.png",
+      width: 380,
+      height: 271,
     },
     snippet: {
       html: `<div class="pf-c-card">
@@ -262,11 +263,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-only-one-body-that-fills",
     picture: {
-      src: "./pictures/card/with-only-one-body-that-fills.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/with-only-one-body-that-fills.png",
+      width: 293,
+      height: 289,
     },
     snippet: {
       html: `<div class="pf-c-card">
@@ -279,11 +280,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-title-in-head",
     picture: {
-      src: "./pictures/card/with-title-in-head.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/card/with-title-in-head.png",
+      width: 728,
+      height: 205,
     },
     snippet: {
       html: `<div class="pf-c-card" id="card-action-example-2">

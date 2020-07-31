@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/notificationdrawer/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/notificationdrawer/basic.png",
+      width: 855,
+      height: 905,
     },
     snippet: {
       html: `<div class="pf-c-notification-drawer">
@@ -268,11 +268,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "groups",
     picture: {
-      src: "./pictures/notificationdrawer/groups.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/notificationdrawer/groups.png",
+      width: 855,
+      height: 1133,
     },
     snippet: {
       html: `<div class="pf-c-notification-drawer">

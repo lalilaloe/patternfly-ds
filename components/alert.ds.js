@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "inline-types",
     picture: {
-      src: "./pictures/alert/inline-types.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/alert/inline-types.png",
+      width: 293,
+      height: 404,
     },
     snippet: {
       html: `<div class="pf-c-alert pf-m-inline" aria-label="Inline default alert">
@@ -66,11 +66,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "inline-variations",
     picture: {
-      src: "./pictures/alert/inline-variations.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/alert/inline-variations.png",
+      width: 692,
+      height: 437,
     },
     snippet: {
       html: `<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
@@ -146,11 +146,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "types",
     picture: {
-      src: "./pictures/alert/types.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/alert/types.png",
+      width: 293,
+      height: 404,
     },
     snippet: {
       html: `<div class="pf-c-alert" aria-label="Default alert">
@@ -205,11 +205,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "variations",
     picture: {
-      src: "./pictures/alert/variations.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/alert/variations.png",
+      width: 855,
+      height: 766,
     },
     snippet: {
       html: `<div class="pf-c-alert pf-m-success" aria-label="Success alert">

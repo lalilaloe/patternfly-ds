@@ -2,8 +2,9 @@ const fs = require('fs');
 const jsonfile = require('jsonfile');
 const foxr = require('foxr').default
 const path = require('path');
+const slash = require('slash');
 const he = require('he');
-
+const sizeOf = require('image-size');
 
 const parse = (file) => {
     return jsonfile.readFileSync(file);
@@ -34,16 +35,16 @@ function buildVariantJson(component) {
     component.variants.forEach(variant => {
         variants.push(objectToString(
             {
-                displayName: 'Basic',
+                displayName: variant.name,
                 picture: {
-                    src: `./${variant.screenshot}`,
-                    width: 800,
-                    height: 600
+                    src: `./${slash(variant.screenshot.url)}`.replace("//", "/"), // Compatible with windows
+                    width: variant.screenshot.width,
+                    height: variant.screenshot.height
                 },
                 snippet: {
                     html: "html",
                 }
-            }).replace("\"html\"", variant.html)) // The replace is done 
+            }).replace("\"html\"", variant.html)) // The replace is done to avoid qoutes bing added/processed by objectToString
     });
     return `export const variants = [
 ${variants.join(',\n')}
@@ -97,10 +98,10 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir) // for testing use .slice(0, 5); to limit number of components processed
+    const components = getDirectories(componentDir)// for testing use .slice(0, 5); to limit number of components processed
     console.log(components)
     for (const component of components) {
-        console.log("*", component)
+        console.log("*", component) // Log component name
         const variants = getDirectories(path.join(componentDir, component))
         const variantSnippets = []
         let componentpath;
@@ -126,7 +127,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                     page.removeAllListeners(); // Avoid MaxListenersExceededWarning that crashes the script when used in large badges
                     await page.goto(screenshotUrl, { waitUntil: 'load', timeout: 0 })
                 }
-                console.log("   -", variant)
+                console.log("   -", variant) // Log variant name
                 await ready(component)
                 let element;
                 if (component.includes("modal")) { // If modal go to component page
@@ -154,18 +155,25 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                 if (element) {
                     await element.screenshot({ path: screenshotFullPath })
                     //console.log("     Screenshot:", screenshotFullPath)
-                    process.stdout.write("  ✅-" + variant + "\n\033[0G");
+                    process.stdout.write(" ✅ - " + variant + "\n\033[0G"); // The last bit replaces the whole line
                 } else {
-                    process.stdout.write("  ❌-" + variant + "\n\033[0G")
+                    process.stdout.write(" ❌ - " + variant + "\n\033[0G")
                 }
 
             } else {
                 //console.log("     Screenshot exist:", screenshotFullPath)
-                process.stdout.write("  📃-" + variant + "\n\033[0G");
+                process.stdout.write(" ❎ - " + variant + "\n\033[0G");
             }
+
+            const imageSize = sizeOf(screenshotFullPath);
+
             variantSnippets.push({
                 name: variant,
-                screenshot: screenshotFullPath.replace(rootDir, '').replace('/components/', ''),
+                screenshot: {
+                    url: screenshotFullPath.replace(rootDir, '').replace('/components/', ''),
+                    width: imageSize.width,
+                    height: imageSize.height
+                },
                 html: `\`${he.decode(pageData.result.pageContext.code)}\``
             })
 

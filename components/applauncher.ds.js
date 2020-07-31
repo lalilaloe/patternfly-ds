@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "aligned-right",
     picture: {
-      src: "./pictures/applauncher/aligned-right.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/applauncher/aligned-right.png",
+      width: 293,
+      height: 216,
     },
     snippet: {
       html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
@@ -34,11 +34,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "aligned-top",
     picture: {
-      src: "./pictures/applauncher/aligned-top.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/applauncher/aligned-top.png",
+      width: 293,
+      height: 216,
     },
     snippet: {
       html: `<nav class="pf-c-app-launcher pf-m-expanded pf-m-top" aria-label="Application launcher">
@@ -61,11 +61,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "collapsed",
     picture: {
-      src: "./pictures/applauncher/collapsed.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/applauncher/collapsed.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<nav class="pf-c-app-launcher" aria-label="Application launcher">
@@ -88,11 +88,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "disabled",
     picture: {
-      src: "./pictures/applauncher/disabled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/applauncher/disabled.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<nav class="pf-c-app-launcher" aria-label="Application launcher">
@@ -115,11 +115,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expanded",
     picture: {
-      src: "./pictures/applauncher/expanded.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/applauncher/expanded.png",
+      width: 293,
+      height: 216,
     },
     snippet: {
       html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
@@ -142,11 +142,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "favorites",
     picture: {
-      src: "./pictures/applauncher/favorites.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/applauncher/favorites.png",
+      width: 293,
+      height: 540,
     },
     snippet: {
       html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
@@ -263,12 +263,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-sections-and-dividers-between-items",
     picture: {
       src:
-        "./pictures/applauncher/with-sections-and-dividers-between-items.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/applauncher/with-sections-and-dividers-between-items.png",
+      width: 293,
+      height: 424,
     },
     snippet: {
       html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
@@ -312,12 +312,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-sections-and-dividers-between-sections",
     picture: {
       src:
-        "./pictures/applauncher/with-sections-and-dividers-between-sections.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/applauncher/with-sections-and-dividers-between-sections.png",
+      width: 293,
+      height: 424,
     },
     snippet: {
       html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">
@@ -361,12 +361,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-sections-dividers-icons-and-external-links",
     picture: {
       src:
-        "./pictures/applauncher/with-sections-dividers-icons-and-external-links.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/applauncher/with-sections-dividers-icons-and-external-links.png",
+      width: 293,
+      height: 424,
     },
     snippet: {
       html: `<nav class="pf-c-app-launcher pf-m-expanded" aria-label="Application launcher">

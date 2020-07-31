@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "bottom",
     picture: {
-      src: "./pictures/pagination/bottom.png",
+      src: "./components/pictures/pagination/bottom.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-pagination pf-m-bottom">
@@ -73,11 +73,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "compact",
     picture: {
-      src: "./pictures/pagination/compact.png",
+      src: "./components/pictures/pagination/compact.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-pagination pf-m-compact">
@@ -129,11 +129,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "top",
     picture: {
-      src: "./pictures/pagination/top.png",
+      src: "./components/pictures/pagination/top.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-pagination">
@@ -199,11 +199,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "top-disabled",
     picture: {
-      src: "./pictures/pagination/top-disabled.png",
+      src: "./components/pictures/pagination/top-disabled.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-pagination">
@@ -269,11 +269,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "top-expanded",
     picture: {
-      src: "./pictures/pagination/top-expanded.png",
+      src: "./components/pictures/pagination/top-expanded.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-pagination">

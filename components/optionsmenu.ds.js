@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "align-right",
     picture: {
-      src: "./pictures/optionsmenu/align-right.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/optionsmenu/align-right.png",
+      width: 293,
+      height: 215,
     },
     snippet: {
       html: `<div class="pf-c-options-menu pf-m-expanded pf-m-align-right">
@@ -40,11 +40,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "align-top",
     picture: {
-      src: "./pictures/optionsmenu/align-top.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/optionsmenu/align-top.png",
+      width: 293,
+      height: 215,
     },
     snippet: {
       html: `<div class="pf-c-options-menu pf-m-expanded pf-m-top">
@@ -73,11 +73,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "disabled",
     picture: {
-      src: "./pictures/optionsmenu/disabled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/optionsmenu/disabled.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-options-menu">
@@ -91,11 +91,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "multiple-options",
     picture: {
-      src: "./pictures/optionsmenu/multiple-options.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/optionsmenu/multiple-options.png",
+      width: 293,
+      height: 350,
     },
     snippet: {
       html: `<div class="pf-c-options-menu">
@@ -191,11 +191,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "plain",
     picture: {
-      src: "./pictures/optionsmenu/plain.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/optionsmenu/plain.png",
+      width: 293,
+      height: 215,
     },
     snippet: {
       html: `<div class="pf-c-options-menu">
@@ -261,11 +261,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "plain-with-text",
     picture: {
-      src: "./pictures/optionsmenu/plain-with-text.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/optionsmenu/plain-with-text.png",
+      width: 396,
+      height: 280,
     },
     snippet: {
       html: `<div class="pf-c-options-menu">
@@ -346,11 +346,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single-option",
     picture: {
-      src: "./pictures/optionsmenu/single-option.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/optionsmenu/single-option.png",
+      width: 333,
+      height: 215,
     },
     snippet: {
       html: `<div class="pf-c-options-menu">
@@ -402,11 +402,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-groups",
     picture: {
-      src: "./pictures/optionsmenu/with-groups.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/optionsmenu/with-groups.png",
+      width: 293,
+      height: 450,
     },
     snippet: {
       html: `<div class="pf-c-options-menu pf-m-expanded">
@@ -458,11 +458,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-groups-and-dividers-between-groups",
     picture: {
-      src: "./pictures/optionsmenu/with-groups-and-dividers-between-groups.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/optionsmenu/with-groups-and-dividers-between-groups.png",
+      width: 293,
+      height: 450,
     },
     snippet: {
       html: `<div class="pf-c-options-menu pf-m-expanded">
@@ -516,11 +517,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-groups-and-dividers-between-items",
     picture: {
-      src: "./pictures/optionsmenu/with-groups-and-dividers-between-items.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/optionsmenu/with-groups-and-dividers-between-items.png",
+      width: 293,
+      height: 450,
     },
     snippet: {
       html: `<div class="pf-c-options-menu pf-m-expanded">

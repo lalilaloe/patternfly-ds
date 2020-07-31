@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "chip-group-with-categories",
     picture: {
-      src: "./pictures/chipgroup/chip-group-with-categories.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/chipgroup/chip-group-with-categories.png",
+      width: 406,
+      height: 67,
     },
     snippet: {
       html: `<div class="pf-c-chip-group pf-m-category">
@@ -46,11 +46,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "chip-group-with-categories-overflow",
     picture: {
-      src: "./pictures/chipgroup/chip-group-with-categories-overflow.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/chipgroup/chip-group-with-categories-overflow.png",
+      width: 463,
+      height: 67,
     },
     snippet: {
       html: `<div class="pf-c-chip-group pf-m-category">
@@ -90,12 +91,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "chip-group-with-categories-overflow-expanded",
     picture: {
       src:
-        "./pictures/chipgroup/chip-group-with-categories-overflow-expanded.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/chipgroup/chip-group-with-categories-overflow-expanded.png",
+      width: 656,
+      height: 67,
     },
     snippet: {
       html: `<div class="pf-c-chip-group pf-m-category">
@@ -151,11 +152,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "chip-group-with-categories-removable",
     picture: {
-      src: "./pictures/chipgroup/chip-group-with-categories-removable.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/chipgroup/chip-group-with-categories-removable.png",
+      width: 454,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-chip-group pf-m-category">
@@ -195,11 +197,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "simple-inline-chip-group-expanded",
     picture: {
-      src: "./pictures/chipgroup/simple-inline-chip-group-expanded.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/chipgroup/simple-inline-chip-group-expanded.png",
+      width: 550,
+      height: 59,
     },
     snippet: {
       html: `<div class="pf-c-chip-group">
@@ -254,11 +257,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "simple-inline-chip-group-overflow",
     picture: {
-      src: "./pictures/chipgroup/simple-inline-chip-group-overflow.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/chipgroup/simple-inline-chip-group-overflow.png",
+      width: 357,
+      height: 59,
     },
     snippet: {
       html: `<div class="pf-c-chip-group">

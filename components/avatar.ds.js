@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/avatar/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/avatar/basic.png",
+      width: 293,
+      height: 75,
     },
     snippet: {
       html: `<img class="pf-c-avatar" src="/assets/images/img_avatar.svg" alt="Avatar image" />`,

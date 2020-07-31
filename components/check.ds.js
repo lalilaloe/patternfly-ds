@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/check/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/check/basic.png",
+      width: 293,
+      height: 53,
     },
     snippet: {
       html: `<div class="pf-c-check">
@@ -21,11 +21,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "checked",
     picture: {
-      src: "./pictures/check/checked.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/check/checked.png",
+      width: 293,
+      height: 53,
     },
     snippet: {
       html: `<div class="pf-c-check">
@@ -35,11 +35,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "disabled",
     picture: {
-      src: "./pictures/check/disabled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/check/disabled.png",
+      width: 293,
+      height: 74,
     },
     snippet: {
       html: `<div class="pf-c-check">
@@ -53,11 +53,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "label-wrapping-input",
     picture: {
-      src: "./pictures/check/label-wrapping-input.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/check/label-wrapping-input.png",
+      width: 293,
+      height: 53,
     },
     snippet: {
       html: `<label class="pf-c-check" for="check-label-wrapping-input">
@@ -67,11 +67,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "reversed",
     picture: {
-      src: "./pictures/check/reversed.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/check/reversed.png",
+      width: 293,
+      height: 53,
     },
     snippet: {
       html: `<div class="pf-c-check">
@@ -80,11 +80,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-description",
     picture: {
-      src: "./pictures/check/with-description.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/check/with-description.png",
+      width: 855,
+      height: 99,
     },
     snippet: {
       html: `<div class="pf-c-check">

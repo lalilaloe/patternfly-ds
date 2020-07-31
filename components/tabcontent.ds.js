@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/tabcontent/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabcontent/basic.png",
+      width: 293,
+      height: 57,
     },
     snippet: {
       html: `<section class="pf-c-tab-content" id="tab1-panel" role="tabpanel" tabindex="0">Panel 1</section>

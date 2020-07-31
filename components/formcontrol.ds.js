@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "input",
     picture: {
-      src: "./pictures/formcontrol/input.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/formcontrol/input.png",
+      width: 293,
+      height: 429,
     },
     snippet: {
       html: `<input class="pf-c-form-control" type="text" value="Standard" id="input-standard" aria-label="Standard input example" />
@@ -36,11 +36,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "select",
     picture: {
-      src: "./pictures/formcontrol/select.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/formcontrol/select.png",
+      width: 373,
+      height: 333,
     },
     snippet: {
       html: `<select class="pf-c-form-control" id="select-standard" name="select-standard" aria-label="Standard select example">
@@ -108,11 +108,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "textarea",
     picture: {
-      src: "./pictures/formcontrol/textarea.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/formcontrol/textarea.png",
+      width: 293,
+      height: 726,
     },
     snippet: {
       html: `<textarea class="pf-c-form-control" name="textarea-standard" id="textarea-standard" aria-label="Standard textarea example">Standard</textarea>

@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/backgroundimage/basic.png",
+      src: "./components/pictures/backgroundimage/basic.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-background-image">

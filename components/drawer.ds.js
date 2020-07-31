@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "additional-section-above-main",
     picture: {
-      src: "./pictures/drawer/additional-section-above-main.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/additional-section-above-main.png",
+      width: 855,
+      height: 201,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-expanded">
@@ -39,11 +39,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "closed-panel-on-left",
     picture: {
-      src: "./pictures/drawer/closed-panel-on-left.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/closed-panel-on-left.png",
+      width: 855,
+      height: 177,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-panel-left">
@@ -70,11 +70,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "closed-panel-on-right-default",
     picture: {
-      src: "./pictures/drawer/closed-panel-on-right-default.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/closed-panel-on-right-default.png",
+      width: 855,
+      height: 177,
     },
     snippet: {
       html: `<div class="pf-c-drawer">
@@ -101,11 +101,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expanded-inline-panel",
     picture: {
-      src: "./pictures/drawer/expanded-inline-panel.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/expanded-inline-panel.png",
+      width: 855,
+      height: 345,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-inline pf-m-expanded">
@@ -132,11 +132,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expanded-inline-panel-on-left",
     picture: {
-      src: "./pictures/drawer/expanded-inline-panel-on-left.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/expanded-inline-panel-on-left.png",
+      width: 855,
+      height: 345,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-inline pf-m-panel-left pf-m-expanded">
@@ -163,11 +163,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expanded-panel-on-left",
     picture: {
-      src: "./pictures/drawer/expanded-panel-on-left.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/expanded-panel-on-left.png",
+      width: 855,
+      height: 177,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-panel-left pf-m-expanded">
@@ -194,11 +194,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expanded-panel-on-right",
     picture: {
-      src: "./pictures/drawer/expanded-panel-on-right.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/expanded-panel-on-right.png",
+      width: 855,
+      height: 177,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-expanded">
@@ -225,11 +225,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "modified-content-padding",
     picture: {
-      src: "./pictures/drawer/modified-content-padding.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/modified-content-padding.png",
+      width: 855,
+      height: 249,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-expanded">
@@ -257,11 +257,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "modified-panel-padding",
     picture: {
-      src: "./pictures/drawer/modified-panel-padding.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/modified-panel-padding.png",
+      width: 855,
+      height: 177,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-expanded">
@@ -288,11 +288,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "modified-panel-width",
     picture: {
-      src: "./pictures/drawer/modified-panel-width.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/modified-panel-width.png",
+      width: 855,
+      height: 177,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-expanded">
@@ -319,11 +319,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "stacked-content-body-elements",
     picture: {
-      src: "./pictures/drawer/stacked-content-body-elements.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/stacked-content-body-elements.png",
+      width: 485,
+      height: 207,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-expanded">
@@ -352,11 +352,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "static",
     picture: {
-      src: "./pictures/drawer/static.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/drawer/static.png",
+      width: 855,
+      height: 369,
     },
     snippet: {
       html: `<div class="pf-c-drawer pf-m-expanded pf-m-static">

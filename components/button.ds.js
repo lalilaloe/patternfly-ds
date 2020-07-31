@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "aria-disabled",
     picture: {
-      src: "./pictures/button/aria-disabled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/button/aria-disabled.png",
+      width: 855,
+      height: 117,
     },
     snippet: {
       html: `<button class="pf-c-button pf-m-primary pf-m-aria-disabled" type="button" aria-disabled="true">Primary disabled</button>
@@ -30,22 +30,22 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "block-level",
     picture: {
-      src: "./pictures/button/block-level.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/button/block-level.png",
+      width: 293,
+      height: 75,
     },
     snippet: {
       html: `<button class="pf-c-button pf-m-primary pf-m-block" type="button">Block level button</button>`,
     },
   },
   {
-    displayName: "Basic",
+    displayName: "call-to-action",
     picture: {
-      src: "./pictures/button/call-to-action.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/button/call-to-action.png",
+      width: 855,
+      height: 131,
     },
     snippet: {
       html: `<button class="pf-c-button pf-m-primary pf-m-display-lg" type="button">Call to action</button>
@@ -64,11 +64,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "disabled",
     picture: {
-      src: "./pictures/button/disabled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/button/disabled.png",
+      width: 855,
+      height: 117,
     },
     snippet: {
       html: `<button class="pf-c-button pf-m-primary" type="button" disabled>Primary disabled</button>
@@ -87,11 +87,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "links-as-buttons",
     picture: {
-      src: "./pictures/button/links-as-buttons.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/button/links-as-buttons.png",
+      width: 632,
+      height: 75,
     },
     snippet: {
       html: `<a class="pf-c-button pf-m-primary" href="https://www.w3.org/TR/WCAG20-TECHS/ARIA8.html#ARIA8-examples">Primary link to W3.org</a>
@@ -100,11 +100,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "types",
     picture: {
-      src: "./pictures/button/types.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/button/types.png",
+      width: 293,
+      height: 75,
     },
     snippet: {
       html: `<button class="pf-c-button pf-m-primary" type="submit">Submit</button>
@@ -113,11 +113,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "variations",
     picture: {
-      src: "./pictures/button/variations.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/button/variations.png",
+      width: 634,
+      height: 360,
     },
     snippet: {
       html: `<button class="pf-c-button pf-m-primary" type="button">Primary</button>

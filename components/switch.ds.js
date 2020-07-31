@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/switch/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/switch/basic.png",
+      width: 293,
+      height: 108,
     },
     snippet: {
       html: `<label class="pf-c-switch" for="switch-with-label-1">
@@ -31,11 +31,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "disabled",
     picture: {
-      src: "./pictures/switch/disabled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/switch/disabled.png",
+      width: 293,
+      height: 108,
     },
     snippet: {
       html: `<label class="pf-c-switch" for="switch-disabled-1">
@@ -55,11 +55,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "without-label",
     picture: {
-      src: "./pictures/switch/without-label.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/switch/without-label.png",
+      width: 293,
+      height: 108,
     },
     snippet: {
       html: `<label class="pf-c-switch" for="switch-with-icon-1">

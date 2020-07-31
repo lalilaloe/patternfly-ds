@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "box",
     picture: {
-      src: "./pictures/tabs/box.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/box.png",
+      width: 571,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-box" id="box-example">
@@ -57,11 +57,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "box-overflow",
     picture: {
-      src: "./pictures/tabs/box-overflow.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/box-overflow.png",
+      width: 667,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-box pf-m-scrollable" id="box-overflow-example">
@@ -107,11 +107,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "box-tabs-with-sub-tabs",
     picture: {
-      src: "./pictures/tabs/box-tabs-with-sub-tabs.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/box-tabs-with-sub-tabs.png",
+      width: 667,
+      height: 110,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-box pf-m-scrollable" id="box-parent-example">
@@ -197,11 +197,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "box-vertical",
     picture: {
-      src: "./pictures/tabs/box-vertical.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/box-vertical.png",
+      width: 293,
+      height: 433,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-box pf-m-vertical" id="box-vertical-example">
@@ -241,11 +241,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "default",
     picture: {
-      src: "./pictures/tabs/default.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/default.png",
+      width: 571,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs" id="default-example">
@@ -291,11 +291,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "default-overflow-beginning-of-list",
     picture: {
-      src: "./pictures/tabs/default-overflow-beginning-of-list.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/default-overflow-beginning-of-list.png",
+      width: 667,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-scrollable" id="default-overflow-beginning-of-list-example">
@@ -341,11 +341,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "filled",
     picture: {
-      src: "./pictures/tabs/filled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/filled.png",
+      width: 314,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-fill" id="filled-example">
@@ -376,11 +376,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "filled-box",
     picture: {
-      src: "./pictures/tabs/filled-box.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/filled-box.png",
+      width: 314,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-fill pf-m-box" id="filled-box-example">
@@ -411,11 +411,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "filled-box-with-icons",
     picture: {
-      src: "./pictures/tabs/filled-box-with-icons.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/filled-box-with-icons.png",
+      width: 412,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-fill pf-m-box" id="filled-box-with-icons-example">
@@ -455,11 +455,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "filled-with-icons",
     picture: {
-      src: "./pictures/tabs/filled-with-icons.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/filled-with-icons.png",
+      width: 412,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-fill" id="filled-with-icons-example">
@@ -499,11 +499,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "icons-and-text",
     picture: {
-      src: "./pictures/tabs/icons-and-text.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/icons-and-text.png",
+      width: 773,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs" id="icons-example">
@@ -567,11 +567,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "inset",
     picture: {
-      src: "./pictures/tabs/inset.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/inset.png",
+      width: 619,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-inset-sm-on-md pf-m-inset-lg-on-lg pf-m-inset-2xl-on-xl" id="inset-example">
@@ -617,11 +617,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "inset-box",
     picture: {
-      src: "./pictures/tabs/inset-box.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/inset-box.png",
+      width: 619,
+      height: 73,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-box pf-m-inset-sm-on-md pf-m-inset-lg-on-lg pf-m-inset-2xl-on-xl" id="inset-box-example">
@@ -667,11 +667,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "sub-nav-using-the-nav-element",
     picture: {
-      src: "./pictures/tabs/sub-nav-using-the-nav-element.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/sub-nav-using-the-nav-element.png",
+      width: 571,
+      height: 110,
     },
     snippet: {
       html: `<nav class="pf-c-tabs" aria-label="Local" id="primary-nav-example">
@@ -757,11 +757,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "tabs-with-sub-tabs",
     picture: {
-      src: "./pictures/tabs/tabs-with-sub-tabs.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/tabs-with-sub-tabs.png",
+      width: 667,
+      height: 110,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-scrollable" id="default-parent-example">
@@ -847,11 +847,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "using-the-nav-element",
     picture: {
-      src: "./pictures/tabs/using-the-nav-element.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/using-the-nav-element.png",
+      width: 667,
+      height: 73,
     },
     snippet: {
       html: `<nav class="pf-c-tabs pf-m-scrollable" aria-label="Local" id="default-scroll-nav-example">
@@ -897,11 +897,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "vertical",
     picture: {
-      src: "./pictures/tabs/vertical.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tabs/vertical.png",
+      width: 293,
+      height: 417,
     },
     snippet: {
       html: `<div class="pf-c-tabs pf-m-vertical" id="vertical-example">

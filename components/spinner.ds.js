@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/spinner/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/spinner/basic.png",
+      width: 293,
+      height: 93,
     },
     snippet: {
       html: `<span class="pf-c-spinner" role="progressbar" aria-valuetext="Loading...">
@@ -22,11 +22,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "multiple-sizes",
     picture: {
-      src: "./pictures/spinner/multiple-sizes.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/spinner/multiple-sizes.png",
+      width: 293,
+      height: 93,
     },
     snippet: {
       html: `<span class="pf-c-spinner pf-m-sm" role="progressbar" aria-valuetext="Loading...">

@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "align-right",
     picture: {
-      src: "./pictures/dropdown/align-right.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/align-right.png",
+      width: 293,
+      height: 310,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-expanded">
@@ -43,11 +43,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "align-top",
     picture: {
-      src: "./pictures/dropdown/align-top.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/align-top.png",
+      width: 293,
+      height: 310,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-top">
@@ -105,11 +105,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "collapsed",
     picture: {
-      src: "./pictures/dropdown/collapsed.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/collapsed.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-dropdown">
@@ -141,11 +141,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "disabled",
     picture: {
-      src: "./pictures/dropdown/disabled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/disabled.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-dropdown">
@@ -177,11 +177,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "dropdown-with-description",
     picture: {
-      src: "./pictures/dropdown/dropdown-with-description.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/dropdown-with-description.png",
+      width: 293,
+      height: 400,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-expanded">
@@ -233,11 +233,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "dropdown-with-image-and-text",
     picture: {
-      src: "./pictures/dropdown/dropdown-with-image-and-text.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/dropdown-with-image-and-text.png",
+      width: 293,
+      height: 337,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-expanded">
@@ -274,11 +274,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expanded",
     picture: {
-      src: "./pictures/dropdown/expanded.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/expanded.png",
+      width: 293,
+      height: 310,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-expanded">
@@ -310,11 +310,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "kebab",
     picture: {
-      src: "./pictures/dropdown/kebab.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/kebab.png",
+      width: 293,
+      height: 310,
     },
     snippet: {
       html: `<div class="pf-c-dropdown">
@@ -389,11 +389,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "kebab-align-right",
     picture: {
-      src: "./pictures/dropdown/kebab-align-right.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/kebab-align-right.png",
+      width: 291,
+      height: 310,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-expanded">
@@ -422,11 +422,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "menu-item-icons",
     picture: {
-      src: "./pictures/dropdown/menu-item-icons.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/menu-item-icons.png",
+      width: 293,
+      height: 310,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-expanded">
@@ -464,11 +464,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "panel",
     picture: {
-      src: "./pictures/dropdown/panel.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/panel.png",
+      width: 293,
+      height: 130,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-expanded">
@@ -483,11 +483,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "primary-toggle",
     picture: {
-      src: "./pictures/dropdown/primary-toggle.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/primary-toggle.png",
+      width: 429,
+      height: 310,
     },
     snippet: {
       html: `<div class="pf-c-dropdown">
@@ -545,11 +545,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "split-button-action",
     picture: {
-      src: "./pictures/dropdown/split-button-action.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/split-button-action.png",
+      width: 332,
+      height: 210,
     },
     snippet: {
       html: `<div class="pf-c-dropdown">
@@ -644,11 +644,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "split-button-checkbox",
     picture: {
-      src: "./pictures/dropdown/split-button-checkbox.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/split-button-checkbox.png",
+      width: 293,
+      height: 210,
     },
     snippet: {
       html: `<div class="pf-c-dropdown">
@@ -717,11 +717,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "split-button-checkbox-with-toggle-text",
     picture: {
-      src: "./pictures/dropdown/split-button-checkbox-with-toggle-text.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/dropdown/split-button-checkbox-with-toggle-text.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-dropdown">
@@ -749,11 +750,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-groups",
     picture: {
-      src: "./pictures/dropdown/with-groups.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/dropdown/with-groups.png",
+      width: 293,
+      height: 440,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-expanded">
@@ -801,11 +802,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-groups-and-dividers-between-groups",
     picture: {
-      src: "./pictures/dropdown/with-groups-and-dividers-between-groups.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/dropdown/with-groups-and-dividers-between-groups.png",
+      width: 293,
+      height: 440,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-expanded">
@@ -855,11 +857,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-groups-and-dividers-between-items",
     picture: {
-      src: "./pictures/dropdown/with-groups-and-dividers-between-items.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/dropdown/with-groups-and-dividers-between-items.png",
+      width: 293,
+      height: 440,
     },
     snippet: {
       html: `<div class="pf-c-dropdown pf-m-expanded">

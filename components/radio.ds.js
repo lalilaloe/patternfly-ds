@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/radio/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/radio/basic.png",
+      width: 293,
+      height: 53,
     },
     snippet: {
       html: `<div class="pf-c-radio">
@@ -21,11 +21,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "checked",
     picture: {
-      src: "./pictures/radio/checked.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/radio/checked.png",
+      width: 293,
+      height: 53,
     },
     snippet: {
       html: `<div class="pf-c-radio">
@@ -35,11 +35,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "disabled",
     picture: {
-      src: "./pictures/radio/disabled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/radio/disabled.png",
+      width: 293,
+      height: 74,
     },
     snippet: {
       html: `<div class="pf-c-radio">
@@ -53,11 +53,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "label-wrapping-input",
     picture: {
-      src: "./pictures/radio/label-wrapping-input.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/radio/label-wrapping-input.png",
+      width: 293,
+      height: 53,
     },
     snippet: {
       html: `<label class="pf-c-radio" for="radio-wrap">
@@ -67,11 +67,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "reversed",
     picture: {
-      src: "./pictures/radio/reversed.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/radio/reversed.png",
+      width: 293,
+      height: 53,
     },
     snippet: {
       html: `<div class="pf-c-radio">
@@ -80,11 +80,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-description",
     picture: {
-      src: "./pictures/radio/with-description.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/radio/with-description.png",
+      width: 855,
+      height: 99,
     },
     snippet: {
       html: `<div class="pf-c-radio">

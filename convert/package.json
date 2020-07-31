@@ -6,7 +6,7 @@
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "start": "node convert.js",
-    "lint": "cd ../components && pwd && eslint --no-eslintrc --fix --parser-options=sourceType:module --parser-options=ecmaVersion:2015 --format stylish .",
+    "lint": "cd ../components && eslint --no-eslintrc --fix --parser-options=sourceType:module --parser-options=ecmaVersion:2015 --format stylish .",
     "prettier": "cd ../components && prettier --write .",
     "start:patternfly": "cd ../patternfly && npm start",
     "build": "cd ../patternfly && npm install && npm run build-patternfly && npm start"
@@ -21,8 +21,10 @@
     "foxr": "^0.10.1",
     "fs": "0.0.1-security",
     "he": "^1.2.0",
+    "image-size": "^0.8.3",
     "jsonfile": "^6.0.1",
     "patternfly-ds": "^1.1.0",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "slash": "^3.0.0"
   }
 }

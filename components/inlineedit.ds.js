@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "inline-edit-action-group",
     picture: {
-      src: "./pictures/inlineedit/inline-edit-action-group.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/inlineedit/inline-edit-action-group.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-action-group-example">
@@ -27,11 +27,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "inline-edit-action-group-icon-buttons",
     picture: {
-      src: "./pictures/inlineedit/inline-edit-action-group-icon-buttons.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/inlineedit/inline-edit-action-group-icon-buttons.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-action-group-icon-buttons-example">
@@ -51,11 +52,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "inline-edit-table-row",
     picture: {
-      src: "./pictures/inlineedit/inline-edit-table-row.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/inlineedit/inline-edit-table-row.png",
+      width: 855,
+      height: 360,
     },
     snippet: {
       html: `<form class="pf-c-inline-edit" id="bulk-edit-table-example">
@@ -275,11 +276,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "inline-edit-toggle",
     picture: {
-      src: "./pictures/inlineedit/inline-edit-toggle.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/inlineedit/inline-edit-toggle.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<div class="pf-c-inline-edit" id="inline-edit-toggle-example">
@@ -292,11 +293,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "inline-edit-value",
     picture: {
-      src: "./pictures/inlineedit/inline-edit-value.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/inlineedit/inline-edit-value.png",
+      width: 293,
+      height: 57,
     },
     snippet: {
       html: `<div class="pf-c-inline-edit" id="inline-edit-value-example">
@@ -305,11 +306,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single-inline-edit-active",
     picture: {
-      src: "./pictures/inlineedit/single-inline-edit-active.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/inlineedit/single-inline-edit-active.png",
+      width: 333,
+      height: 69,
     },
     snippet: {
       html: `<form class="pf-c-inline-edit pf-m-inline-editable" id="single-editable-example">
@@ -342,11 +343,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single-inline-edit-default",
     picture: {
-      src: "./pictures/inlineedit/single-inline-edit-default.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/inlineedit/single-inline-edit-default.png",
+      width: 293,
+      height: 69,
     },
     snippet: {
       html: `<form class="pf-c-inline-edit" id="single-inline-edit-example">
@@ -379,11 +380,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "single-inline-edit-with-label-default",
     picture: {
-      src: "./pictures/inlineedit/single-inline-edit-with-label-default.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/inlineedit/single-inline-edit-with-label-default.png",
+      width: 293,
+      height: 93,
     },
     snippet: {
       html: `<form class="pf-c-inline-edit" id="single-inline-edit-with-label-example">
@@ -417,11 +419,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "state-invalid",
     picture: {
-      src: "./pictures/inlineedit/state-invalid.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/inlineedit/state-invalid.png",
+      width: 357,
+      height: 93,
     },
     snippet: {
       html: `<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-state-invalid">
@@ -455,11 +457,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "state-valid",
     picture: {
-      src: "./pictures/inlineedit/state-valid.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/inlineedit/state-valid.png",
+      width: 333,
+      height: 93,
     },
     snippet: {
       html: `<div class="pf-c-inline-edit pf-m-inline-editable" id="inline-edit-state-valid">

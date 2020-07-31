@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/brand/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/brand/basic.png",
+      width: 293,
+      height: 88,
     },
     snippet: {
       html: `<img class="pf-c-brand" src="/assets/images/pf_logo.svg" alt="PatternFly logo" />`,

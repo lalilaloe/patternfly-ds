@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "failure",
     picture: {
-      src: "./pictures/progress/failure.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/failure.png",
+      width: 293,
+      height: 89,
     },
     snippet: {
       html: `<div class="pf-c-progress pf-m-danger" id="progress-failure-example">
@@ -29,11 +29,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "failure-without-measure",
     picture: {
-      src: "./pictures/progress/failure-without-measure.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/failure-without-measure.png",
+      width: 293,
+      height: 89,
     },
     snippet: {
       html: `<div class="pf-c-progress pf-m-danger" id="progress-no-measure-failure-example">
@@ -50,11 +50,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "finite-step",
     picture: {
-      src: "./pictures/progress/finite-step.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/finite-step.png",
+      width: 293,
+      height: 89,
     },
     snippet: {
       html: `<div class="pf-c-progress" id="progress-finite-step-example">
@@ -69,11 +69,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "inside",
     picture: {
-      src: "./pictures/progress/inside.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/inside.png",
+      width: 293,
+      height: 97,
     },
     snippet: {
       html: `<div class="pf-c-progress pf-m-lg pf-m-inside" id="progress-inside-example">
@@ -88,11 +88,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "inside-success",
     picture: {
-      src: "./pictures/progress/inside-success.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/inside-success.png",
+      width: 293,
+      height: 97,
     },
     snippet: {
       html: `<div class="pf-c-progress pf-m-lg pf-m-inside pf-m-success" id="progress-inside-success-example">
@@ -111,11 +111,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "large",
     picture: {
-      src: "./pictures/progress/large.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/large.png",
+      width: 293,
+      height: 97,
     },
     snippet: {
       html: `<div class="pf-c-progress pf-m-lg" id="progress-lg-example">
@@ -130,11 +130,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "on-single-line",
     picture: {
-      src: "./pictures/progress/on-single-line.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/on-single-line.png",
+      width: 293,
+      height: 57,
     },
     snippet: {
       html: `<div class="pf-c-progress pf-m-singleline" id="progress-singleline-example">
@@ -149,11 +149,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "outside",
     picture: {
-      src: "./pictures/progress/outside.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/outside.png",
+      width: 293,
+      height: 97,
     },
     snippet: {
       html: `<div class="pf-c-progress pf-m-outside pf-m-lg" id="progress-outside-example">
@@ -168,11 +168,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "outside-failure",
     picture: {
-      src: "./pictures/progress/outside-failure.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/outside-failure.png",
+      width: 293,
+      height: 97,
     },
     snippet: {
       html: `<div class="pf-c-progress pf-m-outside pf-m-lg pf-m-danger" id="progress-outside-failure-example">
@@ -190,11 +190,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "progress-step-instruction",
     picture: {
-      src: "./pictures/progress/progress-step-instruction.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/progress-step-instruction.png",
+      width: 293,
+      height: 89,
     },
     snippet: {
       html: `<div class="pf-c-progress" id="progress-step-instruction-example">
@@ -209,11 +209,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "simple",
     picture: {
-      src: "./pictures/progress/simple.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/simple.png",
+      width: 293,
+      height: 89,
     },
     snippet: {
       html: `<div class="pf-c-progress" id="progress-simple-example">
@@ -228,11 +228,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "small",
     picture: {
-      src: "./pictures/progress/small.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/small.png",
+      width: 293,
+      height: 81,
     },
     snippet: {
       html: `<div class="pf-c-progress pf-m-sm" id="progress-sm-example">
@@ -247,11 +247,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "success",
     picture: {
-      src: "./pictures/progress/success.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/success.png",
+      width: 293,
+      height: 89,
     },
     snippet: {
       html: `<div class="pf-c-progress pf-m-success" id="progress-success-example">
@@ -269,11 +269,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "without-measure",
     picture: {
-      src: "./pictures/progress/without-measure.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/progress/without-measure.png",
+      width: 293,
+      height: 89,
     },
     snippet: {
       html: `<div class="pf-c-progress" id="progress-no-measure-example">

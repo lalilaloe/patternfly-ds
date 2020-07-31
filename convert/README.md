@@ -18,7 +18,7 @@ npm install
 
 # build and startup patternfly docs locally
 npm run build
-npm start:patternfly
+npm run start:patternfly
 
 # start converting
 npm start

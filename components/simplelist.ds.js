@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "grouped-list",
     picture: {
-      src: "./pictures/simplelist/grouped-list.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/simplelist/grouped-list.png",
+      width: 293,
+      height: 347,
     },
     snippet: {
       html: `<div class="pf-c-simple-list">
@@ -53,11 +53,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "simple-list",
     picture: {
-      src: "./pictures/simplelist/simple-list.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/simplelist/simple-list.png",
+      width: 293,
+      height: 120,
     },
     snippet: {
       html: `<div class="pf-c-simple-list">
@@ -76,11 +76,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "simple-list-with-links",
     picture: {
-      src: "./pictures/simplelist/simple-list-with-links.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/simplelist/simple-list-with-links.png",
+      width: 293,
+      height: 120,
     },
     snippet: {
       html: `<div class="pf-c-simple-list">

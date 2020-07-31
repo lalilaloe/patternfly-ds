@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "size-modifiers",
     picture: {
-      src: "./pictures/title/size-modifiers.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/title/size-modifiers.png",
+      width: 293,
+      height: 33,
     },
     snippet: {
       html: `<h1 class="pf-c-title pf-m-4xl">4xl title</h1>

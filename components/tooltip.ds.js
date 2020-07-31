@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "bottom",
     picture: {
-      src: "./pictures/tooltip/bottom.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tooltip/bottom.png",
+      width: 332,
+      height: 112,
     },
     snippet: {
       html: `<div class="pf-c-tooltip pf-m-bottom" role="tooltip">
@@ -21,11 +21,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "left",
     picture: {
-      src: "./pictures/tooltip/left.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tooltip/left.png",
+      width: 332,
+      height: 112,
     },
     snippet: {
       html: `<div class="pf-c-tooltip pf-m-left" role="tooltip">
@@ -35,11 +35,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "left-aligned-text",
     picture: {
-      src: "./pictures/tooltip/left-aligned-text.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tooltip/left-aligned-text.png",
+      width: 332,
+      height: 112,
     },
     snippet: {
       html: `<div class="pf-c-tooltip pf-m-top" role="tooltip">
@@ -49,11 +49,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "right",
     picture: {
-      src: "./pictures/tooltip/right.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tooltip/right.png",
+      width: 332,
+      height: 112,
     },
     snippet: {
       html: `<div class="pf-c-tooltip pf-m-right" role="tooltip">
@@ -63,11 +63,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "top",
     picture: {
-      src: "./pictures/tooltip/top.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tooltip/top.png",
+      width: 332,
+      height: 112,
     },
     snippet: {
       html: `<div class="pf-c-tooltip pf-m-top" role="tooltip">

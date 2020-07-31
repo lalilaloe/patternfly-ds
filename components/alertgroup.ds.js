@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "static-alert-group",
     picture: {
-      src: "./pictures/alertgroup/static-alert-group.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/alertgroup/static-alert-group.png",
+      width: 305,
+      height: 239,
     },
     snippet: {
       html: `<ul class="pf-c-alert-group">
@@ -57,11 +57,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "toast-alert-group",
     picture: {
-      src: "./pictures/alertgroup/toast-alert-group.png",
+      src: "./components/pictures/alertgroup/toast-alert-group.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<ul class="pf-c-alert-group pf-m-toast">

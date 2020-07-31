@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "inline",
     picture: {
-      src: "./pictures/list/inline.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/list/inline.png",
+      width: 406,
+      height: 57,
     },
     snippet: {
       html: `<ul class="pf-c-list pf-m-inline">
@@ -22,11 +22,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "ordered",
     picture: {
-      src: "./pictures/list/ordered.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/list/ordered.png",
+      width: 510,
+      height: 441,
     },
     snippet: {
       html: `<ol class="pf-c-list">
@@ -52,11 +52,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "unordered",
     picture: {
-      src: "./pictures/list/unordered.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/list/unordered.png",
+      width: 528,
+      height: 345,
     },
     snippet: {
       html: `<ul class="pf-c-list">

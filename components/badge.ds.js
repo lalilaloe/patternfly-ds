@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "read",
     picture: {
-      src: "./pictures/badge/read.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/badge/read.png",
+      width: 293,
+      height: 57,
     },
     snippet: {
       html: `<span class="pf-c-badge pf-m-read">7</span>
@@ -21,11 +21,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "unread",
     picture: {
-      src: "./pictures/badge/unread.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/badge/unread.png",
+      width: 293,
+      height: 57,
     },
     snippet: {
       html: `<span class="pf-c-badge pf-m-unread">7</span>

@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "filled",
     picture: {
-      src: "./pictures/label/filled.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/label/filled.png",
+      width: 824,
+      height: 372,
     },
     snippet: {
       html: `<span class="pf-c-label">
@@ -260,11 +260,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "outline",
     picture: {
-      src: "./pictures/label/outline.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/label/outline.png",
+      width: 824,
+      height: 372,
     },
     snippet: {
       html: `<span class="pf-c-label pf-m-outline">

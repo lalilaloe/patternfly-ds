@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "adjusted-group-spacers",
     picture: {
-      src: "./pictures/toolbar/adjusted-group-spacers.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/toolbar/adjusted-group-spacers.png",
+      width: 293,
+      height: 89,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-group-spacer-example">
@@ -32,11 +32,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "adjusted-spacers",
     picture: {
-      src: "./pictures/toolbar/adjusted-spacers.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/toolbar/adjusted-spacers.png",
+      width: 338,
+      height: 89,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-spacer-example">
@@ -55,11 +55,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expanded-elements",
     picture: {
-      src: "./pictures/toolbar/expanded-elements.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/toolbar/expanded-elements.png",
+      width: 606,
+      height: 101,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-expanded-elements-example">
@@ -235,11 +235,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "group-types",
     picture: {
-      src: "./pictures/toolbar/group-types.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/toolbar/group-types.png",
+      width: 824,
+      height: 101,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-group-types-example">
@@ -371,11 +371,12 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "selected-filters-on-desktop-not-responsive",
     picture: {
-      src: "./pictures/toolbar/selected-filters-on-desktop-not-responsive.png",
-      width: 800,
-      height: 600,
+      src:
+        "./components/pictures/toolbar/selected-filters-on-desktop-not-responsive.png",
+      width: 840,
+      height: 159,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-selected-filters-example">
@@ -609,12 +610,13 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName:
+      "selected-filters-on-mobile-filters-collapsed-expandable-content-expanded",
     picture: {
       src:
-        "./pictures/toolbar/selected-filters-on-mobile-filters-collapsed-expandable-content-expanded.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/toolbar/selected-filters-on-mobile-filters-collapsed-expandable-content-expanded.png",
+      width: 855,
+      height: 339,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-selected-filters-toggle-group-expanded-example">
@@ -860,12 +862,13 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName:
+      "selected-filters-on-mobile-filters-collapsed-selected-filters-summary-visible",
     picture: {
       src:
-        "./pictures/toolbar/selected-filters-on-mobile-filters-collapsed-selected-filters-summary-visible.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/toolbar/selected-filters-on-mobile-filters-collapsed-selected-filters-summary-visible.png",
+      width: 395,
+      height: 149,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-selected-filters-toggle-group-collapsed-example">
@@ -1112,11 +1115,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "simple",
     picture: {
-      src: "./pictures/toolbar/simple.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/toolbar/simple.png",
+      width: 516,
+      height: 89,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-simple-example">
@@ -1141,11 +1144,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "stacked-on-desktop",
     picture: {
-      src: "./pictures/toolbar/stacked-on-desktop.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/toolbar/stacked-on-desktop.png",
+      width: 544,
+      height: 186,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-stacked-example">
@@ -1410,12 +1413,13 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName:
+      "stacked-on-mobile-filters-collapsed-expandable-content-expanded",
     picture: {
       src:
-        "./pictures/toolbar/stacked-on-mobile-filters-collapsed-expandable-content-expanded.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/toolbar/stacked-on-mobile-filters-collapsed-expandable-content-expanded.png",
+      width: 544,
+      height: 366,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-stacked-collapsed-example">
@@ -1677,11 +1681,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "toggle-group",
     picture: {
-      src: "./pictures/toolbar/toggle-group.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/toolbar/toggle-group.png",
+      width: 539,
+      height: 101,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-toggle-group-example">
@@ -1795,12 +1799,13 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName:
+      "toggle-group-on-mobile-filters-collapsed-expandable-content-expanded",
     picture: {
       src:
-        "./pictures/toolbar/toggle-group-on-mobile-filters-collapsed-expandable-content-expanded.png",
-      width: 800,
-      height: 600,
+        "./components/pictures/toolbar/toggle-group-on-mobile-filters-collapsed-expandable-content-expanded.png",
+      width: 405,
+      height: 281,
     },
     snippet: {
       html: `<div class="pf-c-toolbar" id="toolbar-toggle-group-collapsed-example">

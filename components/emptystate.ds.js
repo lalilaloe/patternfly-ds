@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/emptystate/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/emptystate/basic.png",
+      width: 855,
+      height: 351,
     },
     snippet: {
       html: `<div class="pf-c-empty-state">
@@ -33,11 +33,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "extra-large",
     picture: {
-      src: "./pictures/emptystate/extra-large.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/emptystate/extra-large.png",
+      width: 855,
+      height: 381,
     },
     snippet: {
       html: `<div class="pf-c-empty-state pf-m-xl">
@@ -51,11 +51,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "large",
     picture: {
-      src: "./pictures/emptystate/large.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/emptystate/large.png",
+      width: 696,
+      height: 391,
     },
     snippet: {
       html: `<div class="pf-c-empty-state pf-m-lg">
@@ -77,11 +77,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "small",
     picture: {
-      src: "./pictures/emptystate/small.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/emptystate/small.png",
+      width: 496,
+      height: 415,
     },
     snippet: {
       html: `<div class="pf-c-empty-state pf-m-sm">
@@ -103,11 +103,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-primary-element",
     picture: {
-      src: "./pictures/emptystate/with-primary-element.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/emptystate/with-primary-element.png",
+      width: 855,
+      height: 307,
     },
     snippet: {
       html: `<div class="pf-c-empty-state">

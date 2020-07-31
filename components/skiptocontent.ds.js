@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/skiptocontent/basic.png",
+      src: "./components/pictures/skiptocontent/basic.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<a class="pf-c-skip-to-content pf-c-button pf-m-primary" href="#main-content">Skip to content</a>Press tab to skip to content at the bottom of the page.

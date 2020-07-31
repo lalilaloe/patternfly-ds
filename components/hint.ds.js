@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "default-with-no-title",
     picture: {
-      src: "./pictures/hint/default-with-no-title.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/hint/default-with-no-title.png",
+      width: 855,
+      height: 269,
     },
     snippet: {
       html: `<div class="pf-c-hint">
@@ -54,11 +54,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "hint-with-title",
     picture: {
-      src: "./pictures/hint/hint-with-title.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/hint/hint-with-title.png",
+      width: 812,
+      height: 337,
     },
     snippet: {
       html: `<div class="pf-c-hint">

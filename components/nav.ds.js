@@ -6,11 +6,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "default",
     picture: {
-      src: "./pictures/nav/default.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/default.png",
+      width: 293,
+      height: 257,
     },
     snippet: {
       html: `<nav class="pf-c-nav" aria-label="Global">
@@ -32,11 +32,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "default-in-light-mode",
     picture: {
-      src: "./pictures/nav/default-in-light-mode.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/default-in-light-mode.png",
+      width: 293,
+      height: 257,
     },
     snippet: {
       html: `<nav class="pf-c-nav pf-m-light" aria-label="Global">
@@ -58,11 +58,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expanded",
     picture: {
-      src: "./pictures/nav/expanded.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/expanded.png",
+      width: 395,
+      height: 435,
     },
     snippet: {
       html: `<nav class="pf-c-nav" aria-label="Global">
@@ -133,11 +133,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expanded-in-light-mode",
     picture: {
-      src: "./pictures/nav/expanded-in-light-mode.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/expanded-in-light-mode.png",
+      width: 395,
+      height: 435,
     },
     snippet: {
       html: `<nav class="pf-c-nav pf-m-light" aria-label="Global">
@@ -208,11 +208,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "expanded-with-subnav-titles",
     picture: {
-      src: "./pictures/nav/expanded-with-subnav-titles.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/expanded-with-subnav-titles.png",
+      width: 293,
+      height: 362,
     },
     snippet: {
       html: `<nav class="pf-c-nav" aria-label="Global">
@@ -265,11 +265,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "grouped-nav",
     picture: {
-      src: "./pictures/nav/grouped-nav.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/grouped-nav.png",
+      width: 293,
+      height: 437,
     },
     snippet: {
       html: `<nav class="pf-c-nav" aria-label="Global">
@@ -305,11 +305,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "horizontal",
     picture: {
-      src: "./pictures/nav/horizontal.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/horizontal.png",
+      width: 293,
+      height: 73,
     },
     snippet: {
       html: `<nav class="pf-c-nav pf-m-horizontal" aria-label="Global">
@@ -334,11 +334,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "horizontal-overflow",
     picture: {
-      src: "./pictures/nav/horizontal-overflow.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/horizontal-overflow.png",
+      width: 1028,
+      height: 73,
     },
     snippet: {
       html: `<nav class="pf-c-nav pf-m-horizontal pf-m-scrollable" aria-label="Global">
@@ -369,11 +369,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "mixed",
     picture: {
-      src: "./pictures/nav/mixed.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/mixed.png",
+      width: 396,
+      height: 291,
     },
     snippet: {
       html: `<nav class="pf-c-nav" aria-label="Global">
@@ -427,11 +427,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "tertiary",
     picture: {
-      src: "./pictures/nav/tertiary.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/tertiary.png",
+      width: 293,
+      height: 73,
     },
     snippet: {
       html: `<nav class="pf-c-nav pf-m-tertiary" aria-label="Local">
@@ -456,11 +456,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "tertiary-overflow",
     picture: {
-      src: "./pictures/nav/tertiary-overflow.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/nav/tertiary-overflow.png",
+      width: 935,
+      height: 73,
     },
     snippet: {
       html: `<nav class="pf-c-nav pf-m-tertiary pf-m-scrollable" aria-label="Local">

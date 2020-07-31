@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "bottom",
     picture: {
-      src: "./pictures/popover/bottom.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/popover/bottom.png",
+      width: 364,
+      height: 144,
     },
     snippet: {
       html: `<div class="pf-c-popover pf-m-bottom" role="dialog" aria-modal="true" aria-labelledby="popover-bottom-header" aria-describedby="popover-bottom-body">
@@ -28,11 +28,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "left",
     picture: {
-      src: "./pictures/popover/left.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/popover/left.png",
+      width: 364,
+      height: 144,
     },
     snippet: {
       html: `<div class="pf-c-popover pf-m-left" role="dialog" aria-modal="true" aria-labelledby="popover-left-header" aria-describedby="popover-left-body">
@@ -49,11 +49,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "right",
     picture: {
-      src: "./pictures/popover/right.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/popover/right.png",
+      width: 364,
+      height: 144,
     },
     snippet: {
       html: `<div class="pf-c-popover pf-m-right" role="dialog" aria-modal="true" aria-labelledby="popover-right-header" aria-describedby="popover-right-body">
@@ -70,11 +70,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "top",
     picture: {
-      src: "./pictures/popover/top.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/popover/top.png",
+      width: 364,
+      height: 144,
     },
     snippet: {
       html: `<div class="pf-c-popover pf-m-top" role="dialog" aria-modal="true" aria-labelledby="popover-top-header" aria-describedby="popover-top-body">
@@ -91,11 +91,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "without-headerfooter",
     picture: {
-      src: "./pictures/popover/without-headerfooter.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/popover/without-headerfooter.png",
+      width: 364,
+      height: 107,
     },
     snippet: {
       html: `<div class="pf-c-popover pf-m-right" role="dialog" aria-modal="true" aria-label="Popover with no header example" aria-describedby="popover-no-header-body">

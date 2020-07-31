@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/wizard/basic.png",
+      src: "./components/pictures/wizard/basic.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-wizard">
@@ -79,11 +79,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "finished",
     picture: {
-      src: "./pictures/wizard/finished.png",
+      src: "./components/pictures/wizard/finished.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-wizard pf-m-finished">
@@ -173,11 +173,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "nav-expanded-mobile",
     picture: {
-      src: "./pictures/wizard/nav-expanded-mobile.png",
+      src: "./components/pictures/wizard/nav-expanded-mobile.png",
       width: 800,
-      height: 600,
+      height: 500,
     },
     snippet: {
       html: `<div class="pf-c-wizard">

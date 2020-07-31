@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic",
     picture: {
-      src: "./pictures/banner/basic.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/banner/basic.png",
+      width: 293,
+      height: 274,
     },
     snippet: {
       html: `<div class="pf-c-banner">Default banner</div>

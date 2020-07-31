@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "basic-tiles",
     picture: {
-      src: "./pictures/tile/basic-tiles.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tile/basic-tiles.png",
+      width: 491,
+      height: 336,
     },
     snippet: {
       html: `<div class="pf-c-tile" tabindex="0">
@@ -81,11 +81,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "extra-content",
     picture: {
-      src: "./pictures/tile/extra-content.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tile/extra-content.png",
+      width: 956,
+      height: 205,
     },
     snippet: {
       html: `<div class="pf-c-tile" tabindex="0">
@@ -118,11 +118,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "stacked-tiles",
     picture: {
-      src: "./pictures/tile/stacked-tiles.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tile/stacked-tiles.png",
+      width: 491,
+      height: 296,
     },
     snippet: {
       html: `<div class="pf-c-tile" tabindex="0">
@@ -184,11 +184,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "stacked-tiles-large",
     picture: {
-      src: "./pictures/tile/stacked-tiles-large.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/tile/stacked-tiles-large.png",
+      width: 491,
+      height: 353,
     },
     snippet: {
       html: `<div class="pf-c-tile pf-m-display-lg" tabindex="0">

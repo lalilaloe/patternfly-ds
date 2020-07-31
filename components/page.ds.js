@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "Basic",
+    displayName: "horizontal-nav",
     picture: {
-      src: "./pictures/page/horizontal-nav.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/page/horizontal-nav.png",
+      width: 293,
+      height: 237,
     },
     snippet: {
       html: `<div class="pf-c-page">
@@ -32,11 +32,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Basic",
+    displayName: "main-section-padding",
     picture: {
-      src: "./pictures/page/main-section-padding.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/page/main-section-padding.png",
+      width: 855,
+      height: 269,
     },
     snippet: {
       html: `<div class="pf-c-page">
@@ -55,15 +55,18 @@ export const variants = [
     <section class="pf-c-page__main-section pf-m-no-padding pf-m-light">This \`.pf-c-page__main-section\` uses \`.pf-m-no-padding\` to remove all padding.</section>
     <section class="pf-c-page__main-section pf-m-no-padding pf-m-padding-on-md">This \`.pf-c-page__main-section\` uses \`.pf-m-no-padding .pf-m-padding-on-md\` to remove padding up to the \`md\` breakpoint.</section>
   </main>
-</div>\`}},
-{
-displayName:"Basic",
-picture:{
-src:"./pictures/page/vertical-nav.png",
-width:800,
-height:600},
-snippet:{
-html:\`<div class="pf-c-page">
+</div>`,
+    },
+  },
+  {
+    displayName: "vertical-nav",
+    picture: {
+      src: "./components/pictures/page/vertical-nav.png",
+      width: 322,
+      height: 237,
+    },
+    snippet: {
+      html: `<div class="pf-c-page">
   <header class="pf-c-page__header">
     <div class="pf-c-page__header-brand">
       <div class="pf-c-page__header-brand-toggle">toggle</div>
@@ -84,11 +87,11 @@ html:\`<div class="pf-c-page">
     },
   },
   {
-    displayName: "Basic",
+    displayName: "with-or-without-fill",
     picture: {
-      src: "./pictures/page/with-or-without-fill.png",
-      width: 800,
-      height: 600,
+      src: "./components/pictures/page/with-or-without-fill.png",
+      width: 482,
+      height: 253,
     },
     snippet: {
       html: `<div class="pf-c-page">
