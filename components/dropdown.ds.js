@@ -214,7 +214,7 @@ export const variants = [
       <a class="pf-c-dropdown__menu-item pf-m-icon pf-m-description" href="#">
         <div class="pf-c-dropdown__menu-item-main">
           <span class="pf-c-dropdown__menu-item-icon">
-            <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+            <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
           </span>Link</div>
         <div class="pf-c-dropdown__menu-item-description">This is a description</div>
       </a>
@@ -243,7 +243,7 @@ export const variants = [
       html: `<div class="pf-c-dropdown pf-m-expanded">
   <button class="pf-c-dropdown__toggle" type="button" id="dropdown-with-image-and-text-example-button" aria-expanded="true">
     <span class="pf-c-dropdown__toggle-image">
-      <img class="pf-c-avatar" src="/assets/images/img_avatar.svg" alt="Avatar image" />
+      <img class="pf-c-avatar" src="node_modules/@patternfly/patternfly/assets/images/img_avatar.svg" alt="Avatar image" />
     </span>
     <span class="pf-c-dropdown__toggle-text">Ned Username</span>
     <span class="pf-c-dropdown__toggle-icon">
@@ -440,7 +440,7 @@ export const variants = [
     <li>
       <a class="pf-c-dropdown__menu-item pf-m-icon" href="#">
         <span class="pf-c-dropdown__menu-item-icon">
-          <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+          <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
         </span>Link</a>
     </li>
     <li>

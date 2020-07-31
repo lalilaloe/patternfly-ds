@@ -16,7 +16,7 @@ export const variants = [
     snippet: {
       html: `<div class="pf-c-about-modal-box" role="dialog" aria-modal="true" aria-labelledby="about-modal-title">
   <div class="pf-c-about-modal-box__brand">
-    <img class="pf-c-about-modal-box__brand-image" src="/assets/images/pf_mini_logo_white.svg" alt="PatternFly brand logo" />
+    <img class="pf-c-about-modal-box__brand-image" src="node_modules/@patternfly/patternfly/assets/images/pf_mini_logo_white.svg" alt="PatternFly brand logo" />
   </div>
   <div class="pf-c-about-modal-box__close">
     <button class="pf-c-button pf-m-plain" type="button" aria-label="Close dialog">

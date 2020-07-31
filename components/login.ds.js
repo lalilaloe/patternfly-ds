@@ -30,7 +30,7 @@ export const variants = [
 <div class="pf-c-login">
   <div class="pf-c-login__container">
     <header class="pf-c-login__header">
-      <img class="pf-c-brand" src="/assets/images/pf_logo_color.svg" alt="PatternFly Logo" />
+      <img class="pf-c-brand" src="node_modules/@patternfly/patternfly/assets/images/pf_logo_color.svg" alt="PatternFly Logo" />
     </header>
     <main class="pf-c-login__main">
       <header class="pf-c-login__main-header">
@@ -167,7 +167,7 @@ export const variants = [
 <div class="pf-c-login">
   <div class="pf-c-login__container">
     <header class="pf-c-login__header">
-      <img class="pf-c-brand" src="/assets/images/pf_logo_color.svg" alt="PatternFly Logo" />
+      <img class="pf-c-brand" src="node_modules/@patternfly/patternfly/assets/images/pf_logo_color.svg" alt="PatternFly Logo" />
     </header>
     <main class="pf-c-login__main">
       <header class="pf-c-login__main-header">

@@ -107,7 +107,7 @@ export const variants = [
       html: `<div class="pf-c-card" id="card-action-example-1">
   <div class="pf-c-card__header">
     <div class="pf-c-card__header-main">
-      <img src="/assets/images/pf_logo.svg" width="300px" alt="Logo" />
+      <img src="node_modules/@patternfly/patternfly/assets/images/pf_logo.svg" width="300px" alt="Logo" />
     </div>
     <div class="pf-c-card__actions">
       <div class="pf-c-dropdown">
@@ -252,7 +252,7 @@ export const variants = [
       html: `<div class="pf-c-card">
   <div class="pf-c-card__header">
     <div class="pf-c-card__header-main">
-      <img src="/assets/images/pf_logo.svg" width="300px" alt="Logo" />
+      <img src="node_modules/@patternfly/patternfly/assets/images/pf_logo.svg" width="300px" alt="Logo" />
     </div>
   </div>
   <div class="pf-c-card__title">Title</div>

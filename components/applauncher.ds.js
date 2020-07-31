@@ -163,7 +163,7 @@ export const variants = [
         <li class="pf-c-app-launcher__menu-wrapper pf-m-external pf-m-favorite">
           <a class="pf-c-app-launcher__menu-item pf-m-link" href="#" target="_blank">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Link 2
             <span class="pf-c-app-launcher__menu-item-external-icon">
               <i class="fas fa-external-link-alt" aria-hidden="true"></i>
@@ -379,7 +379,7 @@ export const variants = [
         <li>
           <a class="pf-c-app-launcher__menu-item" href="#">
             <span class="pf-c-app-launcher__menu-item-icon">
-              <img src="/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
+              <img src="node_modules/@patternfly/patternfly/assets/images/pf-logo-small.svg" alt="PatternFly logo" />
             </span>Link not in group</a>
         </li>
       </ul>

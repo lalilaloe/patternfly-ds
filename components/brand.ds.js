@@ -14,7 +14,7 @@ export const variants = [
       height: 88,
     },
     snippet: {
-      html: `<img class="pf-c-brand" src="/assets/images/pf_logo.svg" alt="PatternFly logo" />`,
+      html: `<img class="pf-c-brand" src="node_modules/@patternfly/patternfly/assets/images/pf_logo.svg" alt="PatternFly logo" />`,
     },
   },
 ];

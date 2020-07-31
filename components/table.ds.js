@@ -1216,8 +1216,7 @@ export const variants = [
       height: 1096,
     },
     snippet: {
-      html:
-        `<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a simple table example" id="table-text-element-example">
+      html: `<table class="pf-c-table pf-m-grid-md" role="grid" aria-label="This is a simple table example" id="table-text-element-example">
   <caption>This table contains
     <code>.pf-c-table__text</code>  examples. The
     <code>.pf-c-table__text</code>  element can be using alone or in a nested configuration.</caption>
@@ -1238,15 +1237,9 @@ export const variants = [
       </th>
       <td class="pf-m-truncate" role="cell" data-label="Truncating text">
         <span class="pf-c-table__text">This table cell contains a single
-          <code>`.pf -
-        c -
-        table__text`</code>  wrapper with the parent table cell applying
-          <code>`.pf -
-        m -
-        truncate`</code>. The child
-          <code>`.pf -
-        c -
-        table__text`</code>  element will inherit the modifier settings and apply to the grid layout.</span>
+          <code>\`.pf-c-table__text\`</code>  wrapper with the parent table cell applying
+          <code>\`.pf-m-truncate\`</code>. The child
+          <code>\`.pf-c-table__text\`</code>  element will inherit the modifier settings and apply to the grid layout.</span>
       </td>
     </tr>
     <tr role="row">
