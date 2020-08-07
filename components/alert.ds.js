@@ -123,6 +123,83 @@ html:`<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert
 </div>
 `}},
 {
+displayName:"inline-variations",
+picture:{
+src:"./pictures/alert/inline-variations.png",
+width:692,
+height:437},
+snippet:{
+html:`<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
+  </p>
+  <div class="pf-c-alert__action">
+    <button class="pf-c-button pf-m-plain" type="button" aria-label="Close success alert: Success alert title">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+  </div>
+  <div class="pf-c-alert__description">
+    <p>Success alert description. This should tell the user more information about the alert.</p>
+  </div>
+  <div class="pf-c-alert__action-group">
+    <button class="pf-c-button pf-m-link pf-m-inline" type="button">View details</button>
+    <button class="pf-c-button pf-m-link pf-m-inline" type="button">Ignore</button>
+  </div>
+</div>
+<br />
+<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
+  </p>
+  <div class="pf-c-alert__action">
+    <button class="pf-c-button pf-m-plain" type="button" aria-label="Close success alert: Success alert title">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+  </div>
+  <div class="pf-c-alert__description">
+    <p>Success alert description. This should tell the user more information about the alert.
+      <a href="#">This is a link.</a>
+    </p>
+  </div>
+</div>
+<br />
+<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
+  </p>
+  <div class="pf-c-alert__action">
+    <button class="pf-c-button pf-m-plain" type="button" aria-label="Close success alert: Success alert title">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+  </div>
+  <div class="pf-c-alert__action-group">
+    <button class="pf-c-button pf-m-link pf-m-inline" type="button">View details</button>
+    <button class="pf-c-button pf-m-link pf-m-inline" type="button">Ignore</button>
+  </div>
+</div>
+<br />
+<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
+  </p>
+</div>`}},
+{
 displayName:"Default alert",
 picture:{
 src:"./pictures/alert/default-alert.png",
@@ -238,5 +315,123 @@ html:`<div class="pf-c-alert pf-m-success" aria-label="Success alert">
     <button class="pf-c-button pf-m-link pf-m-inline" type="button">Ignore</button>
   </div>
 </div>
-`}}
+`}},
+{
+displayName:"variations",
+picture:{
+src:"./pictures/alert/variations.png",
+width:855,
+height:766},
+snippet:{
+html:`<div class="pf-c-alert pf-m-success" aria-label="Success alert">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
+  </p>
+  <div class="pf-c-alert__action">
+    <button class="pf-c-button pf-m-plain" type="button" aria-label="Close success alert: Success alert title">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+  </div>
+  <div class="pf-c-alert__description">
+    <p>Success alert description. This should tell the user more information about the alert.</p>
+  </div>
+  <div class="pf-c-alert__action-group">
+    <button class="pf-c-button pf-m-link pf-m-inline" type="button">View details</button>
+    <button class="pf-c-button pf-m-link pf-m-inline" type="button">Ignore</button>
+  </div>
+</div>
+<br />
+<div class="pf-c-alert pf-m-success" aria-label="Success alert">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
+  </p>
+  <div class="pf-c-alert__action">
+    <button class="pf-c-button pf-m-plain" type="button" aria-label="Close success alert: Success alert title">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+  </div>
+  <div class="pf-c-alert__description">
+    <p>Success alert description. This should tell the user more information about the alert.
+      <a href="#">This is a link.</a>
+    </p>
+  </div>
+</div>
+<br />
+<div class="pf-c-alert pf-m-success" aria-label="Success alert">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
+  </p>
+  <div class="pf-c-alert__action">
+    <button class="pf-c-button pf-m-plain" type="button" aria-label="Close success alert: Success alert title">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+  </div>
+  <div class="pf-c-alert__action-group">
+    <button class="pf-c-button pf-m-link pf-m-inline" type="button">View details</button>
+    <button class="pf-c-button pf-m-link pf-m-inline" type="button">Ignore</button>
+  </div>
+</div>
+<br />
+<div class="pf-c-alert pf-m-success" aria-label="Success alert">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
+  </p>
+  <div class="pf-c-alert__action">
+    <button class="pf-c-button pf-m-plain" type="button" aria-label="Close success alert: Success alert title">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+<br />
+<div class="pf-c-alert pf-m-success" aria-label="Success alert">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
+  </p>
+</div>
+<br />
+<div class="pf-c-alert pf-m-success" aria-label="Success alert with title truncation">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title pf-m-truncate">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque cursus enim fringilla tincidunt. Proin lobortis aliquam dictum. Nam vel ullamcorper nulla, nec blandit dolor. Vivamus pellentesque neque justo, nec accumsan nulla rhoncus id. Suspendisse mollis, tortor quis faucibus volutpat, sem leo fringilla turpis, ac lacinia augue metus in nulla. Cras vestibulum lacinia orci. Pellentesque sodales consequat interdum. Sed porttitor tincidunt metus nec iaculis. Pellentesque non commodo justo. Morbi feugiat rhoncus neque, vitae facilisis diam aliquam nec. Sed dapibus vitae quam at tristique. Nunc vel commodo mi. Mauris et rhoncus leo.</strong>
+  </p>
+  <div class="pf-c-alert__description">
+    <p>This example uses ".pf-m-truncate" to limit the title to a single line and truncate any overflow text with ellipses.</p>
+  </div>
+</div>
+<br />
+<div class="pf-c-alert pf-m-success" aria-label="Success alert with title truncation at 2 lines">
+  <div class="pf-c-alert__icon">
+    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
+  </div>
+  <p class="pf-c-alert__title pf-m-truncate" style="--pf-c-alert__title--max-lines: 2">
+    <strong>
+      <span class="pf-screen-reader">Success alert:</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque cursus enim fringilla tincidunt. Proin lobortis aliquam dictum. Nam vel ullamcorper nulla, nec blandit dolor. Vivamus pellentesque neque justo, nec accumsan nulla rhoncus id. Suspendisse mollis, tortor quis faucibus volutpat, sem leo fringilla turpis, ac lacinia augue metus in nulla. Cras vestibulum lacinia orci. Pellentesque sodales consequat interdum. Sed porttitor tincidunt metus nec iaculis. Pellentesque non commodo justo. Morbi feugiat rhoncus neque, vitae facilisis diam aliquam nec. Sed dapibus vitae quam at tristique. Nunc vel commodo mi. Mauris et rhoncus leo.</strong>
+  </p>
+  <div class="pf-c-alert__description">
+    <p>This example uses ".pf-m-truncate" and sets "--pf-c-alert__title--max-lines: 2" to limit title to two lines and truncate any overflow text with ellipses.</p>
+  </div>
+</div>`}}
 ]

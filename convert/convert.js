@@ -75,7 +75,7 @@ function hasSubVariants(pageData) {
     return pageData.result.pageContext.code.includes("<br />");
 }
 
-async function takeScreenshot(component, variant, screenshotUrl, target) {
+async function takeScreenshot(component, variant, screenshotUrl, target, subvariant = false) {
     const screenshotPath = path.join(screenshotDir, component)
     const screenshotFileName = variant + ".png"
     const screenshotFullPath = path.join(screenshotPath, screenshotFileName)
@@ -90,7 +90,6 @@ async function takeScreenshot(component, variant, screenshotUrl, target) {
                 console.log("Are you sure the patterfly docs are locally running? Start it by running npm run start:patternfly")
             })
         }
-        console.log("   -", variant) // Log variant name
         await ready(component);
 
         let element;
@@ -118,14 +117,17 @@ async function takeScreenshot(component, variant, screenshotUrl, target) {
         if (element) {
             await element.screenshot({ path: screenshotFullPath })
             //console.log("     Screenshot:", screenshotFullPath)
-            process.stdout.write(" ✅ - " + variant + "\n\033[0G"); // The last bit replaces the whole line
+            process.stdout.cursorTo(0);
+            process.stdout.write(` ✅ ${subvariant ? ' -' : '-'} ` + variant + "\n\033[0G"); // The last bit replaces the whole line
         } else {
-            process.stdout.write(" ❌ - " + variant + "\n\033[0G")
+            process.stdout.cursorTo(0);
+            process.stdout.write(` ❌ ${subvariant ? ' -' : '-'} ` + variant + "\n\033[0G")
             return false;
         }
     } else {
         //console.log("     Screenshot exist:", screenshotFullPath)
-        process.stdout.write(" ❎ - " + variant + "\n\033[0G");
+        process.stdout.cursorTo(0);
+        process.stdout.write(` ❎ ${subvariant ? ' -' : '-'} ` + variant + "\n\033[0G");
     }
     return screenshotFullPath
 }
@@ -134,6 +136,20 @@ function decodeHtml(html) {
     return he.decode(html) // decode html for export to file
         .replace(/\/assets/g, 'node_modules/@patternfly/patternfly/assets') // Make assets resolve correctly when using snipit
         .replace(/`/g, '\\`') // Occasionally backticks are used in the snippets (ex. page component)
+}
+
+function getSnippet(screenshotFullPath, htmlCode, variantName) {
+    const imageSize = sizeOf(screenshotFullPath);
+    const html = `\`${decodeHtml(htmlCode)}\``
+    return {
+        name: variantName,
+        screenshot: {
+            url: slash(screenshotFullPath.replace(rootDir, '')).replace('/components/', ''),
+            width: imageSize.width,
+            height: imageSize.height
+        },
+        html: html
+    }
 }
 
 // foxr.launch({
@@ -164,7 +180,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'alert')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir)// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -186,45 +202,35 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
 
             let screenshotFullPath;
             if (hasSubVariants(pageData)) {
-                console.log("has sub variants!")
+                process.stdout.write("   - " + variant + "\n") // Log variant name
                 const subVariants = pageData.result.pageContext.code.split("<br />")
                 const subVariantsProcessed = []
+                const duplicates = []
                 for (const subVariant of subVariants) {
                     const htmlSnippet = parseHtml(subVariant.replace(/\r?\n|\r/g, ""))
                     const subVariantTarget = "." + htmlSnippet.firstChild.classNames.join(".")
+                    const subVariantName = htmlSnippet.firstChild.getAttribute("aria-label");
+                    const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
                     if (!subVariantsProcessed.includes(subVariantTarget)) {
-                        const subVariantName = htmlSnippet.firstChild.getAttribute("aria-label");
-                        console.log(subVariantTarget)
-                        screenshotFullPath = await takeScreenshot(component, subVariantName.toLowerCase().split(" ").join("-"), screenshotUrl, subVariantTarget)
+                        process.stdout.write("     - " + subVariantFileName) // Log subvariant name
+                        screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
 
-                        const imageSize = sizeOf(screenshotFullPath);
-                        const html = `\`${decodeHtml(subVariant)}\``
-                        variantSnippets.push({
-                            name: subVariantName,
-                            screenshot: {
-                                url: slash(screenshotFullPath.replace(rootDir, '')).replace('/components/', ''),
-                                width: imageSize.width,
-                                height: imageSize.height
-                            },
-                            html: html
-                        })
+                        variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
                         subVariantsProcessed.push(subVariantTarget)
+                    } else {
+                        duplicates.push(subVariantTarget)
                     }
-
+                }
+                if ((duplicates.length + 1) == subVariants.length) {
+                    screenshotFullPath = await takeScreenshot(component, variant, screenshotUrl, `#ws-core-c-${component}-${variant}`)
+                    console.log(`      INFO: Only duplicates found! Added '${component}-${variant}' as combined variant`)
+                    variantSnippets.push(getSnippet(screenshotFullPath, pageData.result.pageContext.code, variant))
+                } else if (subVariantsProcessed.length > subVariants.length) {
+                    console.log("      INFO: duplicate targets found", (subVariants.length - duplicates.length))
                 }
             } else {
                 screenshotFullPath = await takeScreenshot(component, variant, screenshotUrl, `#ws-core-c-${component}-${variant}`)
-                const imageSize = sizeOf(screenshotFullPath);
-                const html = `\`${decodeHtml(pageData.result.pageContext.code)}\``
-                variantSnippets.push({
-                    name: variant,
-                    screenshot: {
-                        url: slash(screenshotFullPath.replace(rootDir, '')).replace('/components/', ''),
-                        width: imageSize.width,
-                        height: imageSize.height
-                    },
-                    html: html
-                })
+                variantSnippets.push(getSnippet(screenshotFullPath, pageData.result.pageContext.code, variant))
             }
         }
         const outputComponent = buildComponentJson({
