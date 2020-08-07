@@ -208,8 +208,13 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                 const duplicates = []
                 for (const subVariant of subVariants) {
                     const htmlSnippet = parseHtml(subVariant.replace(/\r?\n|\r/g, ""))
+
                     const subVariantTarget = "." + htmlSnippet.firstChild.classNames.join(".")
-                    const subVariantName = htmlSnippet.firstChild.getAttribute("aria-label");
+                    let subVariantName = htmlSnippet.firstChild.getAttribute("aria-label");
+                    if (!subVariantName) {
+                        const niceTargetName = htmlSnippet.firstChild.classNames.join(" ").replace(/pf-/g, '').replace(/c-/g, '').replace(/m-/g, '');
+                        subVariantName = variant + " " + niceTargetName.split(" ").pop();
+                    }
                     const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
                     if (!subVariantsProcessed.includes(subVariantTarget)) {
                         process.stdout.write("     - " + subVariantFileName) // Log subvariant name
