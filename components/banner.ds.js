@@ -19,9 +19,9 @@ export const variants = [
     },
   },
   {
-    displayName: "basic info",
+    displayName: "basic banner info",
     picture: {
-      src: "./pictures/banner/basic-info.png",
+      src: "./pictures/banner/basic-banner-info.png",
       width: 261,
       height: 29,
     },
@@ -32,9 +32,9 @@ export const variants = [
     },
   },
   {
-    displayName: "basic danger",
+    displayName: "basic banner danger",
     picture: {
-      src: "./pictures/banner/basic-danger.png",
+      src: "./pictures/banner/basic-banner-danger.png",
       width: 261,
       height: 29,
     },
@@ -45,9 +45,9 @@ export const variants = [
     },
   },
   {
-    displayName: "basic success",
+    displayName: "basic banner success",
     picture: {
-      src: "./pictures/banner/basic-success.png",
+      src: "./pictures/banner/basic-banner-success.png",
       width: 261,
       height: 29,
     },
@@ -58,9 +58,9 @@ export const variants = [
     },
   },
   {
-    displayName: "basic warning",
+    displayName: "basic banner warning",
     picture: {
-      src: "./pictures/banner/basic-warning.png",
+      src: "./pictures/banner/basic-banner-warning.png",
       width: 261,
       height: 29,
     },
