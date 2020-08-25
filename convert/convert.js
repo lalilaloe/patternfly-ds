@@ -164,6 +164,11 @@ function getScreenshotUrl(component, componentpath, path) {
     }
     return screenshotUrl;
 }
+
+function getVariantName(variant) {
+    return variant == "variations" ? "" : variant + " "
+}
+
 // foxr.launch({
 //     executablePath: 'C:/Program Files/Firefox Developer Edition/firefox.exe'
 // }).then(browser => {
@@ -193,7 +198,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'alert')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir).filter(c => c == 'button')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -230,7 +235,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         if (!subVariantName || subVariantName === "Remove") { // In case the snippet does not contain a aria-label
                             if (htmlSnippet.firstChild.tagName === "div") {
                                 const niceTargetName = getTargetName(htmlSnippet.firstChild.classNames)
-                                subVariantName = variant + " " + niceTargetName;
+                                subVariantName = getVariantName(variant) + niceTargetName;
                             } if (htmlSnippet.firstChild.tagName === "button") { // In case of seperate html elements in this case buttons, 
                                 hasChildren = true;
                                 const subChildVariantsProcessed = []
@@ -238,7 +243,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                                 for (const child of htmlSnippet.childNodes) {
                                     const subChildVariantTarget = "." + child.classNames.join(".")
                                     const niceTargetName = getTargetName(child.classNames);
-                                    const subChildVariantName = variant + " " + niceTargetName;
+                                    const subChildVariantName = getVariantName(variant) + niceTargetName;
                                     const subChildVariantFileName = subChildVariantName.toLowerCase().split(" ").join("-")
 
                                     if (!subChildVariantsProcessed.includes(subChildVariantTarget)) {
@@ -273,17 +278,19 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                 }
                 if ((duplicates + 1) == subVariants.length) {
                     if (subVariants.length > 1) {
-                        console.log(`      INFO: Only duplicates found! Trying to split the variants`)
+                        const lastVariant = variantSnippets.pop() // Remove last added variant snippet to avoid duplicates
+                        fs.unlinkSync(path.join(rootDir, "components", lastVariant.screenshot.url)) // Remove last taken screenshot
+                        process.stdout.cursorTo(0); // Replace previous line
+                        process.stdout.write(`      INFO: Only duplicates found! Trying to split the variants` + "\n\033[0G")
                         isolatedComponents.push(component)
                         const screenshotUrl = getScreenshotUrl(component, componentPath, pageData.path);
-                        variantSnippets.pop() // Remove last added variant snippet to avoid duplicates
                         for (let index = 0; index < subVariants.length; index++) {
                             const subVariant = subVariants[index];
                             const htmlSnippet = parseHtml(subVariant.replace(/\r?\n|\r/g, ""))
                             if (htmlSnippet.firstChild) {
                                 const subVariantTargetName = "." + htmlSnippet.firstChild.classNames.join(".")
                                 const subVariantName = `${component} ${variant.endsWith("s") ? variant.slice(0, variant.length - 1) : variant} ${index + 1}`
-                                //  const subVariantName = htmlSnippet.firstChild.getAttribute("aria-label") + ` ${index + 1}`
+                                //  const subVariantName = htmlSnippet.firstChild.getAttribute("aria-label") + ` ${index + 1}` // Get nice name for variant
                                 const subVariantTarget = subVariantTargetName + `:nth-of-type(${index + 1})`
                                 const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
                                 process.stdout.write("     - " + subVariantFileName) // Log subvariant name
@@ -305,7 +312,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         variantSnippets.push(getSnippet(screenshotFullPath, pageData.result.pageContext.code, variant))
                     }
                 } else if (subVariantsProcessed.length > subVariants.length) {
-                    console.log("      INFO: duplicate targets found", (subVariants.length - duplicates.length))
+                    console.log("      INFO: duplicate targets found", (subVariants.length - duplicates))
                 }
             } else {
                 screenshotFullPath = await takeScreenshot(component, variant, screenshotUrl, `#ws-core-c-${component}-${variant}`)

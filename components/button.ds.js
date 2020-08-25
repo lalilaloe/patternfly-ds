@@ -113,9 +113,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button primary",
+    displayName: "button primary",
     picture: {
-      src: "./pictures/button/variations-button-primary.png",
+      src: "./pictures/button/button-primary.png",
       width: 144,
       height: 36,
     },
@@ -124,9 +124,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button secondary",
+    displayName: "button secondary",
     picture: {
-      src: "./pictures/button/variations-button-secondary.png",
+      src: "./pictures/button/button-secondary.png",
       width: 108,
       height: 36,
     },
@@ -135,9 +135,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button tertiary",
+    displayName: "button tertiary",
     picture: {
-      src: "./pictures/button/variations-button-tertiary.png",
+      src: "./pictures/button/button-tertiary.png",
       width: 86,
       height: 36,
     },
@@ -146,9 +146,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button danger",
+    displayName: "button danger",
     picture: {
-      src: "./pictures/button/variations-button-danger.png",
+      src: "./pictures/button/button-danger.png",
       width: 84,
       height: 36,
     },
@@ -157,9 +157,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button link",
+    displayName: "button link",
     picture: {
-      src: "./pictures/button/variations-button-link.png",
+      src: "./pictures/button/button-link.png",
       width: 85,
       height: 36,
     },
@@ -168,9 +168,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button link",
+    displayName: "button link",
     picture: {
-      src: "./pictures/button/variations-button-link.png",
+      src: "./pictures/button/button-link.png",
       width: 85,
       height: 36,
     },
@@ -179,9 +179,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button inline link",
+    displayName: "button inline link",
     picture: {
-      src: "./pictures/button/variations-button-inline-link.png",
+      src: "./pictures/button/button-inline-link.png",
       width: 65,
       height: 24,
     },
@@ -190,9 +190,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button plain",
+    displayName: "button plain",
     picture: {
-      src: "./pictures/button/variations-button-plain.png",
+      src: "./pictures/button/button-plain.png",
       width: 40,
       height: 40,
     },
@@ -201,9 +201,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button control",
+    displayName: "button control",
     picture: {
-      src: "./pictures/button/variations-button-control.png",
+      src: "./pictures/button/button-control.png",
       width: 85,
       height: 36,
     },
@@ -212,9 +212,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button control",
+    displayName: "button control",
     picture: {
-      src: "./pictures/button/variations-button-control.png",
+      src: "./pictures/button/button-control.png",
       width: 85,
       height: 36,
     },
@@ -223,9 +223,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button primary small",
+    displayName: "button primary small",
     picture: {
-      src: "./pictures/button/variations-button-primary-small.png",
+      src: "./pictures/button/button-primary-small.png",
       width: 80,
       height: 33,
     },
@@ -234,9 +234,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button secondary small",
+    displayName: "button secondary small",
     picture: {
-      src: "./pictures/button/variations-button-secondary-small.png",
+      src: "./pictures/button/button-secondary-small.png",
       width: 99,
       height: 33,
     },
@@ -245,9 +245,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button tertiary small",
+    displayName: "button tertiary small",
     picture: {
-      src: "./pictures/button/variations-button-tertiary-small.png",
+      src: "./pictures/button/button-tertiary-small.png",
       width: 79,
       height: 33,
     },
@@ -256,9 +256,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button danger small",
+    displayName: "button danger small",
     picture: {
-      src: "./pictures/button/variations-button-danger-small.png",
+      src: "./pictures/button/button-danger-small.png",
       width: 78,
       height: 33,
     },
@@ -267,9 +267,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button link small",
+    displayName: "button link small",
     picture: {
-      src: "./pictures/button/variations-button-link-small.png",
+      src: "./pictures/button/button-link-small.png",
       width: 79,
       height: 33,
     },
@@ -278,9 +278,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button inline link small",
+    displayName: "button inline link small",
     picture: {
-      src: "./pictures/button/variations-button-inline-link-small.png",
+      src: "./pictures/button/button-inline-link-small.png",
       width: 65,
       height: 24,
     },
@@ -289,9 +289,9 @@ export const variants = [
     },
   },
   {
-    displayName: "variations button control small",
+    displayName: "button control small",
     picture: {
-      src: "./pictures/button/variations-button-control-small.png",
+      src: "./pictures/button/button-control-small.png",
       width: 78,
       height: 33,
     },
