@@ -267,7 +267,7 @@ export const variants = [
     displayName: "Success alert",
     picture: {
       src: "./pictures/alert/success-alert.png",
-      width: 261,
+      width: 1000,
       height: 55,
     },
     snippet: {
