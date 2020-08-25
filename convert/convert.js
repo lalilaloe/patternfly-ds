@@ -214,7 +214,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'chip')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir).filter(c => c == 'alert')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -289,11 +289,12 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         } else if (subVariantsProcessed.includes(subVariantTarget) && !hasChildren) { // Duplicate but try to identify if there is a difference
                             const nthNumber = subVariantsProcessed.filter(v => v.substring(0, subVariantTarget.length) == subVariantTarget).length + 1 // It is found as duplicate, so it is the first child + the number of other duplicates of this target
                             subVariantTarget = subVariantTarget + `:nth-of-type(${nthNumber})`
-                            const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-") + nthNumber
+                            subVariantName = `${subVariantName} ${variant.endsWith("s") ? variant.slice(0, variant.length - 1) : variant} ${nthNumber}`
+                            const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
                             process.stdout.write("     - " + subVariantFileName) // Log subvariant name
                             screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
 
-                            variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName + nthNumber))
+                            variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
                             subVariantsProcessed.push(subVariantTarget)
                         } else {
                             duplicates.push(subVariantTarget)

@@ -110,11 +110,11 @@ export const variants = [
     },
   },
   {
-    displayName: "alert inline-variation 1",
+    displayName: "Success alert",
     picture: {
-      src: "./pictures/alert/alert-inline-variation-1.png",
-      width: 600,
-      height: 117,
+      src: "./pictures/alert/success-alert.png",
+      width: 261,
+      height: 55,
     },
     snippet: {
       html: `<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
@@ -142,11 +142,11 @@ export const variants = [
     },
   },
   {
-    displayName: "alert inline-variation 2",
+    displayName: "Success alert inline-variation 2",
     picture: {
-      src: "./pictures/alert/alert-inline-variation-2.png",
-      width: 600,
-      height: 101,
+      src: "./pictures/alert/success-alert-inline-variation-2.png",
+      width: 660,
+      height: 80,
     },
     snippet: {
       html: `
@@ -173,11 +173,11 @@ export const variants = [
     },
   },
   {
-    displayName: "alert inline-variation 3",
+    displayName: "Success alert inline-variation 3",
     picture: {
-      src: "./pictures/alert/alert-inline-variation-3.png",
-      width: 600,
-      height: 80,
+      src: "./pictures/alert/success-alert-inline-variation-3.png",
+      width: 261,
+      height: 55,
     },
     snippet: {
       html: `
@@ -203,10 +203,10 @@ export const variants = [
     },
   },
   {
-    displayName: "alert inline-variation 4",
+    displayName: "Success alert inline-variation 4",
     picture: {
-      src: "./pictures/alert/alert-inline-variation-4.png",
-      width: 600,
+      src: "./pictures/alert/success-alert-inline-variation-4.png",
+      width: 660,
       height: 55,
     },
     snippet: {
@@ -267,7 +267,7 @@ export const variants = [
     displayName: "Success alert",
     picture: {
       src: "./pictures/alert/success-alert.png",
-      width: 1000,
+      width: 261,
       height: 55,
     },
     snippet: {
@@ -326,11 +326,11 @@ export const variants = [
     },
   },
   {
-    displayName: "alert variation 1",
+    displayName: "Success alert",
     picture: {
-      src: "./pictures/alert/alert-variation-1.png",
-      width: 583,
-      height: 117,
+      src: "./pictures/alert/success-alert.png",
+      width: 261,
+      height: 55,
     },
     snippet: {
       html: `<div class="pf-c-alert pf-m-success" aria-label="Success alert">
@@ -358,11 +358,11 @@ export const variants = [
     },
   },
   {
-    displayName: "alert variation 2",
+    displayName: "Success alert variation 2",
     picture: {
-      src: "./pictures/alert/alert-variation-2.png",
-      width: 583,
-      height: 101,
+      src: "./pictures/alert/success-alert-variation-2.png",
+      width: 823,
+      height: 80,
     },
     snippet: {
       html: `
@@ -389,11 +389,11 @@ export const variants = [
     },
   },
   {
-    displayName: "alert variation 3",
+    displayName: "Success alert variation 3",
     picture: {
-      src: "./pictures/alert/alert-variation-3.png",
-      width: 583,
-      height: 80,
+      src: "./pictures/alert/success-alert-variation-3.png",
+      width: 261,
+      height: 55,
     },
     snippet: {
       html: `
@@ -419,10 +419,10 @@ export const variants = [
     },
   },
   {
-    displayName: "alert variation 4",
+    displayName: "Success alert variation 4",
     picture: {
-      src: "./pictures/alert/alert-variation-4.png",
-      width: 583,
+      src: "./pictures/alert/success-alert-variation-4.png",
+      width: 823,
       height: 55,
     },
     snippet: {
@@ -445,10 +445,10 @@ export const variants = [
     },
   },
   {
-    displayName: "alert variation 5",
+    displayName: "Success alert variation 5",
     picture: {
-      src: "./pictures/alert/alert-variation-5.png",
-      width: 583,
+      src: "./pictures/alert/success-alert-variation-5.png",
+      width: 823,
       height: 55,
     },
     snippet: {
@@ -466,11 +466,12 @@ export const variants = [
     },
   },
   {
-    displayName: "alert variation 6",
+    displayName: "Success alert with title truncation variation 6",
     picture: {
-      src: "./pictures/alert/alert-variation-6.png",
-      width: 583,
-      height: 101,
+      src:
+        "./pictures/alert/success-alert-with-title-truncation-variation-6.png",
+      width: 823,
+      height: 80,
     },
     snippet: {
       html: `
@@ -490,10 +491,11 @@ export const variants = [
     },
   },
   {
-    displayName: "alert variation 7",
+    displayName: "Success alert with title truncation at 2 lines variation 7",
     picture: {
-      src: "./pictures/alert/alert-variation-7.png",
-      width: 583,
+      src:
+        "./pictures/alert/success-alert-with-title-truncation-at-2-lines-variation-7.png",
+      width: 823,
       height: 122,
     },
     snippet: {
