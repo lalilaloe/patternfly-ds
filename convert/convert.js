@@ -72,7 +72,11 @@ async function ready(component) {
 }
 
 function hasSubVariants(pageData) {
-    return pageData.result.pageContext.code.includes("<br />");
+    return pageData.result.pageContext.code.includes("<br />") || pageData.result.pageContext.code.split("button").length - 1 || pageData.result.pageContext.code.split("a").length - 1;
+}
+
+function subVariantHasChildren(html) {
+    return html.split("button").length - 1 || html.split("a").length - 1;
 }
 
 async function takeScreenshot(component, variant, screenshotUrl, target, subvariant = false, child = false) {
@@ -166,7 +170,14 @@ function getScreenshotUrl(component, componentpath, path) {
 }
 
 function getVariantName(variant) {
-    return variant == "variations" ? "" : variant + " "
+    switch (variant) {
+        case "variations" || "variant":
+            return ""
+        case "call-to-action":
+            return "cta "
+        default:
+            return variant + " "
+    }
 }
 
 // foxr.launch({
@@ -236,26 +247,6 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                             if (htmlSnippet.firstChild.tagName === "div") {
                                 const niceTargetName = getTargetName(htmlSnippet.firstChild.classNames)
                                 subVariantName = getVariantName(variant) + niceTargetName;
-                            } if (htmlSnippet.firstChild.tagName === "button") { // In case of seperate html elements in this case buttons, 
-                                hasChildren = true;
-                                const subChildVariantsProcessed = []
-                                const duplicateChildren = []
-                                for (const child of htmlSnippet.childNodes) {
-                                    const subChildVariantTarget = "." + child.classNames.join(".")
-                                    const niceTargetName = getTargetName(child.classNames);
-                                    const subChildVariantName = getVariantName(variant) + niceTargetName;
-                                    const subChildVariantFileName = subChildVariantName.toLowerCase().split(" ").join("-")
-
-                                    if (!subChildVariantsProcessed.includes(subChildVariantTarget)) {
-                                        process.stdout.write("      - " + subChildVariantFileName) // Log subvariant name
-                                        screenshotFullPath = await takeScreenshot(component, subChildVariantFileName, screenshotUrl, subChildVariantTarget, true, true)
-
-                                        variantSnippets.push(getSnippet(screenshotFullPath, child.toString(), subChildVariantName))
-                                        subVariantsProcessed.push(subChildVariantTarget)
-                                    } else {
-                                        duplicateChildren.push(subChildVariantTarget)
-                                    }
-                                }
                             }
                             // } else { // In case the subvariant is not enclosed in a container div just use default name
                             //     console.log("subvariant unregocnised")
@@ -263,7 +254,27 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                             // }
 
                         }
+                        if (subVariantHasChildren(subVariant)) { // In case of seperate html elements in this case buttons, 
+                            hasChildren = true;
+                            const subChildVariantsProcessed = []
+                            const duplicateChildren = []
+                            for (const child of htmlSnippet.childNodes) {
+                                const subChildVariantTarget = "." + child.classNames.join(".")
+                                const niceTargetName = getTargetName(child.classNames);
+                                const subChildVariantName = getVariantName(variant) + niceTargetName;
+                                const subChildVariantFileName = subChildVariantName.toLowerCase().split(" ").join("-")
 
+                                if (!subChildVariantsProcessed.includes(subChildVariantTarget)) {
+                                    process.stdout.write("      - " + subChildVariantFileName) // Log subvariant name
+                                    screenshotFullPath = await takeScreenshot(component, subChildVariantFileName, screenshotUrl, subChildVariantTarget, true, hasChildren)
+
+                                    variantSnippets.push(getSnippet(screenshotFullPath, child.toString(), subChildVariantName))
+                                    subVariantsProcessed.push(subChildVariantTarget)
+                                } else {
+                                    duplicateChildren.push(subChildVariantTarget)
+                                }
+                            }
+                        }
                         if (!subVariantsProcessed.includes(subVariantTarget) && !hasChildren) {
                             const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
                             process.stdout.write("     - " + subVariantFileName) // Log subvariant name
@@ -312,6 +323,8 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         variantSnippets.push(getSnippet(screenshotFullPath, pageData.result.pageContext.code, variant))
                     }
                 } else if (subVariantsProcessed.length > subVariants.length) {
+                    // Processed more than subVariants
+                } else if (subVariants.length - duplicates) {
                     console.log("      INFO: duplicate targets found", (subVariants.length - duplicates))
                 }
             } else {
