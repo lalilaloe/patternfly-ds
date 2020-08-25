@@ -183,11 +183,12 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     await foxr.launch({
         executablePath: 'C:/Program Files/Firefox Developer Edition/firefox.exe'
     })
+    const defaultViewport = {
+        width: 1000,
+        height: 600
+    }
     browser = await foxr.connect({
-        defaultViewport: {
-            width: 1000,
-            height: 600
-        }
+        defaultViewport: defaultViewport
     })
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
@@ -286,11 +287,18 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                                 const subVariantTarget = subVariantTargetName + `:nth-of-type(${index + 1})`
                                 const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
                                 process.stdout.write("     - " + subVariantFileName) // Log subvariant name
+
+                                browser = await foxr.connect({
+                                    defaultViewport: { width: 600, height: 600 } // Set smaller viewport
+                                })
                                 screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
 
                                 variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
                             }
                         }
+                        browser = await foxr.connect({
+                            defaultViewport: defaultViewport // Set viewport to default
+                        })
                     } else {
                         screenshotFullPath = await takeScreenshot(component, variant, screenshotUrl, `#ws-core-c-${component}-${variant}`)
                         console.log(`      INFO: Only duplicates found! Added '${component}-${variant}' as combined variant`)
