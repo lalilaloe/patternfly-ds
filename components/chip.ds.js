@@ -24,9 +24,9 @@ export const variants = [
     },
   },
   {
-    displayName: "basic chip2",
+    displayName: "basic chip basic 2",
     picture: {
-      src: "./pictures/chip/basic-chip2.png",
+      src: "./pictures/chip/basic-chip-basic-2.png",
       width: 162,
       height: 26,
     },
@@ -42,9 +42,9 @@ export const variants = [
     },
   },
   {
-    displayName: "basic chip3",
+    displayName: "basic chip basic 3",
     picture: {
-      src: "./pictures/chip/basic-chip3.png",
+      src: "./pictures/chip/basic-chip-basic-3.png",
       width: 97,
       height: 26,
     },
@@ -83,10 +83,7 @@ export const variants = [
       height: 26,
     },
     snippet: {
-      html: `
-<button class="pf-c-chip pf-m-overflow">
-  <span class="pf-c-chip__text">Overflow chip</span>
-</button>`,
+      html: `<button class="pf-c-chip pf-m-overflow">  <span class="pf-c-chip__text">Overflow chip</span></button>`,
     },
   },
 ];

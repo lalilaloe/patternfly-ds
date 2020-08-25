@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "basic",
+    displayName: "basic clipboard-copy",
     picture: {
-      src: "./pictures/clipboardcopy/basic.png",
-      width: 293,
-      height: 129,
+      src: "./pictures/clipboardcopy/basic-clipboard-copy.png",
+      width: 261,
+      height: 36,
     },
     snippet: {
       html: `<div class="pf-c-clipboard-copy">
@@ -22,7 +22,18 @@ export const variants = [
     </button>
   </div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "basic clipboard-copy 2",
+    picture: {
+      src: "./pictures/clipboardcopy/basic-clipboard-copy-2.png",
+      width: 261,
+      height: 36,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-clipboard-copy">
   <div class="pf-c-clipboard-copy__group">
     <input class="pf-c-form-control" readonly type="text" value="This is read-only" id="basic-readonly-text-input" aria-label="Copyable input" />
@@ -34,11 +45,11 @@ export const variants = [
     },
   },
   {
-    displayName: "expandable",
+    displayName: "expandable clipboard-copy",
     picture: {
-      src: "./pictures/clipboardcopy/expandable.png",
-      width: 855,
-      height: 459,
+      src: "./pictures/clipboardcopy/expandable-clipboard-copy.png",
+      width: 261,
+      height: 36,
     },
     snippet: {
       html: `<h4>Editable</h4>
@@ -56,7 +67,18 @@ export const variants = [
   </div>
   <div class="pf-c-clipboard-copy__expandable-content" hidden id="expandable-not-expanded-editable-content">This is an editable version of the Copy to Clipboard Component that has an expandable section. Got a lot of text here, need to see all of it? Click that arrow on the left side and check out the resulting expansion.</div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "expandable clipboard-copy expanded",
+    picture: {
+      src: "./pictures/clipboardcopy/expandable-clipboard-copy-expanded.png",
+      width: 823,
+      height: 117,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-clipboard-copy pf-m-expanded">
   <div class="pf-c-clipboard-copy__group">
     <button class="pf-c-button pf-m-control pf-m-expanded" type="button" id="expandable-expanded-editable-toggle" aria-labelledby="expandable-expanded-editable-toggle expandable-expanded-editable-text-input" aria-controls="expandable-expanded-editable-content">
@@ -71,7 +93,18 @@ export const variants = [
   </div>
   <div class="pf-c-clipboard-copy__expandable-content" contenteditable="true" id="expandable-expanded-editable-content">This is an editable version of the Copy to Clipboard Component that has an expandable section. Got a lot of text here, need to see all of it? Click that arrow on the left side and check out the resulting expansion.</div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "expandable clipboard-copy 3",
+    picture: {
+      src: "./pictures/clipboardcopy/expandable-clipboard-copy-3.png",
+      width: 823,
+      height: 36,
+    },
+    snippet: {
+      html: `
 <h4>Read-only</h4>
 <div class="pf-c-clipboard-copy">
   <div class="pf-c-clipboard-copy__group">
@@ -87,7 +120,18 @@ export const variants = [
   </div>
   <div class="pf-c-clipboard-copy__expandable-content" hidden id="expandable-not-expanded-readonly-content">This is an editable version of the Copy to Clipboard Component that has an expandable section. Got a lot of text here, need to see all of it? Click that arrow on the left side and check out the resulting expansion.</div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "expandable clipboard-copy expanded 2",
+    picture: {
+      src: "./pictures/clipboardcopy/expandable-clipboard-copy-expanded-2.png",
+      width: 823,
+      height: 117,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-clipboard-copy pf-m-expanded">
   <div class="pf-c-clipboard-copy__group">
     <button class="pf-c-button pf-m-control pf-m-expanded" type="button" id="expandable-expanded-readonly-toggle" aria-labelledby="expandable-expanded-readonly-toggle expandable-expanded-readonly-text-input" aria-controls="expandable-expanded-readonly-content">
