@@ -79,7 +79,7 @@ function hasSubVariants(pageData) {
 }
 
 function subVariantHasChildren(html) {
-    const div = html.substring(0, 3)
+    const div = html.substring(0, 1) == "<" ? html.substring(0, 3) : html.substring(1, 4)
     return (div == "<bu" && html.split("<button").length - 1) ||
         (div == "<a " && html.split("<a").length - 1);
 }
@@ -214,7 +214,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'alert')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir).filter(c => c == 'button')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -286,12 +286,12 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
 
                             variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
                             subVariantsProcessed.push(subVariantTarget)
+                            //console.log(subVariantHasChildren(subVariant))
                         } else if (subVariantsProcessed.includes(subVariantTarget) && !hasChildren) { // Duplicate but try to identify if there is a difference
                             const nthNumber = subVariantsProcessed.filter(v => v.substring(0, subVariantTarget.length) == subVariantTarget).length + 1 // It is found as duplicate, so it is the first child + the number of other duplicates of this target
                             subVariantTarget = subVariantTarget + `:nth-of-type(${nthNumber})`
                             subVariantName = `${subVariantName} ${variant.endsWith("s") ? variant.slice(0, variant.length - 1) : variant} ${nthNumber}`
                             const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
-                            process.stdout.write("     - " + subVariantFileName) // Log subvariant name
                             screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
 
                             variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
@@ -302,48 +302,46 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                     }
                 }
                 if ((duplicates.length + 1) == subVariants.length) {
-                    if (subVariants.length > 1) {
-                        const lastVariant = variantSnippets.pop() // Remove last added variant snippet to avoid duplicates
-                        if (variantSnippets.filter(v => v.screenshot.url == lastVariant.screenshot.url).length == 0) {
-                            fs.unlinkSync(path.join(rootDir, "components", lastVariant.screenshot.url)) // Remove last taken screenshot
-                        }
-                        process.stdout.cursorTo(0); // Replace previous line
-                        process.stdout.write(`      INFO: Only duplicates found! Trying to split the variants` + "\n\033[0G")
-                        isolatedComponents.push(component)
-                        const screenshotUrl = getScreenshotUrl(component, componentPath, pageData.path);
-                        for (let index = 0; index < subVariants.length; index++) {
-                            const subVariant = subVariants[index];
-                            const htmlSnippet = parseHtml(subVariant.replace(/\r?\n|\r/g, ""))
-                            if (htmlSnippet.firstChild) {
-                                const subVariantTargetName = "." + htmlSnippet.firstChild.classNames.join(".")
-                                const subVariantName = `${component} ${variant.endsWith("s") ? variant.slice(0, variant.length - 1) : variant} ${index + 1}`
-                                //  const subVariantName = htmlSnippet.firstChild.getAttribute("aria-label") + ` ${index + 1}` // Get nice name for variant
-                                const subVariantTarget = subVariantTargetName + `:nth-of-type(${index + 1})`
-                                const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
-                                process.stdout.write("     - " + subVariantFileName) // Log subvariant name
+                    // if (subVariants.length > 1) {
+                    //     const lastVariant = variantSnippets.pop() // Remove last added variant snippet to avoid duplicates
+                    //     if (variantSnippets.filter(v => v.screenshot.url == lastVariant.screenshot.url).length == 0) {
+                    //         fs.unlinkSync(path.join(rootDir, "components", lastVariant.screenshot.url)) // Remove last taken screenshot
+                    //     }
+                    //     process.stdout.cursorTo(0); // Replace previous line
+                    //     process.stdout.write(`      INFO: Only duplicates found! Trying to split the variants` + "\n\033[0G")
+                    //     isolatedComponents.push(component)
+                    //     const screenshotUrl = getScreenshotUrl(component, componentPath, pageData.path);
+                    //     for (let index = 0; index < subVariants.length; index++) {
+                    //         const subVariant = subVariants[index];
+                    //         const htmlSnippet = parseHtml(subVariant.replace(/\r?\n|\r/g, ""))
+                    //         if (htmlSnippet.firstChild) {
+                    //             const subVariantTargetName = "." + htmlSnippet.firstChild.classNames.join(".")
+                    //             const subVariantName = `${component} ${variant.endsWith("s") ? variant.slice(0, variant.length - 1) : variant} ${index + 1}`
+                    //             //  const subVariantName = htmlSnippet.firstChild.getAttribute("aria-label") + ` ${index + 1}` // Get nice name for variant
+                    //             const subVariantTarget = subVariantTargetName + `:nth-of-type(${index + 1})`
+                    //             const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
+                    //             process.stdout.write("     - " + subVariantFileName) // Log subvariant name
 
-                                browser = await foxr.connect({
-                                    defaultViewport: { width: 600, height: 600 } // Set smaller viewport
-                                })
-                                screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
+                    //             browser = await foxr.connect({
+                    //                 defaultViewport: { width: 600, height: 600 } // Set smaller viewport
+                    //             })
+                    //             screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
 
-                                variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
-                            }
-                        }
-                        browser = await foxr.connect({
-                            defaultViewport: defaultViewport // Set viewport to default
-                        })
-                    } else {
-                        screenshotFullPath = await takeScreenshot(component, variant, screenshotUrl, `#ws-core-c-${component}-${variant}`)
-                        console.log(`      INFO: Only duplicates found! Added '${component}-${variant}' as combined variant`)
-                        variantSnippets.push(getSnippet(screenshotFullPath, pageData.result.pageContext.code, variant))
-                    }
+                    //             variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
+                    //         }
+                    //     }
+                    //     browser = await foxr.connect({
+                    //         defaultViewport: defaultViewport // Set viewport to default
+                    //     })
+                    // } else {
+                    screenshotFullPath = await takeScreenshot(component, variant, screenshotUrl, `#ws-core-c-${component}-${variant}`)
+                    console.log(`      INFO: Only duplicates found! Added '${component}-${variant}' as combined variant`)
+                    variantSnippets.push(getSnippet(screenshotFullPath, pageData.result.pageContext.code, variant))
+                    //}
                 } else if (subVariantsProcessed.length > subVariants.length) {
                     // Processed more than subVariants
                 } else if (duplicates.length) {
                     console.log("      INFO: duplicate targets found", duplicates.length)
-                    console.log(duplicates)
-                    console.log(subVariantsProcessed)
                 }
             } else {
                 screenshotFullPath = await takeScreenshot(component, variant, screenshotUrl, `#ws-core-c-${component}-${variant}`)
