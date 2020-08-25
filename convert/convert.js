@@ -72,11 +72,16 @@ async function ready(component) {
 }
 
 function hasSubVariants(pageData) {
-    return pageData.result.pageContext.code.includes("<br />") || pageData.result.pageContext.code.split("button").length - 1 || pageData.result.pageContext.code.split("a").length - 1;
+    const div = pageData.result.pageContext.code.substring(0, 3)
+    return pageData.result.pageContext.code.includes("<br />") ||
+        (div == "<bu" && pageData.result.pageContext.code.split("<button").length - 1) ||
+        (div == "<a " && pageData.result.pageContext.code.split("<a").length - 1);
 }
 
 function subVariantHasChildren(html) {
-    return html.split("button").length - 1 || html.split("a").length - 1;
+    const div = html.substring(0, 3)
+    return (div == "<bu" && html.split("<button").length - 1) ||
+        (div == "<a " && html.split("<a").length - 1);
 }
 
 async function takeScreenshot(component, variant, screenshotUrl, target, subvariant = false, child = false) {
@@ -209,7 +214,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'alert')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir).filter(c => c == 'chip')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -235,24 +240,16 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                 process.stdout.write("   - " + variant + "\n") // Log variant name
                 const subVariants = pageData.result.pageContext.code.split("<br />")
                 const subVariantsProcessed = []
-                let duplicates = 0;
+                const duplicates = [];
                 for (const subVariant of subVariants) {
                     const htmlSnippet = parseHtml(subVariant.replace(/\r?\n|\r/g, ""))
                     if (htmlSnippet.firstChild) {
-                        const subVariantTarget = "." + htmlSnippet.firstChild.classNames.join(".")
+                        let subVariantTarget = "." + htmlSnippet.firstChild.classNames.join(".")
 
                         let subVariantName = htmlSnippet.firstChild.getAttribute("aria-label");
                         let hasChildren = false;
                         if (!subVariantName || subVariantName === "Remove") { // In case the snippet does not contain a aria-label
-                            if (htmlSnippet.firstChild.tagName === "div") {
-                                const niceTargetName = getTargetName(htmlSnippet.firstChild.classNames)
-                                subVariantName = getVariantName(variant) + niceTargetName;
-                            }
-                            // } else { // In case the subvariant is not enclosed in a container div just use default name
-                            //     console.log("subvariant unregocnised")
-                            //     process.exit()
-                            // }
-                            if (subVariantHasChildren(subVariant)) { // In case of seperate html elements in this case buttons, 
+                            if (subVariantHasChildren(subVariant)) { // In case of seperate repeating html elements
                                 hasChildren = true;
                                 const subChildVariantsProcessed = []
                                 const duplicateChildren = []
@@ -272,25 +269,40 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                                         duplicateChildren.push(subChildVariantTarget)
                                     }
                                 }
+                            } else { //if (htmlSnippet.firstChild.tagName === "div") {
+                                const niceTargetName = getTargetName(htmlSnippet.firstChild.classNames)
+                                subVariantName = getVariantName(variant) + niceTargetName;
                             }
+                            // } else { // In case the subvariant is not enclosed in a container div just use default name
+                            //     console.log("subvariant unregocnised")
+                            //     process.exit()
+                            // }
                         }
 
-                        if (!subVariantsProcessed.includes(subVariantTarget) && !hasChildren) {
+                        if (!subVariantsProcessed.includes(subVariantTarget) && !hasChildren) { // If variant is already processed, it is a duplicate
                             const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
                             process.stdout.write("     - " + subVariantFileName) // Log subvariant name
                             screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
 
                             variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
                             subVariantsProcessed.push(subVariantTarget)
+                        } else if (subVariantsProcessed.includes(subVariantTarget) && !hasChildren) { // Duplicate but try to identify if there is a difference
+                            const nthNumber = subVariantsProcessed.filter(v => v.substring(0, subVariantTarget.length) == subVariantTarget).length + 1 // It is found as duplicate, so it is the first child + the number of other duplicates of this target
+                            subVariantTarget = subVariantTarget + `:nth-of-type(${nthNumber})`
+                            const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-") + nthNumber
+                            process.stdout.write("     - " + subVariantFileName) // Log subvariant name
+                            screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
+
+                            variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName + nthNumber))
+                            subVariantsProcessed.push(subVariantTarget)
                         } else {
-                            duplicates++
+                            duplicates.push(subVariantTarget)
                         }
                     }
                 }
-                if ((duplicates + 1) == subVariants.length) {
+                if ((duplicates.length + 1) == subVariants.length) {
                     if (subVariants.length > 1) {
                         const lastVariant = variantSnippets.pop() // Remove last added variant snippet to avoid duplicates
-                        console.log(lastVariant.screenshot.url)
                         if (variantSnippets.filter(v => v.screenshot.url == lastVariant.screenshot.url).length == 0) {
                             fs.unlinkSync(path.join(rootDir, "components", lastVariant.screenshot.url)) // Remove last taken screenshot
                         }
@@ -327,8 +339,10 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                     }
                 } else if (subVariantsProcessed.length > subVariants.length) {
                     // Processed more than subVariants
-                } else if (subVariants.length - duplicates) {
-                    console.log("      INFO: duplicate targets found", (subVariants.length - duplicates))
+                } else if (duplicates.length) {
+                    console.log("      INFO: duplicate targets found", duplicates.length)
+                    console.log(duplicates)
+                    console.log(subVariantsProcessed)
                 }
             } else {
                 screenshotFullPath = await takeScreenshot(component, variant, screenshotUrl, `#ws-core-c-${component}-${variant}`)
