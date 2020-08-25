@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "filled",
+    displayName: "filled label",
     picture: {
-      src: "./pictures/label/filled.png",
-      width: 824,
-      height: 372,
+      src: "./pictures/label/filled-label.png",
+      width: 46,
+      height: 29,
     },
     snippet: {
       html: `<span class="pf-c-label">
@@ -47,8 +47,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "filled label blue",
+    picture: {
+      src: "./pictures/label/filled-label-blue.png",
+      width: 44,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-blue">
   <span class="pf-c-label__content">Blue</span>
 </span>
@@ -82,8 +92,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "filled label green",
+    picture: {
+      src: "./pictures/label/filled-label-green.png",
+      width: 55,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-green">
   <span class="pf-c-label__content">Green</span>
 </span>
@@ -117,8 +137,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "filled label orange",
+    picture: {
+      src: "./pictures/label/filled-label-orange.png",
+      width: 63,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-orange">
   <span class="pf-c-label__content">Orange</span>
 </span>
@@ -152,8 +182,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "filled label red",
+    picture: {
+      src: "./pictures/label/filled-label-red.png",
+      width: 40,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-red">
   <span class="pf-c-label__content">Red</span>
 </span>
@@ -187,8 +227,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "filled label purple",
+    picture: {
+      src: "./pictures/label/filled-label-purple.png",
+      width: 56,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-purple">
   <span class="pf-c-label__content">Purple</span>
 </span>
@@ -222,8 +272,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "filled label cyan",
+    picture: {
+      src: "./pictures/label/filled-label-cyan.png",
+      width: 48,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-cyan">
   <span class="pf-c-label__content">Cyan</span>
 </span>
@@ -260,11 +320,11 @@ export const variants = [
     },
   },
   {
-    displayName: "outline",
+    displayName: "outline label outline",
     picture: {
-      src: "./pictures/label/outline.png",
-      width: 824,
-      height: 372,
+      src: "./pictures/label/outline-label-outline.png",
+      width: 46,
+      height: 29,
     },
     snippet: {
       html: `<span class="pf-c-label pf-m-outline">
@@ -300,8 +360,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "outline label blue outline",
+    picture: {
+      src: "./pictures/label/outline-label-blue-outline.png",
+      width: 44,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-blue pf-m-outline">
   <span class="pf-c-label__content">Blue</span>
 </span>
@@ -335,8 +405,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "outline label green outline",
+    picture: {
+      src: "./pictures/label/outline-label-green-outline.png",
+      width: 55,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-green pf-m-outline">
   <span class="pf-c-label__content">Green</span>
 </span>
@@ -370,8 +450,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "outline label orange outline",
+    picture: {
+      src: "./pictures/label/outline-label-orange-outline.png",
+      width: 63,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-orange pf-m-outline">
   <span class="pf-c-label__content">Orange</span>
 </span>
@@ -405,8 +495,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "outline label red outline",
+    picture: {
+      src: "./pictures/label/outline-label-red-outline.png",
+      width: 40,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-red pf-m-outline">
   <span class="pf-c-label__content">Red</span>
 </span>
@@ -440,8 +540,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "outline label purple outline",
+    picture: {
+      src: "./pictures/label/outline-label-purple-outline.png",
+      width: 56,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-purple pf-m-outline">
   <span class="pf-c-label__content">Purple</span>
 </span>
@@ -475,8 +585,18 @@ export const variants = [
     <i class="fas fa-times" aria-hidden="true"></i>
   </button>
 </span>
-<br />
-<br />
+`,
+    },
+  },
+  {
+    displayName: "outline label cyan outline",
+    picture: {
+      src: "./pictures/label/outline-label-cyan-outline.png",
+      width: 48,
+      height: 29,
+    },
+    snippet: {
+      html: `
 <span class="pf-c-label pf-m-cyan pf-m-outline">
   <span class="pf-c-label__content">Cyan</span>
 </span>

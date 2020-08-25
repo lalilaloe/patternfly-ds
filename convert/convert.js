@@ -214,7 +214,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'skiptocontent')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir)// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -260,7 +260,6 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         let subVariantName = htmlSnippet.firstChild.getAttribute("aria-label");
                         let hasChildren = false;
                         if (!subVariantName || subVariantName === "Remove") { // In case the snippet does not contain a aria-label
-                            console.log(htmlSnippet.firstChild.classNames)
                             if (subVariantHasChildren(subVariant) && // In case of seperate repeating html elements
                                 (   // Whitelist, of full contant pages to ignore
                                     !htmlSnippet.firstChild.classNames.includes("pf-c-skip-to-content") // basic-skip-to-content-button-primary

@@ -7,11 +7,11 @@ export default {
 
 export const variants = [
   {
-    displayName: "default-with-no-title",
+    displayName: "default-with-no-title hint",
     picture: {
-      src: "./pictures/hint/default-with-no-title.png",
-      width: 855,
-      height: 269,
+      src: "./pictures/hint/default-with-no-title-hint.png",
+      width: 780,
+      height: 120,
     },
     snippet: {
       html: `<div class="pf-c-hint">
@@ -19,7 +19,18 @@ export const variants = [
     <button class="pf-c-button pf-m-link pf-m-inline" type="button">Learn more about the improved features.</button>
   </div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "default-with-no-title hint  2",
+    picture: {
+      src: "./pictures/hint/default-with-no-title-hint-2.png",
+      width: 780,
+      height: 160,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-hint">
   <div class="pf-c-hint__actions">
     <div class="pf-c-dropdown">
@@ -54,11 +65,11 @@ export const variants = [
     },
   },
   {
-    displayName: "hint-with-title",
+    displayName: "hint-with-title hint",
     picture: {
-      src: "./pictures/hint/hint-with-title.png",
-      width: 812,
-      height: 337,
+      src: "./pictures/hint/hint-with-title-hint.png",
+      width: 780,
+      height: 120,
     },
     snippet: {
       html: `<div class="pf-c-hint">
@@ -90,7 +101,18 @@ export const variants = [
   <div class="pf-c-hint__title">Do more with Find it Fix it capabilities</div>
   <div class="pf-c-hint__body">Upgrade to Red Hat Smart Management to remediate all your systems across regions and geographies.</div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "hint-with-title hint  2",
+    picture: {
+      src: "./pictures/hint/hint-with-title-hint-2.png",
+      width: 780,
+      height: 160,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-hint">
   <div class="pf-c-hint__actions">
     <div class="pf-c-dropdown">

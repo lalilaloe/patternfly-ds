@@ -7,6 +7,26 @@ export default {
 
 export const variants = [
   {
+    displayName: "Unread notifications",
+    picture: {
+      src: "./pictures/notificationbadge/unread-notifications.png",
+      width: 40,
+      height: 40,
+    },
+    snippet: {
+      html: `<button class="pf-c-button pf-m-plain" type="button" aria-label="Unread notifications">
+  <span class="pf-c-notification-badge pf-m-unread">
+    <i class="fas fa-bell" aria-hidden="true"></i>
+  </span>
+</button>
+<button class="pf-c-button pf-m-plain" type="button" aria-label="Notifications">
+  <span class="pf-c-notification-badge pf-m-read">
+    <i class="fas fa-bell" aria-hidden="true"></i>
+  </span>
+</button>`,
+    },
+  },
+  {
     displayName: "basic",
     picture: {
       src: "./pictures/notificationbadge/basic.png",

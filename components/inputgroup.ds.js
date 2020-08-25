@@ -7,10 +7,10 @@ export default {
 
 export const variants = [
   {
-    displayName: "inputgroup variation 1",
+    displayName: "input-group",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-1.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group.png",
+      width: 461,
       height: 77,
     },
     snippet: {
@@ -23,10 +23,10 @@ export const variants = [
     },
   },
   {
-    displayName: "inputgroup variation 2",
+    displayName: "input-group variation 2",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-2.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group-variation-2.png",
+      width: 461,
       height: 77,
     },
     snippet: {
@@ -39,10 +39,10 @@ export const variants = [
     },
   },
   {
-    displayName: "inputgroup variation 3",
+    displayName: "input-group variation 3",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-3.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group-variation-3.png",
+      width: 461,
       height: 77,
     },
     snippet: {
@@ -57,10 +57,10 @@ export const variants = [
     },
   },
   {
-    displayName: "inputgroup variation 4",
+    displayName: "input-group variation 4",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-4.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group-variation-4.png",
+      width: 461,
       height: 36,
     },
     snippet: {
@@ -101,10 +101,10 @@ export const variants = [
     },
   },
   {
-    displayName: "inputgroup variation 5",
+    displayName: "input-group variation 5",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-5.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group-variation-5.png",
+      width: 461,
       height: 36,
     },
     snippet: {
@@ -120,10 +120,10 @@ export const variants = [
     },
   },
   {
-    displayName: "inputgroup variation 6",
+    displayName: "input-group variation 6",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-6.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group-variation-6.png",
+      width: 461,
       height: 36,
     },
     snippet: {
@@ -136,10 +136,10 @@ export const variants = [
     },
   },
   {
-    displayName: "inputgroup variation 7",
+    displayName: "input-group variation 7",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-7.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group-variation-7.png",
+      width: 461,
       height: 36,
     },
     snippet: {
@@ -153,10 +153,10 @@ export const variants = [
     },
   },
   {
-    displayName: "inputgroup variation 8",
+    displayName: "input-group variation 8",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-8.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group-variation-8.png",
+      width: 461,
       height: 36,
     },
     snippet: {
@@ -170,10 +170,10 @@ export const variants = [
     },
   },
   {
-    displayName: "inputgroup variation 9",
+    displayName: "input-group variation 9",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-9.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group-variation-9.png",
+      width: 461,
       height: 36,
     },
     snippet: {
@@ -188,10 +188,10 @@ export const variants = [
     },
   },
   {
-    displayName: "inputgroup variation 10",
+    displayName: "input-group variation 10",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-10.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group-variation-10.png",
+      width: 461,
       height: 36,
     },
     snippet: {
@@ -206,10 +206,10 @@ export const variants = [
     },
   },
   {
-    displayName: "inputgroup variation 11",
+    displayName: "input-group variation 11",
     picture: {
-      src: "./pictures/inputgroup/inputgroup-variation-11.png",
-      width: 583,
+      src: "./pictures/inputgroup/input-group-variation-11.png",
+      width: 461,
       height: 36,
     },
     snippet: {

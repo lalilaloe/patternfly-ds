@@ -94,11 +94,11 @@ export const variants = [
     },
   },
   {
-    displayName: "horizontally-aligned-labels",
+    displayName: "horizontally-aligned-labels form horizontal",
     picture: {
-      src: "./pictures/form/horizontally-aligned-labels.png",
-      width: 417,
-      height: 243,
+      src: "./pictures/form/horizontally-aligned-labels-form-horizontal.png",
+      width: 385,
+      height: 36,
     },
     snippet: {
       html: `<form novalidate class="pf-c-form pf-m-horizontal">
@@ -114,7 +114,18 @@ export const variants = [
     </div>
   </div>
 </form>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "horizontally-aligned-labels form horizontal  2",
+    picture: {
+      src: "./pictures/form/horizontally-aligned-labels-form-horizontal-2.png",
+      width: 385,
+      height: 78,
+    },
+    snippet: {
+      html: `
 <form novalidate class="pf-c-form pf-m-horizontal">
   <div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
@@ -130,7 +141,18 @@ export const variants = [
     </div>
   </div>
 </form>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "horizontally-aligned-labels form horizontal  3",
+    picture: {
+      src: "./pictures/form/horizontally-aligned-labels-form-horizontal-3.png",
+      width: 385,
+      height: 48,
+    },
+    snippet: {
+      html: `
 <form novalidate class="pf-c-form pf-m-horizontal">
   <div class="pf-c-form__group">
     <div class="pf-c-form__group-label pf-m-no-padding-top">

@@ -24,9 +24,9 @@ export const variants = [
     },
   },
   {
-    displayName: "basic chip basic 2",
+    displayName: "basic chip  2",
     picture: {
-      src: "./pictures/chip/basic-chip-basic-2.png",
+      src: "./pictures/chip/basic-chip-2.png",
       width: 162,
       height: 26,
     },
@@ -42,9 +42,9 @@ export const variants = [
     },
   },
   {
-    displayName: "basic chip basic 3",
+    displayName: "basic chip  3",
     picture: {
-      src: "./pictures/chip/basic-chip-basic-3.png",
+      src: "./pictures/chip/basic-chip-3.png",
       width: 97,
       height: 26,
     },

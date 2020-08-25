@@ -26,7 +26,7 @@ export const variants = [
     },
   },
   {
-    displayName: "basic clipboard-copy 2",
+    displayName: "basic clipboard-copy  2",
     picture: {
       src: "./pictures/clipboardcopy/basic-clipboard-copy-2.png",
       width: 261,
@@ -97,7 +97,7 @@ export const variants = [
     },
   },
   {
-    displayName: "expandable clipboard-copy 3",
+    displayName: "expandable clipboard-copy  3",
     picture: {
       src: "./pictures/clipboardcopy/expandable-clipboard-copy-3.png",
       width: 823,
@@ -124,7 +124,7 @@ export const variants = [
     },
   },
   {
-    displayName: "expandable clipboard-copy expanded 2",
+    displayName: "expandable clipboard-copy expanded  2",
     picture: {
       src: "./pictures/clipboardcopy/expandable-clipboard-copy-expanded-2.png",
       width: 823,
