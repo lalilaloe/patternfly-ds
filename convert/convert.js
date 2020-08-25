@@ -7,6 +7,11 @@ const he = require('he');
 const sizeOf = require('image-size');
 const parseHtml = require('node-html-parser').default;
 
+// Todo
+// label, splitting
+// skiptocontent
+// form - help-text splitting
+
 const parse = (file) => {
     return jsonfile.readFileSync(file);
 }
