@@ -102,7 +102,7 @@ async function takeScreenshot(component, variant, screenshotUrl, target, subvari
         await ready(component);
 
         let element;
-        if (component.includes("modal")) { // If modal go to (isolated) component page
+        if (isolatedComponents.includes(component)) { // If modal go to (isolated) component page
             element = await page.$(".ws-fullscreen-example div") // Select child div to avoid white-space
         } else {
             await page.evaluate(function () {
@@ -176,7 +176,7 @@ function getScreenshotUrl(component, componentpath, path) {
 
 function getVariantName(variant) {
     switch (variant) {
-        case "variations" || "variant":
+        case "variations" || "variant" || "variants":
             return ""
         case "call-to-action":
             return "cta "
@@ -214,7 +214,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'clipboardcopy')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir).filter(c => c == 'skiptocontent')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -229,7 +229,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
             if (!componentPath) {
                 componentPath = pageData.path.slice(0, -variant.length)
             }
-            if (component.includes("modal")) {
+            if (component.includes("modal") || component.includes("skiptocontent")) {
                 isolatedComponents.push(component)
             }
 
@@ -260,7 +260,11 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         let subVariantName = htmlSnippet.firstChild.getAttribute("aria-label");
                         let hasChildren = false;
                         if (!subVariantName || subVariantName === "Remove") { // In case the snippet does not contain a aria-label
-                            if (subVariantHasChildren(subVariant)) { // In case of seperate repeating html elements
+                            console.log(htmlSnippet.firstChild.classNames)
+                            if (subVariantHasChildren(subVariant) && // In case of seperate repeating html elements
+                                (   // Whitelist, of full contant pages to ignore
+                                    !htmlSnippet.firstChild.classNames.includes("pf-c-skip-to-content") // basic-skip-to-content-button-primary
+                                )) {
                                 hasChildren = true;
                                 const subChildVariantsProcessed = []
                                 const duplicateChildren = []
@@ -301,8 +305,8 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                             const nthNumber = subVariantsProcessed.filter(v => v.substring(0, subVariantTarget.length) == subVariantTarget).length + 1 // It is found as duplicate, so it is the first child + the number of other duplicates of this target
                             subVariantTarget = subVariantTarget + `:nth-of-type(${nthNumber})`
                             const variantPrefix = variant.endsWith("s") ? variant.slice(0, variant.length - 1) : variant
-                            subVariantName = `${subVariantName}${subVariantName.includes(variantPrefix) ? "" : variantPrefix} ${nthNumber}`
-                            const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
+                            subVariantName = `${subVariantName} ${subVariantName.includes(variantPrefix) ? "" : variantPrefix} ${nthNumber}`
+                            const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-").replace(/--/g, "-")
                             screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
 
                             variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
