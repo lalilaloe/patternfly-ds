@@ -53,7 +53,7 @@ ${variants.join(',\n')}
 }
 
 async function notReady(component) {
-    if (component.includes("modal")) { // Check for direct component url ready
+    if (isolatedComponents.includes(component)) { // Check for direct component url ready
         if (!await page.$(".ws-fullscreen-example div")) {
             return true
         }
@@ -106,7 +106,6 @@ async function takeScreenshot(component, variant, screenshotUrl, target, subvari
                     titles[i].style.display = "none" // Remove titles to scale preview box down to component size
                 }
             })
-
             element = await page.$(target)
         }
         if (!fs.existsSync(screenshotPath)) {
@@ -152,6 +151,19 @@ function getSnippet(screenshotFullPath, htmlCode, variantName) {
     }
 }
 
+function getTargetName(classNames) {
+    return classNames.join(" ").replace(/pf-/g, '').replace(/c-/g, '').replace(/m-/g, '');
+}
+
+const isolatedComponents = []
+
+function getScreenshotUrl(component, componentpath, path) {
+    let screenshotUrl = "http://localhost:8000" + componentpath
+    if (isolatedComponents.includes(component)) { // In case of modal go to (isolated) component url
+        screenshotUrl = "http://localhost:8000" + path;
+    }
+    return screenshotUrl;
+}
 // foxr.launch({
 //     executablePath: 'C:/Program Files/Firefox Developer Edition/firefox.exe'
 // }).then(browser => {
@@ -180,7 +192,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'banner')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir).filter(c => c == 'alert')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -188,24 +200,25 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
         console.log("*", component) // Log component name
         const variants = getDirectories(path.join(componentDir, component))
         const variantSnippets = []
-        let componentpath;
+        let componentPath;
         for (const variant of variants) {
             const pageData = parse(path.join(componentDir, component, variant, "page-data.json"));
 
-            if (!componentpath) {
-                componentpath = pageData.path.slice(0, -variant.length)
+            if (!componentPath) {
+                componentPath = pageData.path.slice(0, -variant.length)
             }
-            let screenshotUrl = "http://localhost:8000" + componentpath
-            if (component.includes("modal")) { // In case of modal go to (isolated) component url
-                screenshotUrl = "http://localhost:8000" + pageData.path;
+            if (component.includes("modal")) {
+                isolatedComponents.push(component)
             }
+
+            const screenshotUrl = getScreenshotUrl(component, componentPath, pageData.path);
 
             let screenshotFullPath;
             if (hasSubVariants(pageData)) {
                 process.stdout.write("   - " + variant + "\n") // Log variant name
                 const subVariants = pageData.result.pageContext.code.split("<br />")
                 const subVariantsProcessed = []
-                const duplicates = []
+                let duplicates = 0;
                 for (const subVariant of subVariants) {
                     const htmlSnippet = parseHtml(subVariant.replace(/\r?\n|\r/g, ""))
                     if (htmlSnippet.firstChild) {
@@ -215,7 +228,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         let hasChildren = false;
                         if (!subVariantName || subVariantName === "Remove") { // In case the snippet does not contain a aria-label
                             if (htmlSnippet.firstChild.tagName === "div") {
-                                const niceTargetName = htmlSnippet.firstChild.classNames.join(" ").replace(/pf-/g, '').replace(/c-/g, '').replace(/m-/g, '');
+                                const niceTargetName = getTargetName(htmlSnippet.firstChild.classNames)
                                 subVariantName = variant + " " + niceTargetName;
                             } if (htmlSnippet.firstChild.tagName === "button") { // In case of seperate html elements in this case buttons, 
                                 hasChildren = true;
@@ -223,7 +236,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                                 const duplicateChildren = []
                                 for (const child of htmlSnippet.childNodes) {
                                     const subChildVariantTarget = "." + child.classNames.join(".")
-                                    const niceTargetName = child.classNames.join(" ").replace(/pf-/g, '').replace(/c-/g, '').replace(/m-/g, '');
+                                    const niceTargetName = getTargetName(child.classNames);
                                     const subChildVariantName = variant + " " + niceTargetName;
                                     const subChildVariantFileName = subChildVariantName.toLowerCase().split(" ").join("-")
 
@@ -253,14 +266,36 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                             variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
                             subVariantsProcessed.push(subVariantTarget)
                         } else {
-                            duplicates.push(subVariantTarget)
+                            duplicates++
                         }
                     }
                 }
-                if ((duplicates.length + 1) == subVariants.length) {
-                    screenshotFullPath = await takeScreenshot(component, variant, screenshotUrl, `#ws-core-c-${component}-${variant}`)
-                    console.log(`      INFO: Only duplicates found! Added '${component}-${variant}' as combined variant`)
-                    variantSnippets.push(getSnippet(screenshotFullPath, pageData.result.pageContext.code, variant))
+                if ((duplicates + 1) == subVariants.length) {
+                    if (subVariants.length > 1) {
+                        console.log(`      INFO: Only duplicates found! Trying to split the variants`)
+                        isolatedComponents.push(component)
+                        const screenshotUrl = getScreenshotUrl(component, componentPath, pageData.path);
+                        variantSnippets.pop() // Remove last added variant snippet to avoid duplicates
+                        for (let index = 0; index < subVariants.length; index++) {
+                            const subVariant = subVariants[index];
+                            const htmlSnippet = parseHtml(subVariant.replace(/\r?\n|\r/g, ""))
+                            if (htmlSnippet.firstChild) {
+                                const subVariantTargetName = "." + htmlSnippet.firstChild.classNames.join(".")
+                                const subVariantName = `${component} ${variant.endsWith("s") ? variant.slice(0, variant.length - 1) : variant} ${index + 1}`
+                                //  const subVariantName = htmlSnippet.firstChild.getAttribute("aria-label") + ` ${index + 1}`
+                                const subVariantTarget = subVariantTargetName + `:nth-of-type(${index + 1})`
+                                const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
+                                process.stdout.write("     - " + subVariantFileName) // Log subvariant name
+                                screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
+
+                                variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
+                            }
+                        }
+                    } else {
+                        screenshotFullPath = await takeScreenshot(component, variant, screenshotUrl, `#ws-core-c-${component}-${variant}`)
+                        console.log(`      INFO: Only duplicates found! Added '${component}-${variant}' as combined variant`)
+                        variantSnippets.push(getSnippet(screenshotFullPath, pageData.result.pageContext.code, variant))
+                    }
                 } else if (subVariantsProcessed.length > subVariants.length) {
                     console.log("      INFO: duplicate targets found", (subVariants.length - duplicates.length))
                 }
@@ -271,7 +306,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
         }
         const outputComponent = buildComponentJson({
             name: component,
-            path: componentpath,
+            path: componentPath,
             variants: variantSnippets
         })
         const outputComponentPath = path.join(rootDir, "components", component + ".ds.js");

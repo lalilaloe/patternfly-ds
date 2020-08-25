@@ -110,11 +110,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert",
+    displayName: "alert inline-variation 1",
     picture: {
-      src: "./pictures/alert/success-alert.png",
-      width: 261,
-      height: 55,
+      src: "./pictures/alert/alert-inline-variation-1.png",
+      width: 1000,
+      height: 117,
     },
     snippet: {
       html: `<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
@@ -142,35 +142,14 @@ export const variants = [
     },
   },
   {
-    displayName: "inline-variations",
+    displayName: "alert inline-variation 2",
     picture: {
-      src: "./pictures/alert/inline-variations.png",
-      width: 692,
-      height: 437,
+      src: "./pictures/alert/alert-inline-variation-2.png",
+      width: 1000,
+      height: 80,
     },
     snippet: {
-      html: `<div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
-  <div class="pf-c-alert__icon">
-    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
-  </div>
-  <p class="pf-c-alert__title">
-    <strong>
-      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
-  </p>
-  <div class="pf-c-alert__action">
-    <button class="pf-c-button pf-m-plain" type="button" aria-label="Close success alert: Success alert title">
-      <i class="fas fa-times" aria-hidden="true"></i>
-    </button>
-  </div>
-  <div class="pf-c-alert__description">
-    <p>Success alert description. This should tell the user more information about the alert.</p>
-  </div>
-  <div class="pf-c-alert__action-group">
-    <button class="pf-c-button pf-m-link pf-m-inline" type="button">View details</button>
-    <button class="pf-c-button pf-m-link pf-m-inline" type="button">Ignore</button>
-  </div>
-</div>
-<br />
+      html: `
 <div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
@@ -190,7 +169,18 @@ export const variants = [
     </p>
   </div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "alert inline-variation 3",
+    picture: {
+      src: "./pictures/alert/alert-inline-variation-3.png",
+      width: 1000,
+      height: 80,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
@@ -209,7 +199,18 @@ export const variants = [
     <button class="pf-c-button pf-m-link pf-m-inline" type="button">Ignore</button>
   </div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "alert inline-variation 4",
+    picture: {
+      src: "./pictures/alert/alert-inline-variation-4.png",
+      width: 1000,
+      height: 55,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-alert pf-m-success pf-m-inline" aria-label="Success alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
@@ -325,11 +326,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert",
+    displayName: "alert variation 1",
     picture: {
-      src: "./pictures/alert/success-alert.png",
-      width: 261,
-      height: 55,
+      src: "./pictures/alert/alert-variation-1.png",
+      width: 983,
+      height: 117,
     },
     snippet: {
       html: `<div class="pf-c-alert pf-m-success" aria-label="Success alert">
@@ -357,35 +358,14 @@ export const variants = [
     },
   },
   {
-    displayName: "variations",
+    displayName: "alert variation 2",
     picture: {
-      src: "./pictures/alert/variations.png",
-      width: 855,
-      height: 766,
+      src: "./pictures/alert/alert-variation-2.png",
+      width: 983,
+      height: 80,
     },
     snippet: {
-      html: `<div class="pf-c-alert pf-m-success" aria-label="Success alert">
-  <div class="pf-c-alert__icon">
-    <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
-  </div>
-  <p class="pf-c-alert__title">
-    <strong>
-      <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
-  </p>
-  <div class="pf-c-alert__action">
-    <button class="pf-c-button pf-m-plain" type="button" aria-label="Close success alert: Success alert title">
-      <i class="fas fa-times" aria-hidden="true"></i>
-    </button>
-  </div>
-  <div class="pf-c-alert__description">
-    <p>Success alert description. This should tell the user more information about the alert.</p>
-  </div>
-  <div class="pf-c-alert__action-group">
-    <button class="pf-c-button pf-m-link pf-m-inline" type="button">View details</button>
-    <button class="pf-c-button pf-m-link pf-m-inline" type="button">Ignore</button>
-  </div>
-</div>
-<br />
+      html: `
 <div class="pf-c-alert pf-m-success" aria-label="Success alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
@@ -405,7 +385,18 @@ export const variants = [
     </p>
   </div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "alert variation 3",
+    picture: {
+      src: "./pictures/alert/alert-variation-3.png",
+      width: 983,
+      height: 80,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-alert pf-m-success" aria-label="Success alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
@@ -424,7 +415,18 @@ export const variants = [
     <button class="pf-c-button pf-m-link pf-m-inline" type="button">Ignore</button>
   </div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "alert variation 4",
+    picture: {
+      src: "./pictures/alert/alert-variation-4.png",
+      width: 983,
+      height: 55,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-alert pf-m-success" aria-label="Success alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
@@ -439,7 +441,18 @@ export const variants = [
     </button>
   </div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "alert variation 5",
+    picture: {
+      src: "./pictures/alert/alert-variation-5.png",
+      width: 983,
+      height: 55,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-alert pf-m-success" aria-label="Success alert">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
@@ -449,7 +462,18 @@ export const variants = [
       <span class="pf-screen-reader">Success alert:</span>Success alert title</strong>
   </p>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "alert variation 6",
+    picture: {
+      src: "./pictures/alert/alert-variation-6.png",
+      width: 983,
+      height: 80,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-alert pf-m-success" aria-label="Success alert with title truncation">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
@@ -462,7 +486,18 @@ export const variants = [
     <p>This example uses ".pf-m-truncate" to limit the title to a single line and truncate any overflow text with ellipses.</p>
   </div>
 </div>
-<br />
+`,
+    },
+  },
+  {
+    displayName: "alert variation 7",
+    picture: {
+      src: "./pictures/alert/alert-variation-7.png",
+      width: 983,
+      height: 101,
+    },
+    snippet: {
+      html: `
 <div class="pf-c-alert pf-m-success" aria-label="Success alert with title truncation at 2 lines">
   <div class="pf-c-alert__icon">
     <i class="fas fa-fw fa-check-circle" aria-hidden="true"></i>
