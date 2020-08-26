@@ -19,9 +19,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Readonly input example  2",
+    displayName: "Readonly input example  1",
     picture: {
-      src: "./pictures/formcontrol/readonly-input-example-2.png",
+      src: "./pictures/formcontrol/readonly-input-example-1.png",
       width: 261,
       height: 36,
     },
@@ -58,9 +58,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Error state input example  5",
+    displayName: "Error state input example  4",
     picture: {
-      src: "./pictures/formcontrol/error-state-input-example-5.png",
+      src: "./pictures/formcontrol/error-state-input-example-4.png",
       width: 261,
       height: 36,
     },
@@ -71,9 +71,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Disabled input example  6",
+    displayName: "Disabled input example  5",
     picture: {
-      src: "./pictures/formcontrol/disabled-input-example-6.png",
+      src: "./pictures/formcontrol/disabled-input-example-5.png",
       width: 261,
       height: 36,
     },
@@ -116,9 +116,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Select group example select 2",
+    displayName: "Select group example select 1",
     picture: {
-      src: "./pictures/formcontrol/select-group-example-select-2.png",
+      src: "./pictures/formcontrol/select-group-example-select-1.png",
       width: 261,
       height: 36,
     },
@@ -184,9 +184,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Error state select group example  5",
+    displayName: "Error state select group example  4",
     picture: {
-      src: "./pictures/formcontrol/error-state-select-group-example-5.png",
+      src: "./pictures/formcontrol/error-state-select-group-example-4.png",
       width: 261,
       height: 36,
     },
@@ -219,9 +219,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Readonly textarea example  2",
+    displayName: "Readonly textarea example  1",
     picture: {
-      src: "./pictures/formcontrol/readonly-textarea-example-2.png",
+      src: "./pictures/formcontrol/readonly-textarea-example-1.png",
       width: 261,
       height: 36,
     },
@@ -258,9 +258,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Error state textarea example  5",
+    displayName: "Error state textarea example  4",
     picture: {
-      src: "./pictures/formcontrol/error-state-textarea-example-5.png",
+      src: "./pictures/formcontrol/error-state-textarea-example-4.png",
       width: 261,
       height: 36,
     },

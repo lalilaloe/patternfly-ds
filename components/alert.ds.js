@@ -142,9 +142,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert inline-variation 2",
+    displayName: "Success alert inline-variation 1",
     picture: {
-      src: "./pictures/alert/success-alert-inline-variation-2.png",
+      src: "./pictures/alert/success-alert-inline-variation-1.png",
       width: 660,
       height: 80,
     },
@@ -173,11 +173,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert inline-variation 3",
+    displayName: "Success alert inline-variation 2",
     picture: {
-      src: "./pictures/alert/success-alert-inline-variation-3.png",
-      width: 261,
-      height: 55,
+      src: "./pictures/alert/success-alert-inline-variation-2.png",
+      width: 660,
+      height: 80,
     },
     snippet: {
       html: `
@@ -203,9 +203,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert inline-variation 4",
+    displayName: "Success alert inline-variation 3",
     picture: {
-      src: "./pictures/alert/success-alert-inline-variation-4.png",
+      src: "./pictures/alert/success-alert-inline-variation-3.png",
       width: 660,
       height: 55,
     },
@@ -358,9 +358,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert variation 2",
+    displayName: "Success alert variation 1",
     picture: {
-      src: "./pictures/alert/success-alert-variation-2.png",
+      src: "./pictures/alert/success-alert-variation-1.png",
       width: 823,
       height: 80,
     },
@@ -389,11 +389,11 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert variation 3",
+    displayName: "Success alert variation 2",
     picture: {
-      src: "./pictures/alert/success-alert-variation-3.png",
-      width: 261,
-      height: 55,
+      src: "./pictures/alert/success-alert-variation-2.png",
+      width: 823,
+      height: 80,
     },
     snippet: {
       html: `
@@ -419,9 +419,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert variation 4",
+    displayName: "Success alert variation 3",
     picture: {
-      src: "./pictures/alert/success-alert-variation-4.png",
+      src: "./pictures/alert/success-alert-variation-3.png",
       width: 823,
       height: 55,
     },
@@ -445,9 +445,9 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert variation 5",
+    displayName: "Success alert variation 4",
     picture: {
-      src: "./pictures/alert/success-alert-variation-5.png",
+      src: "./pictures/alert/success-alert-variation-4.png",
       width: 823,
       height: 55,
     },
@@ -466,10 +466,10 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert with title truncation variation 6",
+    displayName: "Success alert with title truncation variation 5",
     picture: {
       src:
-        "./pictures/alert/success-alert-with-title-truncation-variation-6.png",
+        "./pictures/alert/success-alert-with-title-truncation-variation-5.png",
       width: 823,
       height: 80,
     },
@@ -491,10 +491,10 @@ export const variants = [
     },
   },
   {
-    displayName: "Success alert with title truncation at 2 lines variation 7",
+    displayName: "Success alert with title truncation at 2 lines variation 6",
     picture: {
       src:
-        "./pictures/alert/success-alert-with-title-truncation-at-2-lines-variation-7.png",
+        "./pictures/alert/success-alert-with-title-truncation-at-2-lines-variation-6.png",
       width: 823,
       height: 122,
     },

@@ -23,9 +23,9 @@ export const variants = [
     },
   },
   {
-    displayName: "default-with-no-title hint  2",
+    displayName: "default-with-no-title hint  1",
     picture: {
-      src: "./pictures/hint/default-with-no-title-hint-2.png",
+      src: "./pictures/hint/default-with-no-title-hint-1.png",
       width: 780,
       height: 160,
     },
@@ -105,9 +105,9 @@ export const variants = [
     },
   },
   {
-    displayName: "hint-with-title hint  2",
+    displayName: "hint-with-title hint  1",
     picture: {
-      src: "./pictures/hint/hint-with-title-hint-2.png",
+      src: "./pictures/hint/hint-with-title-hint-1.png",
       width: 780,
       height: 160,
     },
