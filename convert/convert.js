@@ -227,7 +227,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'notificationbadge')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir)// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -269,10 +269,10 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                             subVariants.push(child.toString())
                         }
                     } else {
-                        console.log("     ERROR: problem getting correct subvariants, please update the code to support this component.")
-                        console.log("     DEBUG: detected subvariants, but could not seperate them.")
-                        console.log(subVariants)
-                        process.exit()
+                        // console.log("     ERROR: problem getting correct subvariants, please update the code to support this component.")
+                        // console.log("     DEBUG: detected subvariants, but could not seperate them.")
+                        // console.log(subVariants)
+                        // process.exit()
                     }
                 }
 
