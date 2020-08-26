@@ -8,9 +8,7 @@ const sizeOf = require('image-size');
 const parseHtml = require('node-html-parser').default;
 
 // Todo
-// label, splitting
 // skiptocontent
-// form - help-text splitting
 
 const parse = (file) => {
     return jsonfile.readFileSync(file);
@@ -80,11 +78,15 @@ function hasSubVariants(pageData) {
     const div = pageData.result.pageContext.code.substring(0, 3)
     return pageData.result.pageContext.code.includes("<br />") ||
         (div == "<bu" && pageData.result.pageContext.code.split("<button").length - 1) ||
-        (div == "<a " && pageData.result.pageContext.code.split("<a").length - 1);
+        (div == "<a " && pageData.result.pageContext.code.split("<a").length - 1) || (div == "<fo" && (pageData.result.pageContext.code.split(`<div class="pf-c-form__group">`).length - 1) > 1)
 }
 
 function isLabel(parsedHtml) {
-    return parsedHtml.firstChild.classNames.filter(c => c == "pf-c-label")
+    return parsedHtml.firstChild.classNames.filter(c => c === "pf-c-label").length
+}
+
+function isSingleForm(parsedHtml) {
+    return parsedHtml.firstChild.tagName == "form" && parsedHtml.childNodes.filter(c => c.tagName === "form").length === 1
 }
 
 function retreiveLabel(parsedHtml) {
@@ -228,7 +230,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'label')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir).filter(c => c == 'form')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -252,9 +254,20 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
             let screenshotFullPath;
             if (hasSubVariants(pageData)) {
                 process.stdout.write("   - " + variant + "\n") // Log variant name
-                const subVariants = pageData.result.pageContext.code.split("<br />")
+                let subVariants = pageData.result.pageContext.code.split("<br />")
                 const subVariantsProcessed = []
                 const duplicates = [];
+                let isForm = false;
+                if (subVariants.length == 1) {
+                    const parsedHtml = parseHtml(subVariants)
+                    isForm = isSingleForm(parsedHtml)
+                    if (isForm) { // In case of single form, with variants
+                        subVariants.pop(); // remove form element
+                        for (const child of parsedHtml.firstChild.childNodes.filter(c => c.classNames && c.classNames.find(n => n === "pf-c-form__group"))) {
+                            subVariants.push(child.toString())
+                        }
+                    }
+                }
                 for (const subVariant of subVariants) {
                     const htmlSnippet = parseHtml(subVariant.replace(/\r?\n|\r/g, ""))
                     if (htmlSnippet.firstChild) {
@@ -279,6 +292,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                                     !htmlSnippet.firstChild.classNames.includes("pf-c-skip-to-content") // basic-skip-to-content-button-primary
                                 )) {
                                 const label = isLabel(htmlSnippet);
+
                                 hasChildren = true;
                                 const subChildVariantsProcessed = []
                                 const duplicateChildren = []
@@ -331,13 +345,21 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         if (!subVariantsProcessed.includes(subVariantTarget) && !hasChildren) { // If variant is not already processed
                             const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
                             process.stdout.write("     - " + subVariantFileName) // Log subvariant name
-                            screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
+                            if (isForm && subVariantTarget === ".pf-c-form__group") {
+                                // Cheat the selector to target the third example group (TODO dynamic? variants.findIndex(v => v == variant))
+                                screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, `.ws-example:nth-of-type(3) ` + subVariantTarget, true)
+                            } else {
+                                screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
+                            }
 
                             variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
                             subVariantsProcessed.push(subVariantTarget)
-                        } else if (subVariantsProcessed.includes(subVariantTarget) && !hasChildren) { // Duplicate but try to identify if there is a difference
-                            const nthNumber = subVariantsProcessed.filter(v => v.substring(0, subVariantTarget.length) == subVariantTarget).length + 1 // It is found as duplicate, so it is the first child + the number of other duplicates of this target
-                            const subVariantNthTarget = subVariantTarget + `:nth-of-type(${nthNumber})`
+                        } else if ((subVariantsProcessed.includes(subVariantTarget) && !hasChildren)) { // Duplicate but try to identify if there is a difference
+                            const nthNumber = subVariantsProcessed.filter(v => v.substring(0, subVariantTarget.length) == subVariantTarget).length // It is found as duplicate, so it is the first child + the number of other duplicates of this target
+                            let subVariantNthTarget = subVariantTarget;
+                            for (let index = 0; index < nthNumber; index++) {
+                                subVariantNthTarget += " ~ " + subVariantTarget // Using ~ selector to select child number by target classes
+                            }
                             const variantPrefix = variant.endsWith("s") ? variant.slice(0, variant.length - 1) : variant
                             subVariantName = `${subVariantName} ${subVariantName.includes(variantPrefix) ? "" : variantPrefix} ${nthNumber}`
                             const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-").replace(/--/g, "-")
@@ -350,7 +372,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         }
                     }
                 }
-                if ((duplicates.length + 1) == subVariants.length) {
+                if (duplicates.length && (duplicates.length + 1) == subVariants.length) {
                     // if (subVariants.length > 1) {
                     //     const lastVariant = variantSnippets.pop() // Remove last added variant snippet to avoid duplicates
                     //     if (variantSnippets.filter(v => v.screenshot.url == lastVariant.screenshot.url).length == 0) {
