@@ -10,36 +10,26 @@ export const variants = [
     displayName: "Unread notifications",
     picture: {
       src: "./pictures/notificationbadge/unread-notifications.png",
-      width: 40,
-      height: 40,
+      width: 48,
+      height: 36,
     },
     snippet: {
       html: `<button class="pf-c-button pf-m-plain" type="button" aria-label="Unread notifications">
   <span class="pf-c-notification-badge pf-m-unread">
-    <i class="fas fa-bell" aria-hidden="true"></i>
-  </span>
-</button>
-<button class="pf-c-button pf-m-plain" type="button" aria-label="Notifications">
-  <span class="pf-c-notification-badge pf-m-read">
     <i class="fas fa-bell" aria-hidden="true"></i>
   </span>
 </button>`,
     },
   },
   {
-    displayName: "basic",
+    displayName: "Notifications basic 1",
     picture: {
-      src: "./pictures/notificationbadge/basic.png",
-      width: 293,
-      height: 69,
+      src: "./pictures/notificationbadge/notifications-basic-1.png",
+      width: 48,
+      height: 36,
     },
     snippet: {
-      html: `<button class="pf-c-button pf-m-plain" type="button" aria-label="Unread notifications">
-  <span class="pf-c-notification-badge pf-m-unread">
-    <i class="fas fa-bell" aria-hidden="true"></i>
-  </span>
-</button>
-<button class="pf-c-button pf-m-plain" type="button" aria-label="Notifications">
+      html: `<button class="pf-c-button pf-m-plain" type="button" aria-label="Notifications">
   <span class="pf-c-notification-badge pf-m-read">
     <i class="fas fa-bell" aria-hidden="true"></i>
   </span>

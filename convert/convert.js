@@ -227,7 +227,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir)// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir).filter(c => c == 'notificationbadge')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)
@@ -263,8 +263,19 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         for (const child of parsedHtml.firstChild.childNodes.filter(c => c.classNames && c.classNames.find(n => n === "pf-c-form__group"))) {
                             subVariants.push(child.toString())
                         }
+                    } else if (parsedHtml.firstChild.tagName === "button") {
+                        subVariants.pop(); // remove previous non-splited element
+                        for (const child of parsedHtml.childNodes.filter(c => c.classNames && c.classNames.find(n => n === "pf-c-button"))) {
+                            subVariants.push(child.toString())
+                        }
+                    } else {
+                        console.log("     ERROR: problem getting correct subvariants, please update the code to support this component.")
+                        console.log("     DEBUG: detected subvariants, but could not seperate them.")
+                        console.log(subVariants)
+                        process.exit()
                     }
                 }
+
                 for (const subVariant of subVariants) {
                     const htmlSnippet = parseHtml(subVariant.replace(/\r?\n|\r/g, ""))
                     if (htmlSnippet.firstChild) {
@@ -289,7 +300,6 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                                     !htmlSnippet.firstChild.classNames.includes("pf-c-skip-to-content") // basic-skip-to-content-button-primary
                                 )) {
                                 const label = isLabel(htmlSnippet);
-
                                 hasChildren = true;
                                 const subChildVariantsProcessed = []
                                 const duplicateChildren = []
@@ -340,11 +350,15 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                         }
 
                         if (!subVariantsProcessed.includes(subVariantTarget) && !hasChildren) { // If variant is not already processed
+                            console.log("normal", subVariantTarget)
                             const subVariantFileName = subVariantName.toLowerCase().split(" ").join("-")
                             process.stdout.write("     - " + subVariantFileName) // Log subvariant name
                             if (isForm && subVariantTarget === ".pf-c-form__group") {
                                 // Cheat the selector to target the third example group (TODO dynamic? variants.findIndex(v => v == variant))
                                 screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, `.ws-example:nth-of-type(3) ` + subVariantTarget, true)
+                            } else if (subVariantTarget === ".pf-c-button.pf-m-plain") {
+                                // Make sure to take elements from example container, not from the page itself
+                                screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, `.ws-example ` + subVariantTarget, true)
                             } else {
                                 screenshotFullPath = await takeScreenshot(component, subVariantFileName, screenshotUrl, subVariantTarget, true)
                             }
@@ -352,6 +366,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
                             variantSnippets.push(getSnippet(screenshotFullPath, subVariant, subVariantName))
                             subVariantsProcessed.push(subVariantTarget)
                         } else if ((subVariantsProcessed.includes(subVariantTarget) && !hasChildren)) { // Duplicate but try to identify if there is a difference
+                            console.log("duplicate", subVariantTarget)
                             const nthNumber = subVariantsProcessed.filter(v => v.substring(0, subVariantTarget.length) == subVariantTarget).length // It is found as duplicate, so it is the first child + the number of other duplicates of this target
                             let subVariantNthTarget = subVariantTarget;
                             for (let index = 0; index < nthNumber; index++) {
