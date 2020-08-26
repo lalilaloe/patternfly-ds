@@ -7,9 +7,6 @@ const he = require('he');
 const sizeOf = require('image-size');
 const parseHtml = require('node-html-parser').default;
 
-// Todo
-// skiptocontent
-
 const parse = (file) => {
     return jsonfile.readFileSync(file);
 }
@@ -230,7 +227,7 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getDirectories(componentDir).filter(c => c == 'form')// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getDirectories(componentDir)// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components)

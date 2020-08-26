@@ -1,33 +1,38 @@
 export default {
-    displayName: "form",
-    name: "form",
-    homepage: "https://www.patternfly.org/v4//documentation/core/components/form/"
-}
+  displayName: "form",
+  name: "form",
+  homepage:
+    "https://www.patternfly.org/v4//documentation/core/components/form/",
+};
 
 export const variants = [
-{
-displayName:"action-group",
-picture:{
-src:"./pictures/form/action-group.png",
-width:293,
-height:101},
-snippet:{
-html:`<form novalidate class="pf-c-form">
+  {
+    displayName: "action-group",
+    picture: {
+      src: "./pictures/form/action-group.png",
+      width: 293,
+      height: 101,
+    },
+    snippet: {
+      html: `<form novalidate class="pf-c-form">
   <div class="pf-c-form__group pf-m-action">
     <div class="pf-c-form__actions">
       <button class="pf-c-button pf-m-primary" type="submit">Submit form</button>
       <button class="pf-c-button pf-m-secondary" type="reset">Reset form</button>
     </div>
   </div>
-</form>`}},
-{
-displayName:"help-text form__group",
-picture:{
-src:"./pictures/form/help-text-form__group.png",
-width:323,
-height:93},
-snippet:{
-html:`<div class="pf-c-form__group">
+</form>`,
+    },
+  },
+  {
+    displayName: "help-text form__group",
+    picture: {
+      src: "./pictures/form/help-text-form__group.png",
+      width: 323,
+      height: 93,
+    },
+    snippet: {
+      html: `<div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
       <label class="pf-c-form__label" for="help-text-form-name">
         <span class="pf-c-form__label-text">Name</span>
@@ -38,15 +43,18 @@ html:`<div class="pf-c-form__group">
       <input class="pf-c-form-control" required type="text" id="help-text-form-name" name="help-text-form-name" aria-describedby="help-text-form-name-helper" >
       <p class="pf-c-form__helper-text" id="help-text-form-name-helper" aria-live="polite">This is helper text</p>
     </div>
-  </div>`}},
-{
-displayName:"help-text form__group  1",
-picture:{
-src:"./pictures/form/help-text-form__group-1.png",
-width:323,
-height:93},
-snippet:{
-html:`<div class="pf-c-form__group">
+  </div>`,
+    },
+  },
+  {
+    displayName: "help-text form__group  1",
+    picture: {
+      src: "./pictures/form/help-text-form__group-1.png",
+      width: 323,
+      height: 93,
+    },
+    snippet: {
+      html: `<div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
       <label class="pf-c-form__label" for="help-text-form-email">
         <span class="pf-c-form__label-text">E-mail</span>
@@ -57,15 +65,18 @@ html:`<div class="pf-c-form__group">
       <input class="pf-c-form-control pf-m-warning" required type="text" id="help-text-form-email" name="help-text-form-email" aria-describedby="help-text-form-email-helper" >
       <p class="pf-c-form__helper-text pf-m-warning" id="help-text-form-email-helper" aria-live="polite">This is helper text for a warning input</p>
     </div>
-  </div>`}},
-{
-displayName:"help-text form__group  2",
-picture:{
-src:"./pictures/form/help-text-form__group-2.png",
-width:323,
-height:93},
-snippet:{
-html:`<div class="pf-c-form__group">
+  </div>`,
+    },
+  },
+  {
+    displayName: "help-text form__group  2",
+    picture: {
+      src: "./pictures/form/help-text-form__group-2.png",
+      width: 323,
+      height: 93,
+    },
+    snippet: {
+      html: `<div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
       <label class="pf-c-form__label" for="help-text-form-address">
         <span class="pf-c-form__label-text">Address</span>
@@ -76,15 +87,18 @@ html:`<div class="pf-c-form__group">
       <input class="pf-c-form-control" required type="text" id="help-text-form-address" name="help-text-form-address" aria-invalid="true" aria-describedby="help-text-form-address-helper" >
       <p class="pf-c-form__helper-text pf-m-error" id="help-text-form-address-helper" aria-live="polite">This is helper text for an invalid input</p>
     </div>
-  </div>`}},
-{
-displayName:"help-text form__group  3",
-picture:{
-src:"./pictures/form/help-text-form__group-3.png",
-width:323,
-height:93},
-snippet:{
-html:`<div class="pf-c-form__group">
+  </div>`,
+    },
+  },
+  {
+    displayName: "help-text form__group  3",
+    picture: {
+      src: "./pictures/form/help-text-form__group-3.png",
+      width: 323,
+      height: 93,
+    },
+    snippet: {
+      html: `<div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
       <label class="pf-c-form__label" for="help-text-form-comment">
         <span class="pf-c-form__label-text">Comment</span>
@@ -94,15 +108,18 @@ html:`<div class="pf-c-form__group">
       <input class="pf-c-form-control pf-m-success" value="This is a valid comment"type="text" id="help-text-form-comment" name="help-text-form-comment" aria-describedby="help-text-form-comment-help" >
       <p class="pf-c-form__helper-text pf-m-success" id="help-text-form-comment-help" aria-live="polite">This is helper text for success input</p>
     </div>
-  </div>`}},
-{
-displayName:"help-text form__group  4",
-picture:{
-src:"./pictures/form/help-text-form__group-4.png",
-width:323,
-height:130},
-snippet:{
-html:`<div class="pf-c-form__group">
+  </div>`,
+    },
+  },
+  {
+    displayName: "help-text form__group  4",
+    picture: {
+      src: "./pictures/form/help-text-form__group-4.png",
+      width: 323,
+      height: 130,
+    },
+    snippet: {
+      html: `<div class="pf-c-form__group">
     <label class="pf-c-form__label" for="help-text-simple-form-info">
       <span class="pf-c-form__label-text">Information</span>
     </label>
@@ -111,15 +128,18 @@ html:`<div class="pf-c-form__group">
       <span class="pf-c-form__helper-text-icon">
         <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
       </span>This is helper text with an icon.</p>
-  </div>`}},
-{
-displayName:"horizontally-aligned-labels form horizontal",
-picture:{
-src:"./pictures/form/horizontally-aligned-labels-form-horizontal.png",
-width:385,
-height:36},
-snippet:{
-html:`<form novalidate class="pf-c-form pf-m-horizontal">
+  </div>`,
+    },
+  },
+  {
+    displayName: "horizontally-aligned-labels form horizontal",
+    picture: {
+      src: "./pictures/form/horizontally-aligned-labels-form-horizontal.png",
+      width: 385,
+      height: 36,
+    },
+    snippet: {
+      html: `<form novalidate class="pf-c-form pf-m-horizontal">
   <div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
       <label class="pf-c-form__label" for="horizontal-align-labels-1-form-name">
@@ -132,15 +152,18 @@ html:`<form novalidate class="pf-c-form pf-m-horizontal">
     </div>
   </div>
 </form>
-`}},
-{
-displayName:"horizontally-aligned-labels form horizontal  1",
-picture:{
-src:"./pictures/form/horizontally-aligned-labels-form-horizontal-1.png",
-width:385,
-height:78},
-snippet:{
-html:`
+`,
+    },
+  },
+  {
+    displayName: "horizontally-aligned-labels form horizontal  1",
+    picture: {
+      src: "./pictures/form/horizontally-aligned-labels-form-horizontal-1.png",
+      width: 385,
+      height: 78,
+    },
+    snippet: {
+      html: `
 <form novalidate class="pf-c-form pf-m-horizontal">
   <div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
@@ -156,15 +179,18 @@ html:`
     </div>
   </div>
 </form>
-`}},
-{
-displayName:"horizontally-aligned-labels form horizontal  2",
-picture:{
-src:"./pictures/form/horizontally-aligned-labels-form-horizontal-2.png",
-width:385,
-height:78},
-snippet:{
-html:`
+`,
+    },
+  },
+  {
+    displayName: "horizontally-aligned-labels form horizontal  2",
+    picture: {
+      src: "./pictures/form/horizontally-aligned-labels-form-horizontal-2.png",
+      width: 385,
+      height: 78,
+    },
+    snippet: {
+      html: `
 <form novalidate class="pf-c-form pf-m-horizontal">
   <div class="pf-c-form__group">
     <div class="pf-c-form__group-label pf-m-no-padding-top">
@@ -186,15 +212,18 @@ html:`
       </div>
     </div>
   </div>
-</form>`}},
-{
-displayName:"vertically-aligned-labels",
-picture:{
-src:"./pictures/form/vertically-aligned-labels.png",
-width:293,
-height:101},
-snippet:{
-html:`<form novalidate class="pf-c-form">
+</form>`,
+    },
+  },
+  {
+    displayName: "vertically-aligned-labels",
+    picture: {
+      src: "./pictures/form/vertically-aligned-labels.png",
+      width: 293,
+      height: 101,
+    },
+    snippet: {
+      html: `<form novalidate class="pf-c-form">
   <div class="pf-c-form__group">
     <div class="pf-c-form__group-label">
       <label class="pf-c-form__label" for="vertical-align-labels-form-name">
@@ -209,5 +238,7 @@ html:`<form novalidate class="pf-c-form">
       <input class="pf-c-form-control" type="text" id="vertical-align-labels-form-name" name="vertical-align-labels-form-name" required />
     </div>
   </div>
-</form>`}}
-]
+</form>`,
+    },
+  },
+];
